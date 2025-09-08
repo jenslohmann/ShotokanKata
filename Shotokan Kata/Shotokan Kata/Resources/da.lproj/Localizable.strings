@@ -1,0 +1,118 @@
+/* Navigation */
+"nav.kata" = "Kata";
+"nav.quiz" = "Quiz";
+"nav.about" = "Om";
+
+/* Bæltegradueringer */
+"belt.white" = "Hvidt Bælte";
+"belt.yellow" = "Gult Bælte";
+"belt.orange" = "Orange Bælte";
+"belt.green" = "Grønt Bælte";
+"belt.purple" = "Lilla Bælte";
+"belt.brown" = "Brunt Bælte";
+"belt.black_dan_1" = "1. Dan Sort Bælte";
+"belt.black_dan_2" = "2. Dan Sort Bælte";
+"belt.black_dan_3" = "3. Dan Sort Bælte";
+"belt.black_dan_4" = "4. Dan Sort Bælte";
+"belt.black_dan_5" = "5. Dan Sort Bælte";
+
+/* Kata Information */
+"kata.number" = "Kata";
+"kata.moves" = "Bevægelser";
+"kata.belt_rank" = "Bæltegraduering";
+"kata.key_techniques" = "Nøgleteknikker";
+"kata.description" = "Beskrivelse";
+"kata.reference" = "Reference";
+"kata.sequence" = "Sekvens";
+
+/* Kata Detail Tabs */
+"kata.tab.overview" = "Oversigt";
+"kata.tab.moves" = "Bevægelser";
+"kata.tab.history" = "Historie";
+
+/* Søgning og Filtrering */
+"search.kata.placeholder" = "Søg kata...";
+"search.no_results.title" = "Ingen Resultater";
+"search.no_results.message" = "Ingen kata fundet for '%@'";
+"kata.empty.title" = "Ingen Kata Tilgængelige";
+"kata.empty.message" = "Tjek venligst din internetforbindelse og prøv igen.";
+
+/* Filter Interface */
+"filter.title" = "Filtrer Kata";
+"filter.clear_all" = "Ryd Alle";
+"filter.belt_rank.title" = "Filtrer efter Bæltegraduering";
+"filter.general_level.title" = "Filtrer efter Niveau";
+"filter.basic_kata.subtitle" = "Kyu graduerings kata";
+"filter.advanced_kata.subtitle" = "Dan graduerings kata";
+
+/* Filter Statistikker */
+"filter.statistics.title" = "Statistikker";
+"filter.statistics.total" = "Samlede Kata";
+"filter.statistics.showing" = "Viser";
+"filter.statistics.basic" = "Grundlæggende Kata";
+"filter.statistics.advanced" = "Avancerede Kata";
+
+/* Filtrering */
+"filter.all_kata" = "Alle Kata";
+"filter.basic_kata" = "Grundlæggende Kata";
+"filter.advanced_kata" = "Avancerede Kata";
+"filter.search_results" = "Søgeresultater";
+
+/* Quiz Header */
+"quiz.header.title" = "Test Din Viden";
+"quiz.header.subtitle" = "Udfordre dig selv med spørgsmål om Shotokan kata";
+
+/* Quiz Quick Start */
+"quiz.quick_start.title" = "Hurtig Start";
+"quiz.quick_start.description" = "Spring direkte ind i en quiz med dit nuværende bælteniveau";
+"quiz.start_quick" = "Start Hurtig Quiz";
+
+/* Quiz Belt Rank Selection */
+"quiz.belt_rank.title" = "Vælg Bæltegraduering";
+"quiz.belt_rank.description" = "Vælg din nuværende bæltegraduering for at få passende spørgsmål";
+
+/* Quiz Category Selection */
+"quiz.category.title" = "Quiz Kategori";
+"quiz.category.description" = "Fokuser på et specifikt emne eller vælg alle kategorier";
+"quiz.category.all" = "Alle Kategorier";
+"quiz.category.all.description" = "Spørgsmål fra alle kategorier";
+
+/* Quiz Custom */
+"quiz.custom.title" = "Tilpasset Quiz";
+"quiz.custom.belt_rank" = "Bæltegraduering";
+"quiz.custom.category" = "Kategori";
+"quiz.custom.questions" = "Spørgsmål";
+"quiz.start_custom" = "Start Tilpasset Quiz";
+
+/* Quiz Kategorier */
+"quiz.category.kata_names" = "Kata Navne";
+"quiz.category.techniques" = "Teknikker";
+"quiz.category.sequences" = "Sekvenser";
+"quiz.category.history" = "Historie";
+"quiz.category.applications" = "Anvendelser";
+"quiz.category.belt_ranks" = "Bæltegradueringer";
+"quiz.category.kata_order" = "Kata Rækkefølge";
+
+/* Quiz Kategori Beskrivelser */
+"quiz.category.kata_names.description" = "Spørgsmål om kata navne og deres betydninger";
+"quiz.category.techniques.description" = "Spørgsmål om teknikker brugt i kata";
+"quiz.category.sequences.description" = "Spørgsmål om bevægelsessekvenser";
+"quiz.category.history.description" = "Spørgsmål om kata historie og oprindelse";
+"quiz.category.applications.description" = "Spørgsmål om praktiske anvendelser";
+"quiz.category.belt_ranks.description" = "Spørgsmål om hvilken bæltegraduering lærer hvilken kata";
+"quiz.category.kata_order.description" = "Spørgsmål om traditionel læringsrækkefølge";
+
+/* Quiz Interface */
+"quiz.start" = "Start Quiz";
+"quiz.next" = "Næste";
+"quiz.finish" = "Afslut";
+"quiz.results" = "Resultater";
+"quiz.score" = "Score";
+"quiz.correct" = "Korrekt";
+"quiz.incorrect" = "Forkert";
+
+/* Generelt */
+"loading" = "Indlæser...";
+"error" = "Fejl";
+"cancel" = "Annuller";
+"done" = "Færdig";

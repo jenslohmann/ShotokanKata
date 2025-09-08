@@ -1,0 +1,115 @@
+/* Navigation */
+"nav.kata" = "Kata";
+"nav.quiz" = "Quiz";
+"nav.about" = "About";
+
+/* Belt Ranks */
+"belt.white" = "White Belt";
+"belt.yellow" = "Yellow Belt";
+"belt.orange" = "Orange Belt";
+"belt.green" = "Green Belt";
+"belt.purple" = "Purple Belt";
+"belt.brown" = "Brown Belt";
+"belt.black_dan_1" = "1st Dan Black Belt";
+"belt.black_dan_2" = "2nd Dan Black Belt";
+"belt.black_dan_3" = "3rd Dan Black Belt";
+"belt.black_dan_4" = "4th Dan Black Belt";
+"belt.black_dan_5" = "5th Dan Black Belt";
+
+/* Kata Information */
+"kata.number" = "Kata";
+"kata.moves" = "Moves";
+"kata.belt_rank" = "Belt Rank";
+"kata.description" = "Description";
+"kata.reference" = "Reference";
+"kata.key_techniques" = "Key Techniques";
+"kata.tab.overview" = "Overview";
+"kata.tab.moves" = "Moves";
+"kata.tab.history" = "History";
+
+/* Search and Filtering */
+"search.kata.placeholder" = "Search kata...";
+"search.no_results.title" = "No Results";
+"search.no_results.message" = "No kata found for '%@'";
+"kata.empty.title" = "No Kata Available";
+"kata.empty.message" = "Please check your internet connection and try again.";
+
+/* Filter Interface */
+"filter.title" = "Filter Kata";
+"filter.clear_all" = "Clear All";
+"filter.belt_rank.title" = "Filter by Belt Rank";
+"filter.general_level.title" = "Filter by Level";
+"filter.basic_kata.subtitle" = "Kyu rank kata";
+"filter.advanced_kata.subtitle" = "Dan rank kata";
+
+/* Filter Statistics */
+"filter.statistics.title" = "Statistics";
+"filter.statistics.total" = "Total Kata";
+"filter.statistics.showing" = "Showing";
+"filter.statistics.basic" = "Basic Kata";
+"filter.statistics.advanced" = "Advanced Kata";
+
+/* Filtering */
+"filter.all_kata" = "All Kata";
+"filter.basic_kata" = "Basic Kata";
+"filter.advanced_kata" = "Advanced Kata";
+"filter.search_results" = "Search Results";
+
+/* Quiz Header */
+"quiz.header.title" = "Test Your Knowledge";
+"quiz.header.subtitle" = "Challenge yourself with questions about Shotokan kata";
+
+/* Quiz Quick Start */
+"quiz.quick_start.title" = "Quick Start";
+"quiz.quick_start.description" = "Jump right into a quiz with your current belt level";
+"quiz.start_quick" = "Start Quick Quiz";
+
+/* Quiz Belt Rank Selection */
+"quiz.belt_rank.title" = "Select Belt Rank";
+"quiz.belt_rank.description" = "Choose your current belt rank to get appropriate questions";
+
+/* Quiz Category Selection */
+"quiz.category.title" = "Quiz Category";
+"quiz.category.description" = "Focus on a specific topic or select all categories";
+"quiz.category.all" = "All Categories";
+"quiz.category.all.description" = "Questions from all categories";
+
+/* Quiz Custom */
+"quiz.custom.title" = "Custom Quiz";
+"quiz.custom.belt_rank" = "Belt Rank";
+"quiz.custom.category" = "Category";
+"quiz.custom.questions" = "Questions";
+"quiz.start_custom" = "Start Custom Quiz";
+
+/* Quiz Categories */
+"quiz.category.kata_names" = "Kata Names";
+"quiz.category.techniques" = "Techniques";
+"quiz.category.sequences" = "Sequences";
+"quiz.category.history" = "History";
+"quiz.category.applications" = "Applications";
+"quiz.category.belt_ranks" = "Belt Ranks";
+"quiz.category.kata_order" = "Kata Order";
+
+/* Quiz Category Descriptions */
+"quiz.category.kata_names.description" = "Questions about kata names and their meanings";
+"quiz.category.techniques.description" = "Questions about techniques used in kata";
+"quiz.category.sequences.description" = "Questions about movement sequences";
+"quiz.category.history.description" = "Questions about kata history and origins";
+"quiz.category.applications.description" = "Questions about practical applications";
+"quiz.category.belt_ranks.description" = "Questions about which belt rank learns which kata";
+"quiz.category.kata_order.description" = "Questions about traditional learning order";
+
+/* Quiz Interface */
+"quiz.start" = "Start Quiz";
+"quiz.next" = "Next";
+"quiz.finish" = "Finish";
+"quiz.results" = "Results";
+"quiz.score" = "Score";
+"quiz.correct" = "Correct";
+"quiz.incorrect" = "Incorrect";
+
+/* General */
+"loading" = "Loading...";
+"error" = "Error";
+"cancel" = "Cancel";
+"done" = "Done";

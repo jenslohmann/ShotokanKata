@@ -1,0 +1,456 @@
+{
+  "name": "Heian Godan",
+  "japaneseName": "平安五段",
+  "hiraganaName": "へいあん ごだん",
+  "numberOfMoves": 22,
+  "kataNumber": 5,
+  "beltRank": "3_kyu",
+  "description": "The fifth and final kata in the Heian series, featuring the first jumping technique (tobi-komi) in Shotokan. Introduces crescent kicks, hook punches, and complex flowing movements. Known for its combination of quick and slow movements requiring timing, skill, and fluidity.",
+  "keyTechniques": [
+    "Morote-uke",
+    "Juji-uke",
+    "Mikazuki-geri",
+    "Kagi-zuki",
+    "Manji-uke"
+  ],
+  "referenceURL": "https://www.themartialway.com.au/heian-godan/",
+  "moves": [
+    {
+      "sequence": 1,
+      "japaneseName": "Hidari chūdan uchi-ude-uke",
+      "direction": "W",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan uchi-ude-uke",
+          "hiragana": "ひだり ちゅうだん うちうでうけ",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "Turn head left, move left foot into back stance with left middle-level inside forearm block",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "japaneseName": "Migi chūdan gyaku-zuki",
+      "direction": "W",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan gyaku-zuki",
+          "hiragana": "みぎ ちゅうだん ぎゃくづき",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "On the spot in back stance, execute right reverse punch to solar plexus level",
+          "icon": "hand.point.right.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "japaneseName": "Hidari chūdan kagi-zuki",
+      "direction": "E",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan kagi-zuki",
+          "hiragana": "ひだり ちゅうだん かぎづき",
+          "stance": "Heisoku-dachi",
+          "stanceHiragana": "へいそくだち",
+          "description": "Slowly bring left foot to right foot in attention stance, turn head right, execute left hook punch to middle level",
+          "icon": "hand.point.left.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "japaneseName": "Migi chūdan uchi-ude-uke",
+      "direction": "E",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan uchi-ude-uke",
+          "hiragana": "みぎ ちゅうだん うちうでうけ",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "Move right foot into back stance with right middle-level inside forearm block",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 5,
+      "japaneseName": "Hidari chūdan gyaku-zuki",
+      "direction": "E",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan gyaku-zuki",
+          "hiragana": "ひだり ちゅうだん ぎゃくづき",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "On the spot in back stance, execute left reverse punch to solar plexus level",
+          "icon": "hand.point.left.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 6,
+      "japaneseName": "Migi chūdan kagi-zuki",
+      "direction": "N",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan kagi-zuki",
+          "hiragana": "みぎ ちゅうだん かぎづき",
+          "stance": "Heisoku-dachi",
+          "stanceHiragana": "へいそくだち",
+          "description": "Slowly bring right foot to left foot in attention stance, turn head forward, execute right hook punch to middle level",
+          "icon": "hand.point.right.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 7,
+      "japaneseName": "Migi chūdan morote-uke",
+      "direction": "N",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan morote-uke",
+          "hiragana": "みぎ ちゅうだん もろてうけ",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "Move right foot into back stance with right augmented middle-level block from left to right",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 8,
+      "japaneseName": "Hidari gedan juji-uke",
+      "direction": "N",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan juji-uke",
+          "hiragana": "ひだり げだん じゅうじうけ",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Advance left foot into front stance with downward X-block using fists, arms crossed",
+          "icon": "xmark"
+        }
+      ]
+    },
+    {
+      "sequence": 9,
+      "japaneseName": "Hidari jōdan shutō-juji-uke",
+      "direction": "N",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari jōdan shutō-juji-uke",
+          "hiragana": "ひだり じょうだん しゅとう じゅうじうけ",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "On the spot, raise crossed arms and open hands for upper-level knife-hand X-block",
+          "icon": "xmark"
+        }
+      ]
+    },
+    {
+      "sequence": 10,
+      "japaneseName": "Hidari chūdan osae-uke",
+      "direction": "N",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan osae-uke",
+          "hiragana": "ひだり ちゅうだん おさえうけ",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Turn both hands palm to palm to right hip, then push left hand forward while advancing right foot",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 11,
+      "japaneseName": "Migi chūdan oi-zuki",
+      "direction": "N",
+      "kiai": true,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan oi-zuki",
+          "hiragana": "みぎ ちゅうだん おいづき",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Advance right foot into front stance with right direct punch to middle level",
+          "icon": "hand.point.right.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 12,
+      "japaneseName": "Migi yoko-fumikomi / Migi gedan-barai",
+      "direction": "S",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi yoko-fumikomi",
+          "hiragana": "みぎ よこふみこみ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Shift weight backward, rotate 180° on left foot with strong hip rotation, stamp right foot into horse stance",
+          "icon": "figure.kick"
+        },
+        {
+          "order": 2,
+          "technique": "Migi gedan-barai",
+          "hiragana": "みぎ げだんばらい",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Simultaneously execute right downward block with stamping kick",
+          "icon": "shield.slash.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 13,
+      "japaneseName": "Hidari chūdan haishu-uke / Migi chūdan mikazuki-geri",
+      "direction": "W",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan haishu-uke",
+          "hiragana": "ひだり ちゅうだん はいしゅうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Turn head left, extend left open hand at shoulder height, slow movement with inspiration",
+          "icon": "hand.raised.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Migi chūdan mikazuki-geri",
+          "hiragana": "みぎ ちゅうだん みかづきげり",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Immediately execute right crescent kick with sole of foot into left hand, pivoting 180° on left foot",
+          "icon": "figure.kick"
+        }
+      ]
+    },
+    {
+      "sequence": 14,
+      "japaneseName": "Migi chūdan mae-empi-uchi",
+      "direction": "W",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan mae-empi-uchi",
+          "hiragana": "みぎ ちゅうだん まええんぴうち",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Continue rotation, place right foot in horse stance and strike right elbow into open left hand",
+          "icon": "hand.raised.fingers.spread.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 15,
+      "japaneseName": "Migi chūdan morote-uke",
+      "direction": "W",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan morote-uke",
+          "hiragana": "みぎ ちゅうだん もろてうけ",
+          "stance": "Kosa-dachi",
+          "stanceHiragana": "こさだち",
+          "description": "Keep right foot in place, slide left foot behind with heel up into cross stance, augmented block from left to right",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 16,
+      "japaneseName": "Migi chūdan koho-zuki-age",
+      "direction": "N",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan koho-zuki-age",
+          "hiragana": "みぎ ちゅうだん こうほうづきあげ",
+          "stance": "Renoji-dachi",
+          "stanceHiragana": "れのじだち",
+          "description": "Move left foot back slightly, straighten right leg into L-stance, turn head and hips left with upward movement of both fists",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 17,
+      "japaneseName": "Gedan juji-uke",
+      "direction": "E",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Gedan juji-uke",
+          "hiragana": "げだん じゅうじうけ",
+          "stance": "Kosa-dachi",
+          "stanceHiragana": "こさだち",
+          "description": "Rotate 180° on left foot, make high jump to land in low cross stance with downward X-block using fists",
+          "icon": "xmark"
+        }
+      ]
+    },
+    {
+      "sequence": 18,
+      "japaneseName": "Migi chūdan morote-uke",
+      "direction": "N",
+      "kiai": true,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan morote-uke",
+          "hiragana": "みぎ ちゅうだん もろてうけ",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Move right foot forward 90° into front stance with right augmented middle-level block from left to right",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 19,
+      "japaneseName": "Hidari gedan shutō-barai / Hidari nagashi-shutō-uke / Migi gedan shutō-nukite",
+      "direction": "W",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan shutō-barai",
+          "hiragana": "ひだり げだん しゅとうばらい",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Move left foot left with low sweeping block using left palm, right hand on guard",
+          "icon": "hand.raised.slash.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Hidari nagashi-shutō-uke",
+          "hiragana": "ひだり ながし しゅとうけ",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Rotate 180° on right foot with left flowing knife-hand block to right shoulder",
+          "icon": "hand.wave.fill"
+        },
+        {
+          "order": 3,
+          "technique": "Migi gedan shutō-nukite",
+          "hiragana": "みぎ げだん しゅとうぬきて",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Simultaneously attack with right fingertip strike, palm up, middle level",
+          "icon": "hand.point.right.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 20,
+      "japaneseName": "Manji-uke (Hidari gedan-barai / Migi jōdan uchi-uke)",
+      "direction": "W",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "Switch to back stance by bringing left foot into axis with left downward block",
+          "icon": "shield.slash.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Migi jōdan uchi-uke",
+          "hiragana": "みぎ じょうだん うちうけ",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "Simultaneously execute right upper inside block with open hand upward and backward",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 21,
+      "japaneseName": "Migi nagashi-shutō-uke / Hidari gedan shutō-nukite",
+      "direction": "E",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi nagashi-shutō-uke",
+          "hiragana": "みぎ ながし しゅとうけ",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Slowly bring left foot to right in attention stance, rotate 180° left, move right foot 90° right with right flowing knife-hand block",
+          "icon": "hand.wave.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Hidari gedan shutō-nukite",
+          "hiragana": "ひだり げだん しゅとうぬきて",
+          "stance": "Zenkutsu-dachi",
+          "stanceHiragana": "ぜんくつだち",
+          "description": "Simultaneously attack with left fingertip strike, palm up, middle level",
+          "icon": "hand.point.left.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 22,
+      "japaneseName": "Manji-uke (Migi gedan-barai / Hidari jōdan uchi-uke)",
+      "direction": "E",
+      "kiai": false,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi gedan-barai",
+          "hiragana": "みぎ げだんばらい",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "Switch to back stance by bringing right foot into axis with right downward block",
+          "icon": "shield.slash.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Hidari jōdan uchi-uke",
+          "hiragana": "ひだり じょうだん うちうけ",
+          "stance": "Kōkutsu-dachi",
+          "stanceHiragana": "こうくつだち",
+          "description": "Simultaneously execute left upper inside block with open hand upward and backward",
+          "icon": "shield.fill"
+        }
+      ]
+    }
+  ]
+}
