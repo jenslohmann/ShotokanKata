@@ -102,6 +102,22 @@ struct AboutView: View {
                         .italic()
                 }
 
+                Divider()
+
+                // Open Source Section
+                VStack(alignment: .leading, spacing: 16) {
+                    Text("Open Source")
+                        .font(.headline)
+
+                    Text("This app is open source and available on GitHub. Feel free to explore the code, contribute improvements, or use it as a learning resource.")
+                        .font(.body)
+                        .fixedSize(horizontal: false, vertical: true)
+
+                    Link("View on GitHub", destination: URL(string: "https://github.com/jenslohmann/ShotokanKata")!)
+                        .font(.body)
+                        .foregroundColor(.blue)
+                }
+
                 Spacer(minLength: 40)
             }
             .padding()
