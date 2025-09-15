@@ -209,7 +209,6 @@
       "sequence": 10,
       "japaneseName": "Migi chūdan choku-zuki",
       "direction": "N",
-      "kiai": true,
       "subMoves": [
         {
           "order": 1,
@@ -217,7 +216,7 @@
           "hiragana": "みぎ ちゅうだん ちょくづき",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "On the spot, give a direct right punch to the middle level (choku-zuki), in position hachiji-dachi, the left fist in hikite with KIAI",
+          "description": "On the spot, give a direct right punch to the middle level (choku-zuki), in position hachiji-dachi, the left fist in hikite",
           "icon": "burst.fill"
         }
       ]
@@ -591,7 +590,6 @@
       "sequence": 32,
       "japaneseName": "Hidari koshi-kamae",
       "direction": "N",
-      "kiai": true,
       "subMoves": [
         {
           "order": 1,
@@ -737,7 +735,7 @@
     {
       "sequence": 40,
       "japaneseName": "Migi chūdan shutō-uke",
-      "direction": "SE",
+      "direction": "NE",
       "subMoves": [
         {
           "order": 1,
@@ -753,7 +751,7 @@
     {
       "sequence": 41,
       "japaneseName": "Shutō-uke",
-      "direction": "NW",
+      "direction": "SE",
       "subMoves": [
         {
           "order": 1,
@@ -769,7 +767,8 @@
     {
       "sequence": 42,
       "japaneseName": "Hidari chūdan shutō-uke",
-      "direction": "N",
+      "direction": "NW",
+      "kiai": true,
       "subMoves": [
         {
           "order": 1,
