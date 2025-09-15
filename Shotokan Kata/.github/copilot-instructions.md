@@ -27,7 +27,6 @@ Shotokan Kata/
 │   │   ├── 06_tekki_shodan.json
 │   │   └── 07_bassai_dai.json
 │   ├── kata.json       # Configuration file listing all available kata
-│   ├── kata_data.json  # Legacy file (replaced by individual files)
 │   ├── da.lproj/       # Danish localization
 │   └── en.lproj/       # English localization
 ├── Utils/              # Helper functions and extensions
@@ -564,6 +563,235 @@ where "N" indicates direction (North, Nort West, West, etc.) and "(^)" indicates
 - **Default State**: All descriptions start collapsed for clean initial presentation
 - **Animations**: Smooth opacity and slide transitions when content appears/disappears
 
+## Kata List UI Layout Structure
+
+The kata list uses a structured layout that adapts to different device types and screen sizes, providing optimal viewing experience on both iPhone and iPad.
+
+### KataListView Visual Structure
+
+```
+┌─ Kata List (LazyVStack) ────────────────────────────────────┐
+│                                                             │
+│  ┌─ Search Bar ────────────────────────────────────────────┐ │
+│  │ 🔍 Search kata...                                      │ │
+│  └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+│  ┌─ Filter Controls ──────────────────────────────────────┐ │
+│  │ [All Ranks ▼] [Sort: Number ▼] [Show: All ▼]          │ │
+│  └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+│  ┌─ KataListRowView ──────────────────────────────────────┐ │
+│  │ #1    Heian Shodan                           ●  9th Kyu │ │
+│  │       平安初段                                          │ │
+│  │       へいあん しょだん                                   │ │
+│  │                                                         │ │
+│  │ ┌─ Info Row (Device Adaptive) ─────────────────────────┐ │ │
+│  │ │ 📍 21 Moves     🎯 5 Techniques*    🏆 Basic Level   │ │ │
+│  │ └───────────────────────────────────────────────────────┘ │ │
+│  └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+│  ┌─ KataListRowView ──────────────────────────────────────┐ │
+│  │ #2    Heian Nidan                            ●  8th Kyu │ │
+│  │       平安二段                                          │ │
+│  │       へいあん にだん                                     │ │
+│  │                                                         │ │
+│  │ ┌─ Info Row (Device Adaptive) ─────────────────────────┐ │ │
+│  │ │ 📍 26 Moves     🎯 6 Techniques*    🏆 Basic Level   │ │ │
+│  │ └───────────────────────────────────────────────────────┘ │ │
+│  └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+*Note: Techniques count (🎯) is hidden on iPhone due to screen size constraints but visible on iPad.
+
+### Device-Specific Layout Adaptations
+
+#### iPhone Layout (Compact Size Class)
+```
+┌─ KataListRowView (iPhone) ──────────────────────────────────┐
+│ #1    Heian Shodan                           ●  9th Kyu     │
+│       平安初段                                              │
+│       へいあん しょだん                                       │
+│                                                             │
+│ ┌─ Info Row (iPhone) ───────────────────────────────────────┐ │
+│ │ 📍 21 Moves              🏆 Basic Level                   │ │
+│ └─────────────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**iPhone-Specific Requirements:**
+- **Techniques Count Hidden**: The "🎯 X Techniques" chip is not displayed due to limited screen width
+- **Two-Chip Layout**: Only "Moves" and "Level" chips are shown
+- **Compact Spacing**: Reduced horizontal padding for better space utilization
+- **Responsive Text**: Dynamic Type support with minimum and maximum scale factors
+
+#### iPad Layout (Regular Size Class)
+```
+┌─ KataListRowView (iPad) ────────────────────────────────────┐
+│ #5    Heian Godan                            ●  6th Kyu     │
+│       平安五段                                              │
+│       へいあん ごだん                                         │
+│                                                             │
+│ ┌─ Info Row (iPad) ─────────────────────────────────────────┐ │
+│ │ 📍 23 Moves     🎯 7 Techniques     🏆 Intermediate Level │ │
+│ └─────────────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**iPad-Specific Features:**
+- **Full Information Display**: All three chips (Moves, Techniques, Level) are visible
+- **Enhanced Spacing**: More generous padding and spacing for better readability
+- **Extended Touch Targets**: Larger interactive areas for better tablet experience
+- **Three-Chip Layout**: Complete information display with techniques count included
+
+### KataListRowView Component Structure
+
+#### Header Section
+- **Kata Number**: Blue circular badge with "#N" format (top-left)
+- **English Name**: Large title3 font weight semibold (top-center)
+- **Rank Badge**: Colored circle with rank text (top-right)
+- **Japanese Name**: Body font with secondary color (middle)
+- **Hiragana**: Caption font with tertiary color (bottom)
+
+#### Information Chips (Device Adaptive)
+```swift
+// Device detection logic
+@Environment(\.horizontalSizeClass) var horizontalSizeClass
+
+var showTechniquesCount: Bool {
+    horizontalSizeClass == .regular // Show on iPad, hide on iPhone
+}
+
+// Chip display logic
+HStack(spacing: 8) {
+    MovesChip(count: kata.numberOfMoves)
+    
+    if showTechniquesCount {
+        TechniquesChip(count: kata.keyTechniques.count)
+    }
+    
+    LevelChip(difficulty: kata.difficultyLevel)
+}
+```
+
+#### Visual Design Elements
+- **Background**: System background with subtle shadow
+- **Corners**: 12pt rounded corners for modern appearance
+- **Padding**: 16pt horizontal, 12pt vertical on iPhone; 20pt horizontal, 16pt vertical on iPad
+- **Dividers**: Hairline separators between rows
+- **Touch Feedback**: Subtle scale animation on tap (0.95 scale factor)
+- **Selection State**: Blue accent tint when row is active/selected
+
+### Information Chip Components
+
+#### Moves Chip (Always Visible)
+```
+┌─ Moves Chip ─────┐
+│ 📍 21 Moves      │
+└──────────────────┘
+```
+- **Icon**: Location pin (📍) representing sequence/position
+- **Text**: "{count} Moves" in caption font
+- **Color**: Blue background with white text
+- **Accessibility**: "21 movements in this kata"
+
+#### Techniques Chip (iPad Only)
+```
+┌─ Techniques Chip ─────┐
+│ 🎯 5 Techniques       │
+└───────────────────────┘
+```
+- **Icon**: Target (🎯) representing key techniques
+- **Text**: "{count} Techniques" in caption font
+- **Color**: Orange background with white text
+- **Visibility**: Hidden on iPhone (`horizontalSizeClass == .compact`)
+- **Accessibility**: "5 key techniques featured in this kata"
+
+#### Level Chip (Always Visible)
+```
+┌─ Level Chip ─────┐
+│ 🏆 Basic Level   │
+└──────────────────┘
+```
+- **Icon**: Trophy (🏆) representing difficulty/achievement
+- **Text**: Difficulty level name in caption font
+- **Color**: Green background with white text
+- **Levels**: Basic, Intermediate, Advanced, Master
+- **Accessibility**: "Basic difficulty level"
+
+### Sorting and Filtering UI
+
+#### Sort Controls
+```
+┌─ Sort Picker ────────────────┐
+│ Sort by: Number ▼            │
+│ ├─ Number (ascending)        │
+│ ├─ Name (A-Z)               │
+│ ├─ Rank (progression)       │
+│ └─ Difficulty (easy first)  │
+└──────────────────────────────┘
+```
+
+#### Filter Controls
+```
+┌─ Rank Filter ───────────────┐
+│ Show ranks: All Ranks ▼     │
+│ ├─ All Ranks               │
+│ ├─ Kyu Ranks Only          │
+│ ├─ Dan Ranks Only          │
+│ ├─ 9th-7th Kyu (Beginner)  │
+│ ├─ 6th-4th Kyu (Intermediate) │
+│ └─ 3rd-1st Kyu (Advanced)  │
+└─────────────────────────────┘
+```
+
+### Search Functionality
+- **Real-time Search**: 300ms debounce for optimal performance
+- **Search Scope**: English name, Japanese name, hiragana, and key techniques
+- **Search Highlighting**: Matching text highlighted in search results
+- **Clear Button**: X button to clear search quickly
+- **Placeholder**: Localized "Search kata..." text
+
+### Accessibility Features for Kata List
+- **VoiceOver Labels**: Descriptive labels for each kata row
+- **VoiceOver Hints**: "Double tap to view kata details"
+- **Dynamic Type**: Font scaling support with reasonable limits
+- **High Contrast**: Adaptive colors for better visibility
+- **Voice Control**: Number-based navigation support
+- **Reduced Motion**: Respects system animation preferences
+
+### Performance Optimizations for Kata List
+- **LazyVStack**: Efficient rendering of large kata lists
+- **Row Reuse**: Minimal view creation and destruction
+- **Image Caching**: Rank badge icons cached for performance
+- **Debounced Search**: Prevents excessive filtering operations
+- **Async Loading**: Non-blocking kata data loading
+
+### Implementation Notes for Developers
+```swift
+// Device detection for techniques display
+@Environment(\.horizontalSizeClass) var horizontalSizeClass
+
+var shouldShowTechniques: Bool {
+    horizontalSizeClass == .regular
+}
+
+// Adaptive chip layout
+private var infoChips: some View {
+    HStack(spacing: 8) {
+        MovesInfoChip(count: kata.numberOfMoves)
+        
+        if shouldShowTechniques {
+            TechniquesInfoChip(count: kata.keyTechniques.count)
+        }
+        
+        DifficultyInfoChip(level: kata.difficultyLevel)
+        
+        Spacer()
+    }
+}
+```
 
 ## Accessibility Requirements
 - Support VoiceOver with descriptive labels
@@ -710,10 +938,3 @@ Follow these requirements for maintaining consistency and authenticity:
 - Include reference URLs to authoritative sources when available
 - Document any variations or alternative interpretations
 - Maintain links to traditional JKA curriculum resources
-
-### Kata Extraction Tools & Resources
-- **Primary Sources**: JKA official documentation, authenticated dojo resources
-- **Extraction Guidelines**: kata_extraction_hints.md contains detailed methodology for extracting moves from HTML files
-- **Reference Websites**: Verified martial arts websites with accurate technique databases
-- **Pronunciation Guides**: Native Japanese speakers or verified linguistic resources for hiragana
-- **Video References**: Official JKA demonstration videos for movement verification

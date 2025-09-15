@@ -243,12 +243,18 @@ struct KataListContentView: View {
 // MARK: - Kata List Row View
 struct KataListRowView: View {
     let kata: Kata
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+
+    // Device detection for techniques display
+    private var shouldShowTechniques: Bool {
+        horizontalSizeClass == .regular // Show on iPad, hide on iPhone
+    }
 
     var body: some View {
         HStack(spacing: 16) {
             // Kata Number Badge
             Text("\(kata.kataNumber)")
-                .font(.title2)
+                .font(.title3)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
                 .frame(width: 44, height: 44)
@@ -266,17 +272,17 @@ struct KataListRowView: View {
                 )
 
             // Kata Information
-            VStack(alignment: .leading, spacing: 6) {
-                // Kata Names
+            VStack(alignment: .leading, spacing: 8) {
+                // Kata Names Section
                 VStack(alignment: .leading, spacing: 2) {
                     Text(kata.name)
-                        .font(.headline)
+                        .font(.title3)
                         .fontWeight(.semibold)
                         .foregroundColor(.primary)
                         .lineLimit(1)
 
                     Text(kata.japaneseName)
-                        .font(.subheadline)
+                        .font(.body)
                         .foregroundColor(.secondary)
                         .lineLimit(1)
 
@@ -288,24 +294,22 @@ struct KataListRowView: View {
                     }
                 }
 
-                // Stats Row
-                HStack(spacing: 16) {
-                    HStack(spacing: 4) {
-                        Image(systemName: "figure.martial.arts")
-                            .font(.caption)
-                            .foregroundColor(.blue)
-                        Text("\(kata.numberOfMoves) moves")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                    }
+                // Information Chips Row (Device Adaptive)
+                HStack(spacing: 8) {
+                    // Moves Chip (Always Visible)
+                    InfoChip(
+                        icon: "📍",
+                        text: "\(kata.numberOfMoves) Moves",
+                        backgroundColor: .blue
+                    )
 
-                    HStack(spacing: 4) {
-                        Image(systemName: "hand.raised.fill")
-                            .font(.caption)
-                            .foregroundColor(.green)
-                        Text("\(kata.keyTechniques.count) techniques")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
+                    // Techniques Chip (iPad Only)
+                    if shouldShowTechniques {
+                        InfoChip(
+                            icon: "🎯",
+                            text: "\(kata.keyTechniques.count) Techniques",
+                            backgroundColor: .orange
+                        )
                     }
 
                     Spacer()
@@ -314,8 +318,8 @@ struct KataListRowView: View {
 
             Spacer()
 
-            // Rank Badge and Chevron
-            VStack(spacing: 8) {
+            // Rank Badge
+            VStack(spacing: 4) {
                 KataRankBadge(rank: kata.rank)
 
                 Image(systemName: "chevron.right")
@@ -323,7 +327,7 @@ struct KataListRowView: View {
                     .foregroundColor(.secondary)
             }
         }
-        .padding()
+        .padding(horizontalSizeClass == .regular ? 20 : 16) // Adaptive padding
         .background(Color(.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 12))
         .overlay(
@@ -331,6 +335,45 @@ struct KataListRowView: View {
                 .stroke(Color(.systemGray5), lineWidth: 0.5)
         )
         .shadow(color: .black.opacity(0.05), radius: 2, x: 0, y: 1)
+        .scaleEffect(1.0) // For touch feedback animation
+        .animation(.easeInOut(duration: 0.1), value: shouldShowTechniques)
+    }
+}
+
+// MARK: - Information Chip Component
+struct InfoChip: View {
+    let icon: String
+    let text: String
+    let backgroundColor: Color
+
+    var body: some View {
+        HStack(spacing: 4) {
+            Text(icon)
+                .font(.caption2)
+
+            Text(text)
+                .font(.caption)
+                .fontWeight(.medium)
+        }
+        .padding(.horizontal, 8)
+        .padding(.vertical, 4)
+        .background(backgroundColor)
+        .foregroundColor(.white)
+        .clipShape(Capsule())
+        .accessibilityLabel(accessibilityText)
+    }
+
+    private var accessibilityText: String {
+        switch icon {
+        case "📍":
+            return text.replacingOccurrences(of: "Moves", with: "movements in this kata")
+        case "🎯":
+            return text.replacingOccurrences(of: "Techniques", with: "key techniques featured in this kata")
+        case "🏆":
+            return "\(text) difficulty level"
+        default:
+            return text
+        }
     }
 }
 
