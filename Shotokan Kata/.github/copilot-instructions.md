@@ -199,7 +199,7 @@ enum KarateRank: String, CaseIterable, Codable {
     case thirdKyu = "3_kyu"      // Brown Belt
     case secondKyu = "2_kyu"     // Brown Belt
     case firstKyu = "1_kyu"      // Brown Belt
-    
+
     // Dan ranks (black belts) - ascending order
     case firstDan = "1_dan"      // 1st Dan Black Belt
     case secondDan = "2_dan"     // 2nd Dan Black Belt
@@ -219,7 +219,7 @@ The app is designed to include all traditional JKA Shōtōkan kata as defined in
 
 **Basic Kata (1-5):**
 - 01_heian_shodan (9th Kyu - Yellow Belt) ✅
-- 02_heian_nidan (8th Kyu - Orange Belt) ✅  
+- 02_heian_nidan (8th Kyu - Orange Belt) ✅
 - 03_heian_sandan (7th Kyu - Green Belt) - *To be added*
 - 04_heian_yondan (7th Kyu - Green Belt) - *To be added*
 - 05_heian_godan (6th Kyu - Purple Belt) ✅
@@ -279,7 +279,7 @@ NavigationLink(destination: KataDetailView(kata: kata)) {
 // KataDetailView - NO NavigationStack wrapper, NO Done button
 struct KataDetailView: View {
     let kata: Kata
-    
+
     var body: some View {
         VStack {
             // Content here
@@ -389,7 +389,7 @@ struct Kata: Identifiable, Codable, Hashable {
     let keyTechniques: [String]
     let referenceURL: String?
     let moves: [KataMove]
-    
+
     // Computed property to convert string to KarateRank enum
     var rank: KarateRank? {
         KarateRank(rawValue: beltRank)
@@ -432,7 +432,7 @@ struct QuizQuestion: Identifiable, Codable {
     let requiredRank: String // Rank requirement (e.g., "9_kyu", "1_dan")
     let explanation: String?
     let relatedKataNames: [String]?
-    
+
     // Computed property to convert string to KarateRank enum
     var rank: KarateRank? {
         KarateRank(rawValue: requiredRank)
@@ -508,10 +508,10 @@ The move display system uses a progressive disclosure approach that adapts based
 ### Single Sub-Move Display (Compact)
 ```
 ┌─ Move Card ─────────────────────────┐
-│ [Seq] Japanese Technique Name         │
+│ [Seq] Japanese Technique Name       │
 │     ひらがな (hiragana)     [KIAI!]  │ 
 │     [Stance, たち]             N (^) │
-│     Description                  ▼  │
+│     Description from json...     ▼  │
 │     (expandable description text)   │
 └─────────────────────────────────────┘
 ```
@@ -520,17 +520,17 @@ where "N" indicates direction (North, Nort West, West, etc.) and "(^)" indicates
 ### Multiple Sub-Move Display (Expanded)
 ```
 ┌─ Move Card ──────────────────────────────┐
-│ [Seq] First Technique Name (Header)        │
+│ [Seq] First Technique Name (Header)      │
 │     ひらがな (hiragana)          [KIAI!]  │ 
 │     [Stance, たち]                  N (^) │
-│     Description                       ▼  │
+│     Description from json...          ▼  │
 │     (expandable description text)        │
 │                                          │
 │     ┌─ Sub-Move 2 ────────────────────┐  │
 │     │ [icon] Second Technique         │  │
 │     │        ひらがな                  │  │
 │     │        [Stance, たち]            │  │
-│     │        Description           ▼  │  │
+│     │        Description from json. ▼ │  │
 │     │        (expandable text)        │  │
 │     └────────────────────────────────┘  │
 │                                          │
@@ -538,9 +538,9 @@ where "N" indicates direction (North, Nort West, West, etc.) and "(^)" indicates
 │     │ [icon] Third Technique          │  │
 │     │        ひらがな                  │  │
 │     │        [Stance, たち]            │  │
-│     │        Description           ▼  │  │
+│     │        Description from json. ▼ │  │
 │     │        (expandable text)        │  │
-│     └────────────────────────────────┘  │
+│     └─────────────────────────────────┘  │
 └──────────────────────────────────────────┘
 ```
 where "N" indicates direction (North, Nort West, West, etc.) and "(^)" indicates direction using an arrow.
@@ -666,11 +666,11 @@ var showTechniquesCount: Bool {
 // Chip display logic
 HStack(spacing: 8) {
     MovesChip(count: kata.numberOfMoves)
-    
+
     if showTechniquesCount {
         TechniquesChip(count: kata.keyTechniques.count)
     }
-    
+
     LevelChip(difficulty: kata.difficultyLevel)
 }
 ```
@@ -781,13 +781,13 @@ var shouldShowTechniques: Bool {
 private var infoChips: some View {
     HStack(spacing: 8) {
         MovesInfoChip(count: kata.numberOfMoves)
-        
+
         if shouldShowTechniques {
             TechniquesInfoChip(count: kata.keyTechniques.count)
         }
-        
+
         DifficultyInfoChip(level: kata.difficultyLevel)
-        
+
         Spacer()
     }
 }
@@ -871,10 +871,10 @@ private var infoChips: some View {
 // Display first sub-move in header with expandable description
 if let firstSubMove = move.subMoves.first {
     // Show technique, hiragana, stance
-    
+
     // Expandable description
     @State private var isMainDescriptionExpanded = false
-    Button(action: { 
+    Button(action: {
         withAnimation(.easeInOut(duration: 0.1)) {
             isMainDescriptionExpanded.toggle()
         }
@@ -885,7 +885,7 @@ if let firstSubMove = move.subMoves.first {
             Image(systemName: isMainDescriptionExpanded ? "chevron.up" : "chevron.down")
         }
     }
-    
+
     if isMainDescriptionExpanded {
         Text(firstSubMove.description)
             .transition(.opacity.combined(with: .move(edge: .top)))

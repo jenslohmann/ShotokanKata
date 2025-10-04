@@ -346,27 +346,25 @@ struct KataMoveRowView: View {
                         isMainDescriptionExpanded.toggle()
                     }
                 }) {
-                    HStack {
-                        Text("Description")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack {
+                            Text(truncatedDescription(firstSubMove.description))
+                                .font(.body)
+                                .foregroundColor(.primary)
+                                .lineLimit(isMainDescriptionExpanded ? nil : 2)
+                                .multilineTextAlignment(.leading)
 
-                        Spacer()
+                            Spacer()
 
-                        Image(systemName: isMainDescriptionExpanded ? "chevron.up" : "chevron.down")
-                            .font(.caption2)
-                            .foregroundColor(.secondary)
+                            if shouldShowExpandButton(firstSubMove.description) {
+                                Image(systemName: isMainDescriptionExpanded ? "chevron.up" : "chevron.down")
+                                    .font(.caption2)
+                                    .foregroundColor(.secondary)
+                            }
+                        }
                     }
                 }
                 .buttonStyle(PlainButtonStyle())
-
-                if isMainDescriptionExpanded {
-                    Text(firstSubMove.description)
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                        .padding(.top, 4)
-                        .transition(.opacity.combined(with: .move(edge: .top)))
-                }
             }
 
             // Display additional sub-moves if there are more than one
@@ -484,27 +482,25 @@ struct KataSubMoveView: View {
                     isDescriptionExpanded.toggle()
                 }
             }) {
-                HStack {
-                    Text("Description")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
+                VStack(alignment: .leading, spacing: 4) {
+                    HStack {
+                        Text(truncatedDescription(subMove.description))
+                            .font(.body)
+                            .foregroundColor(.primary)
+                            .lineLimit(isDescriptionExpanded ? nil : 2)
+                            .multilineTextAlignment(.leading)
 
-                    Spacer()
+                        Spacer()
 
-                    Image(systemName: isDescriptionExpanded ? "chevron.up" : "chevron.down")
-                        .font(.caption2)
-                        .foregroundColor(.secondary)
+                        if shouldShowExpandButton(subMove.description) {
+                            Image(systemName: isDescriptionExpanded ? "chevron.up" : "chevron.down")
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                        }
+                    }
                 }
             }
             .buttonStyle(PlainButtonStyle())
-
-            if isDescriptionExpanded {
-                Text(subMove.description)
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-                    .padding(.top, 4)
-                    .transition(.opacity.combined(with: .move(edge: .top)))
-            }
         }
         .padding(.vertical, 8)
         .padding(.horizontal, 12)
@@ -607,5 +603,32 @@ struct StatRowView: View {
                 )
             ]
         ))
+    }
+}
+
+// MARK: - Description Helper Extensions
+extension KataMoveRowView {
+    /// Determines if the expand button should be shown based on description length
+    private func shouldShowExpandButton(_ description: String) -> Bool {
+        // Show expand button if description is longer than approximately 2 lines worth of text
+        return description.count > 100
+    }
+
+    /// Returns a truncated version of the description for initial display
+    private func truncatedDescription(_ description: String) -> String {
+        return description // Let lineLimit handle the truncation
+    }
+}
+
+extension KataSubMoveView {
+    /// Determines if the expand button should be shown based on description length
+    private func shouldShowExpandButton(_ description: String) -> Bool {
+        // Show expand button if description is longer than approximately 2 lines worth of text
+        return description.count > 100
+    }
+
+    /// Returns a truncated version of the description for initial display
+    private func truncatedDescription(_ description: String) -> String {
+        return description // Let lineLimit handle the truncation
     }
 }
