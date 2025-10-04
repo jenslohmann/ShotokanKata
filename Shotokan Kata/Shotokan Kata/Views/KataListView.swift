@@ -1,6 +1,6 @@
 //
 //  KataListView.swift
-//  Shotokan Kata
+//  Shōtōkan Kata
 //
 //  Created by Jens Lohmann on 19/08/2025.
 //

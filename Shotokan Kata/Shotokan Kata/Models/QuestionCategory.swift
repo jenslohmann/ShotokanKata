@@ -1,6 +1,6 @@
 //
 //  QuestionCategory.swift
-//  Shotokan Kata
+//  Shōtōkan Kata
 //
 //  Created by Jens Lohmann on 16/08/2025.
 //
@@ -63,7 +63,7 @@ enum QuestionCategory: String, CaseIterable, Codable {
     var description: String {
         switch self {
         case .history:
-            return NSLocalizedString("Questions about the history and origins of Shotokan karate and specific kata", comment: "History category description")
+            return NSLocalizedString("Questions about the history and origins of Shōtōkan karate and specific kata", comment: "History category description")
         case .techniques:
             return NSLocalizedString("Questions about specific techniques, stances, and movements in kata", comment: "Techniques category description")
         case .sequences:
@@ -73,11 +73,11 @@ enum QuestionCategory: String, CaseIterable, Codable {
         case .ranks:
             return NSLocalizedString("Questions about belt ranks, grading requirements, and progression", comment: "Ranks category description")
         case .kataOrder:
-            return NSLocalizedString("Questions about the traditional order of learning kata in Shotokan", comment: "Kata order category description")
+            return NSLocalizedString("Questions about the traditional order of learning kata in Shōtōkan", comment: "Kata order category description")
         case .terminology:
             return NSLocalizedString("Questions about Japanese terminology and names used in karate", comment: "Terminology category description")
         case .philosophy:
-            return NSLocalizedString("Questions about the philosophy and principles of Shotokan karate", comment: "Philosophy category description")
+            return NSLocalizedString("Questions about the philosophy and principles of Shōtōkan karate", comment: "Philosophy category description")
         }
     }
 }

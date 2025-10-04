@@ -1,6 +1,6 @@
 //
 //  KataDetailView.swift
-//  Shotokan Kata
+//  Shōtōkan Kata
 //
 //  Created by Jens Lohmann on 19/08/2025.
 //
@@ -525,7 +525,7 @@ struct KataHistoryView: View {
                     Text("Historical Background")
                         .font(.headline)
 
-                    Text("This section will contain historical information about \(kata.name), including its origins, development, and significance in Shotokan karate.")
+                    Text("This section will contain historical information about \(kata.name), including its origins, development, and significance in Shōtōkan karate.")
                         .font(.body)
                         .foregroundColor(.secondary)
                 }

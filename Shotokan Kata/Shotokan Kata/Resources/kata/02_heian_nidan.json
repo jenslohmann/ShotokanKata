@@ -16,6 +16,40 @@
   "referenceURL": "https://www.themartialway.com.au/heian-nidan/",
   "moves": [
     {
+      "sequence": -1,
+      "sequenceName": "Rei",
+      "japaneseName": "Rei",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Rei",
+          "hiragana": "れい",
+          "stance": "Musubi-dachi",
+          "stanceHiragana": "むすびだち",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 0,
+      "sequenceName": "Yoi",
+      "japaneseName": "Yoi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Yoi",
+          "hiragana": "よい",
+          "stance": "Hachiji-dachi",
+          "stanceHiragana": "はちじだち",
+          "description": "From the musubi-dachi position, step out to hachiji-dachi position and assume the ready stance (yoi) with fists clenched and thumbs on top of the fingers",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
       "sequence": 1,
       "japaneseName": "Hidari jōdan tate-uke / Migi jōdan-kamae",
       "direction": "W",
@@ -526,6 +560,40 @@
           "stanceHiragana": "ぜんくつだち",
           "description": "Advance left foot 45° into front stance with left upper-level rising block and kiai",
           "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 27,
+      "sequenceName": "Naore",
+      "japaneseName": "Naore",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Yoi",
+          "hiragana": "よい",
+          "stance": "Hachiji-dachi",
+          "stanceHiragana": "はちじだち",
+          "description": "Step back to hachiji-dachi position and assume the ready stance (yoi)",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 28,
+      "sequenceName": "Rei",
+      "japaneseName": "Rei",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Rei",
+          "hiragana": "れい",
+          "stance": "Musubi-dachi",
+          "stanceHiragana": "むすびだち",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "icon": "hand.raised.fill"
         }
       ]
     }

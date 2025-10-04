@@ -1,7 +1,7 @@
-# Shotokan Kata iOS App - Copilot Instructions
+# Shōtōkan Kata iOS App - Copilot Instructions
 
 ## Project Overview
-This is a **Shotokan Kata** iOS application built with SwiftUI for iPhone and iPad. The app serves as a quiz and information platform for Shotokan karate practitioners to learn about different kata (forms) in traditional Shotokan karate following the JKA (Japan Karate Association) curriculum.
+This is a **Shōtōkan Kata** iOS application built with SwiftUI for iPhone and iPad. The app serves as a quiz and information platform for Shōtōkan karate practitioners to learn about different kata (forms) in traditional Shōtōkan karate following the JKA (Japan Karate Association) curriculum.
 
 ## Technology Stack
 - **Platform**: iOS (iPhone & iPad)
@@ -76,14 +76,14 @@ Shotokan Kata/
 
 ### JSON File Format Structure
 
-The Shotokan Kata app uses a two-tier JSON file system with a configuration file and individual kata files. Below are the complete structure diagrams:
+The Shōtōkan Kata app uses a two-tier JSON file system with a configuration file and individual kata files. Below are the complete structure diagrams:
 
 ```plantuml
 @startuml Kata JSON File Format
 !define ENTITY class
 !define ARRAY_ENTITY class
 
-title Shotokan Kata JSON File Format
+title Shōtōkan Kata JSON File Format
 
 ENTITY kata_json as "kata.json (Configuration)" {
   availableKata: KataFileInfo[]
@@ -214,8 +214,8 @@ enum KarateRank: String, CaseIterable, Codable {
 }
 ```
 
-### Complete Shotokan Kata Curriculum (Target: 26 Kata)
-The app is designed to include all traditional JKA Shotokan kata as defined in the kata.json configuration file:
+### Complete Shōtōkan Kata Curriculum (Target: 26 Kata)
+The app is designed to include all traditional JKA Shōtōkan kata as defined in the kata.json configuration file:
 
 **Basic Kata (1-5):**
 - 01_heian_shodan (9th Kyu - Yellow Belt) ✅
@@ -347,7 +347,7 @@ When implementing navigation:
 - **File Structure**: Each kata stored in separate numbered files with consistent naming (01-26)
 - **File Loading**: KataDataService automatically appends .json extension when loading files
 - **Current Files**: `01_heian_shodan.json`, `02_heian_nidan.json`, `05_heian_godan.json`, `06_tekki_shodan.json`, `07_bassai_dai.json`
-- **Target**: All 26 traditional JKA Shotokan kata with complete move sequences
+- **Target**: All 26 traditional JKA Shōtōkan kata with complete move sequences
 - **Enable/Disable Control**: Kata can be enabled or disabled via `kata.json` without code changes
 - **Scalability**: Designed to handle the full 26-kata curriculum without performance issues
 - **Local Storage**: UserDefaults for simple preferences
@@ -822,7 +822,7 @@ private var infoChips: some View {
 - **Current Files**: 5 of 26 kata implemented
 - **Configuration Format**: JSON array with fileName, kataNumber, name, and enabled flag
 - **Dynamic Control**: Kata can be enabled/disabled by changing the "enabled" flag in `kata.json`
-- **Reference**: Based on traditional Shotokan kata following JKA curriculum
+- **Reference**: Based on traditional Shōtōkan kata following JKA curriculum
 - **Format**: JSON with complete kata information including moves, techniques, and rank requirements
 - **Maintenance**: Updates require app release (intentional for accuracy)
 - **Legacy**: `kata_data.json` file replaced by individual files for better organization and scalability
@@ -857,11 +857,11 @@ private var infoChips: some View {
 - **Target level consistency**: Ensure all similar techniques use consistent target level specifications across kata files
 - **Authentication priority**: Verify all Japanese terminology against authoritative JKA sources
 - No progress tracking implementation (removed by design)
-- Maintain authentic Shotokan karate terminology and rank progression
+- Maintain authentic Shōtōkan karate terminology and rank progression
 - Use proper Japanese terminology with hiragana when available
 - Test with both Danish and English locales
 - Rank visual system should use authentic colors with proper contrast
-- **Target: 26 total kata**: App designed to eventually include all traditional JKA Shotokan kata
+- **Target: 26 total kata**: App designed to eventually include all traditional JKA Shōtōkan kata
 - **Heian Shodan Reference Model**: Use 01_heian_shodan.json as the template for detailed technique specifications in other kata files
 - When adding new kata, follow the numbered naming convention (01-26) and update kata.json configuration
 - **Technique Detail Standard**: All kata should match the level of detail found in the updated Heian Shodan file with complete target level specifications

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Shotokan Kata
+//  Shōtōkan Kata
 //
 //  Created by Jens Lohmann on 16/08/2025.
 //
@@ -46,7 +46,7 @@ struct ContentView: View {
             // iPad layout with NavigationSplitView
             NavigationSplitView {
                 SidebarView()
-                    .navigationTitle("Shotokan Kata")
+                    .navigationTitle("Shōtōkan Kata")
             } detail: {
                 NavigationStack {
                     KataListView()

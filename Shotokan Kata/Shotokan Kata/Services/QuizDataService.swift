@@ -1,6 +1,6 @@
 //
 //  QuizDataService.swift
-//  Shotokan Kata
+//  Shōtōkan Kata
 //
 //  Created by Jens Lohmann on 16/08/2025.
 //
@@ -188,13 +188,13 @@ class QuizDataService: ObservableObject {
 
         // Basic questions for 9th Kyu (Heian Shodan level)
         questions.append(QuizQuestion(
-            question: "What is the first kata learned in Shotokan karate?",
+            question: "What is the first kata learned in Shōtōkan karate?",
             options: ["Heian Shodan", "Heian Nidan", "Tekki Shodan", "Bassai Dai"],
             correctAnswerIndex: 0,
             category: .kataOrder,
             questionType: .staticQuestion,
             requiredRank: "9_kyu",
-            explanation: "Heian Shodan is traditionally the first kata taught to beginners in Shotokan karate.",
+            explanation: "Heian Shodan is traditionally the first kata taught to beginners in Shōtōkan karate.",
             relatedKataNames: ["Heian Shodan"]
         ))
 
@@ -234,13 +234,13 @@ class QuizDataService: ObservableObject {
 
         // Advanced questions for Dan ranks
         questions.append(QuizQuestion(
-            question: "Which kata is often considered the flagship kata of Shotokan?",
+            question: "Which kata is often considered the flagship kata of Shōtōkan?",
             options: ["Heian Shodan", "Tekki Shodan", "Bassai Dai", "Empi"],
             correctAnswerIndex: 2,
             category: .philosophy,
             questionType: .staticQuestion,
             requiredRank: "1_dan",
-            explanation: "Bassai Dai is often considered the flagship kata of Shotokan, representing the essence of the style.",
+            explanation: "Bassai Dai is often considered the flagship kata of Shōtōkan, representing the essence of the style.",
             relatedKataNames: ["Bassai Dai"]
         ))
 

@@ -1,6 +1,6 @@
 //
 //  QuizMenuView.swift
-//  Shotokan Kata
+//  Shōtōkan Kata
 //
 //  Created by Jens Lohmann on 16/08/2025.
 //
@@ -66,7 +66,7 @@ struct QuizHeaderView: View {
                 .font(.title2)
                 .fontWeight(.bold)
 
-            Text("Challenge yourself with questions about Shotokan kata, techniques, and philosophy based on your current rank.")
+            Text("Challenge yourself with questions about Shōtōkan kata, techniques, and philosophy based on your current rank.")
                 .font(.body)
                 .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)

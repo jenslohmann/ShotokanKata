@@ -5,7 +5,7 @@
   "numberOfMoves": 22,
   "kataNumber": 5,
   "beltRank": "3_kyu",
-  "description": "The fifth and final kata in the Heian series, featuring the first jumping technique (tobi-komi) in Shotokan. Introduces crescent kicks, hook punches, and complex flowing movements. Known for its combination of quick and slow movements requiring timing, skill, and fluidity.",
+  "description": "The fifth and final kata in the Heian series, featuring the first jumping technique (tobi-komi) in Shōtōkan. Introduces crescent kicks, hook punches, and complex flowing movements. Known for its combination of quick and slow movements requiring timing, skill, and fluidity.",
   "keyTechniques": [
     "Morote-uke",
     "Juji-uke",
@@ -15,6 +15,40 @@
   ],
   "referenceURL": "https://www.themartialway.com.au/heian-godan/",
   "moves": [
+    {
+      "sequence": -1,
+      "sequenceName": "Rei",
+      "japaneseName": "Rei",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Rei",
+          "hiragana": "れい",
+          "stance": "Musubi-dachi",
+          "stanceHiragana": "むすびだち",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 0,
+      "sequenceName": "Yoi",
+      "japaneseName": "Yoi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Yoi",
+          "hiragana": "よい",
+          "stance": "Hachiji-dachi",
+          "stanceHiragana": "はちじだち",
+          "description": "From the musubi-dachi position, step out to hachiji-dachi position and assume the ready stance (yoi) with fists clenched and thumbs on top of the fingers",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
     {
       "sequence": 1,
       "japaneseName": "Hidari chūdan uchi-ude-uke",
@@ -449,6 +483,40 @@
           "stanceHiragana": "こうくつだち",
           "description": "Simultaneously execute left upper inside block with open hand upward and backward",
           "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 23,
+      "sequenceName": "Naore",
+      "japaneseName": "Naore",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Yoi",
+          "hiragana": "よい",
+          "stance": "Hachiji-dachi",
+          "stanceHiragana": "はちじだち",
+          "description": "Step back to hachiji-dachi position and assume the ready stance (yoi)",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 24,
+      "sequenceName": "Rei",
+      "japaneseName": "Rei",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Rei",
+          "hiragana": "れい",
+          "stance": "Musubi-dachi",
+          "stanceHiragana": "むすびだち",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "icon": "hand.raised.fill"
         }
       ]
     }

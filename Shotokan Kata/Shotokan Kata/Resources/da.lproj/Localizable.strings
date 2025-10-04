@@ -60,7 +60,7 @@
 
 /* Quiz Header */
 "quiz.header.title" = "Test Din Viden";
-"quiz.header.subtitle" = "Udfordre dig selv med spørgsmål om Shotokan kata";
+"quiz.header.subtitle" = "Udfordre dig selv med spørgsmål om Shōtōkan kata";
 
 /* Quiz Quick Start */
 "quiz.quick_start.title" = "Hurtig Start";

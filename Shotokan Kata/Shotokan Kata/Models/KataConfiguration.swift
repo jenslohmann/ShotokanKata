@@ -1,6 +1,6 @@
 //
 //  KataConfiguration.swift
-//  Shotokan Kata
+//  Shōtōkan Kata
 //
 //  Created by Jens Lohmann on 22/08/2025.
 //
