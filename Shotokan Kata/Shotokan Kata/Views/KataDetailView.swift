@@ -9,38 +9,60 @@ import SwiftUI
 
 struct KataDetailView: View {
     let kata: Kata
-    @State private var selectedTab = 1  // Default to Moves tab instead of Overview
+    @State private var selectedSection = 1  // Default to Moves section
+
+    // Define the sections
+    private enum DetailSection: Int, CaseIterable {
+        case overview = 0
+        case moves = 1
+        case history = 2
+
+        var title: String {
+            switch self {
+            case .overview: return "Overview"
+            case .moves: return "Moves"
+            case .history: return "History"
+            }
+        }
+
+        var icon: String {
+            switch self {
+            case .overview: return "info.circle"
+            case .moves: return "list.bullet"
+            case .history: return "book"
+            }
+        }
+    }
 
     var body: some View {
         VStack(spacing: 0) {
             // Header with kata info
             KataHeaderView(kata: kata)
 
-            // Tab view for different sections
-            TabView(selection: $selectedTab) {
-                // Overview Tab
-                KataOverviewView(kata: kata)
-                    .tabItem {
-                        Image(systemName: "info.circle")
-                        Text("Overview")
-                    }
-                    .tag(0)
+            // Segmented control for sections
+            Picker("Detail Section", selection: $selectedSection) {
+                ForEach(DetailSection.allCases, id: \.rawValue) { section in
+                    Label(section.title, systemImage: section.icon)
+                        .tag(section.rawValue)
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding(.horizontal)
+            .padding(.vertical, 8)
+            .background(Color(.systemGray6))
 
-                // Moves Tab
-                KataMovesView(kata: kata)
-                    .tabItem {
-                        Image(systemName: "list.bullet")
-                        Text("Moves")
-                    }
-                    .tag(1)
-
-                // History Tab
-                KataHistoryView(kata: kata)
-                    .tabItem {
-                        Image(systemName: "book")
-                        Text("History")
-                    }
-                    .tag(2)
+            // Content based on selected section
+            Group {
+                switch selectedSection {
+                case 0:
+                    KataOverviewView(kata: kata)
+                case 1:
+                    KataMovesView(kata: kata)
+                case 2:
+                    KataHistoryView(kata: kata)
+                default:
+                    KataMovesView(kata: kata)
+                }
             }
         }
         .navigationTitle(kata.name)
@@ -70,12 +92,12 @@ struct KataHeaderView: View {
                     if let hiragana = kata.hiraganaName {
                         Text(hiragana)
                             .font(.subheadline)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.primary)
                     }
 
                     Text("(\(kata.japaneseName))")
                         .font(.subheadline)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.primary)
                 }
 
                 Spacer()
@@ -94,7 +116,7 @@ struct KataHeaderView: View {
                 // Kiai information text on the right
                 Text(kiaiInfoText)
                     .font(.caption)
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.primary)
             }
         }
         .padding()
