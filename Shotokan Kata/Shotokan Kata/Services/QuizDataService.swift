@@ -402,9 +402,14 @@ class QuizDataService: ObservableObject {
         var questions: [QuizQuestion] = []
 
         // Collect all unique techniques from all kata for generating distractors
+        // Filter out ceremonial moves (Rei)
         var allTechniques: Set<String> = []
         for kata in availableKata {
             for move in kata.moves {
+                // Skip ceremonial moves
+                if move.sequenceName == "Rei" {
+                    continue
+                }
                 for subMove in move.subMoves {
                     allTechniques.insert(subMove.technique)
                 }
@@ -420,7 +425,10 @@ class QuizDataService: ObservableObject {
 
         for kata in availableKata {
             // Generate questions for moves that have sub-moves with techniques
-            let movesWithTechniques = kata.moves.filter { !$0.subMoves.isEmpty }
+            // Filter out ceremonial moves (Rei only)
+            let movesWithTechniques = kata.moves.filter {
+                !$0.subMoves.isEmpty && $0.sequenceName != "Rei"
+            }
 
             // Limit to a few questions per kata to avoid overwhelming the quiz
             let selectedMoves = Array(movesWithTechniques.shuffled().prefix(2))
@@ -476,9 +484,14 @@ class QuizDataService: ObservableObject {
         var questions: [QuizQuestion] = []
 
         // Collect all unique stances from all kata for generating distractors
+        // Filter out ceremonial moves (Rei)
         var allStances: Set<String> = []
         for kata in availableKata {
             for move in kata.moves {
+                // Skip ceremonial moves
+                if move.sequenceName == "Rei" {
+                    continue
+                }
                 for subMove in move.subMoves {
                     allStances.insert(subMove.stance)
                 }
@@ -494,7 +507,10 @@ class QuizDataService: ObservableObject {
 
         for kata in availableKata {
             // Generate questions for moves that have sub-moves with stances
-            let movesWithStances = kata.moves.filter { !$0.subMoves.isEmpty }
+            // Filter out ceremonial moves (Rei only)
+            let movesWithStances = kata.moves.filter {
+                !$0.subMoves.isEmpty && $0.sequenceName != "Rei"
+            }
 
             // Limit to a few questions per kata to avoid overwhelming the quiz
             let selectedMoves = Array(movesWithStances.shuffled().prefix(2))

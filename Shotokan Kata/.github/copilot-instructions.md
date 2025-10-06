@@ -900,6 +900,10 @@ if move.subMoves.count > 1 {
 }
 ```
 
+## Quiz System Requirements
+
+### Move Filtering Rules for Quiz Questions
+- **EXCLUDE "Rei" moves**: The quiz should NOT ask questions about "Rei" (bow) moves as these are purely ceremonial
 
 ## Kata Data Extraction Guidelines
 
