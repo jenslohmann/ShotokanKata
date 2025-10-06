@@ -75,20 +75,20 @@ struct KataHeaderView: View {
     let kata: Kata
 
     var body: some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 1) {
             // Top row: kata number, hiragana/Japanese name, rank badge
             HStack {
                 // Kata number badge on the left
                 Text("#\(kata.kataNumber)")
                     .font(.subheadline)
                     .fontWeight(.semibold)
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 4)
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 2)
                     .background(Color.secondary.opacity(0.2))
                     .clipShape(Capsule())
 
                 // Center: hiragana and Japanese name
-                HStack(spacing: 4) {
+                HStack(spacing: 3) {
                     if let hiragana = kata.hiraganaName {
                         Text(hiragana)
                             .font(.subheadline)
@@ -108,18 +108,21 @@ struct KataHeaderView: View {
 
             // Bottom row: Moves info chip and kiai information
             HStack {
-                // Moves info chip on the left
-                InfoChipView(title: "Moves", value: "\(kata.numberOfMoves)")
+                // Simple moves text on the left
+                Text("Moves: \(kata.numberOfMoves)")
+                    .font(.caption2)
+                    .foregroundColor(.primary)
 
                 Spacer()
 
                 // Kiai information text on the right
                 Text(kiaiInfoText)
-                    .font(.caption)
+                    .font(.caption2)
                     .foregroundColor(.primary)
             }
         }
-        .padding()
+        .padding(.horizontal)
+        .padding(.vertical, 8)
         .background(Color(.systemGray6))
     }
 
