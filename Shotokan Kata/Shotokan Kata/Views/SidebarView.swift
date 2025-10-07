@@ -26,6 +26,7 @@ struct SidebarView: View {
 enum SidebarItem: CaseIterable {
     case kata
     case quiz
+    case vocabulary
     case about
 
     var title: String {
@@ -34,6 +35,8 @@ enum SidebarItem: CaseIterable {
             return NSLocalizedString("nav.kata", comment: "Kata")
         case .quiz:
             return NSLocalizedString("nav.quiz", comment: "Quiz")
+        case .vocabulary:
+            return NSLocalizedString("nav.vocabulary", comment: "Vocabulary")
         case .about:
             return NSLocalizedString("nav.about", comment: "About")
         }
@@ -45,6 +48,8 @@ enum SidebarItem: CaseIterable {
             return "figure.martial.arts"
         case .quiz:
             return "questionmark.circle"
+        case .vocabulary:
+            return "book.fill"
         case .about:
             return "info.circle"
         }
@@ -59,6 +64,8 @@ enum SidebarItem: CaseIterable {
             // For iPad navigation, we don't need tab switching functionality
             // Use a wrapper that provides a constant binding
             QuizMenuView(selectedTab: .constant(1))
+        case .vocabulary:
+            VocabularyView()
         case .about:
             AboutView()
         }

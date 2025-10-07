@@ -66,7 +66,39 @@ Shotokan Kata/
 - **No Progress Tracking**: Clean implementation ready for future progress features
 - **Question Types**: Multiple choice with explanations and related kata information
 
-### 4. User Interface
+### 4. Vocabulary System
+- **Comprehensive Dictionary**: 50+ karate terms covering all aspects of Shotokan training
+- **Authentic Japanese Terminology**: Proper romanization with macrons (ō, ū, etc.) following academic standards
+- **Complete Term Information**: Japanese characters (kanji), hiragana pronunciation, short and detailed descriptions
+- **Category Organization**: Terms organized by type (stances, blocks, punches, kicks, techniques, etiquette, ranks, equipment)
+- **Search Functionality**: Real-time search across term names, Japanese characters, and definitions
+- **Category Filtering**: Filter by specific technique categories via action sheet selection
+- **Detail View Navigation**: NavigationLink-based navigation to detailed term explanations
+- **Offline-First Design**: All vocabulary loads synchronously at app startup from bundled JSON
+- **UI Consistency**: Header styling matches kata list for unified user experience
+- **Progressive Learning**: From basic concepts to advanced techniques covering all kata requirements
+
+#### Vocabulary Data Structure
+- **Source File**: `vocabulary.json` in app bundle
+- **Model**: `VocabularyTerm` with complete Japanese term information
+- **Categories**: 11 categories covering general concepts, etiquette, titles, techniques, stances, blocks, punches, kicks, training, ranks, equipment
+- **Loading**: Synchronous loading at startup via `VocabularyDataService`
+- **No Loading States**: Simplified for offline use without progress indicators or error handling
+
+#### Vocabulary Features
+- **Search Bar**: Matches kata list styling with PlainTextFieldStyle and clear button
+- **Category Filter**: Button-based filter selection with clear option
+- **Empty State**: Helpful message when no terms match search/filter criteria
+- **Navigation**: Consistent NavigationLink pattern for term details
+- **Responsive Design**: Works on both iPhone and iPad with adaptive layouts
+
+#### Technical Implementation
+- **Service**: `VocabularyDataService` - Simplified offline data loading
+- **ViewModel**: `VocabularyViewModel` - Search and filter state management
+- **Views**: `VocabularyView`, `VocabularyDetailView`, `VocabularyHeaderView`, `VocabularyTermRowView`
+- **Navigation**: Follows app's NavigationLink + push pattern (not sheets)
+
+### 5. User Interface
 - **Adaptive Design**: Works seamlessly on iPhone (TabView) and iPad (NavigationSplitView)
 - **Rank Visual System**: Color-coded rank badges with authentic belt colors
 - **Dark/Light Mode**: Support for system appearance preferences

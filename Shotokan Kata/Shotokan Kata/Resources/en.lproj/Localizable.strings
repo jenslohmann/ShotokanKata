@@ -1,6 +1,7 @@
 /* Navigation */
 "nav.kata" = "Kata";
 "nav.quiz" = "Quiz";
+"nav.vocabulary" = "Vocabulary";
 "nav.about" = "About";
 
 /* Belt Ranks */
@@ -108,8 +109,30 @@
 "quiz.correct" = "Correct";
 "quiz.incorrect" = "Incorrect";
 
-/* General */
-"loading" = "Loading...";
-"error" = "Error";
-"cancel" = "Cancel";
-"done" = "Done";
+/* Vocabulary */
+"vocabulary.search.placeholder" = "Search terms...";
+"vocabulary.filter.all" = "All Categories";
+"vocabulary.filter.category" = "Select Category";
+"vocabulary.filter.clear" = "Clear";
+"vocabulary.loading" = "Loading vocabulary...";
+"vocabulary.error.title" = "Error";
+"vocabulary.empty.title" = "No terms found";
+"vocabulary.empty.subtitle" = "Try adjusting your search or filter";
+"vocabulary.detail.definition" = "Definition";
+"vocabulary.detail.category" = "Category";
+
+/* Vocabulary Categories */
+"vocabulary.category.general" = "General";
+"vocabulary.category.etiquette" = "Etiquette";
+"vocabulary.category.titles" = "Titles";
+"vocabulary.category.techniques" = "Techniques";
+"vocabulary.category.stances" = "Stances";
+"vocabulary.category.blocks" = "Blocks";
+"vocabulary.category.punches" = "Punches";
+"vocabulary.category.kicks" = "Kicks";
+"vocabulary.category.training" = "Training";
+"vocabulary.category.ranks" = "Ranks";
+"vocabulary.category.equipment" = "Equipment";
+
+/* Common */
+"common.cancel" = "Cancel";

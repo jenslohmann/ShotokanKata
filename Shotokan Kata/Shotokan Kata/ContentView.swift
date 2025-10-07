@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
-    @State private var selectedTab = 0 // 0 = Kata tab, 1 = Quiz tab, 2 = About tab
+    @State private var selectedTab = 0 // 0 = Kata tab, 1 = Quiz tab, 2 = Vocabulary tab, 3 = About tab
 
     var body: some View {
         if horizontalSizeClass == .compact {
@@ -34,13 +34,22 @@ struct ContentView: View {
                 .tag(1)
 
                 NavigationStack {
+                    VocabularyView()
+                }
+                .tabItem {
+                    Image(systemName: "book.fill")
+                    Text(NSLocalizedString("nav.vocabulary", comment: "Vocabulary tab"))
+                }
+                .tag(2)
+
+                NavigationStack {
                     AboutView()
                 }
                 .tabItem {
                     Image(systemName: "info.circle")
                     Text(NSLocalizedString("nav.about", comment: "About tab"))
                 }
-                .tag(2)
+                .tag(3)
             }
         } else {
             // iPad layout with NavigationSplitView

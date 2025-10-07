@@ -1,6 +1,7 @@
 /* Navigation */
 "nav.kata" = "Kata";
 "nav.quiz" = "Quiz";
+"nav.vocabulary" = "Ordbog";
 "nav.about" = "Om";
 
 /* Bæltegradueringer */
@@ -110,6 +111,34 @@
 "quiz.score" = "Score";
 "quiz.correct" = "Korrekt";
 "quiz.incorrect" = "Forkert";
+
+/* Vocabulary */
+"vocabulary.search.placeholder" = "Søg termer...";
+"vocabulary.filter.all" = "Alle Kategorier";
+"vocabulary.filter.category" = "Vælg Kategori";
+"vocabulary.filter.clear" = "Ryd";
+"vocabulary.loading" = "Indlæser ordbog...";
+"vocabulary.error.title" = "Fejl";
+"vocabulary.empty.title" = "Ingen termer fundet";
+"vocabulary.empty.subtitle" = "Prøv at justere din søgning eller filter";
+"vocabulary.detail.definition" = "Definition";
+"vocabulary.detail.category" = "Kategori";
+
+/* Vocabulary Categories */
+"vocabulary.category.general" = "Generelt";
+"vocabulary.category.etiquette" = "Etikette";
+"vocabulary.category.titles" = "Titler";
+"vocabulary.category.techniques" = "Teknikker";
+"vocabulary.category.stances" = "Stillinger";
+"vocabulary.category.blocks" = "Blokke";
+"vocabulary.category.punches" = "Slag";
+"vocabulary.category.kicks" = "Spark";
+"vocabulary.category.training" = "Træning";
+"vocabulary.category.ranks" = "Graduering";
+"vocabulary.category.equipment" = "Udstyr";
+
+/* Common */
+"common.cancel" = "Annuller";
 
 /* Generelt */
 "loading" = "Indlæser...";
