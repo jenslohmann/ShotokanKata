@@ -252,21 +252,21 @@ The app is designed to include all traditional JKA Shōtōkan kata as defined in
 **Basic Kata (1-5):**
 - 01_heian_shodan (9th Kyu - Yellow Belt) ✅
 - 02_heian_nidan (8th Kyu - Orange Belt) ✅
-- 03_heian_sandan (7th Kyu - Green Belt) - *To be added*
-- 04_heian_yondan (7th Kyu - Green Belt) - *To be added*
+- 03_heian_sandan (7th Kyu - Green Belt) ✅
+- 04_heian_yondan (7th Kyu - Green Belt) ✅
 - 05_heian_godan (6th Kyu - Purple Belt) ✅
 
 **Intermediate Kata (6-12):**
 - 06_tekki_shodan (5th Kyu - Brown Belt) ✅
 - 07_bassai_dai (1st Dan Black Belt) ✅
 - 08_bassai_sho - *To be added*
-- 09_kanku_dai - *To be added*
+- 09_kanku_dai ✅
 - 10_kanku_sho - *To be added*
 - 11_tekki_nidan - *To be added*
 - 12_tekki_sandan - *To be added*
 
 **Advanced Kata (13-26):**
-- 13_empi - *To be added*
+- 13_empi - ✅
 - 14_hangetsu - *To be added*
 - 15_jitte - *To be added*
 - 16_gankaku - *To be added*
@@ -279,9 +279,8 @@ The app is designed to include all traditional JKA Shōtōkan kata as defined in
 - 23_chinte - *To be added*
 - 24_wankan - *To be added*
 - 25_jiin - *To be added*
-- 26_jion - *To be added*
+- 26_jion ✅
 
-**Current Status:** 0 of 26 kata implemented
 **File Structure:** Individual numbered JSON files (01-26) with .json extension automatically appended during loading
 **Configuration Control:** Each kata can be enabled/disabled via kata.json without code changes
 
@@ -643,12 +642,12 @@ The kata list uses a structured layout that adapts to different device types and
 ```
 ┌─ KataListRowView (iPhone) ──────────────────────────────────┐
 │ #1    Heian Shodan                           ●  9th Kyu     │
-│       平安初段                                              │
+│       平安初段                                               │
 │       へいあん しょだん                                       │
 │                                                             │
-│ ┌─ Info Row (iPhone) ───────────────────────────────────────┐ │
-│ │ 📍 21 Moves              🏆 Basic Level                   │ │
-│ └─────────────────────────────────────────────────────────────┘ │
+│ ┌─ Info Row (iPhone) ─────────────────────────────────────┐ │
+│ │ 📍 21 Moves              🏆 Basic Level                 │ │
+│ └─────────────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -662,12 +661,12 @@ The kata list uses a structured layout that adapts to different device types and
 ```
 ┌─ KataListRowView (iPad) ────────────────────────────────────┐
 │ #5    Heian Godan                            ●  6th Kyu     │
-│       平安五段                                              │
+│       平安五段                                               │
 │       へいあん ごだん                                         │
 │                                                             │
-│ ┌─ Info Row (iPad) ─────────────────────────────────────────┐ │
-│ │ 📍 23 Moves     🎯 7 Techniques     🏆 Intermediate Level │ │
-│ └─────────────────────────────────────────────────────────────┘ │
+│ ┌─ Info Row (iPad) ───────────────────────────────────────┐ │
+│ │ 📍 23 Moves     🎯 7 Techniques  🏆 Intermediate Level │ │
+│ └─────────────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
 ```
 
