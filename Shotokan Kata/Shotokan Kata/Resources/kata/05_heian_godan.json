@@ -34,17 +34,17 @@
     },
     {
       "sequence": 0,
-      "sequenceName": "Yoi",
-      "japaneseName": "Yoi",
+      "sequenceName": "Yōi",
+      "japaneseName": "Yōi",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Yoi",
+          "technique": "Yōi",
           "hiragana": "よい",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "From the musubi-dachi position, step out to hachiji-dachi position and assume the ready stance (yoi) with fists clenched and thumbs on top of the fingers",
+          "description": "From the musubi-dachi position, step out to hachiji-dachi position and assume the ready stance (yōi) with fists clenched and thumbs on top of the fingers",
           "icon": "hand.raised.fill"
         }
       ]
@@ -494,11 +494,11 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Yoi",
+          "technique": "Yōi",
           "hiragana": "よい",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "Step back to hachiji-dachi position and assume the ready stance (yoi)",
+          "description": "Step back to hachiji-dachi position and assume the ready stance (yōi)",
           "icon": "hand.raised.fill"
         }
       ]

@@ -37,13 +37,13 @@
     },
     {
       "sequence": 0,
-      "sequenceName": "Yoi",
-      "japaneseName": "Yoi",
+      "sequenceName": "Yōi",
+      "japaneseName": "Yōi",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Yoi",
+          "technique": "Yōi",
           "hiragana": "よい",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",

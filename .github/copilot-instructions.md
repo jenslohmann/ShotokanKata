@@ -196,7 +196,7 @@ end note
 note top of KataMove
   Special Sequences:
   - sequence: -1 = "Rei" (bow)
-  - sequence: 0 = "Yoi" (ready stance)
+  - sequence: 0 = "Yōi" (ready stance)
   - sequence: 1+ = actual kata moves
   
   Direction Values:
