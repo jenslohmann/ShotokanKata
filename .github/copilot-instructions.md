@@ -8,9 +8,8 @@ This is a **Shōtōkan Kata** iOS application built with SwiftUI for iPhone and 
 - **Language**: Swift
 - **Framework**: SwiftUI
 - **Architecture**: MVVM (Model-View-ViewModel)
-- **Minimum iOS Version**: iOS 16.0+
+- **Minimum iOS Version**: iOS 17.0+
 - **Internationalization**: Danish (da) and English (en) support
-- **iOS 16 Features**: NavigationStack, NavigationSplitView improvements, updated sheet presentations, improved accessibility APIs
 
 ## Project Structure
 ```
