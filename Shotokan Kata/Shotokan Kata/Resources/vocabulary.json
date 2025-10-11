@@ -619,6 +619,26 @@
       "definition": "Half-body position where the body is turned at an angle, typically 45 degrees, presenting a smaller target to the opponent while maintaining balance and mobility. This position is fundamental in many martial arts as it reduces the target area while keeping both hands and feet available for techniques. Hanmi is often used in defensive situations and transitional movements.",
       "category": "stances",
       "componentBreakdown": "半 (han) - 'half' or 'semi'; 身 (mi) - 'body' or 'self'. Together they describe a position where the body is turned to present only half of it to the opponent, creating a more defensive and mobile stance."
+    },
+    {
+      "id": 63,
+      "term": "Kake-uke",
+      "japaneseName": "掛け受け",
+      "hiraganaName": "かけうけ",
+      "shortDescription": "Hooking block technique",
+      "definition": "Hooking block where the blocking arm moves in a hooking or pulling motion to trap and control an incoming attack. This technique combines blocking with grappling elements, using the arm to hook around the attacking limb and pull it aside while simultaneously deflecting the attack. It's effective for close-range defense and can set up counter-attacks or throws.",
+      "category": "blocks",
+      "componentBreakdown": "掛け (kake) - 'hook', 'hang', or 'catch'; 受け (uke) - 'receive' or 'block'. Together they describe a blocking technique that hooks or catches the incoming attack rather than simply deflecting it."
+    },
+    {
+      "id": 64,
+      "term": "Sokumen",
+      "japaneseName": "側面",
+      "hiraganaName": "そくめん",
+      "shortDescription": "Side or flank position",
+      "definition": "Side or flank; referring to the side aspect or lateral position in martial arts. This term is used to describe positioning, movement, or attacks that come from or target the side of the body or opponent. Sokumen positioning is important for creating angles of attack, defensive positioning, and tactical advantage by moving to the opponent's weak side.",
+      "category": "general",
+      "componentBreakdown": "側 (soku) - 'side' or 'lateral'; 面 (men) - 'face', 'surface', or 'aspect'. Together they describe the side surface or lateral aspect, indicating positioning or movement to the side."
     }
   ]
 }
