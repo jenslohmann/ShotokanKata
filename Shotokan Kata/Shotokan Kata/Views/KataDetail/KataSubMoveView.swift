@@ -29,6 +29,7 @@ struct KataSubMoveView: View {
 // MARK: - Sub-Move Header
 private struct SubMoveHeader: View {
     let subMove: KataSubMove
+    @EnvironmentObject var vocabularyService: VocabularyDataService
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
@@ -37,9 +38,12 @@ private struct SubMoveHeader: View {
                 .frame(width: 20)
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(subMove.technique)
-                    .font(.body)
-                    .fontWeight(.medium)
+                ClickableVocabularyText(
+                    text: subMove.technique,
+                    vocabularyTerms: vocabularyService.vocabularyTerms
+                )
+                .font(.body)
+                .fontWeight(.medium)
 
                 if let hiragana = subMove.hiragana {
                     Text(hiragana)

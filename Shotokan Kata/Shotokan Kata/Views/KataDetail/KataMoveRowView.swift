@@ -73,13 +73,17 @@ private struct SequenceBadge: View {
 // MARK: - Main Technique Info
 private struct MainTechniqueInfo: View {
     let move: KataMove
+    @EnvironmentObject var vocabularyService: VocabularyDataService
 
     var body: some View {
         VStack(alignment: .leading, spacing: 2) {
             if let firstSubMove = move.subMoves.first {
-                Text(firstSubMove.technique)
-                    .font(.body)
-                    .fontWeight(.medium)
+                ClickableVocabularyText(
+                    text: firstSubMove.technique,
+                    vocabularyTerms: vocabularyService.vocabularyTerms
+                )
+                .font(.body)
+                .fontWeight(.medium)
 
                 if let hiragana = firstSubMove.hiragana {
                     Text(hiragana)
@@ -92,9 +96,12 @@ private struct MainTechniqueInfo: View {
                     hiragana: firstSubMove.stanceHiragana
                 )
             } else {
-                Text(move.japaneseName)
-                    .font(.body)
-                    .fontWeight(.medium)
+                ClickableVocabularyText(
+                    text: move.japaneseName,
+                    vocabularyTerms: vocabularyService.vocabularyTerms
+                )
+                .font(.body)
+                .fontWeight(.medium)
             }
         }
     }

@@ -482,7 +482,7 @@
     },
     {
       "id": 49,
-      "term": "Yoi",
+      "term": "Yōi",
       "japaneseName": "用意",
       "hiraganaName": "よい",
       "shortDescription": "Ready position or preparatory stance",
@@ -499,6 +499,126 @@
       "definition": "Withdrawing hand technique where one hand pulls back to the hip while the other executes a technique. This action helps generate power through the reaction principle, maintains balance, and can be used to pull an opponent or clear the path for the striking hand.",
       "category": "techniques",
       "componentBreakdown": "引き (hiki) - 'pull' or 'draw back'; 手 (te) - 'hand'. Together they describe the action of pulling or withdrawing the hand, typically to the hip position."
+    },
+    {
+      "id": 51,
+      "term": "Migi",
+      "japaneseName": "右",
+      "hiraganaName": "みぎ",
+      "shortDescription": "Right side or direction",
+      "definition": "Right; indicates the right side of the body or right direction in technique execution. This fundamental directional term is used extensively in karate to specify which side of the body performs a technique, such as 'migi gedan-barai' (right downward block) or 'migi oi-zuki' (right lunge punch).",
+      "category": "general",
+      "componentBreakdown": "右 (migi) - This single kanji means 'right' in terms of direction or side. It represents the right side of the body or rightward movement in martial arts techniques."
+    },
+    {
+      "id": 52,
+      "term": "Hidari",
+      "japaneseName": "左",
+      "hiraganaName": "ひだり",
+      "shortDescription": "Left side or direction",
+      "definition": "Left; indicates the left side of the body or left direction in technique execution. This fundamental directional term is used extensively in karate to specify which side of the body performs a technique, such as 'hidari gedan-barai' (left downward block) or 'hidari oi-zuki' (left lunge punch).",
+      "category": "general",
+      "componentBreakdown": "左 (hidari) - This single kanji means 'left' in terms of direction or side. It represents the left side of the body or leftward movement in martial arts techniques."
+    },
+    {
+      "id": 53,
+      "term": "Renoji-dachi",
+      "japaneseName": "レの字立",
+      "hiraganaName": "れのじだち",
+      "shortDescription": "L-shaped stance forming katakana 'レ'",
+      "definition": "L-shaped stance where the feet are positioned to form the shape of the katakana character 'レ' (re). The front foot points forward while the back foot is positioned at approximately 90 degrees, creating an L-shape. This stance provides stability while allowing for quick transitions and is often used in kata sequences.",
+      "category": "stances",
+      "componentBreakdown": "レ (re) - katakana character for 'RE'; の (no) - possessive particle; 字 (ji) - 'character' or 'letter'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance that forms the shape of the katakana character 'レ'."
+    },
+    {
+      "id": 54,
+      "term": "Naore",
+      "japaneseName": "直れ",
+      "hiraganaName": "なおれ",
+      "shortDescription": "Return to ready position command",
+      "definition": "Return to ready position; a command given to return to the yōi (ready) position after completing a kata or exercise. This instruction signals the end of the formal portion of practice and indicates that students should assume the ready stance in preparation for the final bow.",
+      "category": "etiquette",
+      "componentBreakdown": "直れ (naore) - imperative form of 'naoru' meaning 'to be corrected' or 'to return to proper position'. It's a command telling practitioners to return to the correct ready position."
+    },
+    {
+      "id": 55,
+      "term": "Tate-uke",
+      "japaneseName": "立受け",
+      "hiraganaName": "たてうけ",
+      "shortDescription": "Vertical or upright blocking technique",
+      "definition": "Vertical block where the forearm is positioned vertically to deflect attacks. The blocking arm is held upright with the fist typically at shoulder height, creating a strong vertical barrier. This block is effective against horizontal attacks and can quickly transition to counter-strikes.",
+      "category": "blocks",
+      "componentBreakdown": "立 (tate) - 'vertical', 'upright', or 'standing'; 受け (uke) - 'receive' or 'block'. Together they describe a blocking technique performed with the arm in a vertical or upright position."
+    },
+    {
+      "id": 56,
+      "term": "Haiwan-uke",
+      "japaneseName": "背腕受け",
+      "hiraganaName": "はいわんうけ",
+      "shortDescription": "Back-arm or reverse forearm block",
+      "definition": "Back-arm block using the reverse or back side of the forearm to deflect attacks. This blocking technique uses the outer edge of the forearm and is often employed when the conventional forearm position is not suitable, providing an alternative angle for deflection.",
+      "category": "blocks",
+      "componentBreakdown": "背 (hai) - 'back' or 'rear'; 腕 (wan) - 'arm' or 'forearm'; 受け (uke) - 'receive' or 'block'. Together they describe a block using the back or reverse side of the forearm."
+    },
+    {
+      "id": 57,
+      "term": "Uraken",
+      "japaneseName": "裏拳",
+      "hiraganaName": "うらけん",
+      "shortDescription": "Back-fist striking surface",
+      "definition": "Back-fist; the striking surface formed by the back of the knuckles when the fist is clenched. This weapon is used for quick, snapping strikes that emphasize speed over power. The uraken can target the face, temples, ribs, or other vulnerable areas and is effective in close-range combat.",
+      "category": "techniques",
+      "componentBreakdown": "裏 (ura) - 'back', 'reverse side', or 'rear'; 拳 (ken) - 'fist'. Together they describe the back or reverse side of the fist used as a striking weapon."
+    },
+    {
+      "id": 58,
+      "term": "Seiken",
+      "japaneseName": "正拳",
+      "hiraganaName": "せいけん",
+      "shortDescription": "Proper fist or fore-fist",
+      "definition": "Proper fist; the standard closed-hand weapon used for most punching techniques in karate. The seiken is formed by making a tight fist with the first two knuckles (of the index and middle fingers) as the primary striking surface. This is the most fundamental weapon in karate punching.",
+      "category": "techniques",
+      "componentBreakdown": "正 (sei) - 'correct', 'proper', or 'true'; 拳 (ken) - 'fist'. Together they describe the correct or proper way to form a fist for striking in karate."
+    },
+    {
+      "id": 59,
+      "term": "Nukite-tate-zuki",
+      "japaneseName": "貫手立突き",
+      "hiraganaName": "ぬきて たて づき",
+      "shortDescription": "Vertical spear-hand thrust",
+      "definition": "Vertical spear-hand thrust where the fingers are extended and pressed together, delivered in a vertical orientation. This technique combines the penetrating power of nukite (spear hand) with the vertical angle of tate-zuki (vertical punch), creating a precise thrust aimed at vital points.",
+      "category": "techniques",
+      "componentBreakdown": "貫手 (nukite) - 'spear hand' or 'penetrating hand'; 立 (tate) - 'vertical' or 'upright'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a vertical thrusting technique using the spear hand."
+    },
+    {
+      "id": 60,
+      "term": "Mae-geri-keage",
+      "japaneseName": "前蹴り蹴上",
+      "hiraganaName": "まえげり けあげ",
+      "shortDescription": "Front snap kick technique",
+      "definition": "Front snap kick where the leg is quickly extended forward and immediately retracted in a snapping motion. This technique emphasizes speed and precision over penetrating power, using the ball of the foot to strike targets such as the solar plexus, face, or groin with rapid execution.",
+      "category": "kicks",
+      "componentBreakdown": "前 (mae) - 'front' or 'forward'; 蹴り (geri) - 'kick'; 蹴上 (keage) - 'snap up' or 'kick up'. Together they describe a front kick executed with a snapping motion."
+    },
+    {
+      "id": 61,
+      "term": "Shutō-age-uke",
+      "japaneseName": "手刀上げ受け",
+      "hiraganaName": "しゅとう あげ うけ",
+      "shortDescription": "Rising knife-hand block",
+      "definition": "Rising knife-hand block that moves upward to deflect overhead attacks using the edge of the open hand. This technique combines the cutting action of shutō (knife hand) with the upward motion of age-uke (rising block), creating an effective defense against high-level attacks while maintaining the ability to counter-strike.",
+      "category": "blocks",
+      "componentBreakdown": "手刀 (shutō) - 'knife hand' or 'hand sword'; 上げ (age) - 'raise' or 'lift up'; 受け (uke) - 'receive' or 'block'. Together they describe a rising block performed with the knife-hand technique."
+    },
+    {
+      "id": 62,
+      "term": "Hanmi",
+      "japaneseName": "半身",
+      "hiraganaName": "はんみ",
+      "shortDescription": "Half-body or side-facing position",
+      "definition": "Half-body position where the body is turned at an angle, typically 45 degrees, presenting a smaller target to the opponent while maintaining balance and mobility. This position is fundamental in many martial arts as it reduces the target area while keeping both hands and feet available for techniques. Hanmi is often used in defensive situations and transitional movements.",
+      "category": "stances",
+      "componentBreakdown": "半 (han) - 'half' or 'semi'; 身 (mi) - 'body' or 'self'. Together they describe a position where the body is turned to present only half of it to the opponent, creating a more defensive and mobile stance."
     }
   ]
 }
