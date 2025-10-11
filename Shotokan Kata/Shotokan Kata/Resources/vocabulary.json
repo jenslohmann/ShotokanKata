@@ -7,7 +7,8 @@
       "hiraganaName": "かた",
       "shortDescription": "Predetermined sequence of karate movements",
       "definition": "A sequence of karate movements performed in a predetermined pattern against imaginary opponents. Kata is one of the three main pillars of karate training, along with kihon (basics) and kumite (sparring). Each kata tells a story of combat against multiple attackers and contains the essence of various fighting techniques and strategies.",
-      "category": "general"
+      "category": "general",
+      "componentBreakdown": "型 (kata) - This single kanji character means 'form', 'shape', or 'mold'. It represents the concept of a fixed pattern or template that preserves traditional techniques and movements for future generations."
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "hiraganaName": "どうじょう",
       "shortDescription": "Training hall for martial arts",
       "definition": "Training hall or place where martial arts are practiced. The word dōjō literally means 'place of the way' and represents not just a physical space, but a sacred environment where students learn discipline, respect, and the martial arts. Traditional dōjō etiquette is strictly observed to maintain the proper learning atmosphere.",
-      "category": "general"
+      "category": "general",
+      "componentBreakdown": "道 (dō) - 'way' or 'path', referring to the spiritual and philosophical journey of martial arts; 場 (jō) - 'place' or 'location'. Together they mean 'place of the way' - a sacred space for learning the martial path."
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "hiraganaName": "れい",
       "shortDescription": "Bow showing respect and humility",
       "definition": "Bow; a gesture of respect and humility that is fundamental to Japanese martial arts. Rei is performed at the beginning and end of training, when entering or leaving the dōjō, and when greeting instructors and training partners. It demonstrates respect for the art, the dōjō, and fellow practitioners.",
-      "category": "etiquette"
+      "category": "etiquette",
+      "componentBreakdown": "礼 (rei) - This single kanji represents 'courtesy', 'bow', 'ceremony', or 'respect'. It encompasses the entire concept of proper etiquette, politeness, and showing reverence to others."
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "hiraganaName": "せんせい",
       "shortDescription": "Teacher or instructor",
       "definition": "Teacher or instructor; literally means 'one who has gone before'. A sensei is not just someone who teaches techniques, but a mentor who guides students in their martial arts journey and personal development. The relationship between sensei and student is based on mutual respect and dedication to learning.",
-      "category": "titles"
+      "category": "titles",
+      "componentBreakdown": "先 (sen) - 'before', 'ahead', or 'previous'; 生 (sei) - 'life', 'birth', or 'living'. Together they mean 'one who was born before' or 'one who has gone before', indicating someone with more experience and wisdom."
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "hiraganaName": "からて",
       "shortDescription": "Empty hand martial art",
       "definition": "Empty hand; the martial art of fighting without weapons. Originally developed in Okinawa, karate emphasizes striking techniques using hands, feet, elbows, and knees. The philosophy of karate extends beyond physical techniques to include mental discipline, character development, and spiritual growth.",
-      "category": "general"
+      "category": "general",
+      "componentBreakdown": "空 (kara) - 'empty' or 'void', representing both the absence of weapons and the Buddhist concept of emptiness; 手 (te) - 'hand'. Together they mean 'empty hand', emphasizing fighting without weapons."
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "hiraganaName": "きあい",
       "shortDescription": "Spirit shout for focus and power",
       "definition": "Spirit shout; a loud vocalization used to focus energy and intimidate opponents. Kiai comes from the coordination of breath, spirit, and physical technique. It helps to concentrate power at the moment of impact and can also serve to startle or psychologically affect an opponent.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "気 (ki) - 'spirit', 'energy', or 'life force'; 合 (ai) - 'union', 'harmony', or 'meeting'. Together they represent the union of spirit and energy, the focusing of one's internal power through vocalization."
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "hiraganaName": "ぜんくつだち",
       "shortDescription": "Forward stance with long, low position",
       "definition": "Front stance; a long, low stance with most weight on the front leg. This is one of the most fundamental stances in karate, providing a strong base for forward attacks and good balance for various techniques. The back leg remains straight while the front knee is bent, creating a stable platform for punching and blocking.",
-      "category": "stances"
+      "category": "stances",
+      "componentBreakdown": "前 (zen) - 'front' or 'forward'; 屈 (kutsu) - 'bend' or 'crouch'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where you stand forward with bent legs."
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "hiraganaName": "こうくつだち",
       "shortDescription": "Back stance with weight on rear leg",
       "definition": "Back stance; a stance with most weight on the back leg. This stance is excellent for defensive techniques and allows for quick forward movement. The front leg is lightly placed with the toes pointing forward, while the back leg bears most of the body weight. It's commonly used with blocking techniques.",
-      "category": "stances"
+      "category": "stances",
+      "componentBreakdown": "後 (kō) - 'back' or 'rear'; 屈 (kutsu) - 'bend' or 'crouch'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where you stand back with bent legs, weight on the rear leg."
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "hiraganaName": "げだんばらい",
       "shortDescription": "Downward sweeping block",
       "definition": "Downward block; a blocking technique that sweeps down to deflect low attacks. This block is used to defend against attacks aimed at the lower body, such as kicks to the groin or stomach. The blocking arm moves in a sweeping motion from high to low, deflecting the attack away from the body.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "下 (ge) - 'down' or 'lower'; 段 (dan) - 'level' or 'stage'; 払い (barai) - 'sweep' or 'brush away'. Together they describe a sweeping motion that deflects attacks at the lower level."
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "hiraganaName": "あげうけ",
       "shortDescription": "Rising block against overhead attacks",
       "definition": "Rising block; an upward blocking technique to defend against overhead attacks. The forearm moves upward and outward to intercept and deflect attacks coming from above, such as overhead strikes or weapon attacks. The blocking arm finishes above and in front of the forehead.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "上げ (age) - 'raise' or 'lift up'; 受け (uke) - 'receive' or 'block'. Together they describe the action of raising the arm to receive and deflect an incoming attack."
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "hiraganaName": "おいづき",
       "shortDescription": "Lunge punch while stepping forward",
       "definition": "Lunge punch; a straight punch executed while stepping forward. This technique combines forward movement with a powerful straight punch, using the momentum of the entire body. The stepping leg and punching arm move simultaneously, creating a devastating attack that can cover significant distance.",
-      "category": "punches"
+      "category": "punches",
+      "componentBreakdown": "追い (oi) - 'chase' or 'pursue'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punching technique that chases or pursues the target by stepping forward."
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "hiraganaName": "ぎゃくづき",
       "shortDescription": "Reverse punch with opposite hand",
       "definition": "Reverse punch; a punch with the opposite hand to the forward leg. This is one of the most fundamental and powerful punching techniques in karate. The punch is thrown from a stable stance, using hip rotation and the reaction of the opposite hand to generate maximum power.",
-      "category": "punches"
+      "category": "punches",
+      "componentBreakdown": "逆 (gyaku) - 'reverse' or 'opposite'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered with the hand opposite to the forward leg."
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "hiraganaName": "まえげり",
       "shortDescription": "Straight front kick technique",
       "definition": "Front kick; a straight kick delivered with the ball of the foot. The knee is lifted high and the foot is snapped forward in a straight line toward the target. This kick can be used to attack the solar plexus, stomach, or groin, and is one of the fastest and most direct kicking techniques.",
-      "category": "kicks"
+      "category": "kicks",
+      "componentBreakdown": "前 (mae) - 'front' or 'forward'; 蹴り (geri) - 'kick'. Together they describe a kick delivered straight forward toward the front."
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "hiraganaName": "よこげり",
       "shortDescription": "Side kick with edge of foot",
       "definition": "Side kick; a kick delivered with the side or edge of the foot. The leg is lifted to the side and driven outward, striking with the blade edge of the foot. This powerful kick can target the ribs, kidneys, or knee, and provides good range while maintaining balance.",
-      "category": "kicks"
+      "category": "kicks",
+      "componentBreakdown": "横 (yoko) - 'side' or 'horizontal'; 蹴り (geri) - 'kick'. Together they describe a kick delivered to the side or in a horizontal direction."
     },
     {
       "id": 15,
@@ -133,7 +147,8 @@
       "hiraganaName": "しゅとうけ",
       "shortDescription": "Knife hand blocking technique",
       "definition": "Knife hand block; a blocking technique using the edge of the hand. The hand is held with fingers extended and pressed together, creating a blade-like weapon. This block can be used to deflect attacks while simultaneously preparing for a counter-attack with the same hand.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "手 (shu/te) - 'hand'; 刀 (tō) - 'sword' or 'blade'; 受け (uke) - 'receive' or 'block'. Together they describe blocking with the hand shaped like a sword blade."
     },
     {
       "id": 16,
@@ -142,7 +157,8 @@
       "hiraganaName": "くみて",
       "shortDescription": "Sparring practice between partners",
       "definition": "Sparring; free fighting practice between two people. Kumite allows practitioners to apply techniques learned in kata and kihon in a more realistic fighting situation. It develops timing, distance, strategy, and the ability to adapt techniques under pressure while maintaining control and respect for one's partner.",
-      "category": "training"
+      "category": "training",
+      "componentBreakdown": "組 (kumi) - 'pair' or 'group together'; 手 (te) - 'hand'. Together they mean 'paired hands' or 'grappling hands', referring to the practice of working together with a partner."
     },
     {
       "id": 17,
@@ -151,7 +167,8 @@
       "hiraganaName": "きほん",
       "shortDescription": "Basic fundamental techniques",
       "definition": "Basics; fundamental techniques practiced repeatedly to perfect form and develop muscle memory. Kihon training involves practicing individual techniques in isolation, focusing on proper form, timing, and power generation. This foundational training is essential for developing strong karate technique.",
-      "category": "training"
+      "category": "training",
+      "componentBreakdown": "基 (ki) - 'foundation' or 'base'; 本 (hon) - 'origin' or 'fundamental'. Together they mean 'fundamental basics' or 'foundational origins' of technique."
     },
     {
       "id": 18,
@@ -160,7 +177,8 @@
       "hiraganaName": "だん",
       "shortDescription": "Black belt ranking system",
       "definition": "Black belt rank; numbered grades above brown belt that represent advanced levels of skill and knowledge. Dan ranks typically progress from 1st Dan through 10th Dan, with each level requiring years of dedicated training and mastery of increasingly sophisticated techniques and concepts.",
-      "category": "ranks"
+      "category": "ranks",
+      "componentBreakdown": "段 (dan) - This single kanji means 'step', 'grade', or 'level'. It represents progression through levels of mastery, like steps on a staircase leading to higher understanding."
     },
     {
       "id": 19,
@@ -169,7 +187,8 @@
       "hiraganaName": "きゅう",
       "shortDescription": "Colored belt ranking system",
       "definition": "Colored belt rank; numbered grades below black belt that represent progressive levels of basic skill development. Kyū ranks typically progress from higher numbers (10th kyū) to lower numbers (1st kyū), with each level demonstrating mastery of specific techniques and kata.",
-      "category": "ranks"
+      "category": "ranks",
+      "componentBreakdown": "級 (kyū) - This single kanji means 'class', 'grade', or 'level'. It represents classification or ranking within a system, indicating one's current level of achievement."
     },
     {
       "id": 20,
@@ -178,7 +197,8 @@
       "hiraganaName": "おび",
       "shortDescription": "Belt indicating rank and progress",
       "definition": "Belt; the colored sash worn around the waist to indicate rank and level of achievement in karate. The obi is more than just a practical item to hold the gi closed; it represents the student's journey, dedication, and level of understanding in the martial arts.",
-      "category": "equipment"
+      "category": "equipment",
+      "componentBreakdown": "帯 (obi) - This single kanji means 'belt', 'sash', or 'band'. It represents something that binds or holds together, symbolically representing the binding of knowledge and progress."
     },
     {
       "id": 21,
@@ -187,7 +207,8 @@
       "hiraganaName": "はちじだち",
       "shortDescription": "Natural stance with feet shoulder-width apart",
       "definition": "Natural stance where the feet are positioned shoulder-width apart with toes pointing outward at approximately 45 degrees, forming the shape of the character '八' (hachi - eight). This is the basic ready stance used at the beginning and end of kata, providing a stable and balanced foundation.",
-      "category": "stances"
+      "category": "stances",
+      "componentBreakdown": "八 (hachi) - 'eight', referring to the shape formed by the feet; 字 (ji) - 'character' or 'letter'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance that forms the shape of the character '八'."
     },
     {
       "id": 22,
@@ -196,7 +217,8 @@
       "hiraganaName": "むすびだち",
       "shortDescription": "Attention stance with heels together",
       "definition": "Formal attention stance where the heels are together and the toes point outward at approximately 60 degrees. This stance is used for formal greetings, bowing (rei), and shows respect and discipline. The body is upright with shoulders relaxed.",
-      "category": "stances"
+      "category": "stances",
+      "componentBreakdown": "結び (musubi) - 'tie' or 'bind together'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where the feet are bound or tied together at the heels."
     },
     {
       "id": 23,
@@ -205,7 +227,8 @@
       "hiraganaName": "きばだち",
       "shortDescription": "Horse stance with wide, low position",
       "definition": "Horse stance where the feet are positioned wide apart (approximately two shoulder widths) with toes pointing forward and knees bent as if sitting on a horse. This stance develops leg strength, stability, and is used for powerful side techniques. The back remains straight and weight is evenly distributed.",
-      "category": "stances"
+      "category": "stances",
+      "componentBreakdown": "騎 (ki) - 'ride' or 'mount'; 馬 (ba/uma) - 'horse'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance that mimics riding a horse."
     },
     {
       "id": 24,
@@ -214,7 +237,8 @@
       "hiraganaName": "へいそくだち",
       "shortDescription": "Closed-foot stance with feet together",
       "definition": "Closed-foot stance where both feet are placed together side by side, toes pointing forward. This stance is used in transitional movements and certain kata positions. It requires good balance and is often used before or after kicks.",
-      "category": "stances"
+      "category": "stances",
+      "componentBreakdown": "閉 (hei) - 'close' or 'shut'; 足 (soku/ashi) - 'foot'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance with closed or together feet."
     },
     {
       "id": 25,
@@ -223,7 +247,8 @@
       "hiraganaName": "こうさだち",
       "shortDescription": "Cross stance with legs crossed",
       "definition": "Cross stance where one leg crosses behind or in front of the other, creating an X-pattern when viewed from above. This stance is used for quick directional changes and evasive movements, though it sacrifices stability for mobility.",
-      "category": "stances"
+      "category": "stances",
+      "componentBreakdown": "交 (kō) - 'cross' or 'intersect'; 差 (sa) - 'difference' or 'to insert'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where the legs cross or intersect."
     },
     {
       "id": 26,
@@ -232,7 +257,8 @@
       "hiraganaName": "あしだち",
       "shortDescription": "Single-leg stance for kicks and transitions",
       "definition": "Single-leg stance where most of the weight is supported on one leg while the other leg is lifted or positioned lightly. This stance is used for kicking techniques, balance training, and transitional movements between techniques.",
-      "category": "stances"
+      "category": "stances",
+      "componentBreakdown": "足 (ashi) - 'foot' or 'leg'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance focused on foot/leg positioning, typically on one leg."
     },
     {
       "id": 27,
@@ -241,7 +267,8 @@
       "hiraganaName": "ちゅうだん",
       "shortDescription": "Middle level targeting area",
       "definition": "Middle level of attack and defense, typically targeting the area from the solar plexus to the bottom of the rib cage. Most basic punches and blocks are performed at chūdan level. This is the most commonly used target area in karate techniques.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "中 (chū) - 'middle' or 'center'; 段 (dan) - 'level' or 'stage'. Together they describe the middle level of targeting in martial arts techniques."
     },
     {
       "id": 28,
@@ -250,7 +277,8 @@
       "hiraganaName": "じょうだん",
       "shortDescription": "Upper level targeting area",
       "definition": "Upper level of attack and defense, typically targeting the area from the collar bone to the top of the head. Jōdan techniques include high punches, high blocks, and face-level attacks. These techniques require good flexibility and timing.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "上 (jō) - 'upper' or 'above'; 段 (dan) - 'level' or 'stage'. Together they describe the upper level of targeting in martial arts techniques."
     },
     {
       "id": 29,
@@ -259,7 +287,8 @@
       "hiraganaName": "げだん",
       "shortDescription": "Lower level targeting area",
       "definition": "Lower level of attack and defense, typically targeting the area below the belt including the groin, thighs, and legs. Gedan techniques include low blocks, low punches, and kicks to the lower body. These are often defensive techniques.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "下 (ge) - 'lower' or 'below'; 段 (dan) - 'level' or 'stage'. Together they describe the lower level of targeting in martial arts techniques."
     },
     {
       "id": 30,
@@ -268,7 +297,8 @@
       "hiraganaName": "てっついうち",
       "shortDescription": "Hammer fist strike technique",
       "definition": "Hammer fist strike using the bottom of the closed fist to deliver a powerful downward or circular blow. The technique mimics the action of a hammer and can be used to strike various targets including the head, ribs, or limbs. It's a versatile close-range technique.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "鉄 (tetsu) - 'iron'; 槌 (tsui) - 'hammer'; 打 (uchi) - 'strike' or 'hit'. Together they describe a striking technique that mimics an iron hammer."
     },
     {
       "id": 31,
@@ -277,7 +307,8 @@
       "hiraganaName": "もろてうけ",
       "shortDescription": "Two-handed blocking technique",
       "definition": "Two-handed block where both hands work together to defend against powerful attacks. One hand performs the primary blocking action while the other hand provides support and additional strength. This technique is used against strong attacks that might overwhelm a single-handed block.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "諸 (moro) - 'both' or 'all'; 手 (te) - 'hand'; 受け (uke) - 'receive' or 'block'. Together they describe a blocking technique using both hands together."
     },
     {
       "id": 32,
@@ -286,7 +317,8 @@
       "hiraganaName": "そとうけ",
       "shortDescription": "Outside block deflecting inward",
       "definition": "Outside block that moves from outside to inside, deflecting attacks away from the centerline of the body. The blocking arm moves in an arc from the outside position across the body, using the forearm to redirect incoming attacks.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "外 (soto) - 'outside' or 'exterior'; 受け (uke) - 'receive' or 'block'. Together they describe a block that starts from the outside and moves inward."
     },
     {
       "id": 33,
@@ -295,7 +327,8 @@
       "hiraganaName": "うちうけ",
       "shortDescription": "Inside block deflecting outward",
       "definition": "Inside block that moves from inside to outside, deflecting attacks away from the body's centerline. The blocking arm starts near the opposite shoulder and moves outward in an arc, using the forearm to redirect incoming attacks.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "内 (uchi) - 'inside' or 'interior'; 受け (uke) - 'receive' or 'block'. Together they describe a block that starts from the inside and moves outward."
     },
     {
       "id": 34,
@@ -304,7 +337,8 @@
       "hiraganaName": "えんぴうち",
       "shortDescription": "Elbow strike technique",
       "definition": "Elbow strike using the point or side of the elbow to deliver a powerful close-range attack. Elbow strikes can be delivered in various directions: forward, backward, upward, downward, or to the side. They are extremely effective in close combat situations.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "肘 (empi) - 'elbow'; 打 (uchi) - 'strike' or 'hit'. Together they describe a striking technique using the elbow as the weapon."
     },
     {
       "id": 35,
@@ -313,7 +347,8 @@
       "hiraganaName": "うらけんうち",
       "shortDescription": "Back-fist strike technique",
       "definition": "Back-fist strike using the back of the knuckles to deliver a whipping blow. The technique uses a snapping motion from the elbow or wrist to generate speed and power. It's effective for close-range attacks and can target the face, ribs, or temples.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "裏 (ura) - 'back' or 'reverse side'; 拳 (ken) - 'fist'; 打 (uchi) - 'strike' or 'hit'. Together they describe a strike using the back side of the fist."
     },
     {
       "id": 36,
@@ -322,7 +357,8 @@
       "hiraganaName": "ぬきて",
       "shortDescription": "Spear hand penetrating technique",
       "definition": "Spear hand technique where the fingers are extended and pressed together to form a penetrating weapon. The fingertips are used to strike vital points and soft targets. This technique requires extensive conditioning and precise targeting.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "貫 (nuki) - 'penetrate' or 'pierce through'; 手 (te) - 'hand'. Together they describe a hand technique that penetrates or pierces through targets."
     },
     {
       "id": 37,
@@ -331,7 +367,8 @@
       "hiraganaName": "けあげ",
       "shortDescription": "Snapping kick motion",
       "definition": "Snapping kick motion where the leg is quickly extended and immediately retracted. This creates a fast, whip-like motion that emphasizes speed over penetration. Keage kicks are used for quick strikes and to maintain distance from opponents.",
-      "category": "kicks"
+      "category": "kicks",
+      "componentBreakdown": "蹴 (ke) - 'kick'; 上 (age) - 'up' or 'raise'. Together they describe a kicking motion that snaps upward with quick retraction."
     },
     {
       "id": 38,
@@ -340,7 +377,8 @@
       "hiraganaName": "けこみ",
       "shortDescription": "Thrusting kick motion",
       "definition": "Thrusting kick motion where the leg drives forward with penetrating power, staying extended momentarily upon impact. This creates maximum force transfer and is used to push or break through targets. Kekomi kicks emphasize power over speed.",
-      "category": "kicks"
+      "category": "kicks",
+      "componentBreakdown": "蹴 (ke) - 'kick'; 込 (komi) - 'into' or 'thrust in'. Together they describe a kicking motion that thrusts deeply into the target."
     },
     {
       "id": 39,
@@ -349,7 +387,8 @@
       "hiraganaName": "ふみこみ",
       "shortDescription": "Stamping or stepping technique",
       "definition": "Stamping or stepping technique where the foot is brought down forcefully onto a target, typically the opponent's foot, shin, or instep. This technique can be used for attacks, to break balance, or to create distance. It combines stepping with striking.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "踏み (fumi) - 'step on' or 'trample'; 込み (komi) - 'into' or 'deeply'. Together they describe a technique that steps forcefully into or onto a target."
     },
     {
       "id": 40,
@@ -358,7 +397,8 @@
       "hiraganaName": "じゅうじうけ",
       "shortDescription": "Cross block with both arms",
       "definition": "Cross block where both arms form an X-shape to block powerful overhead or frontal attacks. The arms can cross with fists closed or open hands. This block provides strong defense against heavy attacks but leaves the body momentarily committed to the blocking position.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "十 (jū) - 'ten'; 字 (ji) - 'character' or 'letter'; 受け (uke) - 'receive' or 'block'. Together they describe a block that forms the shape of the character '十' (cross or plus sign)."
     },
     {
       "id": 41,
@@ -367,7 +407,8 @@
       "hiraganaName": "すくいうけ",
       "shortDescription": "Scooping block technique",
       "definition": "Scooping block that moves in an upward, scooping motion to deflect low attacks or kicks. The blocking arm moves from low to high in a circular motion, like scooping water. This block is effective against low kicks and can set up counter-attacks.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "掬い (sukui) - 'scoop' or 'ladle up'; 受け (uke) - 'receive' or 'block'. Together they describe a blocking technique that scoops upward to deflect attacks."
     },
     {
       "id": 42,
@@ -376,7 +417,8 @@
       "hiraganaName": "ながしうけ",
       "shortDescription": "Sweeping deflection block",
       "definition": "Sweeping deflection block that redirects attacks with minimal force by guiding them past the body. Rather than stopping an attack directly, nagashi-uke uses circular or flowing motions to redirect the attack's energy, creating openings for counter-attacks.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "流し (nagashi) - 'flow' or 'sweep away'; 受け (uke) - 'receive' or 'block'. Together they describe a block that flows or sweeps attacks away rather than stopping them directly."
     },
     {
       "id": 43,
@@ -385,7 +427,8 @@
       "hiraganaName": "おさえうけ",
       "shortDescription": "Pressing or suppressing block",
       "definition": "Pressing or suppressing block that controls and restrains an attack rather than deflecting it. The blocking hand presses down or holds the attacking limb in place, often used in close-range situations to control the opponent's movements.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "押さえ (osae) - 'press down' or 'suppress'; 受け (uke) - 'receive' or 'block'. Together they describe a block that presses down to suppress or control attacks."
     },
     {
       "id": 44,
@@ -394,7 +437,8 @@
       "hiraganaName": "はいしゅうけ",
       "shortDescription": "Back-hand block technique",
       "definition": "Back-hand block using the back of the open hand to deflect attacks. The palm faces inward toward the body while the back of the hand contacts the attacking limb. This block allows for quick transitions to grabbing or striking techniques.",
-      "category": "blocks"
+      "category": "blocks",
+      "componentBreakdown": "背 (hai) - 'back' or 'rear'; 手 (shu/te) - 'hand'; 受け (uke) - 'receive' or 'block'. Together they describe blocking with the back surface of the hand."
     },
     {
       "id": 45,
@@ -403,7 +447,8 @@
       "hiraganaName": "みかづきげり",
       "shortDescription": "Crescent kick technique",
       "definition": "Crescent kick that travels in a curved, arc-like path resembling a crescent moon. The leg swings in a circular motion from inside to outside or outside to inside, striking with the inside or outside edge of the foot. Used for attacking the head or sweeping.",
-      "category": "kicks"
+      "category": "kicks",
+      "componentBreakdown": "三日月 (mikazuki) - 'crescent moon' (literally 'three-day moon'); 蹴り (geri) - 'kick'. Together they describe a kick that follows a curved path like a crescent moon."
     },
     {
       "id": 46,
@@ -412,7 +457,8 @@
       "hiraganaName": "たてづき",
       "shortDescription": "Vertical punch technique",
       "definition": "Vertical punch where the fist is held in a vertical position with the thumb on top. This punch can be delivered straight forward or upward and is effective in close-range situations where a traditional horizontal punch might be blocked or ineffective.",
-      "category": "punches"
+      "category": "punches",
+      "componentBreakdown": "縦 (tate) - 'vertical' or 'lengthwise'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered with the fist in a vertical orientation."
     },
     {
       "id": 47,
@@ -421,7 +467,8 @@
       "hiraganaName": "うらづき",
       "shortDescription": "Close-range uppercut punch",
       "definition": "Close-range uppercut punch delivered with the palm facing upward. The punch travels in an upward arc and is typically used for close-quarter combat, targeting the solar plexus, chin, or ribs. It's effective when the opponent is very close.",
-      "category": "punches"
+      "category": "punches",
+      "componentBreakdown": "裏 (ura) - 'back', 'reverse', or 'underneath'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered from underneath or from the reverse side."
     },
     {
       "id": 48,
@@ -430,7 +477,8 @@
       "hiraganaName": "よこづき",
       "shortDescription": "Side punch technique",
       "definition": "Side punch delivered horizontally to the side of the body, often while in a side-facing stance. This punch is used when the body is positioned sideways to the opponent and can target the ribs, kidneys, or side of the head.",
-      "category": "punches"
+      "category": "punches",
+      "componentBreakdown": "横 (yoko) - 'side' or 'horizontal'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered to the side or horizontally."
     },
     {
       "id": 49,
@@ -439,7 +487,8 @@
       "hiraganaName": "よい",
       "shortDescription": "Ready position or preparatory stance",
       "definition": "Ready position assumed at the beginning of kata or kumite, indicating preparation and alertness. In this position, the practitioner stands in hachiji-dachi with fists positioned at the sides, ready to begin the kata or respond to attacks.",
-      "category": "etiquette"
+      "category": "etiquette",
+      "componentBreakdown": "用 (yō) - 'use' or 'preparation'; 意 (i) - 'mind' or 'intention'. Together they mean 'preparation of mind' or 'ready intention', indicating mental and physical readiness."
     },
     {
       "id": 50,
@@ -448,7 +497,8 @@
       "hiraganaName": "ひきて",
       "shortDescription": "Withdrawing or pulling hand",
       "definition": "Withdrawing hand technique where one hand pulls back to the hip while the other executes a technique. This action helps generate power through the reaction principle, maintains balance, and can be used to pull an opponent or clear the path for the striking hand.",
-      "category": "techniques"
+      "category": "techniques",
+      "componentBreakdown": "引き (hiki) - 'pull' or 'draw back'; 手 (te) - 'hand'. Together they describe the action of pulling or withdrawing the hand, typically to the hip position."
     }
   ]
 }

@@ -118,7 +118,10 @@
 "vocabulary.error.title" = "Error";
 "vocabulary.empty.title" = "No terms found";
 "vocabulary.empty.subtitle" = "Try adjusting your search or filter";
+
+/* Vocabulary Detail */
 "vocabulary.detail.definition" = "Definition";
+"vocabulary.detail.breakdown" = "Japanese Component Breakdown";
 "vocabulary.detail.category" = "Category";
 
 /* Vocabulary Categories */

@@ -20,6 +20,7 @@ struct VocabularyTerm: Identifiable, Codable, Hashable {
     let shortDescription: String
     let definition: String
     let category: String
+    let componentBreakdown: String?
 
     var categoryType: VocabularyCategory {
         VocabularyCategory(rawValue: category) ?? .general

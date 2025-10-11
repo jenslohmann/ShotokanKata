@@ -181,7 +181,8 @@ struct ClickableVocabularyText: View {
             hiraganaName: "かた",
             shortDescription: "Predetermined sequence of karate movements",
             definition: "A sequence of karate movements performed in a predetermined pattern against imaginary opponents.",
-            category: "general"
+            category: "general",
+            componentBreakdown: "型 (kata) - This single kanji character means 'form', 'shape', or 'mold'. It represents the concept of a fixed pattern or template that preserves traditional techniques and movements for future generations."
         ),
         VocabularyTerm(
             id: 7,
@@ -190,7 +191,8 @@ struct ClickableVocabularyText: View {
             hiraganaName: "ぜんくつだち",
             shortDescription: "Forward stance with long, low position",
             definition: "Front stance; a long, low stance with most weight on the front leg.",
-            category: "stances"
+            category: "stances",
+            componentBreakdown: "前 (zen) - 'front' or 'forward'; 屈 (kutsu) - 'bend' or 'crouch'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where you stand forward with bent legs."
         )
     ]
 

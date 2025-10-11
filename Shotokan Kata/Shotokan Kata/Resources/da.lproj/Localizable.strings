@@ -122,6 +122,7 @@
 "vocabulary.empty.title" = "Ingen termer fundet";
 "vocabulary.empty.subtitle" = "Prøv at justere din søgning eller filter";
 "vocabulary.detail.definition" = "Definition";
+"vocabulary.detail.breakdown" = "Japansk Komponent Opdeling";
 "vocabulary.detail.category" = "Kategori";
 
 /* Vocabulary Categories */

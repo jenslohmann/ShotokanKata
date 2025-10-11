@@ -66,6 +66,7 @@ struct VocabularyHeaderView: View {
         hiraganaName: "かた",
         shortDescription: "Predetermined sequence of karate movements",
         definition: "A sequence of karate movements performed in a predetermined pattern against imaginary opponents.",
-        category: "general"
+        category: "general",
+        componentBreakdown: "型 (kata) - This single kanji character means 'form', 'shape', or 'mold'. It represents the concept of a fixed pattern or template that preserves traditional techniques and movements for future generations."
     ))
 }

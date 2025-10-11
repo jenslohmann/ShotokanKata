@@ -32,6 +32,24 @@ struct VocabularyDetailView: View {
                     .cornerRadius(12)
                     .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
 
+                    // Component Breakdown Section
+                    if let componentBreakdown = term.componentBreakdown {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text(NSLocalizedString("vocabulary.detail.breakdown", comment: "Japanese Component Breakdown"))
+                                .font(.headline)
+                                .foregroundColor(.primary)
+
+                            Text(componentBreakdown)
+                                .font(.body)
+                                .foregroundColor(.primary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                        .padding()
+                        .background(Color(.systemBackground))
+                        .cornerRadius(12)
+                        .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
+                    }
+
                     // Category Section
                     VStack(alignment: .leading, spacing: 8) {
                         Text(NSLocalizedString("vocabulary.detail.category", comment: "Category"))
@@ -73,7 +91,8 @@ struct VocabularyDetailView: View {
             hiraganaName: "かた",
             shortDescription: "Predetermined sequence of karate movements",
             definition: "A sequence of karate movements performed in a predetermined pattern against imaginary opponents. Kata is one of the three main pillars of karate training, along with kihon (basics) and kumite (sparring).",
-            category: "general"
+            category: "general",
+            componentBreakdown: "型 (kata) - This single kanji character means 'form', 'shape', or 'mold'. It represents the concept of a fixed pattern or template that preserves traditional techniques and movements for future generations."
         ))
     }
 }
