@@ -474,7 +474,7 @@ struct FilterView: View {
                 }
 
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
+                    Button(NSLocalizedString("common.done", comment: "Done")) {
                         dismiss()
                     }
                     .fontWeight(.semibold)

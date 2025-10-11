@@ -53,7 +53,7 @@ struct QuizView: View {
 
                 ToolbarItem(placement: .navigationBarTrailing) {
                     if viewModel.quizState == .completed {
-                        Button("Done") {
+                        Button(NSLocalizedString("common.done", comment: "Done")) {
                             dismiss()
                         }
                         .fontWeight(.semibold)

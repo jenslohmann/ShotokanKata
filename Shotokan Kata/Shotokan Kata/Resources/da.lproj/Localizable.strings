@@ -4,7 +4,7 @@
 "nav.vocabulary" = "Ordbog";
 "nav.about" = "Om";
 
-/* Bæltegradueringer */
+/* Bæltegradueringer - Komplette graduering */
 "belt.white" = "Hvidt Bælte";
 "belt.yellow" = "Gult Bælte";
 "belt.orange" = "Orange Bælte";
@@ -16,6 +16,17 @@
 "belt.black_dan_3" = "3. Dan Sort Bælte";
 "belt.black_dan_4" = "4. Dan Sort Bælte";
 "belt.black_dan_5" = "5. Dan Sort Bælte";
+"belt.black_dan_6" = "6. Dan Sort Bælte";
+"belt.black_dan_7" = "7. Dan Sort Bælte";
+"belt.black_dan_8" = "8. Dan Sort Bælte";
+"belt.black_dan_9" = "9. Dan Sort Bælte";
+"belt.black_dan_10" = "10. Dan Sort Bælte";
+
+/* Kyū og Dan graduering terminologi */
+"rank.kyu" = "Kyū";
+"rank.dan" = "Dan";
+"rank.kyu_suffix" = ". Kyū";
+"rank.dan_suffix" = ". Dan";
 
 /* Kata Information */
 "kata.number" = "Kata";
@@ -25,11 +36,23 @@
 "kata.description" = "Beskrivelse";
 "kata.reference" = "Reference";
 "kata.sequence" = "Sekvens";
+"kata.difficulty" = "Sværhedsgrad";
+"kata.level.basic" = "Grundlæggende";
+"kata.level.intermediate" = "Mellemniveau";
+"kata.level.advanced" = "Avanceret";
+"kata.level.master" = "Mester";
 
 /* Kata Detail Tabs */
 "kata.tab.overview" = "Oversigt";
 "kata.tab.moves" = "Bevægelser";
 "kata.tab.history" = "Historie";
+
+/* Kata Move Details */
+"kata.move.description" = "Beskrivelse";
+"kata.move.stance" = "Stilling";
+"kata.move.direction" = "Retning";
+"kata.move.kiai" = "Kiai";
+"kata.move.technique" = "Teknik";
 
 /* Søgning og Filtrering */
 "search.kata.placeholder" = "Søg kata...";
@@ -43,7 +66,7 @@
 "filter.clear_all" = "Ryd Alle";
 "filter.belt_rank.title" = "Filtrer efter Bæltegraduering";
 "filter.general_level.title" = "Filtrer efter Niveau";
-"filter.basic_kata.subtitle" = "Kyu graduerings kata";
+"filter.basic_kata.subtitle" = "Kyū graduerings kata";
 "filter.advanced_kata.subtitle" = "Dan graduerings kata";
 
 /* Filter Statistikker */
@@ -93,6 +116,8 @@
 "quiz.category.applications" = "Anvendelser";
 "quiz.category.belt_ranks" = "Bæltegradueringer";
 "quiz.category.kata_order" = "Kata Rækkefølge";
+"quiz.category.terminology" = "Terminologi";
+"quiz.category.philosophy" = "Filosofi";
 
 /* Quiz Kategori Beskrivelser */
 "quiz.category.kata_names.description" = "Spørgsmål om kata navne og deres betydninger";
@@ -102,6 +127,8 @@
 "quiz.category.applications.description" = "Spørgsmål om praktiske anvendelser";
 "quiz.category.belt_ranks.description" = "Spørgsmål om hvilken bæltegraduering lærer hvilken kata";
 "quiz.category.kata_order.description" = "Spørgsmål om traditionel læringsrækkefølge";
+"quiz.category.terminology.description" = "Spørgsmål om japansk karate terminologi";
+"quiz.category.philosophy.description" = "Spørgsmål om karate filosofi og principper";
 
 /* Quiz Interface */
 "quiz.start" = "Start Quiz";
@@ -111,6 +138,11 @@
 "quiz.score" = "Score";
 "quiz.correct" = "Korrekt";
 "quiz.incorrect" = "Forkert";
+"quiz.question_progress" = "Spørgsmål %d af %d";
+"quiz.final_score" = "Din endelige score: %d%%";
+"quiz.excellent" = "Fremragende!";
+"quiz.good" = "Godt klaret!";
+"quiz.needs_improvement" = "Der er plads til forbedring";
 
 /* Vocabulary */
 "vocabulary.search.placeholder" = "Søg termer...";
@@ -124,6 +156,7 @@
 "vocabulary.detail.definition" = "Definition";
 "vocabulary.detail.breakdown" = "Japansk Komponent Opdeling";
 "vocabulary.detail.category" = "Kategori";
+"vocabulary.term_count" = "%d termer";
 
 /* Vocabulary Categories */
 "vocabulary.category.general" = "Generelt";
@@ -138,11 +171,31 @@
 "vocabulary.category.ranks" = "Graduering";
 "vocabulary.category.equipment" = "Udstyr";
 
-/* Common */
+/* Fælles Interface Elementer */
 "common.cancel" = "Annuller";
+"common.done" = "Færdig";
+"common.save" = "Gem";
+"common.edit" = "Rediger";
+"common.delete" = "Slet";
+"common.ok" = "OK";
+"common.yes" = "Ja";
+"common.no" = "Nej";
+"common.back" = "Tilbage";
+"common.next" = "Næste";
+"common.previous" = "Forrige";
+"common.close" = "Luk";
 
 /* Generelt */
 "loading" = "Indlæser...";
 "error" = "Fejl";
-"cancel" = "Annuller";
-"done" = "Færdig";
+"error.generic" = "Der opstod en fejl. Prøv venligst igen.";
+"error.network" = "Netværksfejl. Tjek din internetforbindelse.";
+"error.data" = "Kunne ikke indlæse data.";
+"retry" = "Prøv igen";
+
+/* About Sektion */
+"about.title" = "Om Shōtōkan Kata";
+"about.version" = "Version";
+"about.description" = "En app til at lære traditionelle Shōtōkan karate kata";
+"about.developer" = "Udvikler";
+"about.acknowledgments" = "Anerkendelser";

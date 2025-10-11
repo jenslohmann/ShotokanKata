@@ -51,7 +51,7 @@ struct ClickableVocabularyText: View {
                             .navigationBarTitleDisplayMode(.inline)
                             .toolbar {
                                 ToolbarItem(placement: .topBarTrailing) {
-                                    Button("Done") {
+                                    Button(NSLocalizedString("common.done", comment: "Done")) {
                                         presentedTerm = nil
                                     }
                                 }
