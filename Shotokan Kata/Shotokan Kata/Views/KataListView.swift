@@ -296,18 +296,11 @@ struct KataListRowView: View {
 
                 // Information Chips Row (Device Adaptive)
                 HStack(spacing: 8) {
-                    // Moves Chip (Always Visible)
-                    InfoChip(
-                        icon: "📍",
-                        text: "\(kata.numberOfMoves) Moves",
-                        backgroundColor: .blue
-                    )
-
                     // Techniques Chip (iPad Only)
                     if shouldShowTechniques {
                         InfoChip(
                             icon: "🎯",
-                            text: "\(kata.keyTechniques.count) Techniques",
+                            text: "\(kata.keyTechniques.count) techniques",
                             backgroundColor: .orange
                         )
                     }
