@@ -9,12 +9,19 @@ import SwiftUI
 
 struct KataOverviewView: View {
     let kata: Kata
+    @EnvironmentObject var vocabularyService: VocabularyDataService
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                DescriptionSection(description: kata.description)
-                KeyTechniquesSection(techniques: kata.keyTechniques)
+                if vocabularyService.vocabularyTerms.isEmpty {
+                    Text("⚠️ No vocabulary terms loaded")
+                        .foregroundColor(.red)
+                        .font(.caption)
+                }
+
+                DescriptionSection(description: kata.description, vocabularyTerms: vocabularyService.vocabularyTerms)
+                KeyTechniquesSection(techniques: kata.keyTechniques, vocabularyTerms: vocabularyService.vocabularyTerms)
                 ReferenceSection(urlString: kata.referenceURL)
 
                 Spacer(minLength: 20)
@@ -27,13 +34,14 @@ struct KataOverviewView: View {
 // MARK: - Description Section
 private struct DescriptionSection: View {
     let description: String
+    let vocabularyTerms: [VocabularyTerm]
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text("Description")
                 .font(.headline)
 
-            Text(description)
+            ClickableVocabularyText(text: description, vocabularyTerms: vocabularyTerms)
                 .font(.body)
                 .fixedSize(horizontal: false, vertical: true)
         }
@@ -43,6 +51,7 @@ private struct DescriptionSection: View {
 // MARK: - Key Techniques Section
 private struct KeyTechniquesSection: View {
     let techniques: [String]
+    let vocabularyTerms: [VocabularyTerm]
 
     var body: some View {
         if !techniques.isEmpty {
@@ -54,7 +63,7 @@ private struct KeyTechniquesSection: View {
                     GridItem(.adaptive(minimum: 150))
                 ], spacing: 8) {
                     ForEach(techniques, id: \.self) { technique in
-                        TechniqueBadge(technique: technique)
+                        TechniqueBadge(technique: technique, vocabularyTerms: vocabularyTerms)
                     }
                 }
             }
@@ -65,14 +74,14 @@ private struct KeyTechniquesSection: View {
 // MARK: - Technique Badge
 private struct TechniqueBadge: View {
     let technique: String
+    let vocabularyTerms: [VocabularyTerm]
 
     var body: some View {
-        Text(technique)
+        ClickableVocabularyText(text: technique, vocabularyTerms: vocabularyTerms)
             .font(.caption)
             .padding(.horizontal, 12)
             .padding(.vertical, 6)
             .background(Color.blue.opacity(0.1))
-            .foregroundColor(.blue)
             .clipShape(Capsule())
     }
 }

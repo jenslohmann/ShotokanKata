@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Shotokan_KataApp: App {
+    @StateObject private var vocabularyService = VocabularyDataService()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(vocabularyService)
                 .preferredColorScheme(nil) // Respect system setting
         }
     }

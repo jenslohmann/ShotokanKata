@@ -9,11 +9,15 @@ import SwiftUI
 
 struct KataSubMoveView: View {
     let subMove: KataSubMove
+    @EnvironmentObject var vocabularyService: VocabularyDataService
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             SubMoveHeader(subMove: subMove)
-            ExpandableDescriptionView(description: subMove.description)
+            ExpandableDescriptionView(
+                description: subMove.description,
+                vocabularyTerms: vocabularyService.vocabularyTerms
+            )
         }
         .padding(.vertical, 8)
         .padding(.horizontal, 12)

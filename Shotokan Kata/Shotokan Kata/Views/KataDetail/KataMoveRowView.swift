@@ -9,13 +9,17 @@ import SwiftUI
 
 struct KataMoveRowView: View {
     let move: KataMove
+    @EnvironmentObject var vocabularyService: VocabularyDataService
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             MoveHeader(move: move)
 
             if let firstSubMove = move.subMoves.first {
-                ExpandableDescriptionView(description: firstSubMove.description)
+                ExpandableDescriptionView(
+                    description: firstSubMove.description,
+                    vocabularyTerms: vocabularyService.vocabularyTerms
+                )
             }
 
             AdditionalSubMovesView(subMoves: Array(move.subMoves.dropFirst()))
