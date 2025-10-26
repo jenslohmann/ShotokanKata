@@ -77,7 +77,7 @@
     },
     {
       "sequence": 2,
-      "japaneseName": "Migi ura-zuki / Hidari nagashi-uke",
+      "japaneseName": "Migi ura-zuki / Hidari soto-nagashi-uke",
       "direction": "W",
       "kiai": false,
       "subMoves": [
@@ -92,11 +92,11 @@
         },
         {
           "order": 2,
-          "technique": "Hidari nagashi-uke",
+          "technique": "Hidari jōdan soto-nagashi-uke",
           "hiragana": "ひだり ながしうけ",
           "stance": "Kōkutsu-dachi",
           "stanceHiragana": "こうくつだち",
-          "description": "Left flowing block with back of hand outward",
+          "description": "Left flowing block (soto-uke) with back of hand outward",
           "icon": "hand.wave.fill"
         }
       ]
@@ -146,7 +146,7 @@
     },
     {
       "sequence": 5,
-      "japaneseName": "Hidari ura-zuki / Migi nagashi-uke",
+      "japaneseName": "Hidari ura-zuki / Migi soto-nagashi-uke",
       "direction": "E",
       "kiai": false,
       "subMoves": [
@@ -161,11 +161,11 @@
         },
         {
           "order": 2,
-          "technique": "Migi nagashi-uke",
+          "technique": "Migi jōdan nagashi-uke",
           "hiragana": "みぎ ながしうけ",
           "stance": "Kōkutsu-dachi",
           "stanceHiragana": "こうくつだち",
-          "description": "Right flowing block with back of hand outward",
+          "description": "Right flowing block (soto-uke) with back of hand outward",
           "icon": "hand.wave.fill"
         }
       ]
@@ -190,7 +190,7 @@
     {
       "sequence": 7,
       "japaneseName": "Migi jōdan uraken-yoko-mawashi-uchi / Migi sokuto-yoko-geri-keage",
-      "direction": "E",
+      "direction": "S",
       "kiai": false,
       "subMoves": [
         {
@@ -293,7 +293,7 @@
     {
       "sequence": 12,
       "japaneseName": "Hidari chūdan shutō-uke",
-      "direction": "W",
+      "direction": "E",
       "kiai": false,
       "subMoves": [
         {
@@ -310,7 +310,7 @@
     {
       "sequence": 13,
       "japaneseName": "Migi chūdan shutō-uke",
-      "direction": "NE",
+      "direction": "SE",
       "kiai": false,
       "subMoves": [
         {
@@ -327,7 +327,7 @@
     {
       "sequence": 14,
       "japaneseName": "Migi chūdan shutō-uke",
-      "direction": "E",
+      "direction": "W",
       "kiai": false,
       "subMoves": [
         {
@@ -344,7 +344,7 @@
     {
       "sequence": 15,
       "japaneseName": "Hidari chūdan shutō-uke",
-      "direction": "SE",
+      "direction": "SW",
       "kiai": false,
       "subMoves": [
         {
@@ -361,7 +361,7 @@
     {
       "sequence": 16,
       "japaneseName": "Migi chūdan uchi-ude-uke",
-      "direction": "N",
+      "direction": "S",
       "kiai": false,
       "subMoves": [
         {
@@ -378,7 +378,7 @@
     {
       "sequence": 17,
       "japaneseName": "Migi mae-geri-keage",
-      "direction": "N",
+      "direction": "S",
       "kiai": false,
       "subMoves": [
         {
@@ -395,7 +395,7 @@
     {
       "sequence": 18,
       "japaneseName": "Hidari chūdan gyaku-zuki",
-      "direction": "N",
+      "direction": "S",
       "kiai": false,
       "subMoves": [
         {
@@ -412,7 +412,7 @@
     {
       "sequence": 19,
       "japaneseName": "Hidari chūdan uchi-ude-uke",
-      "direction": "N",
+      "direction": "S",
       "kiai": false,
       "subMoves": [
         {
@@ -429,7 +429,7 @@
     {
       "sequence": 20,
       "japaneseName": "Hidari mae-geri-keage",
-      "direction": "N",
+      "direction": "S",
       "kiai": false,
       "subMoves": [
         {
@@ -446,7 +446,7 @@
     {
       "sequence": 21,
       "japaneseName": "Migi chūdan gyaku-zuki",
-      "direction": "N",
+      "direction": "S",
       "kiai": false,
       "subMoves": [
         {
@@ -463,7 +463,7 @@
     {
       "sequence": 22,
       "japaneseName": "Migi chūdan morote-uke",
-      "direction": "N",
+      "direction": "S",
       "kiai": false,
       "subMoves": [
         {
@@ -480,16 +480,16 @@
     {
       "sequence": 23,
       "japaneseName": "Hidari gedan-barai",
-      "direction": "W",
+      "direction": "WNW",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
           "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
-          "description": "Move left foot in arc to left rear, pivot 90° into front stance with left downward block",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Move left foot to pivot in anti-clockwise 70° arc to left rear while rotating the body on the right heel into front stance with left downward block. The feet should be on an E-W line",
           "icon": "shield.slash.fill"
         }
       ]
@@ -497,7 +497,7 @@
     {
       "sequence": 24,
       "japaneseName": "Migi jōdan age-uke",
-      "direction": "NE",
+      "direction": "WNW",
       "kiai": false,
       "subMoves": [
         {
@@ -506,16 +506,16 @@
           "hiragana": "ひだり しゅとう あげうけ",
           "stance": "Zenkutsu-dachi",
           "stanceHiragana": "ぜんくつだち",
-          "description": "Turn head 45° right, left knife-hand rising block preparation",
+          "description": "left knife-hand rising block preparation",
           "icon": "hand.raised.slash.fill"
         },
         {
           "order": 2,
           "technique": "Migi jōdan age-uke",
           "hiragana": "みぎ じょうだん あげうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
-          "description": "Advance right foot 45° into front stance with right upper-level rising block",
+          "stance": "Migi Zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
+          "description": "Advance right foot into front stance with right upper-level rising block",
           "icon": "shield.fill"
         }
       ]
@@ -523,16 +523,16 @@
     {
       "sequence": 25,
       "japaneseName": "Migi gedan-barai",
-      "direction": "E",
+      "direction": "ENE",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
           "technique": "Migi gedan-barai",
           "hiragana": "みぎ げだんばらい",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
-          "description": "Move right foot in circular arc to rear, turn 135° into front stance with right downward block",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
+          "description": "Move right foot in circular arc to rear, turn 135° into front stance with right downward block. The feet should be on an E-W line",
           "icon": "shield.slash.fill"
         }
       ]
@@ -540,7 +540,7 @@
     {
       "sequence": 26,
       "japaneseName": "Hidari jōdan age-uke",
-      "direction": "NW",
+      "direction": "ENE",
       "kiai": true,
       "subMoves": [
         {
@@ -549,16 +549,16 @@
           "hiragana": "みぎ しゅとう あげうけ",
           "stance": "Zenkutsu-dachi",
           "stanceHiragana": "ぜんくつだち",
-          "description": "Turn head 45° left, right knife-hand rising block preparation",
+          "description": "Right knife-hand rising block preparation",
           "icon": "hand.raised.slash.fill"
         },
         {
           "order": 2,
           "technique": "Hidari jōdan age-uke",
           "hiragana": "ひだり じょうだん あげうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
-          "description": "Advance left foot 45° into front stance with left upper-level rising block and kiai",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Advance left foot into front stance with left upper-level rising block and kiai",
           "icon": "shield.fill"
         }
       ]
