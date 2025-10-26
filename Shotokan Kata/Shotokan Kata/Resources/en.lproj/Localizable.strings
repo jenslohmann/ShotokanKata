@@ -4,7 +4,7 @@
 "nav.vocabulary" = "Vocabulary";
 "nav.about" = "About";
 
-/* Belt Ranks */
+/* Belt Ranks - Complete Graduations */
 "belt.white" = "White Belt";
 "belt.yellow" = "Yellow Belt";
 "belt.orange" = "Orange Belt";
@@ -16,17 +16,43 @@
 "belt.black_dan_3" = "3rd Dan Black Belt";
 "belt.black_dan_4" = "4th Dan Black Belt";
 "belt.black_dan_5" = "5th Dan Black Belt";
+"belt.black_dan_6" = "6th Dan Black Belt";
+"belt.black_dan_7" = "7th Dan Black Belt";
+"belt.black_dan_8" = "8th Dan Black Belt";
+"belt.black_dan_9" = "9th Dan Black Belt";
+"belt.black_dan_10" = "10th Dan Black Belt";
+
+/* Kyu and Dan Rank Terminology */
+"rank.kyu" = "Kyu";
+"rank.dan" = "Dan";
+"rank.kyu_suffix" = " Kyu";
+"rank.dan_suffix" = " Dan";
 
 /* Kata Information */
 "kata.number" = "Kata";
 "kata.moves" = "Moves";
 "kata.belt_rank" = "Belt Rank";
+"kata.key_techniques" = "Key Techniques";
 "kata.description" = "Description";
 "kata.reference" = "Reference";
-"kata.key_techniques" = "Key Techniques";
+"kata.sequence" = "Sequence";
+"kata.difficulty" = "Difficulty";
+"kata.level.basic" = "Basic";
+"kata.level.intermediate" = "Intermediate";
+"kata.level.advanced" = "Advanced";
+"kata.level.master" = "Master";
+
+/* Kata Detail Tabs */
 "kata.tab.overview" = "Overview";
 "kata.tab.moves" = "Moves";
 "kata.tab.history" = "History";
+
+/* Kata Move Details */
+"kata.move.description" = "Description";
+"kata.move.stance" = "Stance";
+"kata.move.direction" = "Direction";
+"kata.move.kiai" = "Kiai";
+"kata.move.technique" = "Technique";
 
 /* Search and Filtering */
 "search.kata.placeholder" = "Search kata...";
@@ -90,6 +116,8 @@
 "quiz.category.applications" = "Applications";
 "quiz.category.belt_ranks" = "Belt Ranks";
 "quiz.category.kata_order" = "Kata Order";
+"quiz.category.terminology" = "Terminology";
+"quiz.category.philosophy" = "Philosophy";
 
 /* Quiz Category Descriptions */
 "quiz.category.kata_names.description" = "Questions about kata names and their meanings";
@@ -99,6 +127,8 @@
 "quiz.category.applications.description" = "Questions about practical applications";
 "quiz.category.belt_ranks.description" = "Questions about which belt rank learns which kata";
 "quiz.category.kata_order.description" = "Questions about traditional learning order";
+"quiz.category.terminology.description" = "Questions about Japanese karate terminology";
+"quiz.category.philosophy.description" = "Questions about karate philosophy and principles";
 
 /* Quiz Interface */
 "quiz.start" = "Start Quiz";
@@ -108,6 +138,11 @@
 "quiz.score" = "Score";
 "quiz.correct" = "Correct";
 "quiz.incorrect" = "Incorrect";
+"quiz.question_progress" = "Question %d of %d";
+"quiz.final_score" = "Your final score: %d%%";
+"quiz.excellent" = "Excellent!";
+"quiz.good" = "Good job!";
+"quiz.needs_improvement" = "Room for improvement";
 
 /* Vocabulary */
 "vocabulary.search.placeholder" = "Search terms...";
@@ -118,11 +153,10 @@
 "vocabulary.error.title" = "Error";
 "vocabulary.empty.title" = "No terms found";
 "vocabulary.empty.subtitle" = "Try adjusting your search or filter";
-
-/* Vocabulary Detail */
 "vocabulary.detail.definition" = "Definition";
 "vocabulary.detail.breakdown" = "Japanese Component Breakdown";
 "vocabulary.detail.category" = "Category";
+"vocabulary.term_count" = "%d terms";
 
 /* Vocabulary Categories */
 "vocabulary.category.general" = "General";
@@ -139,3 +173,29 @@
 
 /* Common */
 "common.cancel" = "Cancel";
+"common.done" = "Done";
+"common.save" = "Save";
+"common.edit" = "Edit";
+"common.delete" = "Delete";
+"common.ok" = "OK";
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.back" = "Back";
+"common.next" = "Next";
+"common.previous" = "Previous";
+"common.close" = "Close";
+
+/* General */
+"loading" = "Loading...";
+"error" = "Error";
+"error.generic" = "An error occurred. Please try again.";
+"error.network" = "Network error. Check your internet connection.";
+"error.data" = "Could not load data.";
+"retry" = "Try Again";
+
+/* About Section */
+"about.title" = "About Shōtōkan Kata";
+"about.version" = "Version";
+"about.description" = "An app for learning traditional Shōtōkan karate kata";
+"about.developer" = "Developer";
+"about.acknowledgments" = "Acknowledgments";
