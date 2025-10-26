@@ -87,16 +87,33 @@ private struct JapaneseNameDisplay: View {
 // MARK: - Kiai Info Formatter
 struct KiaiInfoFormatter {
     static func format(_ moves: [KataMove]) -> String {
-        let kiaiMoves = moves.filter { $0.kiai == true }
+        // Collect all moves that have kiai at move level or sub-move level
+        var kiaiMoveNumbers: [Int] = []
 
-        switch kiaiMoves.count {
+        for move in moves {
+            // Check if move-level kiai is set
+            if move.kiai == true {
+                kiaiMoveNumbers.append(move.sequence)
+            } else {
+                // Check if any sub-move has kiai
+                let hasSubMoveKiai = move.subMoves.contains { $0.kiai == true }
+                if hasSubMoveKiai {
+                    kiaiMoveNumbers.append(move.sequence)
+                }
+            }
+        }
+
+        // Remove duplicates and sort
+        kiaiMoveNumbers = Array(Set(kiaiMoveNumbers)).sorted()
+
+        switch kiaiMoveNumbers.count {
         case 0:
             return "No kiai in this kata."
         case 1:
-            return "Kiai on move \(kiaiMoves[0].sequence)."
+            return "Kiai on move \(kiaiMoveNumbers[0])."
         default:
-            let moveNumbers = kiaiMoves.map { "\($0.sequence)" }
-            return "Kiai on moves \(moveNumbers.joined(separator: " and "))."
+            let moveNumberStrings = kiaiMoveNumbers.map { "\($0)" }
+            return "Kiai on moves \(moveNumberStrings.joined(separator: " and "))."
         }
     }
 }

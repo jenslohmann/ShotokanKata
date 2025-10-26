@@ -212,7 +212,8 @@ struct KataKiaiSelectionView_Previews: PreviewProvider {
                     stance: "Zenkutsu-dachi",
                     stanceHiragana: "ぜんくつだち",
                     description: "Advance the right foot in zenkutsu-dachi, realizing a right ascending right block (jodan age-uke) with KIAI",
-                    icon: "arrow.up.circle.fill"
+                    icon: "arrow.up.circle.fill",
+                    kiai: false
                 )
             ], sequenceName: nil
         )
@@ -230,7 +231,8 @@ struct KataKiaiSelectionView_Previews: PreviewProvider {
                     stance: "Zenkutsu-dachi",
                     stanceHiragana: "ぜんくつだち",
                     description: "Pivot on the right foot by bringing the left foot 90° to the left, in zenkutsu-dachi position",
-                    icon: "shield.lefthalf.filled"
+                    icon: "shield.lefthalf.filled",
+                    kiai: false
                 )
             ], sequenceName: nil
         )

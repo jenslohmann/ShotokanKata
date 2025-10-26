@@ -83,8 +83,9 @@ struct KataSubMove: Codable, Hashable {
     let stanceHiragana: String?
     let description: String
     let icon: String
+    let kiai: Bool?
 
     private enum CodingKeys: String, CodingKey {
-        case order, technique, hiragana, stance, stanceHiragana, description, icon
+        case order, technique, hiragana, stance, stanceHiragana, description, icon, kiai
     }
 }

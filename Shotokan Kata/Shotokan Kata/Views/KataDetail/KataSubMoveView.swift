@@ -58,6 +58,26 @@ private struct SubMoveHeader: View {
             }
 
             Spacer()
+
+            // Show kiai badge if this sub-move has kiai
+            if subMove.kiai == true {
+                SubMoveKiaiBadge()
+            }
         }
     }
 }
+
+// MARK: - Sub-Move Kiai Badge
+private struct SubMoveKiaiBadge: View {
+    var body: some View {
+        Text("KIAI!")
+            .font(.caption2)
+            .fontWeight(.bold)
+            .foregroundColor(.red)
+            .padding(.horizontal, 6)
+            .padding(.vertical, 2)
+            .background(Color.red.opacity(0.1))
+            .clipShape(Capsule())
+    }
+}
+

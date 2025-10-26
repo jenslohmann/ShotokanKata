@@ -32,7 +32,8 @@ enum PreviewData {
                         stance: "Zenkutsu-dachi",
                         stanceHiragana: "ぜんくつだち",
                         description: "Turn left 90° into front stance with left downward block",
-                        icon: "shield.lefthalf.filled"
+                        icon: "shield.lefthalf.filled",
+                        kiai: nil
                     )
                 ],
                 sequenceName: nil

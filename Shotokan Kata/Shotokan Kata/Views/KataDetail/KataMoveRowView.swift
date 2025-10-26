@@ -138,12 +138,28 @@ private struct MoveMetadata: View {
 
     var body: some View {
         VStack(spacing: 4) {
-            if move.kiai == true {
+            if hasKiai {
                 KiaiBadge()
             }
 
             DirectionIndicator(direction: move.direction)
         }
+    }
+
+    private var hasKiai: Bool {
+        // Show kiai badge if:
+        // 1. Move-level kiai is set, OR
+        // 2. There's only one sub-move and it has kiai (since single sub-moves don't show expanded)
+        if move.kiai == true {
+            return true
+        }
+
+        // Check if there's exactly one sub-move with kiai
+        if move.subMoves.count == 1, let firstSubMove = move.subMoves.first {
+            return firstSubMove.kiai == true
+        }
+
+        return false
     }
 }
 
