@@ -60,7 +60,7 @@
     },
     {
       "sequence": 1,
-      "japaneseName": "Migi ken gedan barai – hidari ken migi mune mae kamae",
+      "japaneseName": "Migi ken gedan-barai – hidari ken migi mune mae kamae",
       "direction": "NE",
       "subMoves": [
         {
@@ -69,7 +69,7 @@
           "hiragana": "みぎあし おんしく",
           "stance": "Migi ashi onshiku",
           "stanceHiragana": "みぎあし おんしく",
-          "description": "Drop down on right knee (one hand width between left foot and right knee) - block 45 degrees right gedan barai - hikite hand also lies 45 degrees in front of solar plexus - gaze follows",
+          "description": "Drop down on right knee (one hand width between left foot and right knee) - block 45 degrees right gedan-barai - hikite hand also lies 45 degrees in front of solar plexus - gaze follows",
           "icon": "figure.martial.arts"
         }
       ]
@@ -92,16 +92,16 @@
     },
     {
       "sequence": 3,
-      "japaneseName": "Migi gedan barai",
+      "japaneseName": "Migi gedan-barai",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi gedan barai",
+          "technique": "Migi gedan-barai",
           "hiragana": "みぎ げだんばらい",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
-          "description": "To the right side right gedan barai in zenkutsu-dachi. No hikite",
+          "description": "To the right side right gedan-barai in zenkutsu-dachi. No hikite",
           "icon": "shield.fill"
         }
       ]
@@ -124,16 +124,16 @@
     },
     {
       "sequence": 5,
-      "japaneseName": "Hidari gedan barai",
+      "japaneseName": "Hidari gedan-barai",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan barai",
+          "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
-          "description": "Straight forward left gedan barai in left zenkutsu-dachi",
+          "description": "Straight forward left gedan-barai in left zenkutsu-dachi",
           "icon": "shield.fill"
         }
       ]
@@ -181,12 +181,12 @@
     },
     {
       "sequence": 8,
-      "japaneseName": "Migi ushiro gedan barai",
+      "japaneseName": "Migi ushiro gedan-barai",
       "direction": "S",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi ushiro gedan barai",
+          "technique": "Migi ushiro gedan-barai",
           "hiragana": "みぎ うしろ げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -197,16 +197,16 @@
     },
     {
       "sequence": 9,
-      "japaneseName": "Hidari gedan barai",
+      "japaneseName": "Hidari gedan-barai",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan barai",
+          "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
-          "description": "Forward direction left gedan barai in same stance. Body vertical as normal",
+          "description": "Forward direction left gedan-barai in same stance. Body vertical as normal",
           "icon": "shield.fill"
         }
       ]
@@ -254,12 +254,12 @@
     },
     {
       "sequence": 12,
-      "japaneseName": "Migi ushiro gedan barai",
+      "japaneseName": "Migi ushiro gedan-barai",
       "direction": "S",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi ushiro gedan barai",
+          "technique": "Migi ushiro gedan-barai",
           "hiragana": "みぎ うしろ げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -270,16 +270,16 @@
     },
     {
       "sequence": 13,
-      "japaneseName": "Hidari gedan barai",
+      "japaneseName": "Hidari gedan-barai",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan barai",
+          "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
-          "description": "Forward direction left gedan barai in same stance",
+          "description": "Forward direction left gedan-barai in same stance",
           "icon": "shield.fill"
         }
       ]
@@ -367,16 +367,16 @@
     },
     {
       "sequence": 19,
-      "japaneseName": "Hidari gedan barai",
+      "japaneseName": "Hidari gedan-barai",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan barai",
+          "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
-          "description": "To the left, left gedan barai in zenkutsu-dachi",
+          "description": "To the left, left gedan-barai in zenkutsu-dachi",
           "icon": "shield.fill"
         }
       ]
@@ -463,16 +463,16 @@
     },
     {
       "sequence": 25,
-      "japaneseName": "Hidari gedan barai",
+      "japaneseName": "Hidari gedan-barai",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan barai",
+          "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
-          "description": "180 degrees around left gedan barai in left zenkutsu-dachi",
+          "description": "180 degrees around left gedan-barai in left zenkutsu-dachi",
           "icon": "shield.fill"
         }
       ]
@@ -520,12 +520,12 @@
     },
     {
       "sequence": 28,
-      "japaneseName": "Migi ushiro gedan barai",
+      "japaneseName": "Migi ushiro gedan-barai",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi ushiro gedan barai",
+          "technique": "Migi ushiro gedan-barai",
           "hiragana": "みぎ うしろ げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -536,16 +536,16 @@
     },
     {
       "sequence": 29,
-      "japaneseName": "Hidari gedan barai",
+      "japaneseName": "Hidari gedan-barai",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan barai",
+          "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
-          "description": "Forward direction left gedan barai in same stance",
+          "description": "Forward direction left gedan-barai in same stance",
           "icon": "shield.fill"
         }
       ]

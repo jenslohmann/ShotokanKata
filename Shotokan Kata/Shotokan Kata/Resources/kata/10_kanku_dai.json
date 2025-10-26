@@ -780,12 +780,12 @@
     },
     {
       "sequence": 44,
-      "japaneseName": "Hidari shutō gedan barai – migi shutō mune mae kamae",
+      "japaneseName": "Hidari shutō gedan-barai – migi shutō mune mae kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari shutō gedan barai",
+          "technique": "Hidari shutō gedan-barai",
           "hiragana": "ひだり しゅとうげだんばらい",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -1034,7 +1034,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi gedan barai",
+          "technique": "Migi gedan-barai",
           "hiragana": "みぎ げだんばらい",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",

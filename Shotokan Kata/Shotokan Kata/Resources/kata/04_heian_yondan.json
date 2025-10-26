@@ -108,12 +108,12 @@
     },
     {
       "sequence": 4,
-      "japaneseName": "Migi chūdan morote uke",
+      "japaneseName": "Migi chūdan morote-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan morote uke",
+          "technique": "Migi chūdan morote-uke",
           "hiragana": "みぎ ちゅうだん もろてうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -145,7 +145,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Uraken uchi / Yoko keage",
+          "technique": "Uraken-uchi / Yoko keage",
           "hiragana": "うらけんうち / よこけあげ",
           "stance": "Migi ashi-dachi",
           "stanceHiragana": "みぎあしだち",
@@ -193,7 +193,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Uraken uchi / Yoko keage",
+          "technique": "Uraken-uchi / Yoko keage",
           "hiragana": "うらけんうち / よこけあげ",
           "stance": "Hidari ashi-dachi",
           "stanceHiragana": "ひだりあしだち",
@@ -225,7 +225,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Shutō gedan barai",
+          "technique": "Shutō gedan-barai",
           "hiragana": "しゅとうげだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -245,16 +245,16 @@
     },
     {
       "sequence": 12,
-      "japaneseName": "Migi jōdan mae-geri",
+      "japaneseName": "Migi jōdan mae-geri keage",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi jōdan mae-geri",
+          "technique": "Migi jōdan mae-geri keage",
           "hiragana": "みぎ じょうだん まえげり",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
-          "description": "Right high level front kick",
+          "description": "Right high level upwards front kick",
           "icon": "figure.martial.arts"
         }
       ]
@@ -266,11 +266,11 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Osae uke / Uraken uchi",
+          "technique": "Osae uke / Uraken-uchi",
           "hiragana": "おさえうけ / うらけんうち",
           "stance": "Kōsa-dachi",
           "stanceHiragana": "こうさだち",
-          "description": "Forward fumikomi in cross stance left high level pressing block - right back fist vertical circular strike, while left closed fist is pulled hikite at hip. Hips in cross stance have same height as in zenkutsu-dachi. KIAI",
+          "description": "Forward in cross stance left high level pressing block - right back fist vertical circular strike, while left closed fist is pulled hikite at hip. Hips in cross stance have same height as in zenkutsu-dachi. KIAI",
           "icon": "figure.martial.arts",
           "kiai": true
         }
@@ -278,12 +278,12 @@
     },
     {
       "sequence": 14,
-      "japaneseName": "Ryō ken chūdan kakiwake uke",
+      "japaneseName": "Ryō ken chūdan kakiwake-uke",
       "direction": "SW",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Chūdan kakiwake uke",
+          "technique": "Chūdan kakiwake-uke",
           "hiragana": "ちゅうだん かきわけうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -342,12 +342,12 @@
     },
     {
       "sequence": 18,
-      "japaneseName": "Chūdan kakiwake uke",
+      "japaneseName": "Chūdan kakiwake-uke",
       "direction": "SE",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Chūdan kakiwake uke",
+          "technique": "Chūdan kakiwake-uke",
           "hiragana": "ちゅうだん かきわけうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -406,12 +406,12 @@
     },
     {
       "sequence": 22,
-      "japaneseName": "Hidari chūdan morote uke",
+      "japaneseName": "Hidari chūdan morote-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan morote uke",
+          "technique": "Hidari chūdan morote-uke",
           "hiragana": "ひだり ちゅうだん もろてうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -422,12 +422,12 @@
     },
     {
       "sequence": 23,
-      "japaneseName": "Migi chūdan morote uke",
+      "japaneseName": "Migi chūdan morote-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan morote uke",
+          "technique": "Migi chūdan morote-uke",
           "hiragana": "みぎ ちゅうだん もろてうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -438,12 +438,12 @@
     },
     {
       "sequence": 24,
-      "japaneseName": "Hidari chūdan morote uke",
+      "japaneseName": "Hidari chūdan morote-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan morote uke",
+          "technique": "Hidari chūdan morote-uke",
           "hiragana": "ひだり ちゅうだん もろてうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -480,12 +480,12 @@
     },
     {
       "sequence": 26,
-      "japaneseName": "Hidari shutō chūdan uke",
+      "japaneseName": "Hidari chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari shutō chūdan uke",
+          "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり しゅとうちゅうだんうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -496,12 +496,12 @@
     },
     {
       "sequence": 27,
-      "japaneseName": "Migi shutō chūdan uke",
+      "japaneseName": "Migi chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi shutō chūdan uke",
+          "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ しゅとうちゅうだんうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",

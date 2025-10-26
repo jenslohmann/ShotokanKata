@@ -82,7 +82,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kakiwake uke",
+          "technique": "kakiwake-uke",
           "hiragana": "かきわけうけ",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -162,7 +162,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kakiwake uke",
+          "technique": "kakiwake-uke",
           "hiragana": "かきわけうけ",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
@@ -407,12 +407,12 @@
     },
     {
       "sequence": 22,
-      "japaneseName": "Hidari ken gedan barai",
+      "japaneseName": "Hidari ken gedan-barai",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan barai",
+          "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -588,7 +588,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Chūdan kakiwake uke",
+          "technique": "Chūdan kakiwake-uke",
           "hiragana": "ちゅうだん かきわけうけ",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -727,12 +727,12 @@
     },
     {
       "sequence": 42,
-      "japaneseName": "Hidari gedan barai",
+      "japaneseName": "Hidari gedan-barai",
       "direction": "S",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan barai",
+          "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",

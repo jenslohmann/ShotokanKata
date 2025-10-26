@@ -360,13 +360,13 @@
     },
     {
       "sequence": 16,
-      "japaneseName": "Migi chūdan uchi-ude-uke",
+      "japaneseName": "Migi chūdan uchi-uke",
       "direction": "S",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan uchi-ude-uke",
+          "technique": "Migi chūdan uchi-uke",
           "hiragana": "みぎ ちゅうだん うちうでうけ",
           "stance": "Zenkutsu-dachi",
           "stanceHiragana": "ぜんくつだち",
@@ -411,13 +411,13 @@
     },
     {
       "sequence": 19,
-      "japaneseName": "Hidari chūdan uchi-ude-uke",
+      "japaneseName": "Hidari chūdan uchi-uke",
       "direction": "S",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan uchi-ude-uke",
+          "technique": "Hidari chūdan uchi-uke",
           "hiragana": "ひだり ちゅうだん うちうでうけ",
           "stance": "Zenkutsu-dachi",
           "stanceHiragana": "ぜんくつだち",
