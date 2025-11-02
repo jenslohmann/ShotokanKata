@@ -18,6 +18,7 @@ enum PreviewData {
         description: "The first kata in the Heian series, teaching basic blocks and punches in a simple linear pattern.",
         keyTechniques: ["Gedan-barai", "Oi-zuki", "Age-uke", "Gyaku-zuki"],
         referenceURL: "https://www.example.com",
+        videoURLs: ["https://www.youtube.com/watch?v=example1", "https://www.youtube.com/watch?v=example2"],
         moves: [
             KataMove(
                 sequence: 1,

@@ -319,12 +319,12 @@
     },
     {
       "sequence": 16,
-      "japaneseName": "Hidari chūdan tate shutō uke",
+      "japaneseName": "Hidari chūdan tate shutō-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan tate shutō uke",
+          "technique": "Hidari chūdan tate shutō-uke",
           "hiragana": "ひだり ちゅうだん たて しゅとうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -399,12 +399,12 @@
     },
     {
       "sequence": 21,
-      "japaneseName": "Migi chūdan shutō uke",
+      "japaneseName": "Migi chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan shutō uke",
+          "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -415,12 +415,12 @@
     },
     {
       "sequence": 22,
-      "japaneseName": "Hidari chūdan shutō uke",
+      "japaneseName": "Hidari chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan shutō uke",
+          "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -447,12 +447,12 @@
     },
     {
       "sequence": 24,
-      "japaneseName": "Migi chūdan shutō uke",
+      "japaneseName": "Migi chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan shutō uke",
+          "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -648,7 +648,7 @@
     },
     {
       "sequence": 36,
-      "japaneseName": "Jōhō kaiten tobi - migi chūdan shutō uke",
+      "japaneseName": "Jōhō kaiten tobi - migi chūdan shutō-uke",
       "direction": "S",
       "kiai": true,
       "subMoves": [
@@ -665,12 +665,12 @@
     },
     {
       "sequence": 37,
-      "japaneseName": "Hidari chūdan shutō uke",
+      "japaneseName": "Hidari chūdan shutō-uke",
       "direction": "S",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan shutō uke",
+          "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",

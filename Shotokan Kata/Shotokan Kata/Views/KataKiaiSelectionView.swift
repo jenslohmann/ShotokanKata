@@ -247,6 +247,7 @@ struct KataKiaiSelectionView_Previews: PreviewProvider {
             description: "Sample kata for preview",
             keyTechniques: ["Gedan-barai", "Age-uke"],
             referenceURL: nil,
+            videoURLs: nil,
             moves: [sampleMove1, sampleMove2]
         )
 

@@ -19,6 +19,7 @@ struct Kata: Identifiable, Codable, Hashable {
     let description: String
     let keyTechniques: [String]
     let referenceURL: String?
+    let videoURLs: [String]?
     let moves: [KataMove]
 
     // Computed property to convert string to KarateRank enum
@@ -56,7 +57,7 @@ struct Kata: Identifiable, Codable, Hashable {
     }
 
     private enum CodingKeys: String, CodingKey {
-        case name, japaneseName, hiraganaName, numberOfMoves, kataNumber, beltRank, description, keyTechniques, referenceURL, moves
+        case name, japaneseName, hiraganaName, numberOfMoves, kataNumber, beltRank, description, keyTechniques, referenceURL, videoURLs, moves
     }
 }
 

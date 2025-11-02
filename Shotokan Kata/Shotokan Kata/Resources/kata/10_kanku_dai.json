@@ -7,7 +7,6 @@
   "beltRank": "1_dan",
   "description": "Kankū Dai means 'to look at the sky - large', and in the first movement one directs the gaze upward. Kankū Dai symbolizes defending against eight opponents and is the longest kata in Shōtōkan (65 movements in total). Of the five kata that belong to shodan level in SKIF and are used as shitei-kata at WUKF championships (Bassai Dai, Jion, Empi, Jitte and Kanku Dai), it is also the most varied with several kicks, movements at all levels from lying down (ryote fuse) to jumping, left and right flying kicks (nidan geri) and a technically demanding turn after mae geri to manji uke in kokutsu dachi. Almost all movements in the Heian kata, created by Yasutsune Itosu, originate from Kanku Dai. This kata was Gichin Funakoshi's favorite and was previously called Koshokun and Kushankun after Kung Siang Chun, who is believed to have developed it. He was a Chinese diplomat sent by Emperor Ming and also an expert in kempo (Chinese boxing).",
   "keyTechniques": [
-    "Kaishin",
     "Haiwan-uke",
     "Shutō-uke",
     "Tate-shutō-uke",
@@ -27,6 +26,9 @@
     "Nidan-tobi-geri"
   ],
   "referenceURL": "",
+  "videoURLs": [
+    "https://www.youtube.com/watch?v=_mDofM8lF-Y"
+  ],
   "moves": [
     {
       "sequence": -1,
@@ -69,11 +71,11 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kaishin",
-          "hiragana": "かいしん",
+          "technique": "Ryōte-hitai-mae-ue",
+          "hiragana": "りょうてひたいまえうえ",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "Hands together - outermost of index and middle fingers on right hand overlap left - from here hands are led upward - gaze follows when hands pass. Opening movement to 'observe' and 'I have no weapons'",
+          "description": "Hands together - outermost of index and middle fingers on right hand overlap left. From here hands are led upward - gaze follows when hands pass. Opening movement to 'observe' and 'I have no weapons'",
           "icon": "eye.fill"
         }
       ]
@@ -85,11 +87,11 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hiraki / Awase",
-          "hiragana": "ひらき / あわせ",
+          "technique": "Ryōte-kafukubu-mae",
+          "hiragana": "りょうてかふくぶまえ",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "Open hands to the sides - gather them in front of the stomach, moving circularly down and meeting with right hand edge against left palm",
+          "description": "Open hands to the sides, moving circularly down and gather them in front of the stomach with right hand edge against left palm",
           "icon": "hand.point.up.fill"
         }
       ]
@@ -101,11 +103,11 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari jōdan shutō uke",
+          "technique": "Hidari jōdan shutō-uke",
           "hiragana": "ひだり じょうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "Left high level knife hand block to the left in back stance. Nukite at solar plexus should point upward",
+          "description": "Left high level knife hand block to the left in back stance (haiwan-uke also accepted). Hikite at solar plexus should point upward toward left elbow",
           "icon": "shield.fill"
         }
       ]
@@ -117,23 +119,23 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi jōdan shutō uke",
+          "technique": "Migi jōdan shutō-uke",
           "hiragana": "みぎ じょうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
-          "description": "Opposite side right high level knife hand block in back stance. Hikite hand horizontal in front of solar plexus",
+          "description": "Opposite side right high level knife hand block in back stance (haiwan-uke also accepted). Hikite at solar plexus should point upward toward right elbow",
           "icon": "shield.fill"
         }
       ]
     },
     {
       "sequence": 5,
-      "japaneseName": "Hidari chūdan tate shutō uke – migi ken migi koshi",
+      "japaneseName": "Hidari chūdan tate shutō-uke – migi ken migi koshi",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari tate shutō uke",
+          "technique": "Hidari tate shutō-uke",
           "hiragana": "ひだり たて しゅとううけ",
           "stance": "Shizentai",
           "stanceHiragana": "しぜんたい",
@@ -160,16 +162,16 @@
     },
     {
       "sequence": 7,
-      "japaneseName": "Migi chūdan uchi uke",
+      "japaneseName": "Migi chūdan uchi-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan uchi uke",
+          "technique": "Migi chūdan uchi-uke",
           "hiragana": "みぎ ちゅうだん うちうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
-          "description": "With same arm - right middle level inside block - weight shift to the left in a relatively broad zenkutsu-dachi-like stance",
+          "stance": "Hidari hiza-kutsu-dachi",
+          "stanceHiragana": "ひだり ひざくつだち",
+          "description": "With same arm - right middle level inside block - weight shift to the left in a relatively broad zenkutsu-dachi-like stance. Hikite stays at the hip",
           "icon": "shield.fill"
         }
       ]
@@ -192,16 +194,16 @@
     },
     {
       "sequence": 9,
-      "japaneseName": "Hidari chūdan uchi uke",
+      "japaneseName": "Hidari chūdan uchi-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan uchi uke",
+          "technique": "Hidari chūdan uchi-uke",
           "hiragana": "ひだり ちゅうだん うちうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
-          "description": "With same arm left middle level inside block - weight shift to the right in high zenkutsu-dachi",
+          "stance": "Migi hiza-kutsu-dachi",
+          "stanceHiragana": "みぎ ひざくつだち",
+          "description": "With same arm left middle level inside block - weight shift to the right in zenkutsu-dachi-like stance. Hikite stays at the hip",
           "icon": "shield.fill"
         }
       ]
@@ -213,8 +215,8 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Koshi gamae",
-          "hiragana": "こしがまえ",
+          "technique": "Hidari koshi gamae",
+          "hiragana": "ひだり こしがまえ",
           "stance": "Hidari kata ashi-dachi",
           "stanceHiragana": "ひだり かたあしだち",
           "description": "Pull up for keage - one leg stance on left leg, right foot at left knee, hands in koshi gamae on left side",
@@ -249,12 +251,12 @@
     },
     {
       "sequence": 12,
-      "japaneseName": "Hidari chūdan shutō uke",
+      "japaneseName": "Hidari chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan shutō uke",
+          "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -265,12 +267,12 @@
     },
     {
       "sequence": 13,
-      "japaneseName": "Migi chūdan shutō uke",
+      "japaneseName": "Migi chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan shutō uke",
+          "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -281,12 +283,12 @@
     },
     {
       "sequence": 14,
-      "japaneseName": "Hidari chūdan shutō uke",
+      "japaneseName": "Hidari chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan shutō uke",
+          "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -346,7 +348,7 @@
     },
     {
       "sequence": 18,
-      "japaneseName": "Migi ken migi sokumen jōdan uchi uke – hidari ken hidari sokumen gedan uke",
+      "japaneseName": "Migi ken migi sokumen jōdan uchi-uke – hidari ken hidari sokumen gedan uke",
       "direction": "W",
       "subMoves": [
         {
@@ -426,7 +428,7 @@
     },
     {
       "sequence": 23,
-      "japaneseName": "Migi ken migi sokumen jōdan uchi uke – hidari ken hidari sokumen gedan uke",
+      "japaneseName": "Migi ken migi sokumen jōdan uchi-uke – hidari ken hidari sokumen gedan uke",
       "direction": "W",
       "subMoves": [
         {
@@ -588,12 +590,12 @@
     },
     {
       "sequence": 32,
-      "japaneseName": "Hidari chūdan shutō uke",
+      "japaneseName": "Hidari chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan shutō uke",
+          "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -604,12 +606,12 @@
     },
     {
       "sequence": 33,
-      "japaneseName": "Migi chūdan shutō uke",
+      "japaneseName": "Migi chūdan shutō-uke",
       "direction": "SW",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan shutō uke",
+          "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -620,12 +622,12 @@
     },
     {
       "sequence": 34,
-      "japaneseName": "Migi chūdan shutō uke",
+      "japaneseName": "Migi chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan shutō uke",
+          "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -636,12 +638,12 @@
     },
     {
       "sequence": 35,
-      "japaneseName": "Hidari chūdan shutō uke",
+      "japaneseName": "Hidari chūdan shutō-uke",
       "direction": "NW",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan shutō uke",
+          "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -700,12 +702,12 @@
     },
     {
       "sequence": 39,
-      "japaneseName": "Migi chūdan uchi uke",
+      "japaneseName": "Migi chūdan uchi-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan uchi uke",
+          "technique": "Migi chūdan uchi-uke",
           "hiragana": "みぎ ちゅうだん うちうけ",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
@@ -796,12 +798,12 @@
     },
     {
       "sequence": 45,
-      "japaneseName": "Migi chūdan shutō uke",
+      "japaneseName": "Migi chūdan shutō-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan shutō uke",
+          "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -812,12 +814,12 @@
     },
     {
       "sequence": 46,
-      "japaneseName": "Hidari chūdan uchi uke",
+      "japaneseName": "Hidari chūdan uchi-uke",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan uchi uke",
+          "technique": "Hidari chūdan uchi-uke",
           "hiragana": "ひだり ちゅうだん うちうけ",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -844,12 +846,12 @@
     },
     {
       "sequence": 48,
-      "japaneseName": "Migi chūdan uchi uke",
+      "japaneseName": "Migi chūdan uchi-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan uchi uke",
+          "technique": "Migi chūdan uchi-uke",
           "hiragana": "みぎ ちゅうだん うちうけ",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
@@ -933,12 +935,12 @@
     },
     {
       "sequence": 53,
-      "japaneseName": "Hidari chūdan shutō uke",
+      "japaneseName": "Hidari chūdan shutō-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan shutō uke",
+          "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",

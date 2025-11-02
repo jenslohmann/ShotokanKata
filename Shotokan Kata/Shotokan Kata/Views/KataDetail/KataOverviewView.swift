@@ -23,6 +23,7 @@ struct KataOverviewView: View {
                 DescriptionSection(description: kata.description, vocabularyTerms: vocabularyService.vocabularyTerms)
                 KeyTechniquesSection(techniques: kata.keyTechniques, vocabularyTerms: vocabularyService.vocabularyTerms)
                 ReferenceSection(urlString: kata.referenceURL)
+                VideoSection(urlStrings: kata.videoURLs)
 
                 Spacer(minLength: 20)
             }
@@ -112,3 +113,39 @@ private struct ReferenceSection: View {
         }
     }
 }
+
+// MARK: - Video Section
+private struct VideoSection: View {
+    let urlStrings: [String]?
+
+    var body: some View {
+        if let urlStrings = urlStrings, !urlStrings.isEmpty {
+            VStack(alignment: .leading, spacing: 8) {
+                Text(urlStrings.count == 1 ? "Video Tutorial" : "Video Tutorials")
+                    .font(.headline)
+
+                ForEach(Array(urlStrings.enumerated()), id: \.offset) { index, urlString in
+                    if let url = URL(string: urlString) {
+                        Link(destination: url) {
+                            HStack {
+                                Image(systemName: "play.rectangle.fill")
+                                if urlStrings.count > 1 {
+                                    Text("Watch on YouTube (\(index + 1))")
+                                } else {
+                                    Text("Watch on YouTube")
+                                }
+                                Spacer()
+                                Image(systemName: "arrow.up.right")
+                            }
+                            .foregroundColor(.red)
+                            .padding()
+                            .background(Color.red.opacity(0.1))
+                            .clipShape(RoundedRectangle(cornerRadius: 12))
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

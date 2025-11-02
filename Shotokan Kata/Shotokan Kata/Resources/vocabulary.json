@@ -121,6 +121,16 @@
       "componentBreakdown": "逆 (gyaku) - 'reverse' or 'opposite'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered with the hand opposite to the forward leg."
     },
     {
+      "id": 66,
+      "term": "Choku-zuki",
+      "japaneseName": "直突き",
+      "hiraganaName": "ちょくづき",
+      "shortDescription": "Straight punch directly forward",
+      "definition": "Straight punch; a direct, linear punch thrown straight forward from the hip. This is a fundamental punching technique that emphasizes directness and power along a straight line to the target. Unlike other punches that may involve body rotation or stepping, choku-zuki is characterized by its pure linear motion, making it one of the most direct and efficient striking techniques in karate.",
+      "category": "punches",
+      "componentBreakdown": "直 (choku) - 'straight', 'direct', or 'upright'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch that travels in a perfectly straight line to the target."
+    },
+    {
       "id": 13,
       "term": "Mae-geri",
       "japaneseName": "前蹴り",
@@ -259,6 +269,16 @@
       "definition": "Single-leg stance where most of the weight is supported on one leg while the other leg is lifted or positioned lightly. This stance is used for kicking techniques, balance training, and transitional movements between techniques.",
       "category": "stances",
       "componentBreakdown": "足 (ashi) - 'foot' or 'leg'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance focused on foot/leg positioning, typically on one leg."
+    },
+    {
+      "id": 65,
+      "term": "Shizentai",
+      "japaneseName": "自然体",
+      "hiraganaName": "しぜんたい",
+      "shortDescription": "Natural body position or stance",
+      "definition": "Natural stance or natural body position; a relaxed, upright stance where the body is in a natural, balanced position without tension. The feet are typically shoulder-width apart with a slight bend in the knees, weight evenly distributed, and the body ready to move in any direction. This stance emphasizes naturalness and efficiency of movement, often used in transitional movements or as a ready position.",
+      "category": "stances",
+      "componentBreakdown": "自然 (shizen) - 'natural', 'nature', or 'spontaneous'; 体 (tai) - 'body', 'stance', or 'posture'. Together they describe a natural body position that is relaxed yet ready, following the principles of natural movement."
     },
     {
       "id": 27,
