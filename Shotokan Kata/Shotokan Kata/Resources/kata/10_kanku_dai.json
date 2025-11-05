@@ -782,16 +782,16 @@
     },
     {
       "sequence": 44,
-      "japaneseName": "Hidari shutō gedan-barai – migi shutō mune mae kamae",
+      "japaneseName": "Hidari gedan shutō-uke – migi shutō mune mae kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari shutō gedan-barai",
+          "technique": "Hidari gedan shutō-uke",
           "hiragana": "ひだり しゅとうげだんばらい",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "180 degrees turn low block with left knife hand - right lies hikite in front of solar plexus in deep back stance. Hips should be about as low as in previous position",
+          "description": "180 degrees turn low block with left knife hand - right lies hikite pointing at left elbow in deep back stance. Hips should be about as low as in previous position",
           "icon": "shield.fill"
         }
       ]
@@ -1129,7 +1129,6 @@
       "sequence": 65,
       "japaneseName": "Nidan-geri – migi uraken tate mawashi-uchi – hidari ken hidari koshi",
       "direction": "S",
-      "kiai": true,
       "subMoves": [
         {
           "order": 1,
@@ -1152,6 +1151,7 @@
         {
           "order": 3,
           "technique": "Migi uraken tate mawashi-uchi",
+          "kiai": true,
           "hiragana": "みぎ うらけん たてまわしうち",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",

@@ -271,16 +271,6 @@
       "componentBreakdown": "足 (ashi) - 'foot' or 'leg'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance focused on foot/leg positioning, typically on one leg."
     },
     {
-      "id": 65,
-      "term": "Shizentai",
-      "japaneseName": "自然体",
-      "hiraganaName": "しぜんたい",
-      "shortDescription": "Natural body position or stance",
-      "definition": "Natural stance or natural body position; a relaxed, upright stance where the body is in a natural, balanced position without tension. The feet are typically shoulder-width apart with a slight bend in the knees, weight evenly distributed, and the body ready to move in any direction. This stance emphasizes naturalness and efficiency of movement, often used in transitional movements or as a ready position.",
-      "category": "stances",
-      "componentBreakdown": "自然 (shizen) - 'natural', 'nature', or 'spontaneous'; 体 (tai) - 'body', 'stance', or 'posture'. Together they describe a natural body position that is relaxed yet ready, following the principles of natural movement."
-    },
-    {
       "id": 27,
       "term": "Chūdan",
       "japaneseName": "中段",
@@ -659,6 +649,26 @@
       "definition": "Side or flank; referring to the side aspect or lateral position in martial arts. This term is used to describe positioning, movement, or attacks that come from or target the side of the body or opponent. Sokumen positioning is important for creating angles of attack, defensive positioning, and tactical advantage by moving to the opponent's weak side.",
       "category": "general",
       "componentBreakdown": "側 (soku) - 'side' or 'lateral'; 面 (men) - 'face', 'surface', or 'aspect'. Together they describe the side surface or lateral aspect, indicating positioning or movement to the side."
+    },
+    {
+      "id": 65,
+      "term": "Shizentai",
+      "japaneseName": "自然体",
+      "hiraganaName": "しぜんたい",
+      "shortDescription": "Natural body position or stance",
+      "definition": "Natural stance or natural body position; a relaxed, upright stance where the body is in a natural, balanced position without tension. The feet are typically shoulder-width apart with a slight bend in the knees, weight evenly distributed, and the body ready to move in any direction. This stance emphasizes naturalness and efficiency of movement, often used in transitional movements or as a ready position.",
+      "category": "stances",
+      "componentBreakdown": "自然 (shizen) - 'natural', 'nature', or 'spontaneous'; 体 (tai) - 'body', 'stance', or 'posture'. Together they describe a natural body position that is relaxed yet ready, following the principles of natural movement."
+    },
+    {
+      "id": 66,
+      "term": "Tate",
+      "japaneseName": "縦",
+      "hiraganaName": "たて",
+      "shortDescription": "Vertical or lengthwise direction",
+      "definition": "Vertical or lengthwise; a directional term indicating vertical orientation or alignment. In karate, tate is commonly used to describe techniques performed with vertical orientation, such as tate-zuki (vertical punch) where the fist is held vertically, or tate-uke (vertical block) where the arm is positioned upright. This orientation provides different angles of attack and defense compared to horizontal techniques.",
+      "category": "general",
+      "componentBreakdown": "縦 (tate) - This single kanji means 'vertical', 'lengthwise', or 'longitudinal'. It indicates orientation along the vertical axis, contrasting with yoko (横) which means horizontal or sideways."
     }
   ]
 }
