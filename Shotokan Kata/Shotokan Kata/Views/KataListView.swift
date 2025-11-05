@@ -65,7 +65,7 @@ struct SearchAndFilterBar: View {
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .background(Color(.systemGray6))
+            .background(Color(.secondarySystemGroupedBackground))
             .clipShape(RoundedRectangle(cornerRadius: 10))
 
             // Quick Filter Chips
@@ -146,7 +146,7 @@ struct FilterChip: View {
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 6)
-            .background(isSelected ? Color.blue : Color(.systemGray6))
+            .background(isSelected ? Color.blue : Color(.secondarySystemGroupedBackground))
             .foregroundColor(isSelected ? .white : .primary)
             .clipShape(Capsule())
         }
@@ -373,6 +373,7 @@ struct InfoChip: View {
 // MARK: - Kata Rank Badge
 struct KataRankBadge: View {
     let rank: KarateRank?
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         HStack(spacing: 4) {
@@ -383,10 +384,11 @@ struct KataRankBadge: View {
             Text(rank?.displayName ?? "Unknown")
                 .font(.caption2)
                 .fontWeight(.medium)
+                .foregroundColor(textColor)
         }
         .padding(.horizontal, 6)
         .padding(.vertical, 3)
-        .background(beltColor.opacity(0.2))
+        .background(backgroundColor)
         .clipShape(Capsule())
     }
 
@@ -401,6 +403,29 @@ struct KataRankBadge: View {
         case .purple: return .purple
         case .brown: return .brown
         case .black: return .black
+        }
+    }
+
+    private var backgroundColor: Color {
+        if colorScheme == .dark {
+            return beltColor.opacity(0.3)
+        } else {
+            return beltColor.opacity(0.2)
+        }
+    }
+
+    private var textColor: Color {
+        guard let rank = rank else { return .primary }
+
+        if colorScheme == .dark {
+            switch rank.beltColor {
+            case .brown, .black:
+                return .white
+            default:
+                return beltColor
+            }
+        } else {
+            return .primary
         }
     }
 }

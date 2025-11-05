@@ -17,7 +17,7 @@ struct KataHeaderView: View {
         }
         .padding(.horizontal)
         .padding(.vertical, 8)
-        .background(Color(.systemGray6))
+        .background(Color(.secondarySystemGroupedBackground))
     }
 
     private var headerTopRow: some View {

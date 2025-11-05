@@ -25,7 +25,7 @@ struct KataMoveRowView: View {
             AdditionalSubMovesView(subMoves: Array(move.subMoves.dropFirst()))
         }
         .padding()
-        .background(Color(.systemGray6))
+        .background(Color(.secondarySystemGroupedBackground))
         .clipShape(RoundedRectangle(cornerRadius: 12))
     }
 }
@@ -88,7 +88,7 @@ private struct MainTechniqueInfo: View {
                 if let hiragana = firstSubMove.hiragana {
                     Text(hiragana)
                         .font(.caption)
-                        .foregroundColor(.black)
+                        .foregroundColor(.secondary)
                 }
 
                 StanceBadge(
@@ -121,13 +121,13 @@ struct StanceBadge: View {
             if let hiragana = hiragana {
                 Text("(\(hiragana))")
                     .font(.caption2)
-                    .foregroundColor(.black)
+                    .foregroundColor(.secondary)
             }
         }
         .padding(.horizontal, 6)
         .padding(.vertical, 2)
-        .background(Color.green.opacity(0.1))
-        .foregroundColor(.black)
+        .background(Color.green.opacity(0.2))
+        .foregroundColor(.green)
         .clipShape(Capsule())
     }
 }
@@ -185,11 +185,11 @@ struct DirectionIndicator: View {
         HStack(spacing: 2) {
             Text(direction.uppercased())
                 .font(.caption)
-                .foregroundColor(.black)
+                .foregroundColor(.secondary)
 
             Text("(\(directionArrow))")
                 .font(.caption)
-                .foregroundColor(.black)
+                .foregroundColor(.secondary)
         }
     }
 

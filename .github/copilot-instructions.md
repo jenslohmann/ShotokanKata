@@ -100,8 +100,14 @@ Shotokan Kata/
 ### 5. User Interface
 - **Adaptive Design**: Works seamlessly on iPhone (TabView) and iPad (NavigationSplitView)
 - **Rank Visual System**: Color-coded rank badges with authentic belt colors
-- **Dark/Light Mode**: Support for system appearance preferences
-- **Accessibility**: VoiceOver support, Dynamic Type, proper contrast
+- **Dark Mode Support**: Full support for system appearance preferences with proper contrast
+  - **Adaptive Colors**: All UI elements must use system colors or adaptive colors that work in both light and dark modes
+  - **Text Contrast**: All text must maintain WCAG-compliant contrast ratios in both modes
+  - **Background Colors**: Use semantic system colors (e.g., `.secondarySystemGroupedBackground`, `.tertiarySystemGroupedBackground`)
+  - **Badge Visibility**: Rank badges and info chips adapt their opacity and text colors based on color scheme
+  - **No Hardcoded Colors**: Never use hardcoded colors like `.black` or `.white` for text that should adapt
+  - **Testing Requirement**: All new UI components must be tested in both light and dark appearance modes
+- **Accessibility**: VoiceOver support, Dynamic Type, proper contrast ratios
 
 ## Kata Data Standards & Requirements
 
@@ -895,6 +901,64 @@ private var infoChips: some View {
 - **Heian Shodan Reference Model**: Use 01_heian_shodan.json as the template for detailed technique specifications in other kata files
 - When adding new kata, follow the numbered naming convention (01-26) and update kata.json configuration
 - **Technique Detail Standard**: All kata should match the level of detail found in the updated Heian Shodan file with complete target level specifications
+- **Dark Mode Compatibility**: All UI components MUST support both light and dark appearance modes with proper contrast
+
+### Dark Mode Implementation Requirements
+
+**System Color Usage:**
+- **REQUIRED**: Use semantic system colors for all backgrounds and text
+- **Card Backgrounds**: Use `.secondarySystemGroupedBackground` for primary cards (moves, kata headers, search bars)
+- **Nested Cards**: Use `.tertiarySystemGroupedBackground` for nested content (sub-moves within moves)
+- **Text Colors**: Use `.primary`, `.secondary`, `.tertiary` for adaptive text that works in both modes
+- **FORBIDDEN**: Never use hardcoded `.black` or `.white` for text that needs to adapt
+
+**Adaptive Badge Design:**
+- **Rank Badges**: Must detect `@Environment(\.colorScheme)` and adjust:
+  - Background opacity: 0.3 in dark mode, 0.2 in light mode
+  - Text color: White for dark belts (brown/black) in dark mode, otherwise use belt color
+- **Info Chips**: Use sufficient contrast with colored backgrounds
+- **Stance Badges**: Use color-on-color design (e.g., green text on green background opacity)
+
+**Contrast Requirements:**
+- All text must maintain WCAG AA contrast ratios (4.5:1 for normal text, 3:1 for large text)
+- Test all views in both light and dark modes before committing
+- Badge text must be clearly legible on badge backgrounds in both modes
+- Interactive elements must have clear visual distinction in both modes
+
+**Color Mapping for Dark Mode:**
+```swift
+// Example: Adaptive rank badge
+@Environment(\.colorScheme) var colorScheme
+
+private var backgroundColor: Color {
+    if colorScheme == .dark {
+        return beltColor.opacity(0.3)
+    } else {
+        return beltColor.opacity(0.2)
+    }
+}
+
+private var textColor: Color {
+    if colorScheme == .dark {
+        switch beltColor {
+        case .brown, .black:
+            return .white
+        default:
+            return beltColor
+        }
+    } else {
+        return .primary
+    }
+}
+```
+
+**Testing Checklist for Dark Mode:**
+- [ ] All text is readable in both light and dark modes
+- [ ] Badges have sufficient contrast in both modes
+- [ ] Card backgrounds provide clear visual hierarchy
+- [ ] Interactive elements are clearly distinguishable
+- [ ] No hardcoded black or white text colors
+- [ ] Search bars and input fields are visible in both modes
 
 ### Implementation Logic
 ```swift
