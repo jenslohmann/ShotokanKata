@@ -129,7 +129,7 @@ struct QuizProgressHeader: View {
             }
         }
         .padding()
-        .background(Color(.systemGray6))
+        .background(Color(.secondarySystemGroupedBackground))
     }
 
     private var timeRemainingColor: Color {

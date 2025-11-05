@@ -33,7 +33,7 @@ struct VocabularyView: View {
                     }
                     .padding(.horizontal, 12)
                     .padding(.vertical, 8)
-                    .background(Color(.systemGray6))
+                    .background(Color(.secondarySystemGroupedBackground))
                     .clipShape(RoundedRectangle(cornerRadius: 10))
 
                     // Category filter
@@ -47,9 +47,9 @@ struct VocabularyView: View {
                             }
                             .foregroundColor(.primary)
                             .padding(.horizontal, 12)
-                            .padding(.vertical, 8)
-                            .background(Color(.systemGray6))
-                            .cornerRadius(8)
+                            .padding(.vertical, 6)
+                            .background(Color(.secondarySystemGroupedBackground))
+                            .clipShape(Capsule())
                         }
 
                         Spacer()

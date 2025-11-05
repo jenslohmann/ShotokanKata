@@ -21,7 +21,7 @@ struct KataSubMoveView: View {
         }
         .padding(.vertical, 8)
         .padding(.horizontal, 12)
-        .background(Color(.systemBackground))
+        .background(Color(.tertiarySystemGroupedBackground))
         .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 }
@@ -48,7 +48,7 @@ private struct SubMoveHeader: View {
                 if let hiragana = subMove.hiragana {
                     Text(hiragana)
                         .font(.caption)
-                        .foregroundColor(.black)
+                        .foregroundColor(.secondary)
                 }
 
                 StanceBadge(
