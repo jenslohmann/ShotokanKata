@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors - Deep red inspired by karate -->
+    <color name="primary">#FFC62828</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="primary_container">#FFFFDAD5</color>
+    <color name="on_primary_container">#FF410002</color>
+
+    <!-- Secondary colors - Brown/Gold accent -->
+    <color name="secondary">#FF8D6E63</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="secondary_container">#FFFFDCC2</color>
+    <color name="on_secondary_container">#FF2E1500</color>
+
+    <!-- Tertiary colors -->
+    <color name="tertiary">#FF006874</color>
+    <color name="on_tertiary">#FFFFFFFF</color>
+    <color name="tertiary_container">#FF97F0FF</color>
+    <color name="on_tertiary_container">#FF001F24</color>
+
+    <!-- Error colors -->
+    <color name="error">#FFBA1A1A</color>
+    <color name="on_error">#FFFFFFFF</color>
+    <color name="error_container">#FFFFDAD6</color>
+    <color name="on_error_container">#FF410002</color>
+
+    <!-- Surface colors -->
+    <color name="background">#FFFFFBFF</color>
+    <color name="on_background">#FF201A19</color>
+    <color name="surface">#FFFFFBFF</color>
+    <color name="on_surface">#FF201A19</color>
+    <color name="surface_variant">#FFF5DDDA</color>
+    <color name="on_surface_variant">#FF534341</color>
+    <color name="outline">#FF857370</color>
+    <color name="outline_variant">#FFD8C2BF</color>
+
+    <!-- Belt colors -->
+    <color name="belt_white">#FFF5F5F5</color>
+    <color name="belt_yellow">#FFFFEB3B</color>
+    <color name="belt_orange">#FFFF9800</color>
+    <color name="belt_green">#FF4CAF50</color>
+    <color name="belt_purple">#FF9C27B0</color>
+    <color name="belt_brown">#FF795548</color>
+    <color name="belt_black">#FF212121</color>
+
+    <!-- Legacy colors for compatibility -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
