@@ -86,6 +86,10 @@
     <string name="quiz_excellent">Fremragende!</string>
     <string name="quiz_good">Godt klaret!</string>
     <string name="quiz_needs_improvement">Der er plads til forbedring</string>
+    <string name="quiz_question_count_title">Antal Spørgsmål</string>
+    <string name="quiz_time_label">Tid</string>
+    <string name="quiz_retry">Prøv Igen</string>
+    <string name="quiz_back_to_menu">Tilbage til Menu</string>
 
     <!-- Vocabulary -->
     <string name="vocabulary_search_placeholder">Søg termer…</string>
@@ -139,7 +143,15 @@
     <!-- About Section -->
     <string name="about_title">Om Shotokan Kata</string>
     <string name="about_version">Version</string>
-    <string name="about_description">En app til at lære traditionelle Shotokan karate kata</string>
+    <string name="about_description">En app til at lære traditionelle Shotokan karate kata. Gennemse detaljerede kata-gennemgange, test din viden med quizzer, og mestre japansk karate-terminologi.</string>
     <string name="about_developer">Udvikler</string>
     <string name="about_acknowledgments">Anerkendelser</string>
+    <string name="about_features_title">Funktioner</string>
+    <string name="about_feature_kata">26 Shotokan kata med bevægelse-for-bevægelse gennemgang</string>
+    <string name="about_feature_quiz">Interaktive quizzer til at teste din viden</string>
+    <string name="about_feature_vocabulary">100+ japanske karate-termer med definitioner</string>
+    <string name="about_feature_localization">Tilgængelig på engelsk og dansk</string>
+    <string name="about_shotokan_title">Om Shotokan</string>
+    <string name="about_shotokan_description">Shotokan er en karate-stil udviklet fra forskellige kampsportsformer af Gichin Funakoshi og hans søn Gigo Funakoshi. Det er en af de fire hovedstile inden for karate i Japan og er kendetegnet ved dybe, lange stillinger der giver stabilitet, kraftfulde bevægelser og stor vægt på form (kata).</string>
+    <string name="about_copyright">© 2024 Alle rettigheder forbeholdes</string>
 </resources>

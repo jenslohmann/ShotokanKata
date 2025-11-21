@@ -86,6 +86,10 @@
     <string name="quiz_excellent">Excellent!</string>
     <string name="quiz_good">Good job!</string>
     <string name="quiz_needs_improvement">Room for improvement</string>
+    <string name="quiz_question_count_title">Number of Questions</string>
+    <string name="quiz_time_label">Time</string>
+    <string name="quiz_retry">Try Again</string>
+    <string name="quiz_back_to_menu">Back to Menu</string>
 
     <!-- Vocabulary -->
     <string name="vocabulary_search_placeholder">Search terms…</string>
@@ -139,7 +143,15 @@
     <!-- About Section -->
     <string name="about_title">About Shotokan Kata</string>
     <string name="about_version">Version</string>
-    <string name="about_description">An app for learning traditional Shotokan karate kata</string>
+    <string name="about_description">An app for learning traditional Shotokan karate kata. Browse detailed kata breakdowns, test your knowledge with quizzes, and master Japanese karate terminology.</string>
     <string name="about_developer">Developer</string>
     <string name="about_acknowledgments">Acknowledgments</string>
+    <string name="about_features_title">Features</string>
+    <string name="about_feature_kata">26 Shotokan kata with move-by-move breakdowns</string>
+    <string name="about_feature_quiz">Interactive quizzes to test your knowledge</string>
+    <string name="about_feature_vocabulary">100+ Japanese karate terms with definitions</string>
+    <string name="about_feature_localization">Available in English and Danish</string>
+    <string name="about_shotokan_title">About Shotokan</string>
+    <string name="about_shotokan_description">Shotokan is a style of karate developed from various martial arts by Gichin Funakoshi and his son Gigo Funakoshi. It is one of the four main styles of karate in Japan and is characterized by deep, long stances that provide stability, powerful movements, and a strong emphasis on form (kata).</string>
+    <string name="about_copyright">© 2024 All rights reserved</string>
 </resources>

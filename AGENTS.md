@@ -22,19 +22,31 @@ This document provides guidance for AI agents working on the Android migration o
 | 3.1 KataListViewModel | ✅ Complete | Debounced search, belt color/rank filtering |
 | 3.2 KataListScreen | ✅ Complete | SearchBar, BeltColorFilterChips, LazyColumn with cards |
 | 3.3 KataDetailScreen | ✅ Complete | Tabs (Overview, Moves, History), KataMoveCard component |
-| **Phase 4-7** | ⏳ Pending | Vocabulary UI, Quiz UI, Navigation polish, Testing |
+| **Phase 4** | ✅ **Complete** | **Vocabulary Feature UI** |
+| 4.1 VocabularyViewModel | ✅ Complete | Debounced search, category filtering |
+| 4.2 VocabularyListScreen | ✅ Complete | SearchBar, CategoryFilterChips, LazyColumn with cards |
+| 4.3 VocabularyDetailScreen | ✅ Complete | Header card, definition, component breakdown |
+| **Phase 5** | ✅ **Complete** | **Quiz Feature UI** |
+| 5.1 QuizViewModel | ✅ Complete | Quiz state machine, question generation, scoring |
+| 5.2 QuizMenuScreen | ✅ Complete | Belt rank selection, category filter, question count slider |
+| 5.3 QuizScreen | ✅ Complete | Progress indicator, question cards, result display with stats |
+| **Phase 6** | ✅ **Complete** | **Navigation Polish** |
+| 6.1 Bottom Navigation | ✅ Complete | Localized strings, proper icons |
+| 6.2 Navigation Animations | ✅ Complete | Slide transitions for detail screens, fade for tabs |
+| 6.3 About Screen | ✅ Complete | App info, features list, Shotokan info, developer credits |
+| **Phase 7** | ⏳ Pending | Testing |
 
 ### Project Location
 - **Android project**: `AndroidVersion/`
 - **Package name**: `dk.jlo.shotokankata`
 - **iOS reference**: `Shotokan Kata/`
 
-### Files Created (50+ files)
+### Files Created (55+ files)
 - **Data Models**: Kata, KataMove, VocabularyTerm, QuizQuestion, KarateRank, BeltColor, etc.
 - **Repositories**: KataRepository, VocabularyRepository, QuizRepository
-- **ViewModels**: KataListViewModel, KataDetailViewModel, VocabularyViewModel, QuizViewModel
-- **UI Screens**: KataListScreen, KataDetailScreen, VocabularyListScreen, QuizMenuScreen, AboutScreen
-- **UI Components**: SearchBar, BeltColorFilterChips, BeltColorBadge, KataMoveCard
+- **ViewModels**: KataListViewModel, KataDetailViewModel, VocabularyViewModel, VocabularyDetailViewModel, QuizViewModel
+- **UI Screens**: KataListScreen, KataDetailScreen, VocabularyListScreen, VocabularyDetailScreen, QuizMenuScreen, AboutScreen
+- **UI Components**: SearchBar, BeltColorFilterChips, BeltColorBadge, KataMoveCard, VocabularyCategoryFilterChips, VocabularyCategoryBadge
 - **Navigation**: ShotokanKataNavHost, BottomNavItem, NavRoutes
 - **Theme**: Color.kt, Type.kt, Theme.kt (with light/dark support)
 - **Resources**: strings.xml (EN/DA), colors.xml, themes.xml, 12 JSON data files

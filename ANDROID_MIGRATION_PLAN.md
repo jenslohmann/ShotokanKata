@@ -342,9 +342,9 @@ fun KataDetailScreen(
 
 ---
 
-## Phase 4: UI Layer - Vocabulary Feature
+## Phase 4: UI Layer - Vocabulary Feature ✅ COMPLETE
 
-### 4.1 VocabularyViewModel
+### 4.1 VocabularyViewModel ✅ COMPLETE
 ```kotlin
 @HiltViewModel
 class VocabularyViewModel @Inject constructor(
@@ -365,15 +365,15 @@ class VocabularyViewModel @Inject constructor(
 }
 ```
 
-### 4.2 VocabularyListScreen & VocabularyDetailScreen
+### 4.2 VocabularyListScreen & VocabularyDetailScreen ✅ COMPLETE
 - Searchable list with category filter chips
 - Detail view with term, Japanese name, hiragana, definition, component breakdown
 
 ---
 
-## Phase 5: UI Layer - Quiz Feature
+## Phase 5: UI Layer - Quiz Feature ✅ COMPLETE
 
-### 5.1 QuizViewModel
+### 5.1 QuizViewModel ✅ COMPLETE
 ```kotlin
 @HiltViewModel
 class QuizViewModel @Inject constructor(
@@ -430,7 +430,7 @@ data class QuizResult(
 )
 ```
 
-### 5.2 QuizMenuScreen
+### 5.2 QuizMenuScreen ✅ COMPLETE
 ```kotlin
 @Composable
 fun QuizMenuScreen(
@@ -471,7 +471,7 @@ fun QuizMenuScreen(
 }
 ```
 
-### 5.3 QuizScreen
+### 5.3 QuizScreen ✅ COMPLETE
 ```kotlin
 @Composable
 fun QuizScreen(
@@ -497,7 +497,7 @@ fun QuizScreen(
 }
 ```
 
-### 5.4 KiaiSelectionScreen
+### 5.4 KiaiSelectionScreen (Future Enhancement)
 Special composable for kiai selection questions:
 ```kotlin
 @Composable
@@ -521,9 +521,9 @@ fun KiaiSelectionQuestion(
 
 ---
 
-## Phase 6: Navigation
+## Phase 6: Navigation ✅ COMPLETE
 
-### 6.1 Navigation Setup
+### 6.1 Navigation Setup ✅ COMPLETE
 ```kotlin
 @Composable
 fun ShotokanKataNavHost(navController: NavHostController) {
@@ -560,7 +560,7 @@ fun ShotokanKataNavHost(navController: NavHostController) {
 }
 ```
 
-### 6.2 Bottom Navigation
+### 6.2 Bottom Navigation ✅ COMPLETE
 ```kotlin
 @Composable
 fun ShotokanKataApp() {
@@ -691,9 +691,9 @@ fun ShotokanKataApp() {
 | 1 | Setup | Project structure, dependencies, theme | ✅ Complete |
 | 2 | Data | Models, JSON loading, repositories | ✅ Complete |
 | 3 | Kata | List, detail, filtering, search | ✅ Complete |
-| 4 | Vocabulary | List, detail, search, categories | ⏳ Pending |
-| 5 | Quiz | Configuration, questions, scoring, timer | ⏳ Pending |
-| 6 | Navigation | Bottom nav, routes, adaptive layout | ⏳ Pending |
+| 4 | Vocabulary | List, detail, search, categories | ✅ Complete |
+| 5 | Quiz | Configuration, questions, scoring, timer | ✅ Complete |
+| 6 | Navigation | Bottom nav, routes, adaptive layout | ✅ Complete |
 | 7 | Polish | Dark mode, localization, testing | ⏳ Pending |
 
 The iOS app has no external dependencies and uses JSON files for all data, making this migration straightforward. The main work is translating SwiftUI patterns to Compose equivalents while maintaining feature parity.

@@ -1,14 +1,18 @@
 package dk.jlo.shotokankata.ui.vocabulary
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -22,9 +26,11 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import dk.jlo.shotokankata.R
+import dk.jlo.shotokankata.ui.components.VocabularyCategoryBadge
 import dk.jlo.shotokankata.viewmodel.VocabularyDetailViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -63,45 +69,95 @@ fun VocabularyDetailScreen(
                     .padding(16.dp)
                     .verticalScroll(rememberScrollState())
             ) {
-                Text(
-                    text = currentTerm.japaneseName,
-                    style = MaterialTheme.typography.headlineMedium
-                )
-                Text(
-                    text = currentTerm.hiraganaName,
-                    style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+                // Header card with Japanese name and category
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.primaryContainer
+                    )
+                ) {
+                    Column(
+                        modifier = Modifier.padding(16.dp)
+                    ) {
+                        Row {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    text = currentTerm.japaneseName,
+                                    style = MaterialTheme.typography.headlineMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    color = MaterialTheme.colorScheme.onPrimaryContainer
+                                )
+                                Text(
+                                    text = currentTerm.hiraganaName,
+                                    style = MaterialTheme.typography.titleMedium,
+                                    color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.8f)
+                                )
+                            }
+                            VocabularyCategoryBadge(category = currentTerm.categoryType)
+                        }
+
+                        Spacer(modifier = Modifier.height(12.dp))
+
+                        Text(
+                            text = currentTerm.shortDescription,
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = MaterialTheme.colorScheme.onPrimaryContainer
+                        )
+                    }
+                }
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                // Definition section
                 Text(
                     text = stringResource(R.string.vocabulary_detail_definition),
-                    style = MaterialTheme.typography.titleMedium
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
                 )
+                Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = currentTerm.definition,
                     style = MaterialTheme.typography.bodyMedium
                 )
 
+                // Component breakdown section (if available)
                 currentTerm.componentBreakdown?.let { breakdown ->
                     Spacer(modifier = Modifier.height(16.dp))
-                    Text(
-                        text = stringResource(R.string.vocabulary_detail_breakdown),
-                        style = MaterialTheme.typography.titleMedium
-                    )
-                    Text(
-                        text = breakdown,
-                        style = MaterialTheme.typography.bodyMedium
-                    )
+
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.tertiaryContainer
+                        )
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(16.dp)
+                        ) {
+                            Text(
+                                text = stringResource(R.string.vocabulary_detail_breakdown),
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onTertiaryContainer
+                            )
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Text(
+                                text = breakdown,
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = MaterialTheme.colorScheme.onTertiaryContainer
+                            )
+                        }
+                    }
                 }
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                // Category section
                 Text(
                     text = stringResource(R.string.vocabulary_detail_category),
-                    style = MaterialTheme.typography.titleMedium
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
                 )
+                Spacer(modifier = Modifier.height(4.dp))
                 Text(
                     text = currentTerm.categoryType.displayName,
                     style = MaterialTheme.typography.bodyMedium

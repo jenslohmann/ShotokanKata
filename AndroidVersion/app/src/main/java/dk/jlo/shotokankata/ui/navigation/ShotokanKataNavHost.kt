@@ -1,5 +1,9 @@
 package dk.jlo.shotokankata.ui.navigation
 
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
@@ -9,6 +13,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavType
@@ -25,13 +30,15 @@ import dk.jlo.shotokankata.ui.quiz.QuizScreen
 import dk.jlo.shotokankata.ui.vocabulary.VocabularyDetailScreen
 import dk.jlo.shotokankata.ui.vocabulary.VocabularyListScreen
 
+private const val ANIMATION_DURATION = 300
+
 @Composable
 fun ShotokanKataNavHost() {
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestination = navBackStackEntry?.destination
 
-    // Determine if we should show bottom nav (hide on detail screens)
+    // Determine if we should show bottom nav (hide on detail screens and quiz active)
     val showBottomNav = currentDestination?.route in listOf(
         NavRoutes.KATA_LIST,
         NavRoutes.QUIZ_MENU,
@@ -45,8 +52,13 @@ fun ShotokanKataNavHost() {
                 NavigationBar {
                     BottomNavItem.entries.forEach { item ->
                         NavigationBarItem(
-                            icon = { Icon(item.icon, contentDescription = item.title) },
-                            label = { Text(item.title) },
+                            icon = {
+                                Icon(
+                                    imageVector = item.icon,
+                                    contentDescription = stringResource(item.titleResId)
+                                )
+                            },
+                            label = { Text(stringResource(item.titleResId)) },
                             selected = currentDestination?.hierarchy?.any { it.route == item.route } == true,
                             onClick = {
                                 navController.navigate(item.route) {
@@ -66,9 +78,15 @@ fun ShotokanKataNavHost() {
         NavHost(
             navController = navController,
             startDestination = NavRoutes.KATA_LIST,
-            modifier = Modifier.padding(innerPadding)
+            modifier = Modifier.padding(innerPadding),
+            enterTransition = {
+                fadeIn(animationSpec = tween(ANIMATION_DURATION))
+            },
+            exitTransition = {
+                fadeOut(animationSpec = tween(ANIMATION_DURATION))
+            }
         ) {
-            // Kata
+            // Kata List
             composable(NavRoutes.KATA_LIST) {
                 KataListScreen(
                     onKataClick = { kataNumber ->
@@ -76,9 +94,35 @@ fun ShotokanKataNavHost() {
                     }
                 )
             }
+
+            // Kata Detail - slide in from right
             composable(
                 route = NavRoutes.KATA_DETAIL,
-                arguments = listOf(navArgument("kataNumber") { type = NavType.IntType })
+                arguments = listOf(navArgument("kataNumber") { type = NavType.IntType }),
+                enterTransition = {
+                    slideIntoContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Left,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                exitTransition = {
+                    slideOutOfContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Left,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                popEnterTransition = {
+                    slideIntoContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Right,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                popExitTransition = {
+                    slideOutOfContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Right,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                }
             ) { backStackEntry ->
                 val kataNumber = backStackEntry.arguments?.getInt("kataNumber") ?: 1
                 KataDetailScreen(
@@ -87,19 +131,47 @@ fun ShotokanKataNavHost() {
                 )
             }
 
-            // Quiz
+            // Quiz Menu
             composable(NavRoutes.QUIZ_MENU) {
                 QuizMenuScreen(
                     onStartQuiz = { navController.navigate(NavRoutes.QUIZ_ACTIVE) }
                 )
             }
-            composable(NavRoutes.QUIZ_ACTIVE) {
+
+            // Quiz Active - slide up
+            composable(
+                route = NavRoutes.QUIZ_ACTIVE,
+                enterTransition = {
+                    slideIntoContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Up,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                exitTransition = {
+                    slideOutOfContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Up,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                popEnterTransition = {
+                    slideIntoContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Down,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                popExitTransition = {
+                    slideOutOfContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Down,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                }
+            ) {
                 QuizScreen(
                     onExit = { navController.popBackStack(NavRoutes.QUIZ_MENU, false) }
                 )
             }
 
-            // Vocabulary
+            // Vocabulary List
             composable(NavRoutes.VOCABULARY_LIST) {
                 VocabularyListScreen(
                     onTermClick = { termId ->
@@ -107,9 +179,35 @@ fun ShotokanKataNavHost() {
                     }
                 )
             }
+
+            // Vocabulary Detail - slide in from right
             composable(
                 route = NavRoutes.VOCABULARY_DETAIL,
-                arguments = listOf(navArgument("termId") { type = NavType.IntType })
+                arguments = listOf(navArgument("termId") { type = NavType.IntType }),
+                enterTransition = {
+                    slideIntoContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Left,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                exitTransition = {
+                    slideOutOfContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Left,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                popEnterTransition = {
+                    slideIntoContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Right,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                },
+                popExitTransition = {
+                    slideOutOfContainer(
+                        towards = AnimatedContentTransitionScope.SlideDirection.Right,
+                        animationSpec = tween(ANIMATION_DURATION)
+                    )
+                }
             ) { backStackEntry ->
                 val termId = backStackEntry.arguments?.getInt("termId") ?: 0
                 VocabularyDetailScreen(
