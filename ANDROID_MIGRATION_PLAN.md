@@ -73,7 +73,7 @@ dk.jlo.shotokankata/
 
 ### 2.1 Data Models ✅ COMPLETE
 
-**Kata.kt**
+**Kata.kt**P
 ```kotlin
 @Serializable
 data class Kata(

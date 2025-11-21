@@ -1,115 +1,115 @@
 {
   "availableKata": [
     {
-      "fileName": "01_heian_shodan",
+      "fileName": "kata_01_heian_shodan",
       "kataNumber": 1,
       "name": "Heian Shodan",
       "enabled": true
     },
     {
-      "fileName": "02_heian_nidan",
+      "fileName": "kata_02_heian_nidan",
       "kataNumber": 2,
       "name": "Heian Nidan",
       "enabled": true
     },
     {
-      "fileName": "03_heian_sandan",
+      "fileName": "kata_03_heian_sandan",
       "kataNumber": 3,
       "name": "Heian Sandan",
       "enabled": true
     },
     {
-      "fileName": "04_heian_yondan",
+      "fileName": "kata_04_heian_yondan",
       "kataNumber": 4,
       "name": "Heian Yondan",
       "enabled": true
     },
     {
-      "fileName": "05_heian_godan",
+      "fileName": "kata_05_heian_godan",
       "kataNumber": 5,
       "name": "Heian Godan",
       "enabled": true
     },
     {
-      "fileName": "06_tekki_shodan",
+      "fileName": "kata_06_tekki_shodan",
       "kataNumber": 6,
       "name": "Tekki Shodan",
       "enabled": true
     },
     {
-      "fileName": "07_tekki_nidan",
+      "fileName": "kata_07_tekki_nidan",
       "kataNumber": 7,
       "name": "Tekki Nidan",
       "enabled": false
     },
     {
-      "fileName": "08_tekki_sandan",
+      "fileName": "kata_08_tekki_sandan",
       "kataNumber": 8,
       "name": "Tekki Sandan",
       "enabled": false
     },
     {
-      "fileName": "09_bassai_dai",
+      "fileName": "kata_09_bassai_dai",
       "kataNumber": 9,
       "name": "Bassai Dai",
       "enabled": true
     },
     {
-      "fileName": "10_kanku_dai",
+      "fileName": "kata_10_kanku_dai",
       "kataNumber": 10,
       "name": "Kanku Dai",
       "enabled": true
     },
     {
-      "fileName": "11_empi",
+      "fileName": "kata_11_empi",
       "kataNumber": 11,
       "name": "Empi",
       "enabled": true
     },
     {
-      "fileName": "12_hangetsu",
+      "fileName": "kata_12_hangetsu",
       "kataNumber": 12,
       "name": "Hangetsu",
       "enabled": false
     },
     {
-      "fileName": "13_jitte",
+      "fileName": "kata_13_jitte",
       "kataNumber": 13,
       "name": "Jitte",
       "enabled": false
     },
     {
-      "fileName": "14_gankaku",
+      "fileName": "kata_14_gankaku",
       "kataNumber": 14,
       "name": "Gankaku",
       "enabled": false
     },
     {
-      "fileName": "15_jion",
+      "fileName": "kata_15_jion",
       "kataNumber": 15,
       "name": "Jion",
       "enabled": true
     },
     {
-      "fileName": "16_bassai_sho",
+      "fileName": "kata_16_bassai_sho",
       "kataNumber": 16,
       "name": "Bassai Sho",
       "enabled": false
     },
     {
-      "fileName": "17_kanku_sho",
+      "fileName": "kata_17_kanku_sho",
       "kataNumber": 17,
       "name": "Kanku Sho",
       "enabled": false
     },
     {
-      "fileName": "18_nijushiho",
+      "fileName": "kata_18_nijushiho",
       "kataNumber": 18,
       "name": "Nijushiho",
       "enabled": false
     },
     {
-      "fileName": "19_jiin",
+      "fileName": "kata_19_jiin",
       "kataNumber": 19,
       "name": "Jiin",
       "enabled": false
