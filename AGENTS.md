@@ -14,18 +14,27 @@ This document provides guidance for AI agents working on the Android migration o
 | 1.3 Project Structure | ✅ Complete | Full package structure with models, repos, viewmodels, UI |
 | 1.4 Copy Data Files | ✅ Complete | 12 JSON files, English + Danish strings |
 | 1.5 Theme Setup | ✅ Complete | Material 3 light/dark themes, belt colors |
-| **Phase 2-7** | ⏳ Pending | Data layer, UI, Quiz, Navigation, Polish |
+| **Phase 2** | ✅ **Complete** | **Data Layer** |
+| 2.1 Data Models | ✅ Complete | Kata, KataMove, VocabularyTerm, QuizQuestion, etc. |
+| 2.2 Data Sources | ✅ Complete | JsonDataSource with resource loading |
+| 2.3 Repositories | ✅ Complete | KataRepository with filtering, VocabularyRepository, QuizRepository |
+| **Phase 3** | ✅ **Complete** | **Kata Feature UI** |
+| 3.1 KataListViewModel | ✅ Complete | Debounced search, belt color/rank filtering |
+| 3.2 KataListScreen | ✅ Complete | SearchBar, BeltColorFilterChips, LazyColumn with cards |
+| 3.3 KataDetailScreen | ✅ Complete | Tabs (Overview, Moves, History), KataMoveCard component |
+| **Phase 4-7** | ⏳ Pending | Vocabulary UI, Quiz UI, Navigation polish, Testing |
 
 ### Project Location
 - **Android project**: `AndroidVersion/`
 - **Package name**: `dk.jlo.shotokankata`
 - **iOS reference**: `Shotokan Kata/`
 
-### Files Created in Phase 1 (40+ files)
+### Files Created (50+ files)
 - **Data Models**: Kata, KataMove, VocabularyTerm, QuizQuestion, KarateRank, BeltColor, etc.
 - **Repositories**: KataRepository, VocabularyRepository, QuizRepository
 - **ViewModels**: KataListViewModel, KataDetailViewModel, VocabularyViewModel, QuizViewModel
 - **UI Screens**: KataListScreen, KataDetailScreen, VocabularyListScreen, QuizMenuScreen, AboutScreen
+- **UI Components**: SearchBar, BeltColorFilterChips, BeltColorBadge, KataMoveCard
 - **Navigation**: ShotokanKataNavHost, BottomNavItem, NavRoutes
 - **Theme**: Color.kt, Type.kt, Theme.kt (with light/dark support)
 - **Resources**: strings.xml (EN/DA), colors.xml, themes.xml, 12 JSON data files

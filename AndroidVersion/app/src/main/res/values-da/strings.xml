@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shotokan Kata</string>
+
+    <!-- Navigation -->
+    <string name="nav_kata">Kata</string>
+    <string name="nav_quiz">Quiz</string>
+    <string name="nav_vocabulary">Ordbog</string>
+    <string name="nav_about">Om</string>
+
+    <!-- Belt Ranks -->
+    <string name="belt_white">Hvidt Bælte</string>
+    <string name="belt_yellow">Gult Bælte</string>
+    <string name="belt_orange">Orange Bælte</string>
+    <string name="belt_green">Grønt Bælte</string>
+    <string name="belt_purple">Lilla Bælte</string>
+    <string name="belt_brown">Brunt Bælte</string>
+    <string name="belt_black_dan_1">1. Dan Sort Bælte</string>
+    <string name="belt_black_dan_2">2. Dan Sort Bælte</string>
+    <string name="belt_black_dan_3">3. Dan Sort Bælte</string>
+    <string name="belt_black_dan_4">4. Dan Sort Bælte</string>
+    <string name="belt_black_dan_5">5. Dan Sort Bælte</string>
+
+    <!-- Kata Information -->
+    <string name="kata_number">Kata</string>
+    <string name="kata_moves">Bevægelser</string>
+    <string name="kata_belt_rank">Bæltegraduering</string>
+    <string name="kata_key_techniques">Nøgleteknikker</string>
+    <string name="kata_description">Beskrivelse</string>
+    <string name="kata_reference">Reference</string>
+    <string name="kata_sequence">Sekvens</string>
+
+    <!-- Kata Detail Tabs -->
+    <string name="kata_tab_overview">Oversigt</string>
+    <string name="kata_tab_moves">Bevægelser</string>
+    <string name="kata_tab_history">Historie</string>
+
+    <!-- Kata Move Details -->
+    <string name="kata_move_description">Beskrivelse</string>
+    <string name="kata_move_stance">Stilling</string>
+    <string name="kata_move_direction">Retning</string>
+    <string name="kata_move_kiai">Kiai</string>
+    <string name="kata_move_technique">Teknik</string>
+
+    <!-- Search and Filtering -->
+    <string name="search_kata_placeholder">Søg kata…</string>
+    <string name="search_no_results_title">Ingen Resultater</string>
+    <string name="search_no_results_message">Ingen kata fundet for \'%1$s\'</string>
+    <string name="kata_empty_title">Ingen Kata Tilgængelige</string>
+    <string name="kata_empty_message">Tjek venligst din internetforbindelse og prøv igen.</string>
+
+    <!-- Filter Interface -->
+    <string name="filter_title">Filtrer Kata</string>
+    <string name="filter_clear_all">Ryd Alle</string>
+    <string name="filter_belt_rank_title">Filtrer efter Bæltegraduering</string>
+    <string name="filter_all_kata">Alle Kata</string>
+    <string name="filter_basic_kata">Grundlæggende Kata</string>
+    <string name="filter_advanced_kata">Avancerede Kata</string>
+
+    <!-- Quiz Header -->
+    <string name="quiz_header_title">Test Din Viden</string>
+    <string name="quiz_header_subtitle">Udfordre dig selv med spørgsmål om Shotokan kata</string>
+
+    <!-- Quiz Quick Start -->
+    <string name="quiz_quick_start_title">Hurtig Start</string>
+    <string name="quiz_quick_start_description">Spring direkte ind i en quiz med dit nuværende bælteniveau</string>
+    <string name="quiz_start_quick">Start Hurtig Quiz</string>
+
+    <!-- Quiz Configuration -->
+    <string name="quiz_belt_rank_title">Vælg Bæltegraduering</string>
+    <string name="quiz_belt_rank_description">Vælg din nuværende bæltegraduering for at få passende spørgsmål</string>
+    <string name="quiz_category_title">Quiz Kategori</string>
+    <string name="quiz_category_description">Fokuser på et specifikt emne eller vælg alle kategorier</string>
+    <string name="quiz_category_all">Alle Kategorier</string>
+
+    <!-- Quiz Interface -->
+    <string name="quiz_start">Start Quiz</string>
+    <string name="quiz_next">Næste</string>
+    <string name="quiz_finish">Afslut</string>
+    <string name="quiz_results">Resultater</string>
+    <string name="quiz_score">Score</string>
+    <string name="quiz_correct">Korrekt</string>
+    <string name="quiz_incorrect">Forkert</string>
+    <string name="quiz_question_progress">Spørgsmål %1$d af %2$d</string>
+    <string name="quiz_final_score">Din endelige score: %1$d%%</string>
+    <string name="quiz_excellent">Fremragende!</string>
+    <string name="quiz_good">Godt klaret!</string>
+    <string name="quiz_needs_improvement">Der er plads til forbedring</string>
+
+    <!-- Vocabulary -->
+    <string name="vocabulary_search_placeholder">Søg termer…</string>
+    <string name="vocabulary_filter_all">Alle Kategorier</string>
+    <string name="vocabulary_filter_category">Vælg Kategori</string>
+    <string name="vocabulary_filter_clear">Ryd</string>
+    <string name="vocabulary_loading">Indlæser ordbog…</string>
+    <string name="vocabulary_error_title">Fejl</string>
+    <string name="vocabulary_empty_title">Ingen termer fundet</string>
+    <string name="vocabulary_empty_subtitle">Prøv at justere din søgning eller filter</string>
+    <string name="vocabulary_detail_definition">Definition</string>
+    <string name="vocabulary_detail_breakdown">Japansk Komponent Opdeling</string>
+    <string name="vocabulary_detail_category">Kategori</string>
+    <string name="vocabulary_term_count">%1$d termer</string>
+
+    <!-- Vocabulary Categories -->
+    <string name="vocabulary_category_general">Generelt</string>
+    <string name="vocabulary_category_etiquette">Etikette</string>
+    <string name="vocabulary_category_titles">Titler</string>
+    <string name="vocabulary_category_techniques">Teknikker</string>
+    <string name="vocabulary_category_stances">Stillinger</string>
+    <string name="vocabulary_category_blocks">Blokke</string>
+    <string name="vocabulary_category_punches">Slag</string>
+    <string name="vocabulary_category_kicks">Spark</string>
+    <string name="vocabulary_category_training">Træning</string>
+    <string name="vocabulary_category_ranks">Graduering</string>
+    <string name="vocabulary_category_equipment">Udstyr</string>
+
+    <!-- Common -->
+    <string name="common_cancel">Annuller</string>
+    <string name="common_done">Færdig</string>
+    <string name="common_save">Gem</string>
+    <string name="common_edit">Rediger</string>
+    <string name="common_delete">Slet</string>
+    <string name="common_ok">OK</string>
+    <string name="common_yes">Ja</string>
+    <string name="common_no">Nej</string>
+    <string name="common_back">Tilbage</string>
+    <string name="common_next">Næste</string>
+    <string name="common_previous">Forrige</string>
+    <string name="common_close">Luk</string>
+
+    <!-- General -->
+    <string name="loading">Indlæser…</string>
+    <string name="error">Fejl</string>
+    <string name="error_generic">Der opstod en fejl. Prøv venligst igen.</string>
+    <string name="error_network">Netværksfejl. Tjek din internetforbindelse.</string>
+    <string name="error_data">Kunne ikke indlæse data.</string>
+    <string name="retry">Prøv igen</string>
+
+    <!-- About Section -->
+    <string name="about_title">Om Shotokan Kata</string>
+    <string name="about_version">Version</string>
+    <string name="about_description">En app til at lære traditionelle Shotokan karate kata</string>
+    <string name="about_developer">Udvikler</string>
+    <string name="about_acknowledgments">Anerkendelser</string>
+</resources>
