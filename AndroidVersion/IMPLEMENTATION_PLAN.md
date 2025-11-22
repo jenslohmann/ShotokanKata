@@ -66,13 +66,13 @@ Based on `.github/copilot-instructions.md` - aligning Android app with iOS desig
 ## 4. Interactive Vocabulary Lookup (Lower Priority)
 
 ### 4.1 Clickable Japanese terms
-- [ ] Scan technique descriptions for vocabulary matches
-- [ ] Highlight matched terms in blue/bold
-- [ ] On tap, navigate to vocabulary detail or show sheet
+- [x] Scan technique descriptions for vocabulary matches
+- [x] Highlight matched terms in blue/bold
+- [x] On tap, navigate to vocabulary detail or show sheet
 
 ### 4.2 Term matching
-- [ ] Implement whole-word matching algorithm
-- [ ] Use longest-term-first matching to handle overlapping terms
+- [x] Implement whole-word matching algorithm
+- [x] Use longest-term-first matching to handle overlapping terms
 
 ---
 

@@ -20,14 +20,17 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.PrimaryTabRow
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Tab
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -42,6 +45,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import dk.jlo.shotokankata.R
 import dk.jlo.shotokankata.data.model.Kata
+import dk.jlo.shotokankata.data.model.VocabularyTerm
 import dk.jlo.shotokankata.ui.components.BeltColorBadge
 import dk.jlo.shotokankata.ui.components.KataMoveCard
 import dk.jlo.shotokankata.viewmodel.KataDetailViewModel
@@ -54,12 +58,15 @@ fun KataDetailScreen(
     viewModel: KataDetailViewModel = hiltViewModel()
 ) {
     val kata by viewModel.kata.collectAsState()
+    val vocabularyTerms by viewModel.vocabularyTerms.collectAsState()
+    val selectedVocabularyTerm by viewModel.selectedVocabularyTerm.collectAsState()
     var selectedTab by remember { mutableIntStateOf(0) }
     val tabs = listOf(
         stringResource(R.string.kata_tab_overview),
         stringResource(R.string.kata_tab_moves),
         stringResource(R.string.kata_tab_history)
     )
+    val sheetState = rememberModalBottomSheetState()
 
     LaunchedEffect(kataNumber) {
         viewModel.loadKata(kataNumber)
@@ -98,11 +105,86 @@ fun KataDetailScreen(
 
                 when (selectedTab) {
                     0 -> KataOverviewContent(currentKata)
-                    1 -> KataMovesContent(currentKata)
+                    1 -> KataMovesContent(
+                        kata = currentKata,
+                        vocabularyTerms = vocabularyTerms,
+                        onVocabularyTermClick = { term ->
+                            viewModel.selectVocabularyTerm(term)
+                        }
+                    )
                     2 -> KataHistoryContent(currentKata)
                 }
             }
         }
+    }
+
+    // Vocabulary term bottom sheet
+    selectedVocabularyTerm?.let { term ->
+        ModalBottomSheet(
+            onDismissRequest = { viewModel.clearSelectedVocabularyTerm() },
+            sheetState = sheetState
+        ) {
+            VocabularyTermSheet(term = term)
+        }
+    }
+}
+
+@Composable
+private fun VocabularyTermSheet(term: VocabularyTerm) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 24.dp, vertical = 16.dp)
+            .padding(bottom = 32.dp)
+    ) {
+        // Term name (romanized)
+        Text(
+            text = term.term,
+            style = MaterialTheme.typography.headlineSmall,
+            fontWeight = FontWeight.Bold
+        )
+
+        // Japanese name
+        Text(
+            text = term.japaneseName,
+            style = MaterialTheme.typography.titleMedium,
+            color = MaterialTheme.colorScheme.primary
+        )
+
+        // Hiragana
+        Text(
+            text = term.hiraganaName,
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+
+        Spacer(modifier = Modifier.height(16.dp))
+        HorizontalDivider()
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Short description
+        Text(
+            text = term.shortDescription,
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        // Definition if available and different from short description
+        if (term.definition.isNotBlank() && term.definition != term.shortDescription) {
+            Spacer(modifier = Modifier.height(12.dp))
+            Text(
+                text = term.definition,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+
+        // Category
+        Spacer(modifier = Modifier.height(16.dp))
+        Text(
+            text = "Category: ${term.category}",
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.tertiary
+        )
     }
 }
 
@@ -236,7 +318,11 @@ fun KataOverviewContent(kata: Kata) {
 }
 
 @Composable
-fun KataMovesContent(kata: Kata) {
+fun KataMovesContent(
+    kata: Kata,
+    vocabularyTerms: List<VocabularyTerm> = emptyList(),
+    onVocabularyTermClick: (VocabularyTerm) -> Unit = {}
+) {
     // Filter out ceremonial moves (sequence < 1)
     val actualMoves = kata.moves.filter { it.sequence >= 1 }
     // Get the move numbers where kiai occurs (check both move level and sub-move level)
@@ -304,7 +390,11 @@ fun KataMovesContent(kata: Kata) {
             items = kata.moves,
             key = { "${it.sequence}-${it.japaneseName}" }
         ) { move ->
-            KataMoveCard(move = move)
+            KataMoveCard(
+                move = move,
+                vocabularyTerms = vocabularyTerms,
+                onVocabularyTermClick = onVocabularyTermClick
+            )
         }
     }
 }

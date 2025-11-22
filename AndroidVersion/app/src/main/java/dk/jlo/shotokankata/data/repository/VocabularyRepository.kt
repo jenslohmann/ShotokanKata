@@ -67,4 +67,14 @@ class VocabularyRepository @Inject constructor(
             matchesSearch && matchesCategory
         }
     }
+
+    /**
+     * Find a vocabulary term by its romanized name (exact match, case-insensitive)
+     */
+    fun findTermByName(name: String): VocabularyTerm? {
+        return _terms.value.find { term ->
+            term.term.equals(name, ignoreCase = true) ||
+            term.japaneseName.equals(name, ignoreCase = true)
+        }
+    }
 }

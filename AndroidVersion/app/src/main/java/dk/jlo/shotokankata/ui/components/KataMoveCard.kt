@@ -25,11 +25,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import dk.jlo.shotokankata.data.model.KataMove
 import dk.jlo.shotokankata.data.model.KataSubMove
+import dk.jlo.shotokankata.data.model.VocabularyTerm
 
 @Composable
 fun KataMoveCard(
     move: KataMove,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    vocabularyTerms: List<VocabularyTerm> = emptyList(),
+    onVocabularyTermClick: (VocabularyTerm) -> Unit = {}
 ) {
     // Check if any sub-move has kiai
     val hasKiai = move.kiai == true || move.subMoves.any { it.kiai == true }
@@ -115,21 +118,34 @@ fun KataMoveCard(
                     }
                 }
 
-                // Description from first sub-move
+                // Description from first sub-move (with clickable vocabulary)
                 firstSubMove?.let { subMove ->
                     Spacer(modifier = Modifier.height(8.dp))
-                    Text(
-                        text = subMove.description,
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
+                    if (vocabularyTerms.isNotEmpty()) {
+                        ClickableVocabularyText(
+                            text = subMove.description,
+                            vocabularyTerms = vocabularyTerms,
+                            onTermClick = onVocabularyTermClick,
+                            style = MaterialTheme.typography.bodySmall
+                        )
+                    } else {
+                        Text(
+                            text = subMove.description,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
                 }
 
                 // Additional sub-moves (if more than 1)
                 if (move.subMoves.size > 1) {
                     Spacer(modifier = Modifier.height(12.dp))
                     move.subMoves.drop(1).forEach { subMove ->
-                        SubMoveCard(subMove = subMove)
+                        SubMoveCard(
+                            subMove = subMove,
+                            vocabularyTerms = vocabularyTerms,
+                            onVocabularyTermClick = onVocabularyTermClick
+                        )
                         Spacer(modifier = Modifier.height(8.dp))
                     }
                 }
@@ -139,7 +155,11 @@ fun KataMoveCard(
 }
 
 @Composable
-private fun SubMoveCard(subMove: KataSubMove) {
+private fun SubMoveCard(
+    subMove: KataSubMove,
+    vocabularyTerms: List<VocabularyTerm> = emptyList(),
+    onVocabularyTermClick: (VocabularyTerm) -> Unit = {}
+) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -183,13 +203,22 @@ private fun SubMoveCard(subMove: KataSubMove) {
                 KiaiBadge()
             }
 
-            // Description
+            // Description (with clickable vocabulary)
             Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = subMove.description,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
+            if (vocabularyTerms.isNotEmpty()) {
+                ClickableVocabularyText(
+                    text = subMove.description,
+                    vocabularyTerms = vocabularyTerms,
+                    onTermClick = onVocabularyTermClick,
+                    style = MaterialTheme.typography.bodySmall
+                )
+            } else {
+                Text(
+                    text = subMove.description,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
         }
     }
 }
