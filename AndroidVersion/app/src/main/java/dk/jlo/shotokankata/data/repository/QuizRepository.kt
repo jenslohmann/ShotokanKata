@@ -1,5 +1,6 @@
 package dk.jlo.shotokankata.data.repository
 
+import dk.jlo.shotokankata.data.model.Kata
 import dk.jlo.shotokankata.data.model.KarateRank
 import dk.jlo.shotokankata.data.model.QuestionCategory
 import dk.jlo.shotokankata.data.model.QuestionType
@@ -15,14 +16,15 @@ class QuizRepository @Inject constructor(
     fun generateQuestions(
         rank: KarateRank,
         category: QuestionCategory?,
-        limit: Int = 10
+        limit: Int = 10,
+        kataList: List<Kata> = kataRepository.kata.value
     ): List<QuizQuestion> {
         val questions = mutableListOf<QuizQuestion>()
 
         // Generate dynamic questions based on kata data
-        questions.addAll(generateKataMovesCountQuestions(rank))
-        questions.addAll(generateKiaiSelectionQuestions(rank))
-        questions.addAll(generateKataRankQuestions(rank))
+        questions.addAll(generateKataMovesCountQuestions(rank, kataList))
+        questions.addAll(generateKiaiSelectionQuestions(rank, kataList))
+        questions.addAll(generateKataRankQuestions(rank, kataList))
 
         // Filter by category if specified
         val filtered = if (category != null) {
@@ -34,8 +36,8 @@ class QuizRepository @Inject constructor(
         return filtered.shuffled().take(limit)
     }
 
-    private fun generateKataMovesCountQuestions(maxRank: KarateRank): List<QuizQuestion> {
-        return kataRepository.kata.value
+    private fun generateKataMovesCountQuestions(maxRank: KarateRank, kataList: List<Kata>): List<QuizQuestion> {
+        return kataList
             .filter { kata ->
                 val kataRank = kata.rank ?: return@filter false
                 kataRank.sortOrder <= maxRank.sortOrder
@@ -64,8 +66,8 @@ class QuizRepository @Inject constructor(
             }
     }
 
-    private fun generateKiaiSelectionQuestions(maxRank: KarateRank): List<QuizQuestion> {
-        return kataRepository.kata.value
+    private fun generateKiaiSelectionQuestions(maxRank: KarateRank, kataList: List<Kata>): List<QuizQuestion> {
+        return kataList
             .filter { kata ->
                 val kataRank = kata.rank ?: return@filter false
                 kataRank.sortOrder <= maxRank.sortOrder && kata.moves.isNotEmpty()
@@ -89,8 +91,8 @@ class QuizRepository @Inject constructor(
             }
     }
 
-    private fun generateKataRankQuestions(maxRank: KarateRank): List<QuizQuestion> {
-        return kataRepository.kata.value
+    private fun generateKataRankQuestions(maxRank: KarateRank, kataList: List<Kata>): List<QuizQuestion> {
+        return kataList
             .filter { kata ->
                 val kataRank = kata.rank ?: return@filter false
                 kataRank.sortOrder <= maxRank.sortOrder

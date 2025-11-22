@@ -1,5 +1,6 @@
 package dk.jlo.shotokankata.data.repository
 
+import android.util.Log
 import dk.jlo.shotokankata.data.model.BeltColor
 import dk.jlo.shotokankata.data.model.Kata
 import dk.jlo.shotokankata.data.model.KarateRank
@@ -12,6 +13,8 @@ import kotlinx.coroutines.withContext
 import javax.inject.Inject
 import javax.inject.Singleton
 
+private const val TAG = "KataRepository"
+
 @Singleton
 class KataRepository @Inject constructor(
     private val dataSource: JsonDataSource
@@ -23,25 +26,44 @@ class KataRepository @Inject constructor(
     val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
 
     suspend fun loadKata() = withContext(Dispatchers.IO) {
-        if (_kata.value.isNotEmpty()) return@withContext
+        Log.d(TAG, "loadKata called, current size: ${_kata.value.size}")
+        if (_kata.value.isNotEmpty()) {
+            Log.d(TAG, "Kata already loaded, returning early")
+            return@withContext
+        }
 
         _isLoading.value = true
         try {
             val config = dataSource.loadKataConfiguration()
-            val loadedKata = config.availableKata
-                .filter { it.enabled }
+            Log.d(TAG, "Loaded config with ${config.availableKata.size} kata entries")
+
+            val enabledKata = config.availableKata.filter { it.enabled }
+            Log.d(TAG, "Enabled kata: ${enabledKata.size}")
+
+            val loadedKata = enabledKata
                 .mapNotNull { entry ->
                     try {
                         val resourceId = dataSource.getKataResourceId(entry.fileName)
+                        Log.d(TAG, "Resource ID for ${entry.fileName}: $resourceId")
                         if (resourceId != 0) {
-                            dataSource.loadKata(resourceId)
-                        } else null
+                            val kata = dataSource.loadKata(resourceId)
+                            Log.d(TAG, "Loaded kata: ${kata.name}")
+                            kata
+                        } else {
+                            Log.w(TAG, "Resource not found for: ${entry.fileName}")
+                            null
+                        }
                     } catch (e: Exception) {
+                        Log.e(TAG, "Error loading kata ${entry.fileName}: ${e.message}")
                         null
                     }
                 }
                 .sortedBy { it.kataNumber }
+
+            Log.d(TAG, "Total loaded kata: ${loadedKata.size}")
             _kata.value = loadedKata
+        } catch (e: Exception) {
+            Log.e(TAG, "Error in loadKata: ${e.message}", e)
         } finally {
             _isLoading.value = false
         }

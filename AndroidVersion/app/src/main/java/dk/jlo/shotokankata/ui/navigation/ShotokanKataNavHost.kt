@@ -134,13 +134,20 @@ fun ShotokanKataNavHost() {
             // Quiz Menu
             composable(NavRoutes.QUIZ_MENU) {
                 QuizMenuScreen(
-                    onStartQuiz = { navController.navigate(NavRoutes.QUIZ_ACTIVE) }
+                    onStartQuiz = { rankOrdinal, categoryOrdinal, questionCount ->
+                        navController.navigate(NavRoutes.quizActive(rankOrdinal, categoryOrdinal, questionCount))
+                    }
                 )
             }
 
             // Quiz Active - slide up
             composable(
                 route = NavRoutes.QUIZ_ACTIVE,
+                arguments = listOf(
+                    navArgument("rankOrdinal") { type = NavType.IntType },
+                    navArgument("categoryOrdinal") { type = NavType.IntType },
+                    navArgument("questionCount") { type = NavType.IntType }
+                ),
                 enterTransition = {
                     slideIntoContainer(
                         towards = AnimatedContentTransitionScope.SlideDirection.Up,
@@ -165,8 +172,14 @@ fun ShotokanKataNavHost() {
                         animationSpec = tween(ANIMATION_DURATION)
                     )
                 }
-            ) {
+            ) { backStackEntry ->
+                val rankOrdinal = backStackEntry.arguments?.getInt("rankOrdinal") ?: 0
+                val categoryOrdinal = backStackEntry.arguments?.getInt("categoryOrdinal") ?: -1
+                val questionCount = backStackEntry.arguments?.getInt("questionCount") ?: 10
                 QuizScreen(
+                    rankOrdinal = rankOrdinal,
+                    categoryOrdinal = categoryOrdinal,
+                    questionCount = questionCount,
                     onExit = { navController.popBackStack(NavRoutes.QUIZ_MENU, false) }
                 )
             }

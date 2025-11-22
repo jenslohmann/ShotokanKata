@@ -1,5 +1,6 @@
 package dk.jlo.shotokankata.viewmodel
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -18,14 +19,16 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+private const val TAG = "QuizViewModel"
+
 @HiltViewModel
 class QuizViewModel @Inject constructor(
     private val quizRepository: QuizRepository,
     private val kataRepository: KataRepository
 ) : ViewModel() {
 
-    // Configuration
-    private val _selectedRank = MutableStateFlow(KarateRank.KYU_10)
+    // Configuration - default to 8th Kyu since that's when first kata is learned
+    private val _selectedRank = MutableStateFlow(KarateRank.KYU_8)
     val selectedRank: StateFlow<KarateRank> = _selectedRank.asStateFlow()
 
     private val _selectedCategory = MutableStateFlow<QuestionCategory?>(null)
@@ -77,6 +80,60 @@ class QuizViewModel @Inject constructor(
             )
 
             if (questions.isEmpty()) {
+                return@launch
+            }
+
+            _questions.value = questions
+            _totalQuestions.value = questions.size
+            _currentQuestionIndex.value = 0
+            _currentQuestion.value = questions.firstOrNull()
+            _userAnswers.value = mutableListOf()
+            startTime = System.currentTimeMillis()
+            _quizState.value = QuizState.InProgress(0)
+        }
+    }
+
+    fun startQuizWithConfig(rankOrdinal: Int, categoryOrdinal: Int, questionCount: Int) {
+        Log.d(TAG, "startQuizWithConfig called: rank=$rankOrdinal, category=$categoryOrdinal, count=$questionCount")
+
+        val rank = KarateRank.entries.getOrNull(rankOrdinal) ?: KarateRank.KYU_10
+        val category = if (categoryOrdinal >= 0) QuestionCategory.entries.getOrNull(categoryOrdinal) else null
+
+        Log.d(TAG, "Resolved rank: ${rank.displayName}, category: ${category?.displayName ?: "All"}")
+
+        _selectedRank.value = rank
+        _selectedCategory.value = category
+        _questionCount.value = questionCount
+
+        viewModelScope.launch {
+            Log.d(TAG, "Loading kata...")
+            // Ensure kata data is loaded for question generation
+            kataRepository.loadKata()
+
+            // Get the loaded kata list
+            val kataList = kataRepository.kata.value
+            Log.d(TAG, "Kata loaded: ${kataList.size} kata available")
+
+            // Generate questions with the loaded kata
+            val questions = quizRepository.generateQuestions(
+                rank = rank,
+                category = category,
+                limit = questionCount,
+                kataList = kataList
+            )
+            Log.d(TAG, "Generated ${questions.size} questions")
+
+            if (questions.isEmpty()) {
+                Log.w(TAG, "No questions generated, showing empty result")
+                // If no questions could be generated, show an empty result
+                _quizState.value = QuizState.Completed(
+                    QuizResult(
+                        totalQuestions = 0,
+                        correctAnswers = 0,
+                        timeTaken = 0,
+                        questionResults = emptyList()
+                    )
+                )
                 return@launch
             }
 

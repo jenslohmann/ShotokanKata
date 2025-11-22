@@ -1,6 +1,5 @@
 package dk.jlo.shotokankata.data.model
 
-import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import java.util.UUID
 
@@ -8,15 +7,15 @@ import java.util.UUID
 data class Kata(
     val id: String = UUID.randomUUID().toString(),
     val name: String,
-    @SerialName("japanese_name") val japaneseName: String,
-    @SerialName("hiragana_name") val hiraganaName: String? = null,
-    @SerialName("number_of_moves") val numberOfMoves: Int,
-    @SerialName("kata_number") val kataNumber: Int,
-    @SerialName("belt_rank") val beltRank: String,
+    val japaneseName: String,
+    val hiraganaName: String? = null,
+    val numberOfMoves: Int,
+    val kataNumber: Int,
+    val beltRank: String,
     val description: String,
-    @SerialName("key_techniques") val keyTechniques: List<String> = emptyList(),
-    @SerialName("reference_url") val referenceURL: String? = null,
-    @SerialName("video_urls") val videoURLs: List<String>? = null,
+    val keyTechniques: List<String> = emptyList(),
+    val referenceURL: String? = null,
+    val videoURLs: List<String>? = null,
     val moves: List<KataMove> = emptyList()
 ) {
     val rank: KarateRank? get() = KarateRank.fromString(beltRank)
@@ -26,11 +25,11 @@ data class Kata(
 @Serializable
 data class KataMove(
     val sequence: Int,
-    @SerialName("japanese_name") val japaneseName: String,
+    val japaneseName: String,
     val direction: String,
     val kiai: Boolean? = null,
-    @SerialName("sub_moves") val subMoves: List<KataSubMove> = emptyList(),
-    @SerialName("sequence_name") val sequenceName: String? = null
+    val subMoves: List<KataSubMove> = emptyList(),
+    val sequenceName: String? = null
 )
 
 @Serializable
@@ -39,7 +38,7 @@ data class KataSubMove(
     val technique: String,
     val hiragana: String? = null,
     val stance: String,
-    @SerialName("stance_hiragana") val stanceHiragana: String? = null,
+    val stanceHiragana: String? = null,
     val description: String,
     val icon: String,
     val kiai: Boolean? = null

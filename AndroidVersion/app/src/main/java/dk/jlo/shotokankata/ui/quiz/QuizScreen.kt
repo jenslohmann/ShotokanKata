@@ -27,6 +27,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -44,6 +45,9 @@ import dk.jlo.shotokankata.viewmodel.QuizViewModel
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun QuizScreen(
+    rankOrdinal: Int,
+    categoryOrdinal: Int,
+    questionCount: Int,
     onExit: () -> Unit,
     viewModel: QuizViewModel = hiltViewModel()
 ) {
@@ -51,6 +55,13 @@ fun QuizScreen(
     val currentQuestion by viewModel.currentQuestion.collectAsState()
     val currentQuestionIndex by viewModel.currentQuestionIndex.collectAsState()
     val totalQuestions by viewModel.totalQuestions.collectAsState()
+
+    // Start quiz when screen is displayed with the provided configuration
+    LaunchedEffect(rankOrdinal, categoryOrdinal, questionCount) {
+        if (quizState is QuizState.NotStarted) {
+            viewModel.startQuizWithConfig(rankOrdinal, categoryOrdinal, questionCount)
+        }
+    }
 
     Scaffold(
         topBar = {

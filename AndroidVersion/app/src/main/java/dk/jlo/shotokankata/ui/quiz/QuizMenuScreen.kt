@@ -40,7 +40,7 @@ import kotlin.math.roundToInt
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun QuizMenuScreen(
-    onStartQuiz: () -> Unit,
+    onStartQuiz: (rankOrdinal: Int, categoryOrdinal: Int, questionCount: Int) -> Unit,
     viewModel: QuizViewModel = hiltViewModel()
 ) {
     val selectedRank by viewModel.selectedRank.collectAsState()
@@ -111,15 +111,15 @@ fun QuizMenuScreen(
                     .horizontalScroll(rememberScrollState()),
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                // Show main belt ranks for selection
+                // Show main belt ranks for selection (starting from 8th Kyu when first kata is learned)
                 val displayRanks = listOf(
-                    KarateRank.KYU_10,
                     KarateRank.KYU_8,
                     KarateRank.KYU_6,
                     KarateRank.KYU_4,
                     KarateRank.KYU_2,
                     KarateRank.DAN_1,
-                    KarateRank.DAN_3
+                    KarateRank.DAN_3,
+                    KarateRank.DAN_5
                 )
                 displayRanks.forEach { rank ->
                     FilterChip(
@@ -204,8 +204,11 @@ fun QuizMenuScreen(
             // Start Quiz Button
             Button(
                 onClick = {
-                    viewModel.startQuiz()
-                    onStartQuiz()
+                    onStartQuiz(
+                        selectedRank.ordinal,
+                        selectedCategory?.ordinal ?: -1,
+                        questionCount
+                    )
                 },
                 modifier = Modifier.fillMaxWidth()
             ) {
