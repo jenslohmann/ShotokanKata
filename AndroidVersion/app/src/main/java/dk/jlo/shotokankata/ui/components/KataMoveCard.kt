@@ -45,7 +45,7 @@ fun KataMoveCard(
                 .padding(16.dp),
             verticalAlignment = Alignment.Top
         ) {
-            // Move number
+            // Move number or sequence name
             Box(
                 modifier = Modifier
                     .size(40.dp)
@@ -54,9 +54,9 @@ fun KataMoveCard(
                 contentAlignment = Alignment.Center
             ) {
                 Text(
-                    text = if (move.sequence > 0) move.sequence.toString() else "-",
+                    text = move.sequenceName ?: if (move.sequence > 0) move.sequence.toString() else "-",
                     color = MaterialTheme.colorScheme.onPrimary,
-                    style = MaterialTheme.typography.titleMedium,
+                    style = if (move.sequenceName != null) MaterialTheme.typography.labelSmall else MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold
                 )
             }
@@ -70,15 +70,6 @@ fun KataMoveCard(
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold
                 )
-
-                // Sequence name if available
-                move.sequenceName?.let { name ->
-                    Text(
-                        text = name,
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
-                }
 
                 Spacer(modifier = Modifier.height(4.dp))
 

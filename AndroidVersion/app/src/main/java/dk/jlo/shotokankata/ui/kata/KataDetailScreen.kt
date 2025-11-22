@@ -238,7 +238,11 @@ fun KataOverviewContent(kata: Kata) {
 fun KataMovesContent(kata: Kata) {
     // Filter out ceremonial moves (sequence < 1)
     val actualMoves = kata.moves.filter { it.sequence >= 1 }
-    val kiaiCount = actualMoves.count { it.kiai == true }
+    // Get the move numbers where kiai occurs (check both move level and sub-move level)
+    val kiaiMoves = actualMoves.filter { move ->
+        move.kiai == true || move.subMoves.any { subMove -> subMove.kiai == true }
+    }.map { it.sequence }
+    val kiaiText = if (kiaiMoves.isNotEmpty()) kiaiMoves.joinToString(", ") else "-"
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
@@ -261,7 +265,7 @@ fun KataMovesContent(kata: Kata) {
                 ) {
                     Column(horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally) {
                         Text(
-                            text = actualMoves.size.toString(),
+                            text = kata.numberOfMoves.toString(),
                             style = MaterialTheme.typography.headlineMedium,
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.onSecondaryContainer
@@ -274,7 +278,7 @@ fun KataMovesContent(kata: Kata) {
                     }
                     Column(horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally) {
                         Text(
-                            text = kiaiCount.toString(),
+                            text = kiaiText,
                             style = MaterialTheme.typography.headlineMedium,
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.error

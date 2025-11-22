@@ -73,7 +73,10 @@ class QuizRepository @Inject constructor(
                 kataRank.sortOrder <= maxRank.sortOrder && kata.moves.isNotEmpty()
             }
             .mapNotNull { kata ->
-                val kiaiMoves = kata.moves.filter { it.kiai == true }
+                // Check both move level and sub-move level for kiai
+                val kiaiMoves = kata.moves.filter { move ->
+                    move.kiai == true || move.subMoves.any { it.kiai == true }
+                }
                 if (kiaiMoves.isEmpty()) return@mapNotNull null
 
                 val kiaiIndices = kiaiMoves.map { kata.moves.indexOf(it) }
