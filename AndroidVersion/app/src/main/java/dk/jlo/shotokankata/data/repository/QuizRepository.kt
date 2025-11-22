@@ -73,17 +73,21 @@ class QuizRepository @Inject constructor(
                 kataRank.sortOrder <= maxRank.sortOrder && kata.moves.isNotEmpty()
             }
             .mapNotNull { kata ->
+                // Filter out ceremonial moves (Rei, Yōi) - only include actual kata moves
+                val actualMoves = kata.moves.filter { it.sequence >= 1 }
+                if (actualMoves.isEmpty()) return@mapNotNull null
+
                 // Check both move level and sub-move level for kiai
-                val kiaiMoves = kata.moves.filter { move ->
+                val kiaiMoves = actualMoves.filter { move ->
                     move.kiai == true || move.subMoves.any { it.kiai == true }
                 }
                 if (kiaiMoves.isEmpty()) return@mapNotNull null
 
-                val kiaiIndices = kiaiMoves.map { kata.moves.indexOf(it) }
+                val kiaiIndices = kiaiMoves.map { actualMoves.indexOf(it) }
 
                 QuizQuestion(
                     question = "Select the moves where kiai occurs in ${kata.name}:",
-                    options = kata.moves.map { "Move ${it.sequence}: ${it.japaneseName}" },
+                    options = actualMoves.map { "Move ${it.sequence}: ${it.japaneseName}" },
                     correctAnswerIndex = kiaiIndices.firstOrNull() ?: 0,
                     category = QuestionCategory.TECHNIQUES,
                     questionType = QuestionType.KATA_KIAI_SELECTION,

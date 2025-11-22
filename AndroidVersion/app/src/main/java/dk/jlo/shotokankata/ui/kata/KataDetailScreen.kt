@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.ui.Alignment
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
@@ -242,7 +243,14 @@ fun KataMovesContent(kata: Kata) {
     val kiaiMoves = actualMoves.filter { move ->
         move.kiai == true || move.subMoves.any { subMove -> subMove.kiai == true }
     }.map { it.sequence }
-    val kiaiText = if (kiaiMoves.isNotEmpty()) kiaiMoves.joinToString(", ") else "-"
+
+    // Format kiai text as descriptive sentence
+    val kiaiInfoText = when {
+        kiaiMoves.isEmpty() -> "No kiai in this kata"
+        kiaiMoves.size == 1 -> "Kiai on move ${kiaiMoves.first()}"
+        kiaiMoves.size == 2 -> "Kiai on moves ${kiaiMoves[0]} and ${kiaiMoves[1]}"
+        else -> "Kiai on moves ${kiaiMoves.dropLast(1).joinToString(", ")} and ${kiaiMoves.last()}"
+    }
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
@@ -261,9 +269,13 @@ fun KataMovesContent(kata: Kata) {
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(16.dp),
-                    horizontalArrangement = Arrangement.SpaceEvenly
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Column(horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally) {
+                    // Moves count
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        modifier = Modifier.padding(end = 24.dp)
+                    ) {
                         Text(
                             text = kata.numberOfMoves.toString(),
                             style = MaterialTheme.typography.headlineMedium,
@@ -276,19 +288,13 @@ fun KataMovesContent(kata: Kata) {
                             color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.7f)
                         )
                     }
-                    Column(horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally) {
-                        Text(
-                            text = kiaiText,
-                            style = MaterialTheme.typography.headlineMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = MaterialTheme.colorScheme.error
-                        )
-                        Text(
-                            text = stringResource(R.string.kata_move_kiai),
-                            style = MaterialTheme.typography.labelMedium,
-                            color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.7f)
-                        )
-                    }
+
+                    // Kiai info text
+                    Text(
+                        text = kiaiInfoText,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
                 }
             }
         }

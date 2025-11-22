@@ -7,12 +7,12 @@ Based on `.github/copilot-instructions.md` - aligning Android app with iOS desig
 ## 1. Kata Move Card Layout (High Priority)
 
 ### 1.1 Show technique from first sub-move in header
-- [ ] Display `firstSubMove.technique` instead of `move.japaneseName` as the main header
-- [ ] Fall back to `move.japaneseName` if no sub-moves exist
+- [x] Display `firstSubMove.technique` instead of `move.japaneseName` as the main header
+- [x] Fall back to `move.japaneseName` if no sub-moves exist
 
 ### 1.2 Add hiragana display
-- [ ] Show hiragana below technique name (from `firstSubMove.hiragana`)
-- [ ] Show stance with hiragana: "Zenkutsu-dachi, ぜんくつだち"
+- [x] Show hiragana below technique name (from `firstSubMove.hiragana`)
+- [x] Show stance with hiragana: "Zenkutsu-dachi, ぜんくつだち"
 
 ### 1.3 Expandable descriptions
 - [ ] Add expandable/collapsible description section with chevron toggle (▼/▲)
@@ -20,46 +20,46 @@ Based on `.github/copilot-instructions.md` - aligning Android app with iOS desig
 - [ ] Smooth animation on expand/collapse (0.1s ease-in-out)
 
 ### 1.4 Direction display with arrow
-- [ ] Show direction as text + arrow icon (N → ↑, NE → ↗, E → →, etc.)
-- [ ] Map all 16 compass directions to appropriate arrows
+- [x] Show direction as text + arrow icon (N → ↑, NE → ↗, E → →, etc.)
+- [x] Map all 16 compass directions to appropriate arrows
 
 ### 1.5 Multiple sub-moves support
-- [ ] When `move.subMoves.count > 1`, display additional sub-moves below header
-- [ ] Use proper indentation for nested sub-moves
+- [x] When `move.subMoves.count > 1`, display additional sub-moves below header
+- [x] Use proper indentation for nested sub-moves
 - [ ] Each sub-move should have its own expandable description
 
 ### 1.6 KIAI indicator styling
-- [ ] Style KIAI as a red badge/chip
-- [ ] Check both move-level and sub-move-level kiai
+- [x] Style KIAI as a red badge/chip
+- [x] Check both move-level and sub-move-level kiai
 
 ---
 
 ## 2. Kata List Row View (Medium Priority)
 
 ### 2.1 Info chips row
-- [ ] Add "Moves" chip with count
-- [ ] Add "Techniques" chip with key techniques count (hide on phones)
+- [x] Add "Moves" chip with count
+- [x] Add "Techniques" chip with key techniques count (hide on phones)
 - [ ] Add "Level" chip showing difficulty (Basic/Intermediate/Advanced/Master)
 
 ### 2.2 Kata number formatting
-- [ ] Display kata number as "#N" format in blue circle
+- [x] Display kata number as "#N" format in blue circle
 
 ### 2.3 Device-adaptive layout
-- [ ] Detect screen size (phone vs tablet)
-- [ ] Hide techniques chip on phones
-- [ ] Adjust spacing/padding for different screen sizes
+- [x] Detect screen size (phone vs tablet)
+- [x] Hide techniques chip on phones
+- [x] Adjust spacing/padding for different screen sizes
 
 ---
 
 ## 3. Kata Header/Overview (Medium Priority)
 
 ### 3.1 Kiai info text
-- [ ] Change from showing move numbers to descriptive text
-- [ ] Format: "Kiai on moves X and Y" or "Kiai on move X"
+- [x] Change from showing move numbers to descriptive text
+- [x] Format: "Kiai on moves X and Y" or "Kiai on move X"
 
 ### 3.2 Header layout refinement
-- [ ] Ensure layout matches: English name, Japanese name, hiragana
-- [ ] Rank badge with proper belt color styling
+- [x] Ensure layout matches: English name, Japanese name, hiragana
+- [x] Rank badge with proper belt color styling
 
 ---
 
@@ -79,8 +79,8 @@ Based on `.github/copilot-instructions.md` - aligning Android app with iOS desig
 ## 5. Quiz System Fixes (Quick Fix)
 
 ### 5.1 Exclude ceremonial moves
-- [ ] Filter out moves with `sequence < 1` (Rei, Yōi) from quiz questions
-- [ ] Update `generateKiaiSelectionQuestions` to exclude ceremonial moves
+- [x] Filter out moves with `sequence < 1` (Rei, Yōi) from quiz questions
+- [x] Update `generateKiaiSelectionQuestions` to exclude ceremonial moves
 
 ---
 
