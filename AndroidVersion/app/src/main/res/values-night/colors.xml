@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Dark theme primary colors -->
-    <color name="primary_dark">#FFFFB4AB</color>
-    <color name="on_primary_dark">#FF690005</color>
-    <color name="primary_container_dark">#FF93000A</color>
-    <color name="on_primary_container_dark">#FFFFDAD5</color>
+    <color name="primary">#FFFFB4AB</color>
+    <color name="on_primary">#FF690005</color>
+    <color name="primary_container">#FF93000A</color>
+    <color name="on_primary_container">#FFFFDAD5</color>
 
     <!-- Dark theme secondary colors -->
-    <color name="secondary_dark">#FFE7BDA5</color>
-    <color name="on_secondary_dark">#FF442A1C</color>
-    <color name="secondary_container_dark">#FF5D4030</color>
-    <color name="on_secondary_container_dark">#FFFFDCC2</color>
+    <color name="secondary">#FFE7BDA5</color>
+    <color name="on_secondary">#FF442A1C</color>
+    <color name="secondary_container">#FF5D4030</color>
+    <color name="on_secondary_container">#FFFFDCC2</color>
 
     <!-- Dark theme tertiary colors -->
-    <color name="tertiary_dark">#FF4FD8EB</color>
-    <color name="on_tertiary_dark">#FF00363D</color>
-    <color name="tertiary_container_dark">#FF004F58</color>
-    <color name="on_tertiary_container_dark">#FF97F0FF</color>
+    <color name="tertiary">#FF4FD8EB</color>
+    <color name="on_tertiary">#FF00363D</color>
+    <color name="tertiary_container">#FF004F58</color>
+    <color name="on_tertiary_container">#FF97F0FF</color>
 
     <!-- Dark theme error colors -->
-    <color name="error_dark">#FFFFB4AB</color>
-    <color name="on_error_dark">#FF690005</color>
-    <color name="error_container_dark">#FF93000A</color>
-    <color name="on_error_container_dark">#FFFFDAD6</color>
+    <color name="error">#FFFFB4AB</color>
+    <color name="on_error">#FF690005</color>
+    <color name="error_container">#FF93000A</color>
+    <color name="on_error_container">#FFFFDAD6</color>
 
     <!-- Dark theme surface colors -->
-    <color name="background_dark">#FF201A19</color>
-    <color name="on_background_dark">#FFEDE0DE</color>
-    <color name="surface_dark">#FF201A19</color>
-    <color name="on_surface_dark">#FFEDE0DE</color>
-    <color name="surface_variant_dark">#FF534341</color>
-    <color name="on_surface_variant_dark">#FFD8C2BF</color>
-    <color name="outline_dark">#FFA08C89</color>
-    <color name="outline_variant_dark">#FF534341</color>
+    <color name="background">#FF201A19</color>
+    <color name="on_background">#FFEDE0DE</color>
+    <color name="surface">#FF201A19</color>
+    <color name="on_surface">#FFEDE0DE</color>
+    <color name="surface_variant">#FF534341</color>
+    <color name="on_surface_variant">#FFD8C2BF</color>
+    <color name="outline">#FFA08C89</color>
+    <color name="outline_variant">#FF534341</color>
 
     <!-- Dark theme belt colors -->
-    <color name="belt_white_dark">#FFE0E0E0</color>
-    <color name="belt_yellow_dark">#FFFDD835</color>
-    <color name="belt_orange_dark">#FFFFB74D</color>
-    <color name="belt_green_dark">#FF81C784</color>
-    <color name="belt_purple_dark">#FFBA68C8</color>
-    <color name="belt_brown_dark">#FFA1887F</color>
-    <color name="belt_black_dark">#FF424242</color>
+    <color name="belt_white">#FFE0E0E0</color>
+    <color name="belt_yellow">#FFFDD835</color>
+    <color name="belt_orange">#FFFFB74D</color>
+    <color name="belt_green">#FF81C784</color>
+    <color name="belt_purple">#FFBA68C8</color>
+    <color name="belt_brown">#FFA1887F</color>
+    <color name="belt_black">#FF424242</color>
 </resources>

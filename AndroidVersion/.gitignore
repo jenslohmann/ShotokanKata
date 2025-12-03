@@ -8,3 +8,16 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+*.jks
+*.keystore
+*.pem
+*.crt
+*.cer
+*.p12
+*.der
+*.key
+*.pfx
+*.asc
+*.gpg
+*.ovpn

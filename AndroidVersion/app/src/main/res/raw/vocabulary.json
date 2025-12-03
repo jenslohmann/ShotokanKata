@@ -669,6 +669,76 @@
       "definition": "Vertical or lengthwise; a directional term indicating vertical orientation or alignment. In karate, tate is commonly used to describe techniques performed with vertical orientation, such as tate-zuki (vertical punch) where the fist is held vertically, or tate-uke (vertical block) where the arm is positioned upright. This orientation provides different angles of attack and defense compared to horizontal techniques.",
       "category": "general",
       "componentBreakdown": "縦 (tate) - This single kanji means 'vertical', 'lengthwise', or 'longitudinal'. It indicates orientation along the vertical axis, contrasting with yoko (横) which means horizontal or sideways."
+    },
+    {
+      "id": 67,
+      "term": "Yoko",
+      "japaneseName": "横",
+      "hiraganaName": "よこ",
+      "shortDescription": "Side or horizontal direction",
+      "definition": "Side or horizontal; a directional term indicating lateral or horizontal orientation. In karate, yoko is commonly used to describe techniques performed to the side or with horizontal orientation, such as yoko-geri (side kick), yoko-zuki (side punch), or yoko-uke (side block). This directional term is fundamental to understanding many karate techniques and movements that involve sideways motion or horizontal alignment.",
+      "category": "general",
+      "componentBreakdown": "横 (yoko) - This single kanji means 'side', 'horizontal', 'sideways', or 'lateral'. It indicates orientation along the horizontal axis or movement to the side, contrasting with tate (縦) which means vertical or lengthwise."
+    },
+    {
+      "id": 68,
+      "term": "Mae",
+      "japaneseName": "前",
+      "hiraganaName": "まえ",
+      "shortDescription": "Front or forward direction",
+      "definition": "Front or forward; a directional term indicating forward orientation or movement toward the front. In karate, mae is commonly used to describe techniques performed forward or to the front, such as mae-geri (front kick), mae-zuki (straight punch), or mae-empi (forward elbow strike). This directional term is fundamental to understanding many karate techniques and movements that involve forward motion or frontal attack.",
+      "category": "general",
+      "componentBreakdown": "前 (mae) - This single kanji means 'front', 'forward', 'before', or 'ahead'. It indicates direction toward the front or forward movement, contrasting with ushiro (後ろ) which means back or rear."
+    },
+    {
+      "id": 69,
+      "term": "Mokusō",
+      "japaneseName": "黙想",
+      "hiraganaName": "もくそう",
+      "shortDescription": "Meditation or silent contemplation",
+      "definition": "Meditation or silent contemplation; a period of quiet reflection practiced in martial arts training. Mokusō is typically performed at the beginning and end of class while sitting in seiza (formal kneeling position). During mokusō, practitioners clear their minds, focus their thoughts, and prepare mentally for training or reflect on what they have learned. This practice helps develop mental discipline, concentration, and inner calm, which are essential aspects of martial arts training beyond physical techniques.",
+      "category": "etiquette",
+      "componentBreakdown": "黙 (moku) - 'silence' or 'quiet', representing the wordless nature of meditation; 想 (sō) - 'thought', 'contemplation', or 'concept'. Together they mean 'silent contemplation' or 'meditation', emphasizing the practice of quiet mental reflection."
+    },
+    {
+      "id": 70,
+      "term": "Seiza",
+      "japaneseName": "正座",
+      "hiraganaName": "せいざ",
+      "shortDescription": "Formal kneeling sitting position",
+      "definition": "Formal kneeling sitting position; a traditional Japanese way of sitting where one kneels with the tops of the feet flat on the floor and sits back on the heels. In martial arts, seiza is used during formal ceremonies, meditation (mokusō), and when showing respect to instructors. This position demonstrates discipline, respect, and proper etiquette. Maintaining seiza requires proper posture with a straight back and composed demeanor, reflecting the mental and physical discipline central to martial arts practice.",
+      "category": "etiquette",
+      "componentBreakdown": "正 (sei) - 'correct', 'proper', or 'formal', indicating the proper and respectful nature of this sitting position; 座 (za) - 'sit' or 'seat'. Together they mean 'proper sitting', emphasizing the formal and correct way of sitting in traditional Japanese culture."
+    },
+    {
+      "id": 71,
+      "term": "Kaimoku",
+      "japaneseName": "開目",
+      "hiraganaName": "かいもく",
+      "shortDescription": "Open eyes (end meditation)",
+      "definition": "Open eyes; the command given to end meditation (mokusō) in martial arts training. After the period of silent contemplation with closed eyes, the instructor calls 'Kaimoku' to signal students to open their eyes and return their focus to the present moment. This command marks the transition from the meditative state back to active training or to formal bowing procedures. The practice of closing and opening eyes mindfully reinforces the mental discipline and focus that are integral to martial arts.",
+      "category": "etiquette",
+      "componentBreakdown": "開 (kai) - 'open' or 'unfold', indicating the action of opening; 目 (moku) - 'eye' or 'eyes'. Together they literally mean 'open eyes', the command to end the meditation period and return awareness to the external environment."
+    },
+    {
+      "id": 72,
+      "term": "Shutō",
+      "japaneseName": "手刀",
+      "hiraganaName": "しゅとう",
+      "shortDescription": "Knife hand or hand sword technique",
+      "definition": "Knife hand or hand sword; a technique using the edge of the open hand as a striking or blocking surface. The hand is held open with fingers extended and together, thumb bent, creating a rigid blade-like edge along the little finger side of the hand. Shutō can be used for both striking (shutō-uchi) and blocking (shutō-uke) techniques. When executed properly with proper body mechanics and hip rotation, shutō strikes can be very powerful and effective. This technique is fundamental to many kata and kumite applications.",
+      "category": "general",
+      "componentBreakdown": "手 (shu/te) - 'hand'; 刀 (tō) - 'sword' or 'blade'. Together they literally mean 'hand sword', describing how the edge of the hand is used like a blade for striking or blocking."
+    },
+    {
+      "id": 73,
+      "term": "Uke",
+      "japaneseName": "受け",
+      "hiraganaName": "うけ",
+      "shortDescription": "Block or receive",
+      "definition": "Block or receive; a defensive technique used to deflect, redirect, or absorb an opponent's attack. The term uke literally means 'to receive', emphasizing the concept of receiving and controlling the attack rather than simply stopping it. Uke techniques are fundamental to karate and include various blocking methods such as age-uke (rising block), gedan-barai (downward block), soto-uke (outside block), and uchi-uke (inside block). Proper uke involves correct timing, positioning, and body mechanics to effectively neutralize attacks while maintaining balance and readiness to counter-attack.",
+      "category": "general",
+      "componentBreakdown": "受け (uke) - This word means 'receive', 'accept', or 'block'. It comes from the verb ukeru (受ける), emphasizing the defensive nature of receiving and controlling an opponent's attack rather than merely blocking it."
     }
   ]
 }
