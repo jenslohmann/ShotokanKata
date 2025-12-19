@@ -48,7 +48,7 @@ struct AboutView: View {
                         .font(.body)
                         .fixedSize(horizontal: false, vertical: true)
 
-                    Text("Special thanks to Malene Kirkeby sensei, a multiple WUKF world championship gold medalist, for her exceptional kata work and dedication to the art of Shōtōkan karate. Som of her work is found in this app.")
+                    Text("Special thanks to Malene Kirkeby sensei, a multiple WUKF world championship gold medalist, for her exceptional kata work and dedication to the art of Shōtōkan karate. Some of her work is found in this app.")
                         .font(.body)
                         .fixedSize(horizontal: false, vertical: true)
                         .foregroundColor(.secondary)
