@@ -222,7 +222,7 @@
       "sequence": 11,
       "japaneseName": "Hidari chūdan zuki",
       "direction": "N",
-      "kiai": true,
+      "kiai": false,
       "subMoves": [
         {
           "order": 1,
