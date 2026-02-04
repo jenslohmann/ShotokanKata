@@ -494,7 +494,7 @@
       "id": 49,
       "term": "Yōi",
       "japaneseName": "用意",
-      "hiraganaName": "よい",
+      "hiraganaName": "ようい",
       "shortDescription": "Ready position or preparatory stance",
       "definition": "Ready position assumed at the beginning of kata or kumite, indicating preparation and alertness. In this position, the practitioner stands in hachiji-dachi with fists positioned at the sides, ready to begin the kata or respond to attacks.",
       "category": "etiquette",
@@ -739,6 +739,76 @@
       "definition": "Block or receive; a defensive technique used to deflect, redirect, or absorb an opponent's attack. The term uke literally means 'to receive', emphasizing the concept of receiving and controlling the attack rather than simply stopping it. Uke techniques are fundamental to karate and include various blocking methods such as age-uke (rising block), gedan-barai (downward block), soto-uke (outside block), and uchi-uke (inside block). Proper uke involves correct timing, positioning, and body mechanics to effectively neutralize attacks while maintaining balance and readiness to counter-attack.",
       "category": "general",
       "componentBreakdown": "受け (uke) - This word means 'receive', 'accept', or 'block'. It comes from the verb ukeru (受ける), emphasizing the defensive nature of receiving and controlling an opponent's attack rather than merely blocking it."
+    },
+    {
+      "id": 74,
+      "term": "Ushō",
+      "japaneseName": "右掌",
+      "hiraganaName": "うしょう",
+      "shortDescription": "Right palm",
+      "definition": "Right palm; refers to the right open hand or palm used in various karate techniques. The palm can be used for striking (shōtei-uchi), blocking, pushing, or grasping. Open-hand techniques using the palm are considered more advanced than closed fist techniques and require precise control and targeting. The palm strike delivers force through the heel of the hand while keeping the fingers extended and slightly curved back for safety.",
+      "category": "techniques",
+      "componentBreakdown": "右 (u) - 'right' (direction/side); 掌 (shō) - 'palm' or 'sole of hand'. Together they specify the right palm, distinguishing it from the left palm (sa-shō) in techniques that specify hand usage."
+    },
+    {
+      "id": 75,
+      "term": "Sashō",
+      "japaneseName": "左掌",
+      "hiraganaName": "さしょう",
+      "shortDescription": "Left palm",
+      "definition": "Left palm; refers to the left open hand or palm used in various karate techniques. The palm can be used for striking (shōtei-uchi), blocking, pushing, or grasping. Open-hand techniques using the palm are considered more advanced than closed fist techniques and require precise control and targeting. The palm strike delivers force through the heel of the hand while keeping the fingers extended and slightly curved back for safety.",
+      "category": "techniques",
+      "componentBreakdown": "左 (sa) - 'left' (direction/side); 掌 (shō) - 'palm' or 'sole of hand'. Together they specify the left palm, distinguishing it from the right palm (u-shō) in techniques that specify hand usage."
+    },
+    {
+      "id": 76,
+      "term": "Shutō-uchikomi",
+      "japaneseName": "手刀打ち込み",
+      "hiraganaName": "しゅとううちこみ",
+      "shortDescription": "Knife-hand striking technique",
+      "definition": "Knife-hand striking or penetrating strike; a powerful striking technique using the edge of the open hand (shutō) with a driving, penetrating motion. The term uchikomi means 'to drive in' or 'to strike into', indicating a forceful, committed strike that penetrates the target. This technique combines the knife-hand edge with a thrusting motion, often used to strike vital points or vulnerable areas. The strike is delivered with the edge of the hand while maintaining proper form with fingers extended and thumb tucked.",
+      "category": "techniques",
+      "componentBreakdown": "手 (shu) - 'hand'; 刀 (tō) - 'sword' or 'blade'; 打ち込み (uchikomi) - 'to strike in' or 'to drive in'. Together they describe a knife-hand technique that drives forcefully into the target, combining the cutting edge of the hand with penetrating force."
+    },
+    {
+      "id": 77,
+      "term": "Jōtai",
+      "japaneseName": "上体",
+      "hiraganaName": "じょうたい",
+      "shortDescription": "Upper body or maintain position",
+      "definition": "Upper body or maintain the upper body position; a command used in kata to indicate that the upper body position, stance, or posture should be maintained while performing the next movement. This term emphasizes keeping the torso, shoulders, and arms in their current position while only moving the lower body or feet. It's often used in conjunction with other commands to specify precise body mechanics during transitions.",
+      "category": "general",
+      "componentBreakdown": "上 (jō) - 'upper' or 'above'; 体 (tai) - 'body' or 'form'. Together they refer to the upper body or the instruction to maintain the upper body position during a technique or transition."
+    },
+    {
+      "id": 78,
+      "term": "Sonomama",
+      "japaneseName": "其の儘",
+      "hiraganaName": "そのまま",
+      "shortDescription": "As it is, remain in place, don't move",
+      "definition": "As it is, remain in place, don't move; a command to maintain the current position without any movement. This instruction is commonly used during training to freeze students in their current stance and position for correction or examination. It emphasizes holding the exact posture, tension, and form without any adjustment or relaxation. In kata context, it can indicate that a position should be held momentarily before continuing to the next movement.",
+      "category": "general",
+      "componentBreakdown": "其の (sono) - 'that' or 'the'; 儘 (mama) - 'as is', 'unchanged', or 'まままま'. Together they create an expression meaning 'just as it is' or 'without change', emphasizing maintaining the exact current state."
+    },
+    {
+      "id": 79,
+      "term": "Sashō-ni",
+      "japaneseName": "左掌に",
+      "hiraganaName": "さしょうに",
+      "shortDescription": "To the left palm, toward the left palm",
+      "definition": "To the left palm or toward the left palm; indicates that a technique is directed toward, into, or against the left palm. The particle 'ni' (に) indicates direction or target, so this term is used when a strike or movement is aimed at or contacts the left palm. Commonly used in techniques where one hand strikes into the open palm of the other hand, such as in kicking techniques where the foot makes contact with the supporting palm.",
+      "category": "techniques",
+      "componentBreakdown": "左 (sa) - 'left'; 掌 (shō) - 'palm'; に (ni) - particle indicating direction 'to' or 'toward'. Together they specify that the action is directed toward the left palm."
+    },
+    {
+      "id": 80,
+      "term": "Uho-zuki-age",
+      "japaneseName": "後方突き上げ",
+      "hiraganaName": "うほうづきあげ",
+      "shortDescription": "Upward arc punch, rising punch to the rear",
+      "definition": "Upward arc punch or rising punch to the rear; a punching technique where both fists move upward in an arcing motion, typically performed while transitioning or turning. The term combines 'uho' (rear/back direction), 'zuki' (punch/thrust), and 'age' (rising/upward). This technique is often used as a preparatory or transitional movement, raising the fists upward while shifting the body position. The upward motion can serve as a block or strike against attacks from above or can prepare the arms for the next technique.",
+      "category": "punches",
+      "componentBreakdown": "後方 (uho) - 'rear' or 'backward direction'; 突き (zuki) - 'thrust' or 'punch'; 上げ (age) - 'rising' or 'upward'. Together they describe a punching motion that rises upward while moving or facing toward the rear."
     }
   ]
 }
