@@ -44,14 +44,14 @@
           "hiragana": "ようい",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "From the musubi-dachi position, step out to hachiji-dachi position and assume the ready stance (yōi) with fists clenched and thumbs on top of the fingers",
+          "description": "From the musubi-dachi position, step out to hachiji-dachi position and assume the ready stance (yōi) with fists clenched.",
           "icon": "hand.raised.fill"
         }
       ]
     },
     {
       "sequence": 1,
-      "japaneseName": "Hidari jōdan tate-uke / Migi jōdan-kamae",
+      "japaneseName": "Hidari jōdan tate-uke / Migi jōdan haiwan-uke",
       "direction": "W",
       "kiai": false,
       "subMoves": [
@@ -59,17 +59,17 @@
           "order": 1,
           "technique": "Hidari jōdan tate-uke",
           "hiragana": "ひだり じょうだん たてうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
-          "description": "Turn head left, advance left foot 90° into back stance with left vertical block and right upper guard (haiwan-uke)",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
+          "description": "Turn head left, advance left foot 90° into back stance with high left vertical block and right upper guard (haiwan-uke)",
           "icon": "shield.fill"
         },
         {
           "order": 2,
-          "technique": "Migi jōdan-kamae",
-          "hiragana": "みぎ じょうだん かまえ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "technique": "Migi jōdan haiwan-uke",
+          "hiragana": "みぎ じょうだん はいわんうけ",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
           "description": "Right forearm performs horizontal protection of forehead",
           "icon": "hand.raised.fill"
         }
@@ -77,27 +77,27 @@
     },
     {
       "sequence": 2,
-      "japaneseName": "Migi ura-zuki / Hidari soto-nagashi-uke",
+      "japaneseName": "Migi soto-mawashi-uchi / Hidari soto-nagashi-uke",
       "direction": "W",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi ura-zuki",
-          "hiragana": "みぎ うらづき",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
-          "description": "Right close punch while pulling left fist to right shoulder",
-          "icon": "hand.point.right.fill"
+          "technique": "Hidari jōdan soto-nagashi-uke",
+          "hiragana": "ひだり ながしうけ",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
+          "description": "Left flowing block (soto-uke) with back of hand outward. Turn body slightly towards the \"opponent\"",
+          "icon": "hand.wave.fill"
         },
         {
           "order": 2,
-          "technique": "Hidari jōdan soto-nagashi-uke",
-          "hiragana": "ひだり ながしうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
-          "description": "Left flowing block (soto-uke) with back of hand outward",
-          "icon": "hand.wave.fill"
+          "technique": "Migi soto-mawashi-uchi",
+          "hiragana": "みぎ そとまわしうち",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
+          "description": "Right hammerfist blow from the outside as if hitting an elbow",
+          "icon": "hand.point.right.fill"
         }
       ]
     },
@@ -111,16 +111,16 @@
           "order": 1,
           "technique": "Hidari chūdan yoko-zuki",
           "hiragana": "ひだり ちゅうだん よこづき",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
-          "description": "Left middle-level side punch to the left, right fist in hikite, body in profile",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
+          "description": "Left middle-level side punch to the left, right fist in hikite. Turn the body away from the \"opponent\" into profile",
           "icon": "hand.point.left.fill"
         }
       ]
     },
     {
       "sequence": 4,
-      "japaneseName": "Migi jōdan tate-uke / Hidari jōdan-kamae",
+      "japaneseName": "Migi jōdan tate-uke / Hidari jōdan haiwan-uke",
       "direction": "E",
       "kiai": false,
       "subMoves": [
@@ -128,45 +128,44 @@
           "order": 1,
           "technique": "Migi jōdan tate-uke",
           "hiragana": "みぎ じょうだん たてうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
-          "description": "Turn head right, rotate 180° into back stance with right vertical block and left upper guard",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
+          "description": "Turn head right, rotate 180° into back stance with high right vertical block and left upper guard (haiwan-uke)",
           "icon": "shield.fill"
         },
         {
           "order": 2,
-          "technique": "Hidari jōdan-kamae",
-          "hiragana": "ひだり じょうだん かまえ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "technique": "Migi jōdan haiwan-uke",
+          "hiragana": "みぎ じょうだん はいわんうけ",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
           "description": "Left forearm performs horizontal protection of forehead",
           "icon": "hand.raised.fill"
-        }
-      ]
+        }      ]
     },
     {
       "sequence": 5,
-      "japaneseName": "Hidari ura-zuki / Migi soto-nagashi-uke",
+      "japaneseName": "Hidari soto-mawashi-uchi / Migi soto-nagashi-uke",
       "direction": "E",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari ura-zuki",
-          "hiragana": "ひだり うらづき",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
-          "description": "Left close punch while pulling right fist to left shoulder",
-          "icon": "hand.point.left.fill"
+          "technique": "Migi jōdan soto-nagashi-uke",
+          "hiragana": "みぎ ながしうけ",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
+          "description": "Rifht flowing block (soto-uke) with back of hand outward. Turn body slightly towards the \"opponent\"",
+          "icon": "hand.wave.fill"
         },
         {
           "order": 2,
-          "technique": "Migi jōdan nagashi-uke",
-          "hiragana": "みぎ ながしうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
-          "description": "Right flowing block (soto-uke) with back of hand outward",
-          "icon": "hand.wave.fill"
+          "technique": "Hidari soto-mawashi-uchi",
+          "hiragana": "ひだり そとまわしうち",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
+          "description": "Left hammerfist blow from the outside as if hitting an elbow",
+          "icon": "hand.point.left.fill"
         }
       ]
     },
@@ -180,35 +179,44 @@
           "order": 1,
           "technique": "Migi chūdan yoko-zuki",
           "hiragana": "みぎ ちゅうだん よこづき",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
-          "description": "Right middle-level side punch to the right, left fist in hikite, body in profile",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
+          "description": "Right middle-level side punch to the right, left fist in hikite. Turn the body away from the \"opponent\" into profile",
           "icon": "hand.point.right.fill"
         }
       ]
     },
     {
       "sequence": 7,
-      "japaneseName": "Migi jōdan uraken-yoko-mawashi-uchi / Migi sokuto-yoko-geri-keage",
+      "japaneseName": "Migi jōdan uraken yoko-mawashi-uchi / Migi yoko-geri-keage",
       "direction": "S",
       "kiai": false,
       "subMoves": [
         {
-          "order": 1,
-          "technique": "Migi jōdan uraken-yoko-mawashi-uchi",
-          "hiragana": "みぎ じょうだん うらけん よこまわしうち",
-          "stance": "Kosa-dachi",
-          "stanceHiragana": "こさだち",
-          "description": "Right upper-level back-fist circular strike while preparing for side kick",
-          "icon": "hand.raised.fingers.spread.fill"
+            "order": 1,
+            "technique": "Hidari koshi-kamae",
+            "hiragana": "ひだり じょうだん うらけん よこまわしうち",
+            "stance": "Hidari ashi-dachi",
+            "stanceHiragana": "ひだり あしだち",
+            "description": "Turn toes to the right, move left foot halfway towards the right foot. Turn the hips and body clockwise. As the hips turn, lift the right leg until the sole touches the left knee (pointing the right knee to the right). Simultaneously, bring the right fist to the left hip (on top of the left fist).",
+            "icon": "hand.raised.fingers.spread.fill"
         },
         {
           "order": 2,
-          "technique": "Migi sokuto-yoko-geri-keage",
-          "hiragana": "みぎ そくとう よこげりけあげ",
-          "stance": "Kosa-dachi",
-          "stanceHiragana": "こさだち",
-          "description": "Right side snap kick with sword foot, performed simultaneously with back-fist",
+          "technique": "Migi jōdan uraken-yoko-mawashi-uchi",
+          "hiragana": "みぎ じょうだん うらけん よこまわしうち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
+          "description": "Right upper-level back-fist circular strike while preparing for side kick. Fist stays out",
+          "icon": "hand.raised.fingers.spread.fill"
+        },
+        {
+          "order": 3,
+          "technique": "Migi yoko-geri-keage",
+          "hiragana": "みぎ よこげりけあげ",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
+          "description": "Right upward side snap kick with sword foot, performed simultaneously with back-fist. The right foot should quickly snap back to the left knee after the kick",
           "icon": "figure.kick"
         }
       ]

@@ -104,8 +104,8 @@ struct SearchAndFilterBar: View {
                         .font(.caption)
                         .padding(.horizontal, 12)
                         .padding(.vertical, 6)
-                        .background(Color.blue.opacity(0.1))
-                        .foregroundColor(.blue)
+                        .background(Color.japaneseRed.opacity(0.1))
+                        .foregroundColor(.japaneseRed)
                         .clipShape(Capsule())
                     }
                 }
@@ -146,7 +146,7 @@ struct FilterChip: View {
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 6)
-            .background(isSelected ? Color.blue : Color(.secondarySystemGroupedBackground))
+            .background(isSelected ? Color.japaneseRed : Color(.secondarySystemGroupedBackground))
             .foregroundColor(isSelected ? .white : .primary)
             .clipShape(Capsule())
         }
@@ -261,7 +261,7 @@ struct KataListRowView: View {
                 .background(
                     Circle()
                         .fill(LinearGradient(
-                            gradient: Gradient(colors: [.blue, .blue.opacity(0.7)]),
+                            gradient: Gradient(colors: [.japaneseRed, .japaneseRed.opacity(0.7)]),
                             startPoint: .topLeading,
                             endPoint: .bottomTrailing
                         ))
@@ -539,11 +539,11 @@ struct RankFilterButton: View {
             }
             .padding(.vertical, 8)
             .frame(maxWidth: .infinity)
-            .background(isSelected ? Color.blue.opacity(0.1) : Color(.systemGray6))
+            .background(isSelected ? Color.japaneseRed.opacity(0.1) : Color(.systemGray6))
             .clipShape(RoundedRectangle(cornerRadius: 8))
             .overlay(
                 RoundedRectangle(cornerRadius: 8)
-                    .stroke(isSelected ? Color.blue : Color.clear, lineWidth: 2)
+                    .stroke(isSelected ? Color.japaneseRed : Color.clear, lineWidth: 2)
             )
         }
         .buttonStyle(PlainButtonStyle())
@@ -589,11 +589,11 @@ struct BeltColorFilterButton: View {
                 Spacer()
             }
             .padding(12)
-            .background(isSelected ? Color.blue.opacity(0.1) : Color(.systemGray6))
+            .background(isSelected ? Color.japaneseRed.opacity(0.1) : Color(.systemGray6))
             .clipShape(RoundedRectangle(cornerRadius: 8))
             .overlay(
                 RoundedRectangle(cornerRadius: 8)
-                    .stroke(isSelected ? Color.blue : Color.clear, lineWidth: 2)
+                    .stroke(isSelected ? Color.japaneseRed : Color.clear, lineWidth: 2)
             )
         }
         .buttonStyle(PlainButtonStyle())

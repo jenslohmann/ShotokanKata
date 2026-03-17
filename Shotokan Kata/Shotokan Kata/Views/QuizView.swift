@@ -102,7 +102,7 @@ struct QuizProgressHeader: View {
                     }
 
                     ProgressView(value: viewModel.progress)
-                        .progressViewStyle(LinearProgressViewStyle(tint: .blue))
+                        .progressViewStyle(LinearProgressViewStyle(tint: .japaneseRed))
                         .scaleEffect(y: 2)
                 }
             }
@@ -113,7 +113,7 @@ struct QuizProgressHeader: View {
                     QuizInfoChip(
                         title: "Rank",
                         value: viewModel.selectedRank.displayName,
-                        color: .blue
+                        color: .japaneseRed
                     )
 
                     if let category = viewModel.selectedCategory {
@@ -174,7 +174,7 @@ struct QuizNotStartedView: View {
         VStack(spacing: 20) {
             Image(systemName: "questionmark.circle")
                 .font(.system(size: 64))
-                .foregroundColor(.blue)
+                .foregroundColor(.japaneseRed)
 
             Text("Quiz Ready")
                 .font(.title)
@@ -354,21 +354,21 @@ struct AnswerOptionButton: View {
     private var backgroundColor: Color {
         if isCorrect == true { return .green.opacity(0.1) }
         if isIncorrect { return .red.opacity(0.1) }
-        if isSelected { return .blue.opacity(0.1) }
+        if isSelected { return .japaneseRed.opacity(0.1) }
         return Color(.systemGray6)
     }
 
     private var borderColor: Color {
         if isCorrect == true { return .green }
         if isIncorrect { return .red }
-        if isSelected { return .blue }
+        if isSelected { return .japaneseRed }
         return .clear
     }
 
     private var letterBackgroundColor: Color {
         if isCorrect == true { return .green }
         if isIncorrect { return .red }
-        if isSelected { return .blue }
+        if isSelected { return .japaneseRed }
         return Color(.systemGray4)
     }
 
@@ -420,8 +420,8 @@ struct ExplanationView: View {
                                     .font(.caption)
                                     .padding(.horizontal, 8)
                                     .padding(.vertical, 4)
-                                    .background(Color.blue.opacity(0.1))
-                                    .foregroundColor(.blue)
+                                    .background(Color.japaneseRed.opacity(0.1))
+                                    .foregroundColor(.japaneseRed)
                                     .clipShape(Capsule())
                             }
                         }
@@ -452,10 +452,10 @@ struct QuizNavigationButtons: View {
                         }
                         .font(.body)
                         .fontWeight(.medium)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.japaneseRed)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.blue.opacity(0.1))
+                        .background(Color.japaneseRed.opacity(0.1))
                         .clipShape(RoundedRectangle(cornerRadius: 12))
                     }
                 }
@@ -487,7 +487,7 @@ struct QuizNavigationButtons: View {
                     .frame(maxWidth: .infinity)
                     .background(
                         viewModel.hasAnsweredCurrentQuestion || viewModel.showingExplanation
-                        ? Color.blue
+                        ? Color.japaneseRed
                         : Color.gray
                     )
                     .clipShape(RoundedRectangle(cornerRadius: 12))
@@ -528,10 +528,10 @@ struct KiaiQuizNavigationButtons: View {
                         }
                         .font(.body)
                         .fontWeight(.medium)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.japaneseRed)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.blue.opacity(0.1))
+                        .background(Color.japaneseRed.opacity(0.1))
                         .clipShape(RoundedRectangle(cornerRadius: 12))
                     }
                 }
@@ -566,7 +566,7 @@ struct KiaiQuizNavigationButtons: View {
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(
-                        (isAnswered || !selectedMoves.isEmpty) ? Color.blue : Color.gray
+                        (isAnswered || !selectedMoves.isEmpty) ? Color.japaneseRed : Color.gray
                     )
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                 }
@@ -621,7 +621,7 @@ struct QuizPausedView: View {
                 .foregroundColor(.white)
                 .padding()
                 .frame(maxWidth: .infinity)
-                .background(Color.blue)
+                .background(Color.japaneseRed)
                 .clipShape(RoundedRectangle(cornerRadius: 12))
             }
             .padding(.horizontal)
@@ -685,7 +685,7 @@ struct QuizResultsView: View {
                         ResultStatRow(
                             title: "Time Spent",
                             value: formatTimeSpent(result.timeSpent),
-                            color: .blue
+                            color: .japaneseRed
                         )
 
                         ResultStatRow(
@@ -723,7 +723,7 @@ struct QuizResultsView: View {
                         .foregroundColor(.white)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.blue)
+                        .background(Color.japaneseRed)
                         .clipShape(RoundedRectangle(cornerRadius: 12))
                     }
                 }
@@ -741,7 +741,7 @@ struct QuizResultsView: View {
     private var resultColor: Color {
         guard let result = viewModel.quizResult else { return .gray }
         if result.score >= 90 { return .green }
-        if result.score >= 70 { return .blue }
+        if result.score >= 70 { return .japaneseRed }
         if result.score >= 50 { return .orange }
         return .red
     }

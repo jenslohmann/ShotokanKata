@@ -54,6 +54,11 @@ extension Color {
     static let label = Color(UIColor.label)
     static let secondaryLabel = Color(UIColor.secondaryLabel)
 
+    // Japanese flag inspired accent color (replaces blue throughout the app)
+    // Light mode: #BC2835 (traditional Japanese flag red)
+    // Dark mode: #DB3941 (brighter for better contrast)
+    static let japaneseRed: Color = Color("AccentColor")
+
     // Belt rank colors
     static let beltYellow = Color.yellow
     static let beltOrange = Color.orange

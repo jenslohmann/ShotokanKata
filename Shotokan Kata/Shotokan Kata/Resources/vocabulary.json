@@ -341,6 +341,16 @@
       "componentBreakdown": "内 (uchi) - 'inside' or 'interior'; 受け (uke) - 'receive' or 'block'. Together they describe a block that starts from the inside and moves outward."
     },
     {
+      "id": 81,
+      "term": "Soto-nagashi-uke",
+      "japaneseName": "外流し受け",
+      "hiraganaName": "そとながしうけ",
+      "shortDescription": "Outside flowing block with back of hand",
+      "definition": "Outside flowing block; a deflecting technique that uses the back of the hand to redirect attacks from outside to inside in a flowing, circular motion. Unlike the standard soto-uke which blocks with the forearm, nagashi-uke emphasizes redirection rather than direct blocking. The hand flows with the attack, guiding it away from the body while maintaining a smooth, continuous motion. This technique is particularly effective for redirecting straight punches and allows for quick counter-attacks.",
+      "category": "blocks",
+      "componentBreakdown": "外 (soto) - 'outside' or 'exterior'; 流し (nagashi) - 'flowing', 'wash away', or 'redirect'; 受け (uke) - 'receive' or 'block'. Together they describe a flowing block that redirects attacks from the outside."
+    },
+    {
       "id": 34,
       "term": "Empi-uchi",
       "japaneseName": "肘打",
@@ -359,6 +369,16 @@
       "definition": "Back-fist strike using the back of the knuckles to deliver a whipping blow. The technique uses a snapping motion from the elbow or wrist to generate speed and power. It's effective for close-range attacks and can target the face, ribs, or temples.",
       "category": "techniques",
       "componentBreakdown": "裏 (ura) - 'back' or 'reverse side'; 拳 (ken) - 'fist'; 打 (uchi) - 'strike' or 'hit'. Together they describe a strike using the back side of the fist."
+    },
+    {
+      "id": 82,
+      "term": "Soto-mawashi-uchi",
+      "japaneseName": "外回し打",
+      "hiraganaName": "そとまわしうち",
+      "shortDescription": "Outside circular strike technique",
+      "definition": "Outside circular strike; a striking technique that travels in a circular path from outside to inside. This technique can be performed with various weapons such as the fist, back-fist (uraken), or hammer-fist (tettsui). The circular motion generates power through rotation and is particularly effective for striking around an opponent's guard or attacking from unexpected angles. The strike follows an arc from the outside (soto) rotating inward (mawashi) to deliver impact (uchi).",
+      "category": "techniques",
+      "componentBreakdown": "外 (soto) - 'outside' or 'exterior'; 回し (mawashi) - 'rotate', 'turn', or 'circular'; 打 (uchi) - 'strike' or 'hit'. Together they describe a strike that travels in a circular path from the outside."
     },
     {
       "id": 36,
@@ -809,6 +829,26 @@
       "definition": "Upward arc punch or rising punch to the rear; a punching technique where both fists move upward in an arcing motion, typically performed while transitioning or turning. The term combines 'uho' (rear/back direction), 'zuki' (punch/thrust), and 'age' (rising/upward). This technique is often used as a preparatory or transitional movement, raising the fists upward while shifting the body position. The upward motion can serve as a block or strike against attacks from above or can prepare the arms for the next technique.",
       "category": "punches",
       "componentBreakdown": "後方 (uho) - 'rear' or 'backward direction'; 突き (zuki) - 'thrust' or 'punch'; 上げ (age) - 'rising' or 'upward'. Together they describe a punching motion that rises upward while moving or facing toward the rear."
+    },
+    {
+      "id": 81,
+      "term": "Koshi-kamae",
+      "japaneseName": "腰構え",
+      "hiraganaName": "こしかまえ",
+      "shortDescription": "Hip ready position, waist-level guard stance",
+      "definition": "Hip ready position or waist-level guard stance; a preparatory posture where the hands are positioned at hip level, typically with fists at the sides of the waist. This is a fundamental ready position in karate, often used as a starting position before executing techniques or as a transitional stance between movements. The position emphasizes proper hip alignment and core stability, with the practitioner ready to launch attacks or defend. Koshi-kamae allows for quick deployment of punching, blocking, or striking techniques while maintaining a balanced and centered posture.",
+      "category": "stances",
+      "componentBreakdown": "腰 (koshi) - 'hip', 'waist', or 'lower back'; 構え (kamae) - 'posture', 'stance', or 'ready position'. Together they describe a preparatory stance with emphasis on the hip/waist positioning, representing readiness and proper body alignment."
+    },
+    {
+      "id": 82,
+      "term": "Yoko-geri-keage",
+      "japaneseName": "横蹴り蹴上げ",
+      "hiraganaName": "よこげりけあげ",
+      "shortDescription": "Side snap kick, upward side kick",
+      "definition": "Side snap kick or upward side kick; a kicking technique where the leg is lifted to the side and the foot snaps upward in a sharp, quick motion. The kick is executed using the edge of the foot (sokuto - sword foot) and targets the opponent's ribs, head, or other side-facing areas. Unlike yoko-geri-kekomi (thrust side kick), keage emphasizes a snapping motion with the foot retracting quickly after impact, similar to cracking a whip. The knee is first raised to chamber position, then the lower leg extends sideways and upward in a fast snap, with immediate retraction back to the chamber position. This kick requires excellent balance, hip flexibility, and core strength.",
+      "category": "kicks",
+      "componentBreakdown": "横 (yoko) - 'side' or 'lateral'; 蹴り (geri/keri) - 'kick'; 蹴上げ (keage) - 'snap up' or 'kick upward'. Together they describe a side-directed kick with a snapping, upward motion rather than a thrusting motion."
     }
   ]
 }

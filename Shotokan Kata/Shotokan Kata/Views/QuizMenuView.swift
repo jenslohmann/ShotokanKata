@@ -60,7 +60,7 @@ struct QuizHeaderView: View {
         VStack(spacing: 12) {
             Image(systemName: "brain.head.profile")
                 .font(.system(size: 48))
-                .foregroundColor(.blue)
+                .foregroundColor(.japaneseRed)
 
             Text("Test Your Knowledge")
                 .font(.title2)
@@ -139,11 +139,11 @@ struct RankButton: View {
             }
             .padding(.horizontal, 8)
             .padding(.vertical, 12)
-            .background(isSelected ? Color.blue.opacity(0.1) : Color.clear)
+            .background(isSelected ? Color.japaneseRed.opacity(0.1) : Color.clear)
             .clipShape(RoundedRectangle(cornerRadius: 8))
             .overlay(
                 RoundedRectangle(cornerRadius: 8)
-                    .stroke(isSelected ? Color.blue : Color.clear, lineWidth: 2)
+                    .stroke(isSelected ? Color.japaneseRed : Color.clear, lineWidth: 2)
             )
         }
         .buttonStyle(PlainButtonStyle())
@@ -239,7 +239,7 @@ struct DifficultyButton: View {
     private var difficultyColor: Color {
         switch level {
         case .beginner: return .green
-        case .intermediate: return .blue
+        case .intermediate: return .japaneseRed
         case .advanced: return .orange
         case .expert: return .red
         }
@@ -305,7 +305,7 @@ struct CategoryButton: View {
             VStack(spacing: 8) {
                 Image(systemName: icon)
                     .font(.title3)
-                    .foregroundColor(isSelected ? .white : .blue)
+                    .foregroundColor(isSelected ? .white : .japaneseRed)
 
                 Text(title)
                     .font(.caption)
@@ -316,7 +316,7 @@ struct CategoryButton: View {
             }
             .frame(maxWidth: .infinity, minHeight: 80)
             .padding(8)
-            .background(isSelected ? Color.blue : Color(.systemGray6))
+            .background(isSelected ? Color.japaneseRed : Color(.systemGray6))
             .clipShape(RoundedRectangle(cornerRadius: 8))
         }
         .buttonStyle(PlainButtonStyle())
@@ -341,7 +341,7 @@ struct QuizConfigurationView: View {
                     Text("\(quizViewModel.numberOfQuestions)")
                         .font(.body)
                         .fontWeight(.medium)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.japaneseRed)
                 }
 
                 Slider(
@@ -352,7 +352,7 @@ struct QuizConfigurationView: View {
                     in: 5...30,
                     step: 5
                 )
-                .accentColor(.blue)
+                .accentColor(.japaneseRed)
             }
 
             // Timer Toggle
@@ -372,7 +372,7 @@ struct QuizConfigurationView: View {
                         Text("\(Int(quizViewModel.timeLimit / 60)) minutes")
                             .font(.body)
                             .fontWeight(.medium)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.japaneseRed)
                     }
 
                     Slider(
@@ -383,14 +383,14 @@ struct QuizConfigurationView: View {
                         in: 300...1800, // 5 to 30 minutes
                         step: 300 // 5-minute increments
                     )
-                    .accentColor(.blue)
+                    .accentColor(.japaneseRed)
                 }
             }
 
             // Available Questions Info
             HStack {
                 Image(systemName: "info.circle")
-                    .foregroundColor(.blue)
+                    .foregroundColor(.japaneseRed)
 
                 Text("Available questions: \(quizViewModel.getAvailableQuestionCount())")
                     .font(.caption)
@@ -432,13 +432,13 @@ struct StartQuizButtonView: View {
             .padding()
             .background(
                 LinearGradient(
-                    gradient: Gradient(colors: [.blue, .blue.opacity(0.8)]),
+                    gradient: Gradient(colors: [.japaneseRed, .japaneseRed.opacity(0.8)]),
                     startPoint: .leading,
                     endPoint: .trailing
                 )
             )
             .clipShape(RoundedRectangle(cornerRadius: 12))
-            .shadow(color: .blue.opacity(0.3), radius: 8, x: 0, y: 4)
+            .shadow(color: .japaneseRed.opacity(0.3), radius: 8, x: 0, y: 4)
         }
         .disabled(quizViewModel.getAvailableQuestionCount() == 0)
         .opacity(quizViewModel.getAvailableQuestionCount() == 0 ? 0.6 : 1.0)

@@ -15,10 +15,10 @@ struct AboutView: View {
                 VStack(spacing: 16) {
                     Image(systemName: "figure.martial.arts")
                         .font(.system(size: 60))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.japaneseRed)
                         .background(
                             Circle()
-                                .fill(Color.blue.opacity(0.1))
+                                .fill(Color.japaneseRed.opacity(0.1))
                                 .frame(width: 100, height: 100)
                         )
 
@@ -121,7 +121,7 @@ struct AboutView: View {
 
                     Link("View on GitHub", destination: URL(string: "https://github.com/jenslohmann/ShotokanKata")!)
                         .font(.body)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.japaneseRed)
                 }
 
                 Spacer(minLength: 40)
@@ -143,7 +143,7 @@ struct FeatureRowView: View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: icon)
                 .font(.title2)
-                .foregroundColor(.blue)
+                .foregroundColor(.japaneseRed)
                 .frame(width: 24)
 
             VStack(alignment: .leading, spacing: 4) {

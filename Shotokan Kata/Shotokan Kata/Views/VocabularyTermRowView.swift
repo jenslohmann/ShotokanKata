@@ -21,7 +21,7 @@ struct VocabularyTermRowView: View {
                     Spacer()
 
                     Image(systemName: term.categoryType.systemImage)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.japaneseRed)
                         .font(.caption)
                 }
 

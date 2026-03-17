@@ -40,7 +40,7 @@ struct VocabularyHeaderView: View {
                 // Category icon
                 Image(systemName: term.categoryType.systemImage)
                     .font(.title2)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.japaneseRed)
             }
 
             // Short description

@@ -82,7 +82,7 @@ private struct TechniqueBadge: View {
             .font(.caption)
             .padding(.horizontal, 12)
             .padding(.vertical, 6)
-            .background(Color.blue.opacity(0.1))
+            .background(Color.japaneseRed.opacity(0.1))
             .clipShape(Capsule())
     }
 }
@@ -104,9 +104,9 @@ private struct ReferenceSection: View {
                         Spacer()
                         Image(systemName: "arrow.up.right")
                     }
-                    .foregroundColor(.blue)
+                    .foregroundColor(.japaneseRed)
                     .padding()
-                    .background(Color.blue.opacity(0.1))
+                    .background(Color.japaneseRed.opacity(0.1))
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                 }
             }

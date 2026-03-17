@@ -57,7 +57,7 @@ private struct SequenceBadge: View {
             .fontWeight(.bold)
             .foregroundColor(.white)
             .frame(width: displayWidth, height: 30)
-            .background(Color.blue)
+            .background(Color.japaneseRed)
             .clipShape(Capsule())
     }
 
@@ -112,23 +112,42 @@ struct StanceBadge: View {
     let stance: String
     let hiragana: String?
 
+    @Environment(\.colorScheme) var colorScheme
+
     var body: some View {
         HStack(spacing: 4) {
             Text(stance)
                 .font(.caption2)
-                .fontWeight(.medium)
+                .fontWeight(.bold)
 
             if let hiragana = hiragana {
                 Text("(\(hiragana))")
                     .font(.caption2)
-                    .foregroundColor(.secondary)
+                    .fontWeight(.semibold)
+                    .foregroundColor(textColor.opacity(0.8))
             }
         }
-        .padding(.horizontal, 6)
-        .padding(.vertical, 2)
-        .background(Color.green.opacity(0.2))
-        .foregroundColor(.green)
+        .padding(.horizontal, 8)
+        .padding(.vertical, 3)
+        .background(backgroundColor)
+        .foregroundColor(textColor)
         .clipShape(Capsule())
+    }
+
+    private var backgroundColor: Color {
+        if colorScheme == .dark {
+            return Color.green.opacity(0.3)
+        } else {
+            return Color.green.opacity(0.25)
+        }
+    }
+
+    private var textColor: Color {
+        if colorScheme == .dark {
+            return Color.green.opacity(0.95)
+        } else {
+            return Color(red: 0.0, green: 0.5, blue: 0.0) // Darker green for better contrast
+        }
     }
 }
 

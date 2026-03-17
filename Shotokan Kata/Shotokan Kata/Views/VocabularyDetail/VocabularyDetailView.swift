@@ -58,7 +58,7 @@ struct VocabularyDetailView: View {
 
                         HStack {
                             Image(systemName: term.categoryType.systemImage)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.japaneseRed)
                                 .font(.title2)
 
                             Text(term.categoryType.displayName)

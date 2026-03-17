@@ -58,7 +58,7 @@ struct VocabularyView: View {
                             Button(NSLocalizedString("vocabulary.filter.clear", comment: "Clear")) {
                                 viewModel.clearFilters()
                             }
-                            .foregroundColor(.blue)
+                            .foregroundColor(.japaneseRed)
                         }
                     }
                 }

@@ -34,7 +34,7 @@ private struct SubMoveHeader: View {
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: subMove.icon)
-                .foregroundColor(.blue)
+                .foregroundColor(.japaneseRed)
                 .frame(width: 20)
 
             VStack(alignment: .leading, spacing: 4) {

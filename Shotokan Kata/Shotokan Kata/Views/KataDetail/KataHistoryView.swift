@@ -71,7 +71,7 @@ struct StatRowView: View {
             Text(value)
                 .font(.body)
                 .fontWeight(.medium)
-                .foregroundColor(.blue)
+                .foregroundColor(.japaneseRed)
         }
         .padding(.vertical, 8)
         .padding(.horizontal, 16)

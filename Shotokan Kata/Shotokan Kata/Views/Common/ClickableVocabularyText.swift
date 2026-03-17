@@ -83,7 +83,7 @@ struct ClickableVocabularyText: View {
                     if let range = attributedString[searchRange].range(of: variation, options: [.caseInsensitive, .diacriticInsensitive]) {
                         if isWholeWordMatch(range: range, in: attributedString) {
                             // Style the vocabulary term
-                            attributedString[range].foregroundColor = .blue
+                            attributedString[range].foregroundColor = .japaneseRed
                             attributedString[range].font = .body.weight(.bold)
 
                             // Add clickable link using custom URL scheme
