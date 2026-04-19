@@ -69,7 +69,7 @@
     },
     {
       "sequence": 2,
-      "japaneseName": "Migi yoko-fumikomi / Migi yoko-chūdan-haishu-uke",
+      "japaneseName": "Migi yoko-fumikomi / Migi yoko-chūdan-kake-uke",
       "direction": "E",
       "subMoves": [
         {
@@ -83,11 +83,11 @@
         },
         {
           "order": 2,
-          "technique": "Migi yoko-chūdan-haishu-uke",
-          "hiragana": "みぎ よこ ちゅうだん はいしゅうけ",
+          "technique": "Migi yoko-chūdan-kake-uke",
+          "hiragana": "みぎ よこ ちゅうだん かけうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Right side middle level back hand block with right hand open (haishu-uke). Left fist in hikité.",
+          "description": "Right side middle level back hand hook/wrist block with right hand open (kake-uke). Left fist in hikite.",
           "icon": "shield.fill"
         }
       ]
@@ -174,7 +174,7 @@
     },
     {
       "sequence": 8,
-      "japaneseName": "Hidari yoko-fumikomi / Migi chūdan uchi-uke",
+      "japaneseName": "Hidari yoko-fumikomi / Hidari chūdan uchi-uke",
       "direction": "W",
       "subMoves": [
         {
@@ -188,18 +188,18 @@
         },
         {
           "order": 2,
-          "technique": "Migi chūdan uchi-uke",
+          "technique": "Hidari chūdan uchi-uke",
           "hiragana": "みぎ ちゅうだん うちうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Right middle level inside forearm block",
+          "description": "Left middle level inside forearm block",
           "icon": "shield.fill"
         }
       ]
     },
     {
       "sequence": 9,
-      "japaneseName": "Migi gedan-barai / Hidari jōdan nagashi-uke / Hidari jōdan ura-zuki",
+      "japaneseName": "Migi gedan-barai / Hidari jōdan nagashi-uke / Hidari jōdan uraken-uchi",
       "direction": "N",
       "subMoves": [
         {
@@ -222,11 +222,11 @@
         },
         {
           "order": 3,
-          "technique": "Hidari jōdan ura-zuki",
-          "hiragana": "ひだり じょうだん うらづき",
+          "technique": "Hidari jōdan uraken-uchi",
+          "hiragana": "ひだり じょうだん うらけんうち",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Left upper level close punch, left elbow resting on the back of the right fist",
+          "description": "Left upper level backfist strike, left elbow resting on the back of the right fist",
           "icon": "hand.raised.fill"
         }
       ]
@@ -337,27 +337,27 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan morote-yoko-zuki",
+          "technique": "Hidari chūdan-zuki, migi chūdan kagi-zuki",
           "hiragana": "ひだり ちゅうだん もろてよこづき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Move the left fist to the left side, just below shoulder height, back of the fist up. Simultaneously, drive the right fist forward, then left, bending the elbow to a right angle so the back of the fist faces up. The right forearm finishes in front of the solar plexus, parallel to the chest, about two fists away, with the right fist level with the left side and slightly below the right elbow. Both fists move together.",
+          "description": "Drive left fist to the left side just below shoulder height (back of fist up), while simultaneously driving the right fist forward then left into a right-angle bend in front of the solar plexus (back of fist up), right fist level with the left side. Both fists move together.",
           "icon": "hand.raised.fill"
         }
       ]
     },
     {
       "sequence": 16,
-      "japaneseName": "Hidari yoko-chūdan-haishu-uke",
+      "japaneseName": "Hidari yoko-chūdan-kake-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari yoko-chūdan-haishu-uke",
-          "hiragana": "ひだり よこ ちゅうだん はいしゅうけ",
+          "technique": "Hidari yoko-chūdan-kake-uke",
+          "hiragana": "ひだり よこ ちゅうだん かけうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Arm slowly and power the left hand under the right armpit and block with the left hand open (haishu-uke) middle level on the left. Right fist in hikité.",
+          "description": "Arm slowly and power the left hand under the right armpit and hook/wrist block with the left hand open (kake-uke) middle level on the left. Right fist in hikite.",
           "icon": "shield.fill"
         }
       ]
@@ -469,7 +469,7 @@
     },
     {
       "sequence": 23,
-      "japaneseName": "Hidari gedan-barai / Migi jōdan nagashi-uke / Migi jōdan ura-zuki",
+      "japaneseName": "Hidari gedan-barai / Migi jōdan nagashi-uke / Migi jōdan uraken-uchi",
       "direction": "N",
       "subMoves": [
         {
@@ -492,11 +492,11 @@
         },
         {
           "order": 3,
-          "technique": "Migi jōdan ura-zuki",
-          "hiragana": "みぎ じょうだん うらづき",
+          "technique": "Migi jōdan uraken-uchi",
+          "hiragana": "みぎ じょうだん うらけんうち",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Right upper level close punch, right elbow resting on the back of the left fist",
+          "description": "Right upper level backfist strike, right elbow resting on the back of the left fist",
           "icon": "hand.raised.fill"
         }
       ]
@@ -553,7 +553,7 @@
           "hiragana": "かお ひだりむき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Keeping the stance and the upper body position unchanged, look to the right.",
+          "description": "Keeping the stance and the upper body position unchanged, look to the left.",
           "icon": "figure.martial.arts"
         }
       ]
@@ -601,13 +601,13 @@
     },
     {
       "sequence": 29,
-      "japaneseName": "Migi chūdan morote-yoko-zuki",
+      "japaneseName": "Uken-migi-sokumen-chūdan-zuki saken-kagi-zuki",
       "direction": "E",
       "kiai": true,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan morote-yoko-zuki",
+          "technique": "Migi chūdan-zuki, hidari chūdan kagi-zuki",
           "hiragana": "みぎ ちゅうだん もろてよこづき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",

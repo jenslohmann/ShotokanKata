@@ -402,7 +402,7 @@
           "hiragana": "みぎ ちゅうだん しゅとうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
-          "description": "",
+          "description": "Slide right foot forward (toward ura-shomen) into hidari kōkutsu-dachi. Simultaneously execute migi shutō-uke",
           "icon": "hand.point.right.fill"
         }
       ]
@@ -425,13 +425,13 @@
     },
     {
       "sequence": 23,
-      "japaneseName": "Ryō-kentsui chūdan hasami-zuki",
+      "japaneseName": "Ryō-kentsui chūdan hasami-uchi",
       "direction": "S",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryō-kentsui chūdan hasami-zuki",
-          "hiragana": "りょうけんつい ちゅうだん はさみづき",
+          "technique": "Ryō-kentsui chūdan hasami-uchi",
+          "hiragana": "りょうけんつい ちゅうだん はさみうち",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Keeping the left foot unchanged, slide the right foot forward. At the same time, pull both fists apart one fist distance and drawing a half-circle, with the back of the fists facing outwards, strike to each side of the abdomen,",
@@ -608,11 +608,11 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Yama-zuki",
-          "hiragana": "やまづき",
+          "technique": "Saken-jōdan uken-gedan yama-zuki",
+          "hiragana": "さけん じょうだん うけん げだん やまづき",
           "stance": "Migi-ashi zenkutsu",
           "stanceHiragana": "みぎあし ぜんくつ",
-          "description": "Then hit 2 fists simultaneously (yama-zuki), the left fist on the face and the right fist on the middle level. At the arrival of the technique, the 2 fists are in the same vertical axis and the bust leaning forward",
+          "description": "Then hit 2 fists simultaneously (yama-zuki), the left fist on the face and the right fist on the low level. At the arrival of the technique, the 2 fists are in the same vertical axis and the bust leaning forward",
           "icon": "burst.fill"
         }
       ]
@@ -635,7 +635,7 @@
     },
     {
       "sequence": 35,
-      "japaneseName": "Hidari fumikomi / Yama-zuki",
+      "japaneseName": "Hidari fumikomi / Uken-jōdan saken-gedan yama-zuki",
       "direction": "N",
       "subMoves": [
         {
@@ -644,13 +644,13 @@
           "hiragana": "ひだり ふみこみ",
           "stance": "Hidari-ashi zenkutsu",
           "stanceHiragana": "ひだりあし ぜんくつ",
-          "description": "Lift up the left knee and carry a crushed left kick (fumikomi) in zenkutsu-dachi position",
+          "description": "Lift up the left knee and carry a crushed left stomp (fumikomi) in zenkutsu-dachi position, and hit the two fists simultaneously (yama-zuki), the right fist on the face and the left fist on the low level. At the arrival of the technique, the 2 fists are in the same vertical axis and the bust leaning forward",
           "icon": "figure.martial.arts"
         },
         {
           "order": 2,
-          "technique": "Yama-zuki",
-          "hiragana": "やまづき",
+          "technique": "Uken-jōdan saken-gedan yama-zuki",
+          "hiragana": "うけん じょうだん さけん げだん やまづき",
           "stance": "Hidari-ashi zenkutsu",
           "stanceHiragana": "ひだりあし ぜんくつ",
           "description": "While simultaneously striking 2 fists (yama-zuki), the right fist at the level of the face and the left fist at the middle level. At the arrival of the technique, the 2 fists are in the same vertical axis and the bust leaning forward",
@@ -676,7 +676,7 @@
     },
     {
       "sequence": 37,
-      "japaneseName": "Migi fumikomi / Yama-zuki",
+      "japaneseName": "Migi fumikomi / Saken-jōdan uken-gedan yama-zuki",
       "direction": "N",
       "subMoves": [
         {
@@ -690,11 +690,11 @@
         },
         {
           "order": 2,
-          "technique": "Yama-zuki",
-          "hiragana": "やまづき",
+          "technique": "Saken-jōdan uken-gedan yama-zuki",
+          "hiragana": "さけん じょうだん うけん げだん やまづき",
           "stance": "Migi-ashi zenkutsu",
           "stanceHiragana": "みぎあし ぜんくつ",
-          "description": "While simultaneously striking 2 fists (yama-zuki), the left fist at the level of the face and the right fist at the middle level. At the arrival of the technique, the 2 fists are in the same vertical axis and the bust leaning forward",
+          "description": "While simultaneously striking 2 fists (yama-zuki), the left fist at the level of the face and the right fist at the low level. At the arrival of the technique, the 2 fists are in the same vertical axis and the bust leaning forward",
           "icon": "burst.fill"
         }
       ]
