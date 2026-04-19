@@ -305,8 +305,8 @@
           "order": 1,
           "technique": "Migi chūdan sashō-ni mikazuki-geri",
           "hiragana": "みぎ ちゅうだん さしょうに みかづきげり",
-          "stance": "Hidari ashi dachi",
-          "stanceHiragana": "ひだり あち だち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
           "description": "Execute right crescent kick with sole of foot into left hand, pivoting 180° counter-clockwise on left foot",
           "icon": "figure.kick"
         }
@@ -356,8 +356,8 @@
           "order": 1,
           "technique": "Migi uho-zuki-age",
           "hiragana": "みぎ うほうづきあげ",
-          "stance": "Hidari-ashi renoji-dachi",
-          "stanceHiragana": "ひだりあし れのじだち",
+          "stance": "Hidari-ashi mae renoji-dachi",
+          "stanceHiragana": "ひだりあし まえ れのじだち",
           "description": "Move left foot back slightly, straighten (slightly bent) right leg into L-stance, turn head and hips left with upward movement of both fists",
           "icon": "hand.raised.fill"
         }
@@ -373,8 +373,8 @@
           "order": 1,
           "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
-          "stance": "Kosa-dachi",
-          "stanceHiragana": "こさだち",
+          "stance": "Migi-ashi mae kosa-dachi",
+          "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Rotate 180° on left foot, make high jump towards the south to land in low cross stance facing east with downward X-block using fists",
           "icon": "xmark"
         }
@@ -459,7 +459,7 @@
           "order": 2,
           "technique": "Migi gedan-barai / hidari jōdan uchi-uke",
           "hiragana": "みぎ げだんばらい / ひだり じょうだん うちうけ",
-          "stance": "Hidari Kōkutsu-dachi",
+          "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Switch to left back stance (may move right foot a bit). Close fists and simultaneously execute right sweeping block and left upper inside block with closed fist upward and backward",
           "icon": "shield.fill"

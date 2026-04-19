@@ -846,7 +846,7 @@
       "japaneseName": "横蹴り蹴上げ",
       "hiraganaName": "よこげりけあげ",
       "shortDescription": "Side snap kick, upward side kick",
-      "definition": "Side snap kick or upward side kick; a kicking technique where the leg is lifted to the side and the foot snaps upward in a sharp, quick motion. The kick is executed using the edge of the foot (sokuto - sword foot) and targets the opponent's ribs, head, or other side-facing areas. Unlike yoko-geri-kekomi (thrust side kick), keage emphasizes a snapping motion with the foot retracting quickly after impact, similar to cracking a whip. The knee is first raised to chamber position, then the lower leg extends sideways and upward in a fast snap, with immediate retraction back to the chamber position. This kick requires excellent balance, hip flexibility, and core strength.",
+      "definition": "Side snap kick or upward side kick; a kicking technique where the leg is lifted to the side and the foot snaps upward in a sharp, quick motion. The kick is executed using the edge of the foot (sokuto - sword foot) and targets the opponent's ribs, head, or other side-facing areas. Unlike yoko-geri kekomi (thrust side kick), keage emphasizes a snapping motion with the foot retracting quickly after impact, similar to cracking a whip. The knee is first raised to chamber position, then the lower leg extends sideways and upward in a fast snap, with immediate retraction back to the chamber position. This kick requires excellent balance, hip flexibility, and core strength.",
       "category": "kicks",
       "componentBreakdown": "横 (yoko) - 'side' or 'lateral'; 蹴り (geri/keri) - 'kick'; 蹴上げ (keage) - 'snap up' or 'kick upward'. Together they describe a side-directed kick with a snapping, upward motion rather than a thrusting motion."
     },
@@ -959,6 +959,86 @@
       "definition": "Side stamping kick; a powerful stomping technique where the foot is driven forcefully sideways and downward to stamp onto the opponent's foot, knee, or lower leg, or to transition into a side stance with a heavy, grounding step. Unlike a snapping or thrusting kick, fumikomi is a descending stamping motion that drives the heel or the flat of the foot downward with full body weight. The technique serves both as a destructive strike to the lower limbs and as a powerful footwork action that plants the practitioner firmly in a wide stance such as kiba-dachi. Yoko-fumikomi appears prominently in Heian Godan (move 13) and Tekki Shodan, where the stamping step is used to transition into horse stance with a simultaneous block, combining footwork and technique in a single committed action.",
       "category": "kicks",
       "componentBreakdown": "横 (yoko) - 'side' or 'lateral'; 踏み込み (fumikomi) - 'stamping step' or 'stomping', from 踏む (fumu) 'to step/stamp' and 込む (komu) 'to drive in' or 'to thrust into'. Together they describe a lateral stamping movement driven forcefully downward and to the side."
+    },
+    {
+      "id": 94,
+      "term": "Age-zuki",
+      "japaneseName": "上げ突き",
+      "hiraganaName": "あげづき",
+      "shortDescription": "Rising punch",
+      "definition": "Rising punch; a punching technique where the fist travels upward in an arc to strike the opponent's chin, jaw, or solar plexus from below. Unlike the straight punch (choku-zuki) or the reverse punch (gyaku-zuki), age-zuki follows an ascending trajectory, making it particularly effective at close range where a straight punch cannot fully extend. In Shōtōkan, the technique is characteristically performed by first punching at chūdan (middle) level and then immediately raising the fist to jōdan (upper) level in a single flowing motion, simultaneously rotating the hips to shōmen (facing forward) to drive power into the rising strike. Age-zuki is a signature technique of Empi kata, appearing multiple times throughout the sequence paired with gedan-barai.",
+      "category": "punches",
+      "componentBreakdown": "上げ (age) - 'rising' or 'upward', from the verb 上げる (ageru) 'to raise' or 'to lift'; 突き (zuki/tsuki) - 'thrust' or 'punch'. Together they describe a punch that travels in an upward, rising direction."
+    },
+    {
+      "id": 95,
+      "term": "Hiza-kutsu-dachi",
+      "japaneseName": "膝屈立",
+      "hiraganaName": "ひざくつだち",
+      "shortDescription": "Bent-knee stance, knee-bend stance",
+      "definition": "Bent-knee stance; a transitional or dynamic stance where the weight is strongly loaded onto one bent leg while the body rotates or extends. In Shōtōkan kata, hiza-kutsu-dachi appears most prominently in Empi, where it describes the position immediately after ushiro gedan-barai: the practitioner's weight is fully committed to the bent front (left) leg while the rear leg has swept back and out in the block. The deeply bent knee absorbs the rotational momentum of the turn and positions the body low and close to the ground before recovering to a normal zenkutsu-dachi. The stance emphasises strong knee bend (kutsu) at the hiza (knee), creating a powerful, grounded position that is both a defensive posture and a platform for the next technique.",
+      "category": "stances",
+      "componentBreakdown": "膝 (hiza) - 'knee'; 屈 (kutsu) - 'bend' or 'crouch', the same character used in zenkutsu-dachi; 立 (dachi/tachi) - 'stance' or 'stand'. Together they describe a stance defined by a strong bend at the knee."
+    },
+    {
+      "id": 96,
+      "term": "Awase-uke",
+      "japaneseName": "合わせ受け",
+      "hiraganaName": "あわせうけ",
+      "shortDescription": "Combined block, paired block",
+      "definition": "Combined block or paired block; a blocking technique where both hands act simultaneously in coordinated opposition to cover two different target levels at the same time. The two hands typically work in mirror-like opposition — one blocks upward (age-uke) while the other blocks downward (gedan) — creating a two-level defensive barrier in a single motion. In Empi kata, awase-uke appears as teishō awase-uke (paired palm-heel block) in moves 31–33, where the right palm heel pushes upward at chūdan level while the left palm heel simultaneously pushes downward at gedan level, and the roles reverse in the following move. The simultaneous dual action of awase-uke is both time-efficient and structurally strong, as the opposing forces of the two hands reinforce each other through the body's centre.",
+      "category": "blocks",
+      "componentBreakdown": "合わせ (awase) - 'combining', 'pairing', or 'joining together', from the verb 合わせる (awaseru) 'to combine' or 'to match'; 受け (uke) - 'block' or 'receive'. Together they describe a block that combines or pairs two simultaneous blocking actions."
+    },
+    {
+      "id": 97,
+      "term": "Tate-shutō-uke",
+      "japaneseName": "縦手刀受け",
+      "hiraganaName": "たてしゅとううけ",
+      "shortDescription": "Vertical knife hand block",
+      "definition": "Vertical knife hand block; a blocking technique where the knife hand (shutō) is held vertically — fingers pointing upward — rather than in the more common diagonal or horizontal orientation used in standard shutō-uke. The blocking forearm is positioned with the elbow bent and the knife-hand edge facing the opponent, intercepting an attack at chūdan (middle) level. Unlike the conventional shutō-uke performed in kōkutsu-dachi where the hand rotates to roughly 45 degrees, tate-shutō-uke maintains an upright, vertical hand position throughout. It appears in Empi kata (move 16) as hidari chūdan tate shutō-uke in kiba-dachi, and in Kanku Dai as a transitional movement. The vertical alignment requires precise elbow positioning and hip engagement to generate effective blocking power without the rotational assist of the standard shutō-uke chamber.",
+      "category": "blocks",
+      "componentBreakdown": "縦 (tate) - 'vertical' or 'upright', indicating the orientation of the hand; 手刀 (shutō) - 'knife hand', literally 'hand sword', from 手 (te) 'hand' and 刀 (tō) 'sword' or 'blade'; 受け (uke) - 'block' or 'receive'. Together they describe a knife hand block performed with the hand held vertically."
+    },
+    {
+      "id": 98,
+      "term": "Tsukami-uke",
+      "japaneseName": "掴み受け",
+      "hiraganaName": "つかみうけ",
+      "shortDescription": "Grasping block, grabbing block",
+      "definition": "Grasping block; a defensive technique that simultaneously blocks and seizes the opponent's attacking limb, converting a pure defensive action into a controlling grip. Rather than simply deflecting an attack, tsukami-uke catches and holds the incoming arm or wrist, immobilising the opponent and creating an immediate opportunity for a counter-technique. The hands typically open wide in a claw-like formation to intercept and wrap around the attack. In Empi kata (move 35), tsukami-uke is performed with a yori-ashi (gliding step forward) in fudō-dachi as a grasping morote kokō gamae (double tiger's mouth ready position) — the two open hands positioned to seize the opponent before the jumping technique that immediately follows. The combination of forward momentum, gripping hands, and the subsequent leap makes this one of the most dramatic sequences in the kata.",
+      "category": "blocks",
+      "componentBreakdown": "掴み (tsukami) - 'grasping', 'grabbing', or 'seizing', from the verb 掴む (tsukamu) 'to grab', 'to seize', or 'to grasp'; 受け (uke) - 'block' or 'receive'. Together they describe a block that grasps or seizes the attacking limb rather than simply deflecting it."
+    },
+    {
+      "id": 99,
+      "term": "Gedan-uke",
+      "japaneseName": "下段受け",
+      "hiraganaName": "げだんうけ",
+      "shortDescription": "Lower level block",
+      "definition": "Lower level block; a generic term for any blocking technique directed at the lower level (gedan), covering the area from the hips to the knees. While gedan-barai (lower sweeping block) is the most common gedan blocking technique in Shōtōkan, gedan-uke refers more broadly to any lower level block regardless of the specific arm trajectory. In kata, gedan-uke appears as the downward component of manji-uke (卍受け) — for example in Kanku Dai move 18 and 23 as hidari gedan-uke paired with migi jōdan uchi-uke. In this context the blocking arm sweeps downward and outward to cover the lower body while the other arm simultaneously blocks at the upper level, creating a two-level defensive barrier. The distinction from gedan-barai is subtle: gedan-barai emphasises a sweeping (barai) action with a longer arc, while gedan-uke describes the lower blocking action more generically, particularly when it is part of a combined blocking technique.",
+      "category": "blocks",
+      "componentBreakdown": "下段 (gedan) - 'lower level', from 下 (ge/shita) 'below' or 'lower' and 段 (dan) 'level' or 'step'; 受け (uke) - 'block' or 'receive'. Together they describe a blocking technique directed at the lower body."
+    },
+    {
+      "id": 100,
+      "term": "Yama-zuki",
+      "japaneseName": "山突き",
+      "hiraganaName": "やまづき",
+      "shortDescription": "Mountain punch, U-punch, wide double punch",
+      "definition": "Mountain punch or U-punch; a double punching technique where both fists strike simultaneously at two different levels — one at jōdan (upper) and one at chūdan (middle) — with the arms spread wide in a shape resembling the kanji for mountain (山). The upper fist (typically the rear hand) punches high to the face or head while the lower fist (typically the front hand) punches to the solar plexus or body, with both arms extended outward rather than in front of the centreline. The wide, spreading arm position creates the characteristic mountain silhouette. Yama-zuki is a signature technique of Bassai Dai and Heian Yondan, where it expresses simultaneous offensive pressure on multiple levels. The simultaneous dual strike requires careful coordination to ensure both punches reach their targets with equal focus (kime) and power, with hip rotation and body weight driving both fists together.",
+      "category": "punches",
+      "componentBreakdown": "山 (yama) - 'mountain', evoking the wide silhouette of a mountain with two peaks; the shape of the outstretched arms mirrors the kanji 山 with one high fist and one lower fist; 突き (zuki/tsuki) - 'thrust' or 'punch'. Together they describe a wide double punch shaped like a mountain."
+    },
+    {
+      "id": 101,
+      "term": "Yori-ashi",
+      "japaneseName": "寄り足",
+      "hiraganaName": "よりあし",
+      "shortDescription": "Gliding step, sliding step without crossing the feet",
+      "definition": "Gliding step; a footwork technique where the body is moved forward, backward, or sideways by sliding both feet in the same direction without crossing them. The leading foot moves first, followed by the trailing foot closing the gap, maintaining the original stance width and foot orientation throughout. Unlike fumikomi (stamping step) or kosa-dachi (cross stance), yori-ashi preserves the current stance while advancing or retreating. It is used to close distance rapidly while keeping good balance and a stable base, generating additional forward momentum for a technique — as seen in Bassai Dai move 24 where a right chūdan punch is powered by a gliding yori-ashi forward, and in Empi move 35 where yori-ashi brings the practitioner to tsukami-uke range.",
+      "category": "general",
+      "componentBreakdown": "寄り (yori) - from 寄る (yoru) 'to approach', 'to come near', or 'to slide toward'; 足 (ashi) - 'foot' or 'leg'. Together they describe a stepping action where the feet glide or slide toward a direction."
     }
   ]
 }

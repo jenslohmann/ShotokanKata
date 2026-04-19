@@ -131,8 +131,8 @@
           "order": 1,
           "technique": "Koshi gamae",
           "hiragana": "こしがまえ",
-          "stance": "Heisoku-dachi",
-          "stanceHiragana": "へいそくだち",
+          "stance": "Migi ashi-dachi",
+          "stanceHiragana": "みぎ あしだち",
           "description": "Hip ready position on right side - closed foot stance. Step in is separate count",
           "icon": "figure.martial.arts"
         }
@@ -140,15 +140,15 @@
     },
     {
       "sequence": 6,
-      "japaneseName": "Hidari uraken hidari sokumen jōdan yoko mawashi-uchi – hidari yoko keage",
+      "japaneseName": "Hidari uraken hidari sokumen jōdan yoko mawashi-uchi – hidari yoko-geri keage",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Uraken-uchi / Yoko keage",
-          "hiragana": "うらけんうち / よこけあげ",
+          "technique": "Uraken-uchi / yoko-geri keage",
+          "hiragana": "うらけんうち / よこげり けあげ",
           "stance": "Migi ashi-dachi",
-          "stanceHiragana": "みぎあしだち",
+          "stanceHiragana": "みぎ あしだち",
           "description": "Left back fist circular strike to the left - simultaneously left side kick. The horizontal uraken follows shortest path. Uraken and keage at the same time",
           "icon": "figure.martial.arts"
         }
@@ -179,8 +179,8 @@
           "order": 1,
           "technique": "Koshi gamae",
           "hiragana": "こしがまえ",
-          "stance": "Heisoku-dachi",
-          "stanceHiragana": "へいそくだち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
           "description": "Half step in to the right with left foot to hip ready position on left side - closed foot stance. Step in is separate count",
           "icon": "figure.martial.arts"
         }
@@ -188,15 +188,15 @@
     },
     {
       "sequence": 9,
-      "japaneseName": "Migi uraken migi sokumen jōdan yoko mawashi-uchi – migi yoko keage",
+      "japaneseName": "Migi uraken migi sokumen jōdan yoko mawashi-uchi – migi yoko-geri keage",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Uraken-uchi / Yoko keage",
-          "hiragana": "うらけんうち / よこけあげ",
+          "technique": "Uraken-uchi / yoko-geri keage",
+          "hiragana": "うらけんうち / よこげり けあげ",
           "stance": "Hidari ashi-dachi",
-          "stanceHiragana": "ひだりあしだち",
+          "stanceHiragana": "ひだり あしだち",
           "description": "Right back fist circular strike to the right - simultaneously right side kick. Uraken and keage at the same time",
           "icon": "figure.martial.arts"
         }
@@ -227,8 +227,8 @@
           "order": 1,
           "technique": "Shutō gedan-barai",
           "hiragana": "しゅとうげだんばらい",
-          "stance": "Hidari zenkutsu-dachi",
-          "stanceHiragana": "ひだり ぜんくつだち",
+          "stance": "Hidari hiza-kutsu-dachi",
+          "stanceHiragana": "ひだり ひざくつだち",
           "description": "Toward shomen: left knife hand low sweep during transition",
           "icon": "shield.fill"
         },
@@ -252,8 +252,8 @@
           "order": 1,
           "technique": "Migi jōdan mae-geri keage",
           "hiragana": "みぎ じょうだん まえげり",
-          "stance": "Hidari zenkutsu-dachi",
-          "stanceHiragana": "ひだり ぜんくつだち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
           "description": "Right high level upwards front kick",
           "icon": "figure.martial.arts"
         }
@@ -268,8 +268,8 @@
           "order": 1,
           "technique": "Osae-uke / Uraken-uchi",
           "hiragana": "おさえうけ / うらけんうち",
-          "stance": "Kōsa-dachi",
-          "stanceHiragana": "こうさだち",
+          "stance": "Migi-ashi mae kosa-dachi",
+          "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Forward in cross stance left high level pressing block - right back fist vertical circular strike, while left closed fist is pulled hikite at hip. Hips in cross stance have same height as in zenkutsu-dachi. KIAI",
           "icon": "figure.martial.arts",
           "kiai": true
@@ -285,8 +285,8 @@
           "order": 1,
           "technique": "Chūdan kakiwake-uke",
           "hiragana": "ちゅうだん かきわけうけ",
-          "stance": "Hidari kōkutsu-dachi",
-          "stanceHiragana": "ひだり こうくつだち",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
           "description": "Backward turn and 45 degrees forward to the left relative to new shomen middle level wedge block in back stance - left foot forward, left arm outermost. Closed fists cross in front of chest, then move shortest and most direct path out to shoulder height",
           "icon": "shield.fill"
         }
@@ -301,8 +301,8 @@
           "order": 1,
           "technique": "Migi jōdan mae-geri",
           "hiragana": "みぎ じょうだん まえげり",
-          "stance": "Hidari kōkutsu-dachi",
-          "stanceHiragana": "ひだり こうくつだち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
           "description": "Right high level front kick",
           "icon": "figure.martial.arts"
         }
@@ -349,8 +349,8 @@
           "order": 1,
           "technique": "Chūdan kakiwake-uke",
           "hiragana": "ちゅうだん かきわけうけ",
-          "stance": "Migi kōkutsu-dachi",
-          "stanceHiragana": "みぎ こうくつだち",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
           "description": "90 degrees to the right side relative to shomen: middle level wedge block in back stance - right foot forward, left arm outermost",
           "icon": "shield.fill"
         }
@@ -365,8 +365,8 @@
           "order": 1,
           "technique": "Hidari jōdan mae-geri",
           "hiragana": "ひだり じょうだん まえげり",
-          "stance": "Migi kōkutsu-dachi",
-          "stanceHiragana": "みぎ こうくつだち",
+          "stance": "Migi ashi-dachi",
+          "stanceHiragana": "みぎ あしだち",
           "description": "Left high level front kick",
           "icon": "figure.martial.arts"
         }
@@ -461,8 +461,8 @@
           "order": 1,
           "technique": "Morote kubi osae",
           "hiragana": "もろて くびおさえ",
-          "stance": "Migi zenkutsu-dachi",
-          "stanceHiragana": "みぎ ぜんくつだち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
           "description": "Both hands stretch forward then immediately brought down on each side of right knee",
           "icon": "hand.point.up.fill"
         },

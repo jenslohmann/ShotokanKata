@@ -141,7 +141,8 @@
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Left forearm performs horizontal protection of forehead",
           "icon": "hand.raised.fill"
-        }      ]
+        }
+      ]
     },
     {
       "sequence": 5,
@@ -188,18 +189,18 @@
     },
     {
       "sequence": 7,
-      "japaneseName": "Migi jōdan uraken yoko-mawashi-uchi / Migi yoko-geri-keage",
+      "japaneseName": "Migi jōdan uraken yoko-mawashi-uchi / Migi yoko-geri keage",
       "direction": "S",
       "kiai": false,
       "subMoves": [
         {
-            "order": 1,
-            "technique": "Hidari koshi-kamae",
-            "hiragana": "ひだり じょうだん うらけん よこまわしうち",
-            "stance": "Hidari ashi-dachi",
-            "stanceHiragana": "ひだり あしだち",
-            "description": "Turn toes to the right, move left foot halfway towards the right foot. Turn the hips and body clockwise. As the hips turn, lift the right leg until the sole touches the left knee (pointing the right knee to the right). Simultaneously, bring the right fist to the left hip (on top of the left fist).",
-            "icon": "hand.raised.fingers.spread.fill"
+          "order": 1,
+          "technique": "Hidari koshi-kamae",
+          "hiragana": "ひだり じょうだん うらけん よこまわしうち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
+          "description": "Turn toes to the right, move left foot halfway towards the right foot. Turn the hips and body clockwise. As the hips turn, lift the right leg until the sole touches the left knee (pointing the right knee to the right). Simultaneously, bring the right fist to the left hip (on top of the left fist).",
+          "icon": "hand.raised.fingers.spread.fill"
         },
         {
           "order": 2,
@@ -212,7 +213,7 @@
         },
         {
           "order": 3,
-          "technique": "Migi yoko-geri-keage",
+          "technique": "Migi yoko-geri keage",
           "hiragana": "みぎ よこげりけあげ",
           "stance": "Hidari ashi-dachi",
           "stanceHiragana": "ひだり あしだち",
@@ -231,8 +232,8 @@
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
           "description": "Land naturally, turn left 90° into back stance with left middle-level knife-hand block",
           "icon": "hand.raised.slash.fill"
         }
@@ -248,8 +249,8 @@
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
           "description": "Advance right foot forward into back stance with right middle-level knife-hand block",
           "icon": "hand.raised.slash.fill"
         }
@@ -265,8 +266,8 @@
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
           "description": "Advance left foot forward into back stance with left middle-level knife-hand block",
           "icon": "hand.raised.slash.fill"
         }
@@ -282,8 +283,8 @@
           "order": 1,
           "technique": "Migi chūdan nukite-tate-zuki",
           "hiragana": "みぎ ちゅうだん ぬきて たてづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Advance right foot into front stance with right vertical spear-hand thrust",
           "icon": "hand.point.right.fill"
         },
@@ -308,8 +309,8 @@
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
           "description": "Pivot on right foot 90° to rear, move left foot into back stance with left knife-hand block",
           "icon": "hand.raised.slash.fill"
         }
@@ -325,8 +326,8 @@
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
           "description": "Pivot on left foot 45° to right, advance right foot into back stance with right knife-hand block",
           "icon": "hand.raised.slash.fill"
         }
@@ -342,8 +343,8 @@
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
           "description": "Pivot on left foot 45° to right, advance right foot into back stance with right knife-hand block",
           "icon": "hand.raised.slash.fill"
         }
@@ -359,8 +360,8 @@
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
           "description": "Pivot on right foot 45° to left, advance left foot into back stance with left knife-hand block",
           "icon": "hand.raised.slash.fill"
         }
@@ -368,16 +369,16 @@
     },
     {
       "sequence": 16,
-      "japaneseName": "Migi chūdan uchi-uke",
+      "japaneseName": "Gyaku-hanmi migi chūdan uchi-uke",
       "direction": "S",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan uchi-uke",
-          "hiragana": "みぎ ちゅうだん うちうでうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "technique": "Gyaku-hanmi migi chūdan uchi-uke",
+          "hiragana": "ぎゃくはんみ みぎ ちゅうだん うちうけ",
+          "stance": "Hidari-ashi zenkutsu",
+          "stanceHiragana": "ひだりあし ぜんくつ",
           "description": "Move left foot in 45° arc to left, rotate into wide front stance with right inside forearm block",
           "icon": "shield.fill"
         }
@@ -393,8 +394,8 @@
           "order": 1,
           "technique": "Migi mae-geri-keage",
           "hiragana": "みぎ まえげりけあげ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
           "description": "Right front snap kick to middle level without upper body movement",
           "icon": "figure.kick"
         }
@@ -410,8 +411,8 @@
           "order": 1,
           "technique": "Hidari chūdan gyaku-zuki",
           "hiragana": "ひだり ちゅうだん ぎゃくづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Bring right leg back after kick, land forward in front stance with left reverse punch",
           "icon": "hand.point.left.fill"
         }
@@ -427,8 +428,8 @@
           "order": 1,
           "technique": "Hidari chūdan uchi-uke",
           "hiragana": "ひだり ちゅうだん うちうでうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi-ashi zenkutsu",
+          "stanceHiragana": "みぎあし ぜんくつ",
           "description": "Turn hips powerfully right without removing weight from front leg, left inside forearm block",
           "icon": "shield.fill"
         }
@@ -444,8 +445,8 @@
           "order": 1,
           "technique": "Hidari mae-geri-keage",
           "hiragana": "ひだり まえげりけあげ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi ashi-dachi",
+          "stanceHiragana": "みぎ あしだち",
           "description": "Left front snap kick to middle level without upper body movement",
           "icon": "figure.kick"
         }
@@ -461,8 +462,8 @@
           "order": 1,
           "technique": "Migi chūdan gyaku-zuki",
           "hiragana": "みぎ ちゅうだん ぎゃくづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Bring left leg back after kick, land forward in front stance with right reverse punch",
           "icon": "hand.point.right.fill"
         }
@@ -478,8 +479,8 @@
           "order": 1,
           "technique": "Migi chūdan morote-uke",
           "hiragana": "みぎ ちゅうだん もろてうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Move right foot forward, augmented block from inside to outside, left arm against trunk",
           "icon": "shield.fill"
         }
@@ -512,8 +513,8 @@
           "order": 1,
           "technique": "Hidari shutō-age-uke",
           "hiragana": "ひだり しゅとう あげうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "left knife-hand rising block preparation",
           "icon": "hand.raised.slash.fill"
         },
@@ -555,8 +556,8 @@
           "order": 1,
           "technique": "Migi shutō-age-uke",
           "hiragana": "みぎ しゅとう あげうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Right knife-hand rising block preparation",
           "icon": "hand.raised.slash.fill"
         },

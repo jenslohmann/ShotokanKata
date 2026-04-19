@@ -58,8 +58,8 @@
           "order": 1,
           "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Turn the head to the left and move left foot to the left in zenkutsu-dachi position, while doing a low blocking of the left arm (gedan-barai) and right hikite",
           "icon": "shield.lefthalf.filled"
         }
@@ -74,8 +74,8 @@
           "order": 1,
           "technique": "Migi chūdan oi-zuki",
           "hiragana": "みぎ ちゅうだん おいづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Advance the right foot on the same axis in zenkutsu-dachi position, while giving a right punch (oi-zuki) at the plexus level, left fist brought back in hikite",
           "icon": "arrow.forward.circle.fill"
         }
@@ -90,8 +90,8 @@
           "order": 1,
           "technique": "Migi gedan-barai",
           "hiragana": "みぎ げだんばらい",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Swivel on the left leg 180° backwards looking over the right shoulder, and perform a low blocking (gedan-barai) of the right arm in zenkutsu-dachi",
           "icon": "shield.righthalf.filled"
         }
@@ -106,8 +106,8 @@
           "order": 1,
           "technique": "Migi tettsui-mawashi-uchi",
           "hiragana": "みぎ てっつい まわし うち",
-          "stance": "Renoji-dachi",
-          "stanceHiragana": "れのじだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Bring the right foot back, in the position renoji-dachi. Pull the right wrist back and strike forward vertically with a hammer fist (tettsui-uchi)",
           "icon": "hammer.fill"
         }
@@ -122,8 +122,8 @@
           "order": 1,
           "technique": "Hidari chūdan oi-zuki",
           "hiragana": "ひだり ちゅうだん おいづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Immediately chase with a direct blow of the plexus fist (oi-zuki) by advancing the left foot in zenkutsu-dachi position",
           "icon": "arrow.forward.circle.fill"
         }
@@ -138,8 +138,8 @@
           "order": 1,
           "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Pivot on the right foot by bringing the left foot 90° to the left in the central axis of the kata, in zenkutsu-dachi position",
           "icon": "shield.lefthalf.filled"
         }
@@ -154,8 +154,8 @@
           "order": 1,
           "technique": "Migi jōdan age-uke",
           "hiragana": "みぎ じょうだん あげうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Perform a high level upward blockage by raising the right arm (jōdan age-uke), while advancing the right foot in zenkutsu-dachi position",
           "icon": "arrow.up.circle.fill"
         }
@@ -170,8 +170,8 @@
           "order": 1,
           "technique": "Hidari jōdan age-uke",
           "hiragana": "ひだり じょうだん あげうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Advance the left foot in zenkutsu-dachi, realizing a blocking upward left level high (jōdan age-uke)",
           "icon": "arrow.up.circle.fill"
         }
@@ -187,8 +187,8 @@
           "order": 1,
           "technique": "Migi jōdan age-uke",
           "hiragana": "みぎ じょうだん あげうけ",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Advance the right foot in zenkutsu-dachi, realizing a right ascending right block (jōdan age-uke) with KIAI",
           "icon": "arrow.up.circle.fill"
         }
@@ -203,8 +203,8 @@
           "order": 1,
           "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Pivot on the right foot by bringing the left foot 90° to the left, in zenkutsu-dachi position",
           "icon": "shield.lefthalf.filled"
         }
@@ -219,8 +219,8 @@
           "order": 1,
           "technique": "Migi chūdan oi-zuki",
           "hiragana": "みぎ ちゅうだん おいづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Advance the right foot on the same axis in zenkutsu-dachi position, while giving a right punch at the plexus level (oi-zuki)",
           "icon": "arrow.forward.circle.fill"
         }
@@ -235,8 +235,8 @@
           "order": 1,
           "technique": "Migi gedan-barai",
           "hiragana": "みぎ げだんばらい",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Look backward, turn left leg 180° backwards looking over right shoulder, blocking swept lower right arm (gedan-barai) in zenkutsu-dachi",
           "icon": "shield.righthalf.filled"
         }
@@ -251,8 +251,8 @@
           "order": 1,
           "technique": "Hidari chūdan oi-zuki",
           "hiragana": "ひだり ちゅうだん おいづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Immediately chase with a direct blow of the plexus fist (oi-zuki) by advancing the left foot in zenkutsu-dachi position",
           "icon": "arrow.forward.circle.fill"
         }
@@ -267,8 +267,8 @@
           "order": 1,
           "technique": "Hidari gedan-barai",
           "hiragana": "ひだり げだんばらい",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Pivot on the right foot by bringing the left foot 90° to the left in the central axis of the kata, in zenkutsu-dachi position",
           "icon": "shield.lefthalf.filled"
         }
@@ -283,8 +283,8 @@
           "order": 1,
           "technique": "Migi chūdan oi-zuki",
           "hiragana": "みぎ ちゅうだん おいづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Advance the right foot on the same axis in zenkutsu-dachi position, while giving a right punch (oi-zuki) at the plexus level",
           "icon": "arrow.forward.circle.fill"
         }
@@ -299,8 +299,8 @@
           "order": 1,
           "technique": "Hidari chūdan oi-zuki",
           "hiragana": "ひだり ちゅうだん おいづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
           "description": "Immediately chase with a direct blow of the fist (oi-zuki) to the plexus by advancing the left foot in zenkutsu-dachi position",
           "icon": "arrow.forward.circle.fill"
         }
@@ -316,8 +316,8 @@
           "order": 1,
           "technique": "Migi chūdan oi-zuki",
           "hiragana": "みぎ ちゅうだん おいづき",
-          "stance": "Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Advance the right foot on the same axis in zenkutsu-dachi position, while giving a right punch (oi-zuki) at the plexus level with KIAI",
           "icon": "arrow.forward.circle.fill"
         }
@@ -332,8 +332,8 @@
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
           "description": "Pivot on the right foot by bringing the left foot 90° to the left, back position Kōkutsu-dachi. Block with the sword of the left hand middle level (shutō-uke)",
           "icon": "hand.raised.slash.fill"
         }
@@ -348,8 +348,8 @@
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
           "description": "Pivot on the left foot by bringing the right foot 45° to the right, back Kōkutsu-dachi position. Block with the sword of the right hand middle level (shutō-uke)",
           "icon": "hand.raised.slash.fill"
         }
@@ -364,8 +364,8 @@
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
           "hiragana": "みぎ ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
           "description": "Swivel on the left foot by bringing the right foot 45° from the previous axis to the right, in the back position Kōkutsu-dachi",
           "icon": "hand.raised.slash.fill"
         }
@@ -380,8 +380,8 @@
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
           "hiragana": "ひだり ちゅうだん しゅとうけ",
-          "stance": "Kōkutsu-dachi",
-          "stanceHiragana": "こうくつだち",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
           "description": "Pivot on the right foot by bringing the left foot 45° to the left, back position Kōkutsu-dachi. Block with the sword of the left hand level medium (shutō-uke) with KIAI",
           "icon": "hand.raised.slash.fill"
         }
