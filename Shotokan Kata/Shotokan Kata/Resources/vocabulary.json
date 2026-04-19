@@ -1039,6 +1039,16 @@
       "definition": "Gliding step; a footwork technique where the body is moved forward, backward, or sideways by sliding both feet in the same direction without crossing them. The leading foot moves first, followed by the trailing foot closing the gap, maintaining the original stance width and foot orientation throughout. Unlike fumikomi (stamping step) or kosa-dachi (cross stance), yori-ashi preserves the current stance while advancing or retreating. It is used to close distance rapidly while keeping good balance and a stable base, generating additional forward momentum for a technique — as seen in Bassai Dai move 24 where a right chūdan punch is powered by a gliding yori-ashi forward, and in Empi move 35 where yori-ashi brings the practitioner to tsukami-uke range.",
       "category": "general",
       "componentBreakdown": "寄り (yori) - from 寄る (yoru) 'to approach', 'to come near', or 'to slide toward'; 足 (ashi) - 'foot' or 'leg'. Together they describe a stepping action where the feet glide or slide toward a direction."
+    },
+    {
+      "id": 102,
+      "term": "Mizunagare-no-kamae",
+      "japaneseName": "水流れの構え",
+      "hiraganaName": "みずながれのかまえ",
+      "shortDescription": "Flowing water ready position",
+      "definition": "Flowing water ready position; a preparatory guard stance where one forearm is held horizontally across the body at solar plexus level (suigetsu), elbow bent at roughly 90 degrees with the fist turned inward and facing upward, while the opposite fist is pulled back to the hip in hikite. The positioning evokes the natural, unresisted flow of water — yielding yet continuous — suggesting a defensive posture ready to redirect rather than oppose. In Heian Godan, mizunagare-no-kamae appears twice (moves 3 and 6) as a transitional kamae between uchi-uke and morote-uke sequences, performed in heisoku-dachi as a slow, deliberate movement. The slow speed of the technique emphasises controlled breathing, relaxation, and body awareness rather than explosive power, providing a contrast to the fast combinations that surround it.",
+      "category": "techniques",
+      "componentBreakdown": "水 (mizu) - 'water'; 流れ (nagare) - 'flow' or 'current', from 流れる (nagareru) 'to flow'; の (no) - possessive particle; 構え (kamae) - 'ready position', 'guard', or 'posture'. Together they describe a guard posture that embodies the quality of flowing water."
     }
   ]
 }

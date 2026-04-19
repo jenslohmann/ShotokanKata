@@ -51,14 +51,14 @@
     },
     {
       "sequence": 1,
-      "japaneseName": "Hidari jōdan tate-uke / Migi jōdan haiwan-uke",
+      "japaneseName": "Hidari jōdan tate-uke / Migi zenwan hitae-mae",
       "direction": "W",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari jōdan tate-uke",
-          "hiragana": "ひだり じょうだん たてうけ",
+          "technique": "Hidari jōdan haiwan-uke",
+          "hiragana": "ひだり じょうだん はいわんうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Turn head left, advance left foot 90° into back stance with high left vertical block and right upper guard (haiwan-uke)",
@@ -66,8 +66,8 @@
         },
         {
           "order": 2,
-          "technique": "Migi jōdan haiwan-uke",
-          "hiragana": "みぎ じょうだん はいわんうけ",
+          "technique": "Migi zenwan hitae-mae",
+          "hiragana": "みぎ ぜんわん ひたいまえ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Right forearm performs horizontal protection of forehead",
@@ -120,14 +120,14 @@
     },
     {
       "sequence": 4,
-      "japaneseName": "Migi jōdan tate-uke / Hidari jōdan haiwan-uke",
+      "japaneseName": "Migi jōdan haiwan-uke / Hidari zenwan hitae-mae",
       "direction": "E",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi jōdan tate-uke",
-          "hiragana": "みぎ じょうだん たてうけ",
+          "technique": "Migi jōdan haiwan-uke",
+          "hiragana": "みぎ じょうだん はいわんうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Turn head right, rotate 180° into back stance with high right vertical block and left upper guard (haiwan-uke)",
@@ -135,8 +135,8 @@
         },
         {
           "order": 2,
-          "technique": "Migi jōdan haiwan-uke",
-          "hiragana": "みぎ じょうだん はいわんうけ",
+          "technique": "Hidari zenwan hitai-mae",
+          "hiragana": "ひだり ぜんわん ひたいまえ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Left forearm performs horizontal protection of forehead",
@@ -213,8 +213,8 @@
         },
         {
           "order": 3,
-          "technique": "Migi yoko-geri keage",
-          "hiragana": "みぎ よこげりけあげ",
+          "technique": "Migi chūdan yoko-geri keage",
+          "hiragana": "みぎ ちゅうだん よこげりけあげ",
           "stance": "Hidari ashi-dachi",
           "stanceHiragana": "ひだり あしだち",
           "description": "Right upward side snap kick with sword foot, performed simultaneously with back-fist. The right foot should quickly snap back to the left knee after the kick",
@@ -275,14 +275,14 @@
     },
     {
       "sequence": 11,
-      "japaneseName": "Migi chūdan nukite-tate-zuki / Hidari osae-uke",
+      "japaneseName": "Migi chūdan shihon-nukite / Hidari osae-uke",
       "direction": "N",
       "kiai": true,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan nukite-tate-zuki",
-          "hiragana": "みぎ ちゅうだん ぬきて たてづき",
+          "technique": "Migi chūdan shihon-nukite",
+          "hiragana": "みぎ ちゅうだん しほんぬきて",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Advance right foot into front stance with right vertical spear-hand thrust",
@@ -311,7 +311,7 @@
           "hiragana": "ひだり ちゅうだん しゅとうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "Pivot on right foot 90° to rear, move left foot into back stance with left knife-hand block",
+          "description": "Pivot on right foot 90° counter-clockwise to rear, move left foot into back stance with left knife-hand block",
           "icon": "hand.raised.slash.fill"
         }
       ]

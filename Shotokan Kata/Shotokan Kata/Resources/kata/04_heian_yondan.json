@@ -124,7 +124,7 @@
     },
     {
       "sequence": 5,
-      "japaneseName": "Ryō ken migi koshi kamae",
+      "japaneseName": "Ryoken migi koshi kamae",
       "direction": "N",
       "subMoves": [
         {
@@ -133,7 +133,7 @@
           "hiragana": "こしがまえ",
           "stance": "Migi ashi-dachi",
           "stanceHiragana": "みぎ あしだち",
-          "description": "Hip ready position on right side - closed foot stance. Step in is separate count",
+          "description": "Shift weight to right leg, lift left foot to touch inner right knee (ankle bent, knee pointing left). Simultaneously bring left fist on top of right fist at right hip.",
           "icon": "figure.martial.arts"
         }
       ]
@@ -172,7 +172,7 @@
     },
     {
       "sequence": 8,
-      "japaneseName": "Ryō ken hidari koshi kamae",
+      "japaneseName": "Ryoken hidari koshi kamae",
       "direction": "N",
       "subMoves": [
         {
@@ -181,7 +181,7 @@
           "hiragana": "こしがまえ",
           "stance": "Hidari ashi-dachi",
           "stanceHiragana": "ひだり あしだち",
-          "description": "Half step in to the right with left foot to hip ready position on left side - closed foot stance. Step in is separate count",
+          "description": "Look right, slide left foot half a step inward and lift right leg with sole touching inner left knee, right ankle fully bent and right knee pointing right. Simultaneously bring right fist to left hip on top of left fist, back of right fist forward and back of left fist down.",
           "icon": "figure.martial.arts"
         }
       ]
@@ -227,7 +227,7 @@
           "order": 1,
           "technique": "Shutō gedan-barai",
           "hiragana": "しゅとうげだんばらい",
-          "stance": "Hidari hiza-kutsu-dachi",
+          "stance": "Hidari hiza-kutsu",
           "stanceHiragana": "ひだり ひざくつだち",
           "description": "Toward shomen: left knife hand low sweep during transition",
           "icon": "shield.fill"
@@ -236,8 +236,8 @@
           "order": 2,
           "technique": "Shutō jōdan barai / Mawashi-uchi",
           "hiragana": "しゅとうじょうだんばらい / まわしうち",
-          "stance": "Hidari zenkutsu-dachi",
-          "stanceHiragana": "ひだり ぜんくつだち",
+          "stance": "Hidari hiza-kutsu",
+          "stanceHiragana": "ひだり ひざくつだち",
           "description": "High level knife hand rising block followed by right knife hand circular strike with left hand high block, hips in hanmi. Beginners can perform gedan shuto and age-uke separately, advanced can perform more fluidly",
           "icon": "figure.martial.arts"
         }
@@ -463,7 +463,7 @@
           "hiragana": "もろて くびおさえ",
           "stance": "Hidari ashi-dachi",
           "stanceHiragana": "ひだり あしだち",
-          "description": "Both hands stretch forward then immediately brought down on each side of right knee",
+          "description": "Both open hands stretch forward at face height then immediately brought down on each side of right knee",
           "icon": "hand.point.up.fill"
         },
         {

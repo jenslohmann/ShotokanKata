@@ -67,13 +67,13 @@
     },
     {
       "sequence": 2,
-      "japaneseName": "Hidari gedan-barai / Migi chūdan uchi-uke",
+      "japaneseName": "Hidari gedan-uke / Migi chūdan uchi-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan-barai",
-          "hiragana": "ひだり げだんばらい",
+          "technique": "Hidari gedan-uke",
+          "hiragana": "ひだり げだんうけ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
           "description": "Bring right leg to left leg in attention stance, left downward block",
@@ -92,13 +92,13 @@
     },
     {
       "sequence": 3,
-      "japaneseName": "Migi gedan-barai / Hidari chūdan uchi-uke",
+      "japaneseName": "Migi gedan-uke / Hidari chūdan uchi-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi gedan-barai",
-          "hiragana": "みぎ げだんばらい",
+          "technique": "Migi gedan-uke",
+          "hiragana": "みぎ げだんうけ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
           "description": "Invert arms, right downward block",
@@ -133,13 +133,13 @@
     },
     {
       "sequence": 5,
-      "japaneseName": "Migi gedan-barai / Hidari chūdan uchi-uke",
+      "japaneseName": "Migi gedan-uke / Hidari chūdan uchi-uke",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi gedan-barai",
-          "hiragana": "みぎ げだんばらい",
+          "technique": "Migi gedan-uke",
+          "hiragana": "みぎ げだんうけ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
           "description": "Bring left leg to right leg in attention stance, right downward block",
@@ -158,13 +158,13 @@
     },
     {
       "sequence": 6,
-      "japaneseName": "Hidari gedan-barai / Migi chūdan uchi-uke",
+      "japaneseName": "Hidari gedan-uke / Migi chūdan uchi-uke",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari gedan-barai",
-          "hiragana": "ひだり げだんばらい",
+          "technique": "Hidari gedan-uke",
+          "hiragana": "ひだり げだんうけ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
           "description": "Invert arms, left downward block",
@@ -199,13 +199,13 @@
     },
     {
       "sequence": 8,
-      "japaneseName": "Migi chūdan nukite-tate-zuki / Hidari osae-uke",
+      "japaneseName": "Migi chūdan shihon-nukite / Hidari osae-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan nukite-tate-zuki",
-          "hiragana": "みぎ ちゅうだん ぬきて たてづき",
+          "technique": "Migi chūdan shihon-nukite",
+          "hiragana": "みぎ ちゅうだん しほんぬきて",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Advance right foot into front stance with right vertical spear-hand thrust",
@@ -224,13 +224,13 @@
     },
     {
       "sequence": 9,
-      "japaneseName": "Hidari chūdan tettsui-yoko-uchi",
+      "japaneseName": "Hidari chūdan tetsui uchi-mawashi-uchi",
       "direction": "S",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan tettsui-yoko-uchi",
-          "hiragana": "ひだり ちゅうだん てっついよこうち",
+          "technique": "Hidari chūdan tetsui uchi-mawashi-uchi",
+          "hiragana": "ひだり ちゅうだん てつい うちまわしうち",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
           "description": "Twist right arm to back, pivot 180° on right foot moving left foot into horse stance with left hammer-fist side strike",
@@ -257,12 +257,12 @@
     },
     {
       "sequence": 11,
-      "japaneseName": "Ryoken-koshi-kamae",
+      "japaneseName": "Ryoken-ryokoshi-kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken-koshi-kamae",
+          "technique": "Ryoken-ryokoshi-kamae",
           "hiragana": "りょうけん こし かまえ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
@@ -273,7 +273,7 @@
     },
     {
       "sequence": 12,
-      "japaneseName": "Migi yoko-fumikomi / Migi yoko-empi-uchi",
+      "japaneseName": "Migi yoko-fumikomi / Migi furi empi-uchi",
       "direction": "W",
       "subMoves": [
         {
@@ -287,7 +287,7 @@
         },
         {
           "order": 2,
-          "technique": "Migi yoko-empi-uchi",
+          "technique": "Migi furi empi-uchi",
           "hiragana": "みぎ よこえんぴうち",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -314,7 +314,7 @@
     },
     {
       "sequence": 14,
-      "japaneseName": "Hidari yoko-fumikomi / Hidari yoko-empi-uchi",
+      "japaneseName": "Hidari yoko-fumikomi / Hidari furi empi-uchi",
       "direction": "E",
       "subMoves": [
         {
@@ -328,7 +328,7 @@
         },
         {
           "order": 2,
-          "technique": "Hidari yoko-empi-uchi",
+          "technique": "Hidari furi empi-uchi",
           "hiragana": "ひだり よこえんぴうち",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -355,7 +355,7 @@
     },
     {
       "sequence": 16,
-      "japaneseName": "Migi yoko-fumikomi / Migi yoko-empi-uchi",
+      "japaneseName": "Migi yoko-fumikomi / Migi furi empi-uchi",
       "direction": "W",
       "subMoves": [
         {
@@ -369,7 +369,7 @@
         },
         {
           "order": 2,
-          "technique": "Migi yoko-empi-uchi",
+          "technique": "Migi furi empi-uchi",
           "hiragana": "みぎ よこえんぴうち",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -412,16 +412,16 @@
     },
     {
       "sequence": 19,
-      "japaneseName": "Migi jōdan tate-zuki / Hidari ushiro-empi-uchi",
+      "japaneseName": "Migi jōdan koho-tsukiage / Hidari ushiro-empi-uchi",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi jōdan tate-zuki",
-          "hiragana": "みぎ じょうだん たてづき",
+          "technique": "Migi jōdan koho-tsukiage",
+          "hiragana": "みぎ じょうだん こうほうつきあげ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Bring right leg to left in small horse stance, rotate 180° on right foot, right vertical punch over left shoulder",
+          "description": "Step right foot forward alongside left foot (hip width), then shift left foot right and pivot 180° counter-clockwise into kiba-dachi. Simultaneously swing right fist in a large arc to above left shoulder (back of fist up).",
           "icon": "hand.point.right.fill"
         },
         {
@@ -430,24 +430,24 @@
           "hiragana": "ひだり うしろえんぴうち",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Left back elbow strike simultaneously with vertical punch",
+          "description": "Simultaneously pull left fist back to left hip performing elbow strike.",
           "icon": "hand.raised.fingers.spread.fill"
         }
       ]
     },
     {
       "sequence": 20,
-      "japaneseName": "Hidari jōdan tate-zuki / Migi ushiro-empi-uchi",
+      "japaneseName": "Hidari jōdan koho-tsukiage / Migi ushiro-empi-uchi",
       "direction": "W",
       "kiai": true,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari jōdan tate-zuki",
-          "hiragana": "ひだり じょうだん たてづき",
+          "technique": "Hidari jōdan koho-tsukiage",
+          "hiragana": "ひだり じょうだん こうほうつきあげ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Slightly move position to right, left vertical punch over right shoulder",
+          "description": "Slightly slide position to right (yori-ashi), left vertical punch over right shoulder",
           "icon": "hand.point.left.fill"
         },
         {

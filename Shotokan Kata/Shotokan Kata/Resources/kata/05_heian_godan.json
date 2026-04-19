@@ -84,17 +84,17 @@
     },
     {
       "sequence": 3,
-      "japaneseName": "Hidari chūdan kagi-zuki",
+      "japaneseName": "Hidari zenwan mizunagare-no-kamae",
       "direction": "E",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari chūdan kagi-zuki",
-          "hiragana": "ひだり ちゅうだん かぎづき",
+          "technique": "Hidari zenwan mizunagare-no-kamae",
+          "hiragana": "ひだり ぜんわん みずながれのかまえ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
-          "description": "Slowly bring left foot to right foot in attention stance, turn head right, execute left hook punch to middle level",
+          "description": "Slowly bring right foot to left foot into heisoku-dachi. Look right, pull right fist back to right hip. Simultaneously move left forearm forward while brushing the body and then to the right, elbow bent at 90°, back of fist facing up, to a position in front of solar plexus (mizunagare-no-kamae).",
           "icon": "hand.point.left.fill"
         }
       ]
@@ -135,17 +135,17 @@
     },
     {
       "sequence": 6,
-      "japaneseName": "Migi chūdan kagi-zuki",
+      "japaneseName": "Migi zenwan mizunagare-no-kamae",
       "direction": "N",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi chūdan kagi-zuki",
-          "hiragana": "みぎ ちゅうだん かぎづき",
+          "technique": "Migi zenwan mizunagare-no-kamae",
+          "hiragana": "みぎ ぜんわん みずながれのかまえ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
-          "description": "Slowly bring right foot to left foot in attention stance, turn head forward, execute right hook punch to middle level",
+          "description": "Slowly bring left foot to right foot into heisoku-dachi. Look forward, pull left fist back to left hip. Simultaneously move right forearm forward while brushing the body and then to the left, elbow bent at 90°, back of fist facing up, to a position in front of solar plexus (mizunagare-no-kamae).",
           "icon": "hand.point.right.fill"
         }
       ]
@@ -390,7 +390,7 @@
           "order": 1,
           "technique": "Migi chūdan morote-uke",
           "hiragana": "みぎ ちゅうだん もろてうけ",
-          "stance": "Migi zenkutsu-dachi",
+          "stance": "Migi zenkutsu",
           "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Move right foot towards the right into narrow front stance with right augmented middle-level block from left to right",
           "icon": "shield.fill"
@@ -399,22 +399,22 @@
     },
     {
       "sequence": 21,
-      "japaneseName": "Hidari nagashi-shutō-uke",
+      "japaneseName": "Hidari jōdan nagashi-uke",
       "direction": "N",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari nagashi-shutō-uke",
-          "hiragana": "ひだり ながし しゅとうけ",
+          "technique": "Hidari jōdan nagashi-uke, migi gedan shutō-uchikomi",
+          "hiragana": "ひだり じょうだん ながしうけ, みぎ げだん しゅとううちこみ",
           "stance": "Hidari-ashi zenkutsu",
           "stanceHiragana": "ひだりあし ぜんくつ",
-          "description": "Look left and turn left while keeping feet positions. Open both hands. Bring your left hand to your lower right abdomen (gedan), palm down, and your right hand beside your right ear, palm forward. Shift into hidari-ashi zenkutsu while moving your left hand to your right shoulder (palm in) and perform with your right hand a gedan shutō-uchikomi, palm up.",
+          "description": "Turn left, keeping feet in place. Open both hands: left to lower right abdomen (palm down), right beside right ear (palm forward). Shift into hidari-ashi zenkutsu, moving left hand to right shoulder (palm in) while right hand performs gedan shutō-uchikomi (palm up)",
           "icon": "hand.wave.fill"
         },
         {
           "order": 2,
-          "technique": "Hidari gedan-barai",
+          "technique": "Hidari gedan-uke, migi jōdan uchi-uke",
           "hiragana": "ひだり げだんばらい",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
