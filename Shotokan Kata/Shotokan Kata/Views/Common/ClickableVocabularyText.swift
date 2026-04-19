@@ -6,15 +6,19 @@ struct ClickableVocabularyText: View {
     let enableTapGesture: Bool
     let onBackgroundTap: (() -> Void)?
     let lineLimit: Int?
+    let highlightColor: Color?
+    let baseColor: Color?
 
     @State private var presentedTerm: VocabularyTerm?
 
-    init(text: String, vocabularyTerms: [VocabularyTerm], enableTapGesture: Bool = true, onBackgroundTap: (() -> Void)? = nil, lineLimit: Int? = nil) {
+    init(text: String, vocabularyTerms: [VocabularyTerm], enableTapGesture: Bool = true, onBackgroundTap: (() -> Void)? = nil, lineLimit: Int? = nil, highlightColor: Color? = nil, baseColor: Color? = nil) {
         self.text = text
         self.vocabularyTerms = vocabularyTerms
         self.enableTapGesture = enableTapGesture
         self.onBackgroundTap = onBackgroundTap
         self.lineLimit = lineLimit
+        self.highlightColor = highlightColor
+        self.baseColor = baseColor
     }
 
     var body: some View {
@@ -65,6 +69,11 @@ struct ClickableVocabularyText: View {
     private func buildAttributedStringWithLinks() -> AttributedString {
         var attributedString = AttributedString(text)
 
+        // Apply base color to all text first, if specified
+        if let baseColor = baseColor {
+            attributedString.foregroundColor = baseColor
+        }
+
         // Only add links if tap gestures are enabled
         guard enableTapGesture else {
             return attributedString
@@ -83,7 +92,7 @@ struct ClickableVocabularyText: View {
                     if let range = attributedString[searchRange].range(of: variation, options: [.caseInsensitive, .diacriticInsensitive]) {
                         if isWholeWordMatch(range: range, in: attributedString) {
                             // Style the vocabulary term
-                            attributedString[range].foregroundColor = .japaneseRed
+                            attributedString[range].foregroundColor = highlightColor ?? .japaneseRed
                             attributedString[range].font = .body.weight(.bold)
 
                             // Add clickable link using custom URL scheme

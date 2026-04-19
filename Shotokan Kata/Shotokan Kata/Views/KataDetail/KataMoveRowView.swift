@@ -114,12 +114,18 @@ struct StanceBadge: View {
     let hiragana: String?
 
     @Environment(\.colorScheme) var colorScheme
+    @EnvironmentObject var vocabularyService: VocabularyDataService
 
     var body: some View {
         HStack(spacing: 4) {
-            Text(stance)
-                .font(.caption2)
-                .fontWeight(.bold)
+            ClickableVocabularyText(
+                text: stance,
+                vocabularyTerms: vocabularyService.vocabularyTerms,
+                highlightColor: textColor,
+                baseColor: .primary
+            )
+            .font(.caption2)
+            .fontWeight(.bold)
 
             if let hiragana = hiragana {
                 Text("(\(hiragana))")
