@@ -1049,6 +1049,66 @@
       "definition": "Flowing water ready position; a preparatory guard stance where one forearm is held horizontally across the body at solar plexus level (suigetsu), elbow bent at roughly 90 degrees with the fist turned inward and facing upward, while the opposite fist is pulled back to the hip in hikite. The positioning evokes the natural, unresisted flow of water — yielding yet continuous — suggesting a defensive posture ready to redirect rather than oppose. In Heian Godan, mizunagare-no-kamae appears twice (moves 3 and 6) as a transitional kamae between uchi-uke and morote-uke sequences, performed in heisoku-dachi as a slow, deliberate movement. The slow speed of the technique emphasises controlled breathing, relaxation, and body awareness rather than explosive power, providing a contrast to the fast combinations that surround it.",
       "category": "techniques",
       "componentBreakdown": "水 (mizu) - 'water'; 流れ (nagare) - 'flow' or 'current', from 流れる (nagareru) 'to flow'; の (no) - possessive particle; 構え (kamae) - 'ready position', 'guard', or 'posture'. Together they describe a guard posture that embodies the quality of flowing water."
+    },
+    {
+      "id": 103,
+      "term": "Zenwan",
+      "japaneseName": "前腕",
+      "hiraganaName": "ぜんわん",
+      "shortDescription": "Forearm",
+      "definition": "Forearm; the section of the arm between the elbow and the wrist. In karate terminology, zenwan is commonly used in compound technique names to specify that it is the forearm — rather than the fist or hand — that performs the action. For example, hidari-zenwan-mune-mae-kamae describes the left forearm held horizontally in front of the chest, and zenwan-uke refers to a forearm block. Awareness of forearm positioning is essential for correct execution of blocks, guard positions, and supporting arm placements throughout kata.",
+      "category": "techniques",
+      "componentBreakdown": "前 (zen) - 'front' or 'forward'; 腕 (wan) - 'arm'. Together they describe the front part of the arm, i.e. the forearm between elbow and wrist."
+    },
+    {
+      "id": 104,
+      "term": "Kakiwake-uke",
+      "japaneseName": "掻き分け受け",
+      "hiraganaName": "かきわけうけ",
+      "shortDescription": "Wedge block, two-hand outward parting block",
+      "definition": "Wedge block or parting block; a two-handed blocking technique where both forearms simultaneously sweep outward from the centre of the body to each side, parting and deflecting attacks from both flanks at once. Starting with the fists crossed in front of the chest or face, the arms drive outward in a wedge-like splitting motion, ending with both elbows bent and fists roughly at shoulder level on each side. The movement resembles pushing aside tall grass or parting a curtain. Kakiwake-uke is typically performed from gedan-barai preparation and is a characteristic technique of Heian Godan (move 9) and several advanced kata, where it neutralises simultaneous grabs or attacks to both wrists or lapels. The outward splitting action makes it particularly effective against bear-hug or double-lapel grab applications.",
+      "category": "blocks",
+      "componentBreakdown": "掻き分け (kakiwake) - from 掻く (kaku) 'to scratch' or 'to sweep' and 分ける (wakeru) 'to separate' or 'to part'; 受け (uke) - 'block' or 'receive'. Together they describe a blocking action that sweeps or parts an attack to the sides."
+    },
+    {
+      "id": 105,
+      "term": "Kao",
+      "japaneseName": "顔",
+      "hiraganaName": "かお",
+      "shortDescription": "Face; used in directional head-turning commands",
+      "definition": "Face; in karate kata terminology, kao is most commonly encountered as part of compound directional instructions such as kao-migi-muki (face/turn to the right) and kao-hidari-muki (face/turn to the left). These commands indicate that only the head turns to look in the specified direction while the body and stance remain unchanged — a subtle but important distinction from a full body turn. In Tekki Shodan, kao-migi-muki and kao-hidari-muki appear repeatedly as preparatory movements before nami-gaeshi or fumikomi, highlighting the role of looking in the direction of the next technique to maintain awareness and proper targeting.",
+      "category": "general",
+      "componentBreakdown": "顔 (kao) - 'face'. Used in compound directional commands: 顔右向き (kao-migi-muki) means 'face/turn face to the right'; 顔左向き (kao-hidari-muki) means 'face/turn face to the left'. 右 (migi) - 'right'; 左 (hidari) - 'left'; 向き (muki) - 'direction' or 'facing', from 向く (muku) 'to face' or 'to turn toward'."
+    },
+    {
+      "id": 106,
+      "term": "Muki",
+      "japaneseName": "向き",
+      "hiraganaName": "むき",
+      "shortDescription": "Facing direction; turn to face",
+      "definition": "Facing direction or turning to face; a directional suffix indicating the orientation or the act of turning to face a specified direction. Muki derives from the verb 向く (muku), meaning 'to face' or 'to turn toward'. In kata commands it is always paired with a direction: migi-muki (face right) or hidari-muki (face left). When combined with kao (face), the compound kao-migi-muki or kao-hidari-muki specifically instructs the practitioner to turn only the head in the given direction while the body and stance remain unchanged. This distinction is important in Tekki Shodan, where repeated kao-muki commands prepare the eyes and awareness for the next technique without disturbing the kiba-dachi base.",
+      "category": "general",
+      "componentBreakdown": "向き (muki) - 'direction', 'orientation', or 'facing'; noun form of 向く (muku) 'to face' or 'to turn toward'. Common compounds: 右向き (migi-muki) - 'facing right'; 左向き (hidari-muki) - 'facing left'; 前向き (mae-muki) - 'facing forward'; 後ろ向き (ushiro-muki) - 'facing backward'."
+    },
+    {
+      "id": 107,
+      "term": "Chūdan-zuki",
+      "japaneseName": "中段突き",
+      "hiraganaName": "ちゅうだんづき",
+      "shortDescription": "Middle level punch",
+      "definition": "Middle level punch; a punch directed to the mid-section of the body, targeting the solar plexus (suigetsu), chest, or abdomen. Chūdan-zuki is a target-level qualifier rather than a specific punching style — it specifies where the technique lands rather than how the punch is delivered. It combines with directional and style prefixes to form compound names such as migi-chūdan-oi-zuki (right stepping middle punch), hidari-chūdan-gyaku-zuki (left reverse middle punch), or hidari-chūdan-kagi-zuki (left hook punch to middle level). In Tekki Shodan, chūdan-zuki appears in the kagi-zuki and the double attack at moves 15 and 29, where both fists target the chūdan level. The middle level is considered the primary target zone in most Shōtōkan fighting contexts.",
+      "category": "punches",
+      "componentBreakdown": "中段 (chūdan) - 'middle level', from 中 (chū) 'middle' and 段 (dan) 'level' or 'step'; 突き (zuki/tsuki) - 'thrust' or 'punch'. Together they describe a punch aimed at the middle section of the body."
+    },
+    {
+      "id": 108,
+      "term": "Ryoken",
+      "japaneseName": "両拳",
+      "hiraganaName": "りょうけん",
+      "shortDescription": "Both fists",
+      "definition": "Both fists; a prefix indicating that the technique or position involves both hands simultaneously held as fists. Ryoken is most commonly encountered in the compound ryoken-koshi-kamae (both fists at hip ready position), which appears in Tekki Shodan as a preparatory position before the kagi-zuki and the final double punch. In ryoken-migi-koshi-kamae, both fists are brought to the right hip with the left fist on top — back of fist facing forward — and the right fist below with back of fist facing downwards. The symmetric position ryoken-hidari-koshi-kamae places both fists at the left hip with reversed roles. The loaded bilateral position coils both arms for the subsequent powerful simultaneous attack.",
+      "category": "techniques",
+      "componentBreakdown": "両 (ryō) - 'both' or 'two'; 拳 (ken) - 'fist'. Together they mean 'both fists'. Compare with ryō-shō (両掌) meaning 'both palms/hands open', and ryō-te (両手) meaning 'both hands' in a general sense."
     }
   ]
 }

@@ -58,7 +58,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kao-migi-muki",
+          "technique": "Kao migi muki",
           "hiragana": "かお みぎむき",
           "stance": "Hidari-ashi mae kosa-dachi",
           "stanceHiragana": "ひだりあし まえ こさだち",
@@ -110,12 +110,12 @@
     },
     {
       "sequence": 4,
-      "japaneseName": "Ryoken-migi-koshi-kamae",
+      "japaneseName": "Ryoken migi koshi-kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken-migi-koshi-kamae",
+          "technique": "Ryoken migi koshi-kamae",
           "hiragana": "りょうけん みぎ こしかまえ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -233,12 +233,12 @@
     },
     {
       "sequence": 10,
-      "japaneseName": "Kao-hidari-muki",
+      "japaneseName": "Kao hidari muki",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kao-hidari-muki",
+          "technique": "Kao hidari muki",
           "hiragana": "かお ひだりむき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -274,12 +274,12 @@
     },
     {
       "sequence": 12,
-      "japaneseName": "Kao-hidari-muki",
+      "japaneseName": "Kao hidari muki",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kao-hidari-muki",
+          "technique": "Kao hidari muki",
           "hiragana": "かお ひだりむき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -315,12 +315,12 @@
     },
     {
       "sequence": 14,
-      "japaneseName": "Ryoken-migi-koshi-kamae",
+      "japaneseName": "Ryoken migi koshi-kamae",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken-migi-koshi-kamae",
+          "technique": "Ryoken migi koshi-kamae",
           "hiragana": "りょうけん みぎ こしかまえ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -380,12 +380,12 @@
     },
     {
       "sequence": 18,
-      "japaneseName": "Ryoken-hidari-koshi-kamae",
+      "japaneseName": "Ryoken hidari koshi-kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken-hidari-koshi-kamae",
+          "technique": "Ryoken hidari koshi-kamae",
           "hiragana": "りょうけん ひだり こしかまえ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -503,12 +503,12 @@
     },
     {
       "sequence": 24,
-      "japaneseName": "Kao-migi-muki",
+      "japaneseName": "Kao migi muki",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kao-migi-muki",
+          "technique": "Kao migi muki",
           "hiragana": "かお みぎむき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -544,12 +544,12 @@
     },
     {
       "sequence": 26,
-      "japaneseName": "Kao-hidari-muki",
+      "japaneseName": "Kao hidari muki",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kao-hidari-muki",
+          "technique": "Kao hidari muki",
           "hiragana": "かお ひだりむき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -585,12 +585,12 @@
     },
     {
       "sequence": 28,
-      "japaneseName": "Ryoken-hidari-koshi-kamae",
+      "japaneseName": "Ryoken hidari koshi-kamae",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken-hidari-koshi-kamae",
+          "technique": "Ryoken hidari koshi-kamae",
           "hiragana": "りょうけん ひだり こしかまえ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",

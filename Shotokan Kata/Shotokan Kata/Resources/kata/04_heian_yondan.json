@@ -156,12 +156,12 @@
     },
     {
       "sequence": 7,
-      "japaneseName": "Migi mae empi uchi",
+      "japaneseName": "Migi mae empi-uchi",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi mae empi uchi",
+          "technique": "Migi mae empi-uchi",
           "hiragana": "みぎ まええんぴうち",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -204,12 +204,12 @@
     },
     {
       "sequence": 10,
-      "japaneseName": "Hidari empi uchi",
+      "japaneseName": "Hidariempi-uchi",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari mae empi uchi",
+          "technique": "Hidari mae empi-uchi",
           "hiragana": "ひだり まええんぴうち",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
