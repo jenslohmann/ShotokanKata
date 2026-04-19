@@ -335,12 +335,12 @@
     },
     {
       "sequence": 18,
-      "japaneseName": "Ryō-shō chūdan tsukami uke",
+      "japaneseName": "Ryō-shō chūdan tsukami-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryō-shō chūdan tsukami uke",
+          "technique": "Ryō-shō chūdan tsukami-uke",
           "hiragana": "りょうしょう ちゅうだん つかみうけ",
           "stance": "Zenkutsu-dachi",
           "stanceHiragana": "ぜんくつだち",

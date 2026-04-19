@@ -5,7 +5,7 @@
   "numberOfMoves": 27,
   "kataNumber": 4,
   "beltRank": "4_kyu",
-  "description": "Heian Yondan is the fourth kata in the Heian series with 27 movements and kiai on movements 13 and 25. The kata begins like Heian Nidan, but the movement is slow, and the blocks are performed with open hands (kaishu haiwan-uke). It also includes a downward block with both hands (gedan juji uke), elbow strike straight forward (mae-empi-uchi), wedge block (kakiwake-uke), and knee strike (hiza-uchi). It takes approximately 50 seconds to perform the kata.",
+  "description": "Heian Yondan is the fourth kata in the Heian series with 27 movements and kiai on movements 13 and 25. The kata begins like Heian Nidan, but the movement is slow, and the blocks are performed with open hands (kaishu haiwan-uke). It also includes a downward block with both hands (gedan juji-uke), elbow strike straight forward (mae-empi-uchi), wedge block (kakiwake-uke), and knee strike (hiza-uchi). It takes approximately 50 seconds to perform the kata.",
   "keyTechniques": [
     "Kaishu-haiwan-uke",
     "Gedan-juji-uke",
@@ -60,12 +60,12 @@
     },
     {
       "sequence": 1,
-      "japaneseName": "Hidari haiwan hidari sokumen jōdan yoko uke – migi zenwan hitai mae yoko kamae",
+      "japaneseName": "Hidari haiwan hidari sokumen jōdan yoko-uke – migi zenwan hitai mae yoko kamae",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kaishu haiwan uke",
+          "technique": "Kaishu haiwan-uke",
           "hiragana": "かいしゅ はいわんうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -76,12 +76,12 @@
     },
     {
       "sequence": 2,
-      "japaneseName": "Migi haiwan migi sokumen jōdan yoko uke – hidari zenwan hitai mae yoko kamae",
+      "japaneseName": "Migi haiwan migi sokumen jōdan yoko-uke – hidari zenwan hitai mae yoko kamae",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kaishu haiwan uke",
+          "technique": "Kaishu haiwan-uke",
           "hiragana": "かいしゅ はいわんうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -92,12 +92,12 @@
     },
     {
       "sequence": 3,
-      "japaneseName": "Ryō ken gedan jūji uke",
+      "japaneseName": "Ryō ken gedan jūji-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Gedan jūji uke",
+          "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -220,7 +220,7 @@
     },
     {
       "sequence": 11,
-      "japaneseName": "Migi shutō jōdan soto mawashi-uchi – hidari shō jōdan uke",
+      "japaneseName": "Migi shutō jōdan soto mawashi-uchi – hidari shō jōdan-uke",
       "direction": "N",
       "subMoves": [
         {
@@ -261,12 +261,12 @@
     },
     {
       "sequence": 13,
-      "japaneseName": "Hidari jōdan osae uke - migi uraken tate mawashi-uchi – hidari ken hidari koshi",
+      "japaneseName": "Hidari jōdan osae-uke - migi uraken tate mawashi-uchi – hidari ken hidari koshi",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Osae uke / Uraken-uchi",
+          "technique": "Osae-uke / Uraken-uchi",
           "hiragana": "おさえうけ / うらけんうち",
           "stance": "Kōsa-dachi",
           "stanceHiragana": "こうさだち",

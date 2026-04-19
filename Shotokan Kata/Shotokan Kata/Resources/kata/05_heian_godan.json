@@ -8,7 +8,7 @@
   "description": "The fifth and final kata in the Heian series, featuring the first jumping technique (tobi-komi) in Shōtōkan (step 19). Introduces crescent kicks, hook punches, and complex flowing movements. Known for its combination of quick and slow movements requiring timing, skill, and fluidity.",
   "keyTechniques": [
     "Morote-uke",
-    "Juji-uke",
+    "Jūji-uke",
     "Mikazuki-geri",
     "Kagi-zuki"
   ],
@@ -169,13 +169,13 @@
     },
     {
       "sequence": 8,
-      "japaneseName": "Gedan juji-uke",
+      "japaneseName": "Gedan jūji-uke",
       "direction": "N",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Gedan juji-uke",
+          "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -186,13 +186,13 @@
     },
     {
       "sequence": 9,
-      "japaneseName": "Jōdan kaisho juji-uke",
+      "japaneseName": "Jōdan kaisho jūji-uke",
       "direction": "N",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Kaishō jōdan juji-uke",
+          "technique": "Kaishō jōdan jūji-uke",
           "hiragana": "かいしょう じょうだん じゅうじうけ",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -209,7 +209,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi ryōshō juji chūdan osae-uke",
+          "technique": "Migi ryōshō jūji chūdan osae-uke",
           "hiragana": "みぎ りょうしょう じゅうじ ちゅうだん おさえうけ",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
@@ -305,7 +305,7 @@
           "order": 1,
           "technique": "Migi chūdan sashō-ni mikazuki-geri",
           "hiragana": "みぎ ちゅうだん さしょうに みかづきげり",
-          "stance": "Hidari achi dachi",
+          "stance": "Hidari ashi dachi",
           "stanceHiragana": "ひだり あち だち",
           "description": "Execute right crescent kick with sole of foot into left hand, pivoting 180° counter-clockwise on left foot",
           "icon": "figure.kick"
@@ -365,13 +365,13 @@
     },
     {
       "sequence": 19,
-      "japaneseName": "Gedan juji-uke",
+      "japaneseName": "Gedan jūji-uke",
       "direction": "E",
       "kiai": true,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Gedan juji-uke",
+          "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
           "stance": "Kosa-dachi",
           "stanceHiragana": "こさだち",
@@ -409,7 +409,7 @@
           "hiragana": "ひだり ながし しゅとうけ",
           "stance": "Hidari-ashi zenkutsu",
           "stanceHiragana": "ひだりあし ぜんくつ",
-          "description": "Look left and turn left while keeping feet positions. Open both hands. Bring your left hand to your lower right abdomen (gedan), palm down, and your right hand beside your right ear, palm forward. Shift into hidari-ashi-zenkutsu while moving your left hand to your right shoulder (palm in) and perform with your right hand a gedan shutō-uchikomi, palm up.",
+          "description": "Look left and turn left while keeping feet positions. Open both hands. Bring your left hand to your lower right abdomen (gedan), palm down, and your right hand beside your right ear, palm forward. Shift into hidari-ashi zenkutsu while moving your left hand to your right shoulder (palm in) and perform with your right hand a gedan shutō-uchikomi, palm up.",
           "icon": "hand.wave.fill"
         },
         {
@@ -452,7 +452,7 @@
           "hiragana": "うしょう じょうだん ながしうけ / ひだり げだん しゅとううちこみ",
           "stance": "Migi-ashi zenkutsu",
           "stanceHiragana": "みぎあし ぜんくつ",
-          "description": "Open both hands. Bring your right hand to your lower right abdomen (gedan), palm down, and your left hand beside your left ear, palm forward. Shift into migi-ashi-zenkutsu while moving your right hand to your left shoulder (palm in) and perform with your left hand a gedan shutō-uchikomi, palm up.",
+          "description": "Open both hands. Bring your right hand to your lower right abdomen (gedan), palm down, and your left hand beside your left ear, palm forward. Shift into migi-ashi zenkutsu while moving your right hand to your left shoulder (palm in) and perform with your left hand a gedan shutō-uchikomi, palm up.",
           "icon": "shield.slash.fill"
         },
         {

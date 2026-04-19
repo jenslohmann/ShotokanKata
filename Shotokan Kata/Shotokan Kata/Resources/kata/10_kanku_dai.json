@@ -5,7 +5,7 @@
   "numberOfMoves": 65,
   "kataNumber": 9,
   "beltRank": "1_dan",
-  "description": "Kankū Dai means 'to look at the sky - large', and in the first movement one directs the gaze upward. Kankū Dai symbolizes defending against eight opponents and is the longest kata in Shōtōkan (65 movements in total). Of the five kata that belong to shodan level in SKIF and are used as shitei-kata at WUKF championships (Bassai Dai, Jion, Empi, Jitte and Kanku Dai), it is also the most varied with several kicks, movements at all levels from lying down (ryote fuse) to jumping, left and right flying kicks (nidan geri) and a technically demanding turn after mae-geri to \"manji uke\" (migi jōdan uchi-uke – hidari gedan uke) in kōkutsu-dachi. Almost all movements in the Heian kata, created by Yasutsune Itosu, originate from Kanku Dai. This kata was Gichin Funakoshi's favorite and was previously called Koshokun and Kushankun after Kung Siang Chun, who is believed to have developed it. He was a Chinese diplomat sent by Emperor Ming and also an expert in kempo (Chinese boxing).",
+  "description": "Kankū Dai means 'to look at the sky - large', and in the first movement one directs the gaze upward. Kankū Dai symbolizes defending against eight opponents and is the longest kata in Shōtōkan (65 movements in total). Of the five kata that belong to shodan level in SKIF and are used as shitei-kata at WUKF championships (Bassai Dai, Jion, Empi, Jitte and Kanku Dai), it is also the most varied with several kicks, movements at all levels from lying down (ryote fuse) to jumping, left and right flying kicks (nidan geri) and a technically demanding turn after mae-geri to \"manji-uke\" (migi jōdan uchi-uke – hidari gedan-uke) in kōkutsu-dachi. Almost all movements in the Heian kata, created by Yasutsune Itosu, originate from Kanku Dai. This kata was Gichin Funakoshi's favorite and was previously called Koshokun and Kushankun after Kung Siang Chun, who is believed to have developed it. He was a Chinese diplomat sent by Emperor Ming and also an expert in kempo (Chinese boxing).",
   "keyTechniques": [
     "Haiwan-uke",
     "Shutō-uke",
@@ -99,7 +99,7 @@
     },
     {
       "sequence": 3,
-      "japaneseName": "Hidari haiwan hidari sokumen jōdan uke – migi shō mune mae kamae",
+      "japaneseName": "Hidari haiwan hidari sokumen jōdan-uke – migi shō mune mae kamae",
       "direction": "W",
       "subMoves": [
         {
@@ -115,7 +115,7 @@
     },
     {
       "sequence": 4,
-      "japaneseName": "Migi haiwan migi sokumen jōdan uke – hidari shō mune mae kamae",
+      "japaneseName": "Migi haiwan migi sokumen jōdan-uke – hidari shō mune mae kamae",
       "direction": "E",
       "subMoves": [
         {
@@ -317,7 +317,7 @@
     },
     {
       "sequence": 16,
-      "japaneseName": "Migi shutō jōdan yoko mawashi-uchi – hidari shō hitai mae jōdan uke",
+      "japaneseName": "Migi shutō jōdan yoko mawashi-uchi – hidari shō hitai mae jōdan-uke",
       "direction": "S",
       "subMoves": [
         {
@@ -349,16 +349,16 @@
     },
     {
       "sequence": 18,
-      "japaneseName": "Migi jōdan uchi-uke – hidari gedan uke",
+      "japaneseName": "Migi jōdan uchi-uke – hidari gedan-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi jōdan uchi-uke – hidari gedan uke",
+          "technique": "Migi jōdan uchi-uke – hidari gedan-uke",
           "hiragana": "まんじうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "180 degrees anti-clockwise (⤿) turn into migi jōdan uchi-uke together with hidari gedan uke. The Center of gravity drops dramatically down into kokutsu-dachi",
+          "description": "180 degrees anti-clockwise (⤿) turn into migi jōdan uchi-uke together with hidari gedan-uke. The Center of gravity drops dramatically down into kokutsu-dachi",
           "icon": "shield.fill"
         }
       ]
@@ -397,7 +397,7 @@
     },
     {
       "sequence": 21,
-      "japaneseName": "Migi shutō jōdan yoko mawashi-uchi – hidari shō hitai mae jōdan uke",
+      "japaneseName": "Migi shutō jōdan yoko mawashi-uchi – hidari shō hitai mae jōdan-uke",
       "direction": "N",
       "subMoves": [
         {
@@ -429,16 +429,16 @@
     },
     {
       "sequence": 23,
-      "japaneseName": "Migi jōdan uchi-uke – hidari gedan uke",
+      "japaneseName": "Migi jōdan uchi-uke – hidari gedan-uke",
       "direction": "S",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi jōdan uchi-uke – hidari gedan uke",
+          "technique": "Migi jōdan uchi-uke – hidari gedan-uke",
           "hiragana": "まんじうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "180 degrees anti-clockwise (⤿) turn into migi jōdan uchi-uke together with hidari gedan uke. The Center of gravity drops dramatically down into kokutsu-dachi",
+          "description": "180 degrees anti-clockwise (⤿) turn into migi jōdan uchi-uke together with hidari gedan-uke. The Center of gravity drops dramatically down into kokutsu-dachi",
           "icon": "shield.fill"
         }
       ]
@@ -655,7 +655,7 @@
     },
     {
       "sequence": 36,
-      "japaneseName": "Migi shutō jōdan yoko mawashi uchi – hidari shō hitai mae jōdan uke",
+      "japaneseName": "Migi shutō jōdan yoko mawashi uchi – hidari shō hitai mae jōdan-uke",
       "direction": "S",
       "subMoves": [
         {
@@ -957,7 +957,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Osae uke / Shihon nukite",
+          "technique": "Osae-uke / Shihon nukite",
           "hiragana": "おさえうけ / しほんぬきて",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
@@ -1048,12 +1048,12 @@
     },
     {
       "sequence": 60,
-      "japaneseName": "Hidari ken gedan uke – migi ken furiage",
+      "japaneseName": "Hidari ken gedan-uke – migi ken furiage",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryō ude mawashi uke / Sukui uke",
+          "technique": "Ryō ude mawashi-uke / Sukui-uke",
           "hiragana": "りょううでまわしうけ / すくいうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "ひだり きばだち",
@@ -1080,16 +1080,16 @@
     },
     {
       "sequence": 62,
-      "japaneseName": "Ryō shō atama ue kōsa uke",
+      "japaneseName": "Ryō shō atama ue kōsa-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Jōdan kōsa uke",
+          "technique": "Jōdan kōsa-uke",
           "hiragana": "じょうだん こうさうけ",
           "stance": "Shizentai",
           "stanceHiragana": "しぜんたい",
-          "description": "Pull up to shizentai - jōdan cross block above head with open hands, backs of hands toward each other. Practice sequence from kōsa uke so it can be performed fluidly",
+          "description": "Pull up to shizentai - jōdan cross block above head with open hands, backs of hands toward each other. Practice sequence from kōsa-uke so it can be performed fluidly",
           "icon": "shield.fill"
         }
       ]

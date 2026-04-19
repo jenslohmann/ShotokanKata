@@ -61,7 +61,7 @@
     },
     {
       "sequence": 1,
-      "japaneseName": "Migi ken chūdan uchi-uke – hidari ken gedan uke",
+      "japaneseName": "Migi ken chūdan uchi-uke – hidari ken gedan-uke",
       "direction": "W",
       "subMoves": [
         {
@@ -343,12 +343,12 @@
     },
     {
       "sequence": 18,
-      "japaneseName": "Migi ken migi sokumen jōdan uchi-uke – hidari ken hidari sokumen gedan uke",
+      "japaneseName": "Migi ken migi sokumen jōdan uchi-uke – hidari ken hidari sokumen gedan-uke",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Manji uke",
+          "technique": "Manji-uke",
           "hiragana": "まんじうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -375,12 +375,12 @@
     },
     {
       "sequence": 20,
-      "japaneseName": "Hidari ken hidari sokumen jōdan uchi-uke – migi ken migi sokumen gedan uke",
+      "japaneseName": "Hidari ken hidari sokumen jōdan uchi-uke – migi ken migi sokumen gedan-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Manji uke",
+          "technique": "Manji-uke",
           "hiragana": "まんじうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -423,12 +423,12 @@
     },
     {
       "sequence": 23,
-      "japaneseName": "Migi teishō migi sokumen chūdan yoko uke",
+      "japaneseName": "Migi teishō migi sokumen chūdan yoko-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi teishō yoko uke",
+          "technique": "Migi teishō yoko-uke",
           "hiragana": "みぎ ていしょう よこうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -439,12 +439,12 @@
     },
     {
       "sequence": 24,
-      "japaneseName": "Hidari teishō hidari sokumen chūdan yoko uke",
+      "japaneseName": "Hidari teishō hidari sokumen chūdan yoko-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari teishō yoko uke",
+          "technique": "Hidari teishō yoko-uke",
           "hiragana": "ひだり ていしょう よこうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -455,12 +455,12 @@
     },
     {
       "sequence": 25,
-      "japaneseName": "Migi teishō migi sokumen chūdan yoko uke",
+      "japaneseName": "Migi teishō migi sokumen chūdan yoko-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi teishō yoko uke",
+          "technique": "Migi teishō yoko-uke",
           "hiragana": "みぎ ていしょう よこうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -471,12 +471,12 @@
     },
     {
       "sequence": 26,
-      "japaneseName": "Migi ken migi sokumen jōdan uchi-uke – hidari ken hidari sokumen gedan uke",
+      "japaneseName": "Migi ken migi sokumen jōdan uchi-uke – hidari ken hidari sokumen gedan-uke",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Manji uke",
+          "technique": "Manji-uke",
           "hiragana": "まんじうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -492,7 +492,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Morote jōdan uke",
+          "technique": "Morote jōdan-uke",
           "hiragana": "もろて じょうだん うけ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
@@ -503,12 +503,12 @@
     },
     {
       "sequence": 28,
-      "japaneseName": "Hidari ken hidari sokumen jōdan uchi-uke – migi ken migi sokumen gedan uke",
+      "japaneseName": "Hidari ken hidari sokumen jōdan uchi-uke – migi ken migi sokumen gedan-uke",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Manji uke",
+          "technique": "Manji-uke",
           "hiragana": "まんじうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
@@ -524,7 +524,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Morote jōdan uke",
+          "technique": "Morote jōdan-uke",
           "hiragana": "もろて じょうだん うけ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
@@ -551,12 +551,12 @@
     },
     {
       "sequence": 31,
-      "japaneseName": "Ryō ken gedan jūji uke",
+      "japaneseName": "Ryō ken gedan jūji-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Gedan jūji uke",
+          "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
           "stance": "Kōsa-dachi",
           "stanceHiragana": "こうさだち",
@@ -599,12 +599,12 @@
     },
     {
       "sequence": 34,
-      "japaneseName": "Ryō ken jōdan jūji uke",
+      "japaneseName": "Ryō ken jōdan jūji-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Jōdan jūji uke",
+          "technique": "Jōdan jūji-uke",
           "hiragana": "じょうだん じゅうじうけ",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
@@ -748,7 +748,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi otoshi uke / fumikomi",
+          "technique": "Migi otoshi-uke / fumikomi",
           "hiragana": "みぎ おとしうけ / ふみこみ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -764,7 +764,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari otoshi uke / fumikomi",
+          "technique": "Hidari otoshi-uke / fumikomi",
           "hiragana": "ひだり おとしうけ / ふみこみ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -780,7 +780,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi otoshi uke / fumikomi",
+          "technique": "Migi otoshi-uke / fumikomi",
           "hiragana": "みぎ おとしうけ / ふみこみ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -796,11 +796,11 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Tsukami uke / Yumi-zuki",
+          "technique": "Tsukami-uke / Yumi-zuki",
           "hiragana": "つかみうけ / ゆみづき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "270 degrees turn left side middle level punch with right hand pulled hikite at chest in horse stance. Right hand held in front of shoulder with palm forward to grab opponent's hand from the side (tsukami uke). Yori-ashi in both movements 46 and 47",
+          "description": "270 degrees turn left side middle level punch with right hand pulled hikite at chest in horse stance. Right hand held in front of shoulder with palm forward to grab opponent's hand from the side (tsukami-uke). Yori-ashi in both movements 46 and 47",
           "icon": "figure.martial.arts"
         }
       ]
@@ -813,7 +813,7 @@
       "subMoves": [
         {
           "order": 1,
-          "technique": "Tsukami uke / Yumi-zuki",
+          "technique": "Tsukami-uke / Yumi-zuki",
           "hiragana": "つかみうけ / ゆみづき",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",

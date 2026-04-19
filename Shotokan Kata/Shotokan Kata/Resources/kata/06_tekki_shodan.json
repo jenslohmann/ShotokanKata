@@ -53,14 +53,14 @@
     },
     {
       "sequence": 1,
-      "japaneseName": "Hidari-ashi-mae-kosa",
+      "japaneseName": "Hidari-ashi mae-kosa",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
           "technique": "Kao-migi-muki",
           "hiragana": "かお みぎむき",
-          "stance": "Hidari-ashi-mae-kosa",
+          "stance": "Hidari-ashi mae-kosa",
           "stanceHiragana": "ひだりあしまえこさ",
           "description": "Keeping the upper body unchanged, look to the right, dropping the hip level and cross gent1y the left foot over the right foot, with all toes aligned together.",
           "icon": "figure.martial.arts"
@@ -158,14 +158,14 @@
     },
     {
       "sequence": 7,
-      "japaneseName": "Migi-ashi-mae-kosa",
+      "japaneseName": "Migi-ashi mae kosa",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi-ashi-mae-kosa",
+          "technique": "Migi-ashi mae kosa",
           "hiragana": "みぎあしまえこさ",
-          "stance": "Migi-ashi-mae-kosa",
+          "stance": "Migi-ashi mae kosa",
           "stanceHiragana": "みぎあしまえこさ",
           "description": "Keeping the upper body, the direction of the upper body, and the left foot position unchanged, maintain the hips leveled low, and cross gently the right foot over the left foot, with all toes aligned together.",
           "icon": "hand.raised.fill"
@@ -428,14 +428,14 @@
     },
     {
       "sequence": 21,
-      "japaneseName": "Hidari-ashi-mae-kosa",
+      "japaneseName": "Hidari-ashi mae-kosa",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari-ashi-mae-kosa",
+          "technique": "Hidari-ashi mae-kosa",
           "hiragana": "ひだりあしまえこさ",
-          "stance": "Hidari-ashi-mae-kosa",
+          "stance": "Hidari-ashi mae-kosa",
           "stanceHiragana": "ひだりあしまえこさ",
           "description": "Keeping the upper body, the direction of the upper body, and the right foot position unchanged, maintain the hips leveled low, and cross gently the left foot over the right foot, with all toes aligned together.",
           "icon": "hand.raised.fill"

@@ -849,6 +849,116 @@
       "definition": "Side snap kick or upward side kick; a kicking technique where the leg is lifted to the side and the foot snaps upward in a sharp, quick motion. The kick is executed using the edge of the foot (sokuto - sword foot) and targets the opponent's ribs, head, or other side-facing areas. Unlike yoko-geri-kekomi (thrust side kick), keage emphasizes a snapping motion with the foot retracting quickly after impact, similar to cracking a whip. The knee is first raised to chamber position, then the lower leg extends sideways and upward in a fast snap, with immediate retraction back to the chamber position. This kick requires excellent balance, hip flexibility, and core strength.",
       "category": "kicks",
       "componentBreakdown": "横 (yoko) - 'side' or 'lateral'; 蹴り (geri/keri) - 'kick'; 蹴上げ (keage) - 'snap up' or 'kick upward'. Together they describe a side-directed kick with a snapping, upward motion rather than a thrusting motion."
+    },
+    {
+      "id": 83,
+      "term": "Uraken-yoko-mawashi-uchi",
+      "japaneseName": "裏拳横回し打ち",
+      "hiraganaName": "うらけんよこまわしうち",
+      "shortDescription": "Back-fist side roundhouse strike",
+      "definition": "Back-fist side roundhouse strike; a striking technique where the back of the fist (uraken) is swung in a horizontal circular arc to strike the side of the opponent's head, temple, or face. The elbow leads the motion and the forearm snaps outward, delivering impact with the knuckles of the back of the fist. The wrist remains firm at the moment of impact and the arm retracts quickly after the strike. This technique combines the back-fist (uraken) with a lateral roundhouse trajectory (yoko-mawashi), making it a fast and deceptive attack that can be difficult to see approaching. It appears notably in Heian Godan and other intermediate kata.",
+      "category": "strikes",
+      "componentBreakdown": "裏拳 (uraken) - 'back fist', combining 裏 (ura) 'reverse/back' and 拳 (ken) 'fist'; 横 (yoko) - 'side' or 'lateral'; 回し (mawashi) - 'roundhouse' or 'circular'; 打ち (uchi) - 'strike' or 'hit'. Together they describe a circular, side-directed strike using the back of the fist."
+    },
+    {
+      "id": 84,
+      "term": "Kagi-zuki",
+      "japaneseName": "鉤突き",
+      "hiraganaName": "かぎづき",
+      "shortDescription": "Hook punch",
+      "definition": "Hook punch; a punching technique where the arm bends at the elbow and the fist travels in a hooking arc to strike the side of the opponent's head, jaw, or ribs. The elbow is raised to approximately shoulder height and the forearm swings inward horizontally, with the fist making contact at roughly a 90-degree angle to the target. Unlike a straight punch (choku-zuki), kagi-zuki curves around an opponent's guard and is effective at close range. The technique requires a sharp hip rotation (kime) at the moment of impact to generate power. It appears in Tekki Shodan and other kata where close-range techniques are emphasised.",
+      "category": "punches",
+      "componentBreakdown": "鉤 (kagi) - 'hook' or 'barb', referring to the curved trajectory of the punch; 突き (zuki/tsuki) - 'thrust' or 'punch'. Together they describe a punch that travels along a hooking, curved path rather than a straight line."
+    },
+    {
+      "id": 85,
+      "term": "Kaishō",
+      "japaneseName": "開手",
+      "hiraganaName": "かいしょう",
+      "shortDescription": "Open hand",
+      "definition": "Open hand; a descriptor indicating that the hand is held open with fingers extended and together, rather than clenched into a fist. Kaishō techniques use the flat of the hand, the knife-hand edge (shutō), fingertips (nukite), or palm heel (teishō) as the striking or blocking surface. The term is used as a qualifier before a technique name to specify that open hands are employed, for example in 'kaishō jōdan jūji-uke' (open-hand upper X-block) as seen in Heian Godan. Performing techniques in kaishō requires precise hand discipline and adds a layer of complexity compared to closed-fist (heiken/seiken) versions.",
+      "category": "general",
+      "componentBreakdown": "開 (kai) - 'open' or 'to open'; 手 (shō/te) - 'hand'. Together they literally mean 'open hand', contrasting with the closed fist used in most punching and blocking techniques."
+    },
+    {
+      "id": 86,
+      "term": "Zuki",
+      "japaneseName": "突き",
+      "hiraganaName": "づき",
+      "shortDescription": "Punch or thrust",
+      "definition": "Punch or thrust; the fundamental striking action in karate where the fist is driven forward (or in a specified direction) to deliver impact with the seiken (fore-fist, the knuckles of the index and middle fingers). Zuki is used both as a standalone term and as a suffix attached to directional or descriptive qualifiers to form named techniques, such as oi-zuki (lunge punch), gyaku-zuki (reverse punch), choku-zuki (straight punch), and kagi-zuki (hook punch). The correct execution of zuki requires a coordinated whole-body action: the driving leg, hip rotation (koshi no kaiten), and the extending arm all work together to generate maximum power at the moment of kime (focus). The non-punching arm simultaneously pulls back to the hip (hikite) to increase the rotational force.",
+      "category": "punches",
+      "componentBreakdown": "突き (zuki/tsuki) - derived from the verb 突く (tsuku) meaning 'to thrust', 'to poke', or 'to stab'. Written with the kanji 突 (totsu/tsuki) meaning 'thrust' or 'stab', combined with き (ki) as the verb stem ending. The voiced form づき (dzuki) is used when the word follows another element as a compound suffix."
+    },
+    {
+      "id": 87,
+      "term": "Jūji",
+      "japaneseName": "十字",
+      "hiraganaName": "じゅうじ",
+      "shortDescription": "Cross shape, X-pattern",
+      "definition": "Cross shape or X-pattern; a descriptor used in karate to indicate that two limbs, arms, or blocking surfaces are crossed to form the shape of the kanji 十 (jū, meaning 'ten'), which resembles a plus or cross sign. When used as a qualifier — as in jūji-uke (X-block) or jōdan kaishō jūji-uke (upper open-hand X-block) — it specifies that both arms are crossed at the wrists or forearms to intercept an attack simultaneously with both limbs. Jūji techniques appear prominently in Heian Godan (moves 8, 9, and 19) as both gedan (lower) and jōdan (upper) X-blocks. The crossed arm position provides a strong double-limb barrier and can be used to trap or redirect the opponent's attack. The blocks can be performed with closed fists (seiken) or open hands (kaishō).",
+      "category": "general",
+      "componentBreakdown": "十 (jū) - the kanji for the number ten, which visually resembles a cross or plus sign (+); 字 (ji) - 'character', 'letter', or 'shape'. Together 十字 (jūji) means 'cross shape' or 'cruciform pattern', describing the visual X-formation made by the crossed arms."
+    },
+    {
+      "id": 88,
+      "term": "Hidari-ashi",
+      "japaneseName": "左足",
+      "hiraganaName": "ひだりあし",
+      "shortDescription": "Left foot / left leg forward",
+      "definition": "Left foot or left leg; a directional prefix used in stance names and technique descriptions to indicate that the left foot is forward or that the left leg bears a specific role in the movement. When prefixed to a stance name — such as hidari-ashi zenkutsu (left-foot forward stance) or hidari-ashi mae kosa-dachi — it specifies which foot leads the stance. It is also used in movement instructions to indicate stepping or pivoting with the left foot. The counterpart is migi-ashi (right foot/leg). These prefixes are essential for precise communication of footwork in kata sequences.",
+      "category": "general",
+      "componentBreakdown": "左 (hidari) - 'left'; 足 (ashi) - 'foot' or 'leg'. Together they mean 'left foot' or 'left leg', specifying the left side as the leading or active limb in a stance or movement."
+    },
+    {
+      "id": 89,
+      "term": "Migi-ashi",
+      "japaneseName": "右足",
+      "hiraganaName": "みぎあし",
+      "shortDescription": "Right foot / right leg forward",
+      "definition": "Right foot or right leg; a directional prefix used in stance names and technique descriptions to indicate that the right foot is forward or that the right leg bears a specific role in the movement. When prefixed to a stance name — such as migi-ashi zenkutsu (right-foot forward stance) or migi-ashi mae kosa-dachi — it specifies which foot leads the stance. It is also used in movement instructions to indicate stepping or pivoting with the right foot. The counterpart is hidari-ashi (left foot/leg). These prefixes are essential for precise communication of footwork in kata sequences.",
+      "category": "general",
+      "componentBreakdown": "右 (migi) - 'right'; 足 (ashi) - 'foot' or 'leg'. Together they mean 'right foot' or 'right leg', specifying the right side as the leading or active limb in a stance or movement."
+    },
+    {
+      "id": 90,
+      "term": "Zenkutsu",
+      "japaneseName": "前屈",
+      "hiraganaName": "ぜんくつ",
+      "shortDescription": "Forward bend, forward lean",
+      "definition": "Forward bend or forward lean; the root descriptor meaning that the body or front leg is bent and leaning forward. As a standalone term it describes the forward-leaning, bent-knee quality of the front leg position. It is most commonly encountered as the first element in zenkutsu-dachi (front stance), where the front knee is deeply bent over the toes and the rear leg is straight. The term also appears as a shorthand in kata descriptions (e.g. hidari-ashi zenkutsu, migi-ashi zenkutsu) when the full stance name is abbreviated. The deep forward bend concentrates power in the front leg, making it the primary driving force for punches and forward-stepping techniques.",
+      "category": "stances",
+      "componentBreakdown": "前 (zen) - 'front' or 'forward'; 屈 (kutsu) - 'bend', 'crouch', or 'lean'. Together they describe a posture where the body leans forward with the front leg bent, forming the characteristic shape of the front stance."
+    },
+    {
+      "id": 91,
+      "term": "Nagashi-shutō-uke",
+      "japaneseName": "流し手刀受け",
+      "hiraganaName": "ながししゅとううけ",
+      "shortDescription": "Sweeping knife-hand block",
+      "definition": "Sweeping knife-hand block; a flowing, deflecting block that uses the knife-hand (shutō) in a sweeping, redirecting motion rather than a hard stopping action. The blocking arm sweeps across the body in a smooth, wave-like arc — 'flowing' like water past a surface — to redirect the opponent's attack off its original line rather than absorbing its force directly. Nagashi-uke techniques emphasise timing and sensitivity, using the attacker's momentum against them. When combined with shutō (knife-hand), the open hand adds a sharp, focused edge to the deflection. The technique appears in Heian Godan (move 21), where it is performed simultaneously with a gedan shutō-uchikomi strike, and in other intermediate and advanced kata. The flowing quality of nagashi techniques is considered an expression of the jū (soft/yielding) principle in Shōtōkan.",
+      "category": "blocks",
+      "componentBreakdown": "流し (nagashi) - 'flowing', 'sweeping', or 'washing away', derived from the verb 流す (nagasu) 'to let flow' or 'to sweep away'; 手刀 (shutō) - 'knife hand', combining 手 (te) 'hand' and 刀 (tō) 'sword' or 'blade'; 受け (uke) - 'block' or 'receive'. Together they describe a block that flows and redirects using the knife-hand edge."
+    },
+    {
+      "id": 92,
+      "term": "Tettsui-mawashi-uchi",
+      "japaneseName": "鉄槌回し打ち",
+      "hiraganaName": "てっついまわしうち",
+      "shortDescription": "Hammer-fist roundhouse strike",
+      "definition": "Hammer-fist roundhouse strike; a striking technique where the bottom of the clenched fist (tettsui, also called kentsui) swings in a wide horizontal arc to strike the side of the opponent's head, temple, or ribs. The fist travels in a large circular path — like a hammer swung on a rope — using centrifugal force to generate power at the moment of impact. The striking surface is the fleshy, padded bottom of the fist (the little-finger side), which makes tettsui a relatively forgiving striking tool that can also be used for conditioning. The roundhouse (mawashi) trajectory means the strike approaches from the side, bypassing the opponent's forward guard. Tettsui-mawashi-uchi appears in Heian Sandan and other kata and is an important close-range striking option in combination sequences.",
+      "category": "strikes",
+      "componentBreakdown": "鉄槌 (tettsui) - 'iron hammer' or 'hammer fist', combining 鉄 (tetsu) 'iron/steel' and 槌 (tsui) 'hammer' or 'mallet'; 回し (mawashi) - 'roundhouse' or 'circular', from the verb 回す (mawasu) 'to turn' or 'to rotate'; 打ち (uchi) - 'strike' or 'hit'. Together they describe a circular hammer-fist strike."
+    },
+    {
+      "id": 93,
+      "term": "Yoko-fumikomi",
+      "japaneseName": "横踏み込み",
+      "hiraganaName": "よこふみこみ",
+      "shortDescription": "Side stamping kick",
+      "definition": "Side stamping kick; a powerful stomping technique where the foot is driven forcefully sideways and downward to stamp onto the opponent's foot, knee, or lower leg, or to transition into a side stance with a heavy, grounding step. Unlike a snapping or thrusting kick, fumikomi is a descending stamping motion that drives the heel or the flat of the foot downward with full body weight. The technique serves both as a destructive strike to the lower limbs and as a powerful footwork action that plants the practitioner firmly in a wide stance such as kiba-dachi. Yoko-fumikomi appears prominently in Heian Godan (move 13) and Tekki Shodan, where the stamping step is used to transition into horse stance with a simultaneous block, combining footwork and technique in a single committed action.",
+      "category": "kicks",
+      "componentBreakdown": "横 (yoko) - 'side' or 'lateral'; 踏み込み (fumikomi) - 'stamping step' or 'stomping', from 踏む (fumu) 'to step/stamp' and 込む (komu) 'to drive in' or 'to thrust into'. Together they describe a lateral stamping movement driven forcefully downward and to the side."
     }
   ]
 }
