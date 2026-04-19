@@ -10,10 +10,25 @@ import SwiftUI
 struct KataListView: View {
     @StateObject private var viewModel = KataListViewModel()
     @State private var showingFilters = false
+    @AppStorage("showJapanese") private var showJapanese: Bool = true
 
     var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
+                // Japanese display toggle
+                HStack {
+                    Label("Japanese / Hiragana", systemImage: "character.ja")
+                        .font(.subheadline)
+                        .foregroundColor(.primary)
+                    Spacer()
+                    Toggle("", isOn: $showJapanese)
+                        .labelsHidden()
+                        .tint(.japaneseRed)
+                }
+                .padding(.horizontal)
+                .padding(.vertical, 8)
+                .background(Color(.secondarySystemGroupedBackground))
+
                 // Search and Filter Bar
                 SearchAndFilterBar(viewModel: viewModel, showingFilters: $showingFilters)
 
@@ -28,6 +43,7 @@ struct KataListView: View {
             }
             .navigationTitle("Kata")
             .navigationBarTitleDisplayMode(.large)
+            .environment(\.showJapanese, showJapanese)
             .sheet(isPresented: $showingFilters) {
                 FilterView(viewModel: viewModel)
             }
@@ -244,6 +260,7 @@ struct KataListContentView: View {
 struct KataListRowView: View {
     let kata: Kata
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @AppStorage("showJapanese") private var showJapanese: Bool = true
 
     // Device detection for techniques display
     private var shouldShowTechniques: Bool {
@@ -281,16 +298,18 @@ struct KataListRowView: View {
                         .foregroundColor(.primary)
                         .lineLimit(1)
 
-                    Text(kata.japaneseName)
-                        .font(.body)
-                        .foregroundColor(.secondary)
-                        .lineLimit(1)
-
-                    if let hiragana = kata.hiraganaName {
-                        Text(hiragana)
-                            .font(.caption)
+                    if showJapanese {
+                        Text(kata.japaneseName)
+                            .font(.body)
                             .foregroundColor(.secondary)
                             .lineLimit(1)
+
+                        if let hiragana = kata.hiraganaName {
+                            Text(hiragana)
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                                .lineLimit(1)
+                        }
                     }
                 }
 

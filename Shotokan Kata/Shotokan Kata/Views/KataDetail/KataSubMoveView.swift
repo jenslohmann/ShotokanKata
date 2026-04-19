@@ -30,6 +30,7 @@ struct KataSubMoveView: View {
 private struct SubMoveHeader: View {
     let subMove: KataSubMove
     @EnvironmentObject var vocabularyService: VocabularyDataService
+    @AppStorage("showJapanese") private var showJapanese: Bool = true
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
@@ -45,7 +46,7 @@ private struct SubMoveHeader: View {
                 .font(.body)
                 .fontWeight(.medium)
 
-                if let hiragana = subMove.hiragana {
+                if showJapanese, let hiragana = subMove.hiragana {
                     Text(hiragana)
                         .font(.caption)
                         .foregroundColor(.secondary)
@@ -53,7 +54,7 @@ private struct SubMoveHeader: View {
 
                 StanceBadge(
                     stance: subMove.stance,
-                    hiragana: subMove.stanceHiragana
+                    hiragana: showJapanese ? subMove.stanceHiragana : nil
                 )
             }
 

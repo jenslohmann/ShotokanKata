@@ -9,6 +9,7 @@ import SwiftUI
 
 struct KataHeaderView: View {
     let kata: Kata
+    @AppStorage("showJapanese") private var showJapanese: Bool = true
 
     var body: some View {
         VStack(spacing: 1) {
@@ -24,10 +25,12 @@ struct KataHeaderView: View {
         HStack {
             KataNumberBadge(number: kata.kataNumber)
 
-            JapaneseNameDisplay(
-                hiragana: kata.hiraganaName,
-                japanese: kata.japaneseName
-            )
+            if showJapanese {
+                JapaneseNameDisplay(
+                    hiragana: kata.hiraganaName,
+                    japanese: kata.japaneseName
+                )
+            }
 
             Spacer()
 

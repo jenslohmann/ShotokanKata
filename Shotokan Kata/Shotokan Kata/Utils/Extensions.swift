@@ -47,6 +47,19 @@ extension Array where Element == String {
     }
 }
 
+// MARK: - Environment Keys
+
+struct ShowJapaneseKey: EnvironmentKey {
+    static let defaultValue: Bool = true
+}
+
+extension EnvironmentValues {
+    var showJapanese: Bool {
+        get { self[ShowJapaneseKey.self] }
+        set { self[ShowJapaneseKey.self] = newValue }
+    }
+}
+
 // MARK: - Color Extensions
 extension Color {
     static let systemBackground = Color(UIColor.systemBackground)

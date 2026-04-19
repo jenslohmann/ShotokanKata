@@ -74,6 +74,7 @@ private struct SequenceBadge: View {
 private struct MainTechniqueInfo: View {
     let move: KataMove
     @EnvironmentObject var vocabularyService: VocabularyDataService
+    @AppStorage("showJapanese") private var showJapanese: Bool = true
 
     var body: some View {
         VStack(alignment: .leading, spacing: 2) {
@@ -85,7 +86,7 @@ private struct MainTechniqueInfo: View {
                 .font(.body)
                 .fontWeight(.medium)
 
-                if let hiragana = firstSubMove.hiragana {
+                if showJapanese, let hiragana = firstSubMove.hiragana {
                     Text(hiragana)
                         .font(.caption)
                         .foregroundColor(.secondary)
@@ -93,7 +94,7 @@ private struct MainTechniqueInfo: View {
 
                 StanceBadge(
                     stance: firstSubMove.stance,
-                    hiragana: firstSubMove.stanceHiragana
+                    hiragana: showJapanese ? firstSubMove.stanceHiragana : nil
                 )
             } else {
                 ClickableVocabularyText(
