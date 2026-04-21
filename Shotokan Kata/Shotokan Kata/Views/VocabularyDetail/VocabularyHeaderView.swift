@@ -37,10 +37,15 @@ struct VocabularyHeaderView: View {
 
                 Spacer()
 
-                // Category icon
-                Image(systemName: term.categoryType.systemImage)
-                    .font(.title2)
-                    .foregroundColor(.japaneseRed)
+                // Speak button + Category icon
+                HStack(spacing: 12) {
+                    SpeakButton(text: term.hiraganaName)
+                        .font(.title2)
+
+                    Image(systemName: term.categoryType.systemImage)
+                        .font(.title2)
+                        .foregroundColor(.japaneseRed)
+                }
             }
 
             // Short description

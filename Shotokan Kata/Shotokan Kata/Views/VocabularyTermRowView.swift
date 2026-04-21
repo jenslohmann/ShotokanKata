@@ -36,6 +36,8 @@ struct VocabularyTermRowView: View {
                     Text(term.hiraganaName)
                         .font(.subheadline)
                         .foregroundColor(.secondary)
+
+                    SpeakButton(text: term.hiraganaName)
                 }
 
                 Text(term.shortDescription)
