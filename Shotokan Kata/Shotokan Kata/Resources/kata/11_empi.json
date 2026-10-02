@@ -11,14 +11,14 @@
     "Age-zuki",
     "Kagi-zuki",
     "Fumikomi",
-    "Kosa-dachi",
+    "Kōsa-dachi",
     "Otoshi-zuki",
     "Nagashi-uke",
     "Ushiro-gedan-barai",
     "Haishu-uke",
     "Tekubi-uchi",
     "Tate-shutō-uke",
-    "Teisho-uke",
+    "Teishō-uke",
     "Tsukami-uke",
     "Joho-kaiten-tobi"
   ],
@@ -149,7 +149,7 @@
           "hiragana": "みぎ じょうだん あげづき",
           "stance": "Hidari zenkutsu-dachi",
           "stanceHiragana": "ひだり ぜんくつだち",
-          "description": "Right rising punch to high level, same stance. Age-zuki is performed by moving the hips to shomen while punching chūdan and immediately raising the hand to jōdan",
+          "description": "Right rising punch to high level, same stance. Age-zuki is performed by moving the hips to shōmen while punching chūdan and immediately raising the hand to jōdan",
           "icon": "figure.martial.arts"
         }
       ]
@@ -163,7 +163,7 @@
           "order": 1,
           "technique": "Kami zukami",
           "hiragana": "かみづかみ",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
           "icon": "hand.point.up.fill"
@@ -236,7 +236,7 @@
           "order": 1,
           "technique": "Kami zukami",
           "hiragana": "かみづかみ",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
           "icon": "hand.point.up.fill"
@@ -502,7 +502,7 @@
           "order": 1,
           "technique": "Kami zukami",
           "hiragana": "かみづかみ",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
           "icon": "hand.point.up.fill"
@@ -616,16 +616,16 @@
     },
     {
       "sequence": 34,
-      "japaneseName": "Yori-ashi -> kōkutsu-dachi – migi gedan gamae (barai)",
+      "japaneseName": "Yori-ashi -> kōkutsu-dachi – migi gedan kamae (barai)",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi gedan gamae",
+          "technique": "Migi gedan kamae",
           "hiragana": "みぎ げだんがまえ",
-          "stance": "Hidari kōkutsu-dachi",
+          "stance": "Hidari kōkutsu-dachi, ",
           "stanceHiragana": "ひだり こうくつだち",
-          "description": "Into the center line to right low level ready position in back stance. Move forward and into center line",
+          "description": "(Short) Yori-ashi into the center line to a hidari kōkutsu-dachi. Right hand into a gedan kamae (as if to give a low punch), and the left hand moves to the left hip",
           "icon": "figure.martial.arts"
         }
       ]
@@ -639,9 +639,9 @@
           "order": 1,
           "technique": "Tsukami-uke",
           "hiragana": "つかみうけ",
-          "stance": "Migi-ashi mae fudo-dachi",
+          "stance": "Migi-ashi mae fudō-dachi",
           "stanceHiragana": "みぎあし まえ ふどうだち",
-          "description": "Yori-ashi (gliding forward) grasping block in immovable stance. In Nakayama's book called morote kokō gamae (tiger's mouth ready position). Stance before jump is fudō dachi (not kiba as in SKIF). Feet are on line in Empi, normally there is hip width between feet",
+          "description": "Yori-ashi into fudō-dachi (feet are on a north-south line). Hands open into grip block (tsukami-uke) - left hand close to the forehead, right elbow close to right hip, palm facing up",
           "icon": "hand.point.up.fill"
         }
       ]

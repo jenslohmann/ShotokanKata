@@ -201,7 +201,7 @@ struct KataKiaiSelectionView_Previews: PreviewProvider {
         // Create sample data for preview
         let sampleMove1 = KataMove(
             sequence: 9,
-            japaneseName: "Migi jodan age-uke",
+            japaneseName: "Migi jōdan age-uke",
             direction: "North",
             kiai: true,
             subMoves: [
@@ -211,7 +211,7 @@ struct KataKiaiSelectionView_Previews: PreviewProvider {
                     hiragana: "みぎ じょうだん あげうけ",
                     stance: "Zenkutsu-dachi",
                     stanceHiragana: "ぜんくつだち",
-                    description: "Advance the right foot in zenkutsu-dachi, realizing a right ascending right block (jodan age-uke) with KIAI",
+                    description: "Advance the right foot in zenkutsu-dachi, realizing a right ascending right block (jōdan age-uke) with KIAI",
                     icon: "arrow.up.circle.fill",
                     kiai: false
                 )

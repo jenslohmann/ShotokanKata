@@ -5,16 +5,16 @@
   "numberOfMoves": 27,
   "kataNumber": 4,
   "beltRank": "4_kyu",
-  "description": "Heian Yondan is the fourth kata in the Heian series with 27 movements and kiai on movements 13 and 25. The kata begins like Heian Nidan, but the movement is slow, and the blocks are performed with open hands (kaishu haiwan-uke). It also includes a downward block with both hands (gedan juji-uke), elbow strike straight forward (mae-empi-uchi), wedge block (kakiwake-uke), and knee strike (hiza-uchi). It takes approximately 50 seconds to perform the kata.",
+  "description": "Heian Yondan is the fourth kata in the Heian series with 27 movements and kiai on movements 13 and 25. The kata begins like Heian Nidan, but the movement is slow, and the blocks are performed with open hands (kaishu haiwan-uke). It also includes a downward block with both hands (gedan jūji-uke), elbow strike straight forward (mae-empi-uchi), wedge block (kakiwake-uke), and knee strike (hiza-uchi). It takes approximately 50 seconds to perform the kata.",
   "keyTechniques": [
     "Kaishu-haiwan-uke",
-    "Gedan-juji-uke",
+    "Gedan-jūji-uke",
     "Morote-uke",
     "Koshi-gamae",
     "Uraken-uchi",
     "Yoko-geri-keage",
     "Mae-empi-uchi",
-    "Shuto-mawashi-uchi",
+    "Shutō-mawashi-uchi",
     "Mae-geri",
     "Osae-uke",
     "Kakiwake-uke",
@@ -124,7 +124,7 @@
     },
     {
       "sequence": 5,
-      "japaneseName": "Ryoken migi koshi kamae",
+      "japaneseName": "Ryōken migi koshi kamae",
       "direction": "N",
       "subMoves": [
         {
@@ -172,7 +172,7 @@
     },
     {
       "sequence": 8,
-      "japaneseName": "Ryoken hidari koshi kamae",
+      "japaneseName": "Ryōken hidari koshi kamae",
       "direction": "N",
       "subMoves": [
         {
@@ -229,7 +229,7 @@
           "hiragana": "しゅとうげだんばらい",
           "stance": "Hidari hiza-kutsu",
           "stanceHiragana": "ひだり ひざくつだち",
-          "description": "Toward shomen: left knife hand low sweep during transition",
+          "description": "Toward shōmen: left knife hand low sweep during transition",
           "icon": "shield.fill"
         },
         {
@@ -238,7 +238,7 @@
           "hiragana": "しゅとうじょうだんばらい / まわしうち",
           "stance": "Hidari hiza-kutsu",
           "stanceHiragana": "ひだり ひざくつだち",
-          "description": "High level knife hand rising block followed by right knife hand circular strike with left hand high block, hips in hanmi. Beginners can perform gedan shuto and age-uke separately, advanced can perform more fluidly",
+          "description": "High level knife hand rising block followed by right knife hand circular strike with left hand high block, hips in hanmi. Beginners can perform gedan shutō and age-uke separately, advanced can perform more fluidly",
           "icon": "figure.martial.arts"
         }
       ]
@@ -268,7 +268,7 @@
           "order": 1,
           "technique": "Osae-uke / Uraken-uchi",
           "hiragana": "おさえうけ / うらけんうち",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Forward in cross stance left high level pressing block - right back fist vertical circular strike, while left closed fist is pulled hikite at hip. Hips in cross stance have same height as in zenkutsu-dachi. KIAI",
           "icon": "figure.martial.arts",
@@ -287,7 +287,7 @@
           "hiragana": "ちゅうだん かきわけうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "Backward turn and 45 degrees forward to the left relative to new shomen middle level wedge block in back stance - left foot forward, left arm outermost. Closed fists cross in front of chest, then move shortest and most direct path out to shoulder height",
+          "description": "Backward turn and 45 degrees forward to the left relative to new shōmen middle level wedge block in back stance - left foot forward, left arm outermost. Closed fists cross in front of chest, then move shortest and most direct path out to shoulder height",
           "icon": "shield.fill"
         }
       ]
@@ -351,7 +351,7 @@
           "hiragana": "ちゅうだん かきわけうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
-          "description": "90 degrees to the right side relative to shomen: middle level wedge block in back stance - right foot forward, left arm outermost",
+          "description": "90 degrees to the right side relative to shōmen: middle level wedge block in back stance - right foot forward, left arm outermost",
           "icon": "shield.fill"
         }
       ]

@@ -5,7 +5,7 @@
   "numberOfMoves": 65,
   "kataNumber": 9,
   "beltRank": "1_dan",
-  "description": "Kankū Dai means 'to look at the sky - large', and in the first movement one directs the gaze upward. Kankū Dai symbolizes defending against eight opponents and is the longest kata in Shōtōkan (65 movements in total). Of the five kata that belong to shodan level in SKIF and are used as shitei-kata at WUKF championships (Bassai Dai, Jion, Empi, Jitte and Kanku Dai), it is also the most varied with several kicks, movements at all levels from lying down (ryote fuse) to jumping, left and right flying kicks (nidan geri) and a technically demanding turn after mae-geri to \"manji-uke\" (migi jōdan uchi-uke – hidari gedan-uke) in kōkutsu-dachi. Almost all movements in the Heian kata, created by Yasutsune Itosu, originate from Kanku Dai. This kata was Gichin Funakoshi's favorite and was previously called Koshokun and Kushankun after Kung Siang Chun, who is believed to have developed it. He was a Chinese diplomat sent by Emperor Ming and also an expert in kempo (Chinese boxing).",
+  "description": "Kankū Dai means 'to look at the sky - large', and in the first movement one directs the gaze upward. Kankū Dai symbolizes defending against eight opponents and is the longest kata in Shōtōkan (65 movements in total). Of the five kata that belong to shodan level in SKIF and are used as shitei-kata at WUKF championships (Bassai Dai, Jion, Empi, Jitte and Kankū Dai), it is also the most varied with several kicks, movements at all levels from lying down (ryote fuse) to jumping, left and right flying kicks (nidan geri) and a technically demanding turn after mae-geri to \"manji-uke\" (migi jōdan uchi-uke – hidari gedan-uke) in kōkutsu-dachi. Almost all movements in the Heian kata, created by Yasutsune Itosu, originate from Kankū Dai. This kata was Gichin Funakoshi's favorite and was previously called Koshokun and Kushankun after Kung Siang Chun, who is believed to have developed it. He was a Chinese diplomat sent by Emperor Ming and also an expert in kempo (Chinese boxing).",
   "keyTechniques": [
     "Haiwan-uke",
     "Shutō-uke",
@@ -22,7 +22,7 @@
     "Ura-zuki",
     "Hiza-ate",
     "Ryote-fuse",
-    "Kosa-uke",
+    "Kōsa-uke",
     "Nidan-tobi-geri"
   ],
   "referenceURL": "",
@@ -358,7 +358,7 @@
           "hiragana": "まんじうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "180 degrees anti-clockwise (⤿) turn into migi jōdan uchi-uke together with hidari gedan-uke. The Center of gravity drops dramatically down into kokutsu-dachi",
+          "description": "180 degrees anti-clockwise (⤿) turn into migi jōdan uchi-uke together with hidari gedan-uke. The Center of gravity drops dramatically down into kōkutsu-dachi",
           "icon": "shield.fill"
         }
       ]
@@ -438,7 +438,7 @@
           "hiragana": "まんじうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "180 degrees anti-clockwise (⤿) turn into migi jōdan uchi-uke together with hidari gedan-uke. The Center of gravity drops dramatically down into kokutsu-dachi",
+          "description": "180 degrees anti-clockwise (⤿) turn into migi jōdan uchi-uke together with hidari gedan-uke. The Center of gravity drops dramatically down into kōkutsu-dachi",
           "icon": "shield.fill"
         }
       ]
@@ -694,7 +694,7 @@
           "order": 1,
           "technique": "Migi uraken tate mawashi-uchi",
           "hiragana": "みぎ うらけん たてまわしうち",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Forward right back fist vertical circular strike in cross stance. Important that uraken and hikite are performed simultaneously",
           "icon": "figure.martial.arts"

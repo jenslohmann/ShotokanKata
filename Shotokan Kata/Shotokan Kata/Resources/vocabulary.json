@@ -681,7 +681,7 @@
       "componentBreakdown": "自然 (shizen) - 'natural', 'nature', or 'spontaneous'; 体 (tai) - 'body', 'stance', or 'posture'. Together they describe a natural body position that is relaxed yet ready, following the principles of natural movement."
     },
     {
-      "id": 66,
+      "id": 110,
       "term": "Tate",
       "japaneseName": "縦",
       "hiraganaName": "たて",
@@ -822,16 +822,16 @@
     },
     {
       "id": 80,
-      "term": "Uho-zuki-age",
-      "japaneseName": "後方突き上げ",
-      "hiraganaName": "うほうづきあげ",
-      "shortDescription": "Upward arc punch, rising punch to the rear",
-      "definition": "Upward arc punch or rising punch to the rear; a punching technique where both fists move upward in an arcing motion, typically performed while transitioning or turning. The term combines 'uho' (rear/back direction), 'zuki' (punch/thrust), and 'age' (rising/upward). This technique is often used as a preparatory or transitional movement, raising the fists upward while shifting the body position. The upward motion can serve as a block or strike against attacks from above or can prepare the arms for the next technique.",
+      "term": "Uhō-tsuki-age",
+      "japaneseName": "右方突き上げ",
+      "hiraganaName": "うほうつきあげ",
+      "shortDescription": "Rising punch toward the right side",
+      "definition": "Rising punch toward the right side; a punching technique where the right fist (uken) is driven upward at an angle toward the right, with the back of the fist facing backwards. In Heian Godan (move 18), uhō-tsuki-age is performed while sharply looking left, toward the back (ura-shōmen): the left fist touches the right elbow as the right fist rises, and the left leg extends to form hidari-ashi mae renoji-dachi. The term combines 'uhō' (right side/direction), 'tsuki' (punch/thrust), and 'age' (rising/upward). It is the right-side counterpart of the directional rising punches such as kōhō-tsuki-age (rising punch to the rear) in Heian Sandan. The rising, angled path makes it effective against an opponent's chin or face while the body turns away.",
       "category": "punches",
-      "componentBreakdown": "後方 (uho) - 'rear' or 'backward direction'; 突き (zuki) - 'thrust' or 'punch'; 上げ (age) - 'rising' or 'upward'. Together they describe a punching motion that rises upward while moving or facing toward the rear."
+      "componentBreakdown": "右方 (uhō) - 'right side' or 'right direction', from 右 (u/migi) 'right' and 方 (hō) 'direction' or 'side'; 突き (tsuki) - 'thrust' or 'punch'; 上げ (age) - 'rising' or 'upward', from the verb 上げる (ageru) 'to raise'. Together they describe a punch that rises upward toward the right side. Compare 左方 (sahō) 'left side' and 後方 (kōhō) 'rear'."
     },
     {
-      "id": 81,
+      "id": 111,
       "term": "Koshi-kamae",
       "japaneseName": "腰構え",
       "hiraganaName": "こしかまえ",
@@ -841,7 +841,7 @@
       "componentBreakdown": "腰 (koshi) - 'hip', 'waist', or 'lower back'; 構え (kamae) - 'posture', 'stance', or 'ready position'. Together they describe a preparatory stance with emphasis on the hip/waist positioning, representing readiness and proper body alignment."
     },
     {
-      "id": 82,
+      "id": 112,
       "term": "Yoko-geri-keage",
       "japaneseName": "横蹴り蹴上げ",
       "hiraganaName": "よこげりけあげ",
@@ -906,7 +906,7 @@
       "japaneseName": "左足",
       "hiraganaName": "ひだりあし",
       "shortDescription": "Left foot / left leg forward",
-      "definition": "Left foot or left leg; a directional prefix used in stance names and technique descriptions to indicate that the left foot is forward or that the left leg bears a specific role in the movement. When prefixed to a stance name — such as hidari-ashi zenkutsu (left-foot forward stance) or hidari-ashi mae kosa-dachi — it specifies which foot leads the stance. It is also used in movement instructions to indicate stepping or pivoting with the left foot. The counterpart is migi-ashi (right foot/leg). These prefixes are essential for precise communication of footwork in kata sequences.",
+      "definition": "Left foot or left leg; a directional prefix used in stance names and technique descriptions to indicate that the left foot is forward or that the left leg bears a specific role in the movement. When prefixed to a stance name — such as hidari-ashi zenkutsu (left-foot forward stance) or hidari-ashi mae kōsa-dachi — it specifies which foot leads the stance. It is also used in movement instructions to indicate stepping or pivoting with the left foot. The counterpart is migi-ashi (right foot/leg). These prefixes are essential for precise communication of footwork in kata sequences.",
       "category": "general",
       "componentBreakdown": "左 (hidari) - 'left'; 足 (ashi) - 'foot' or 'leg'. Together they mean 'left foot' or 'left leg', specifying the left side as the leading or active limb in a stance or movement."
     },
@@ -916,7 +916,7 @@
       "japaneseName": "右足",
       "hiraganaName": "みぎあし",
       "shortDescription": "Right foot / right leg forward",
-      "definition": "Right foot or right leg; a directional prefix used in stance names and technique descriptions to indicate that the right foot is forward or that the right leg bears a specific role in the movement. When prefixed to a stance name — such as migi-ashi zenkutsu (right-foot forward stance) or migi-ashi mae kosa-dachi — it specifies which foot leads the stance. It is also used in movement instructions to indicate stepping or pivoting with the right foot. The counterpart is hidari-ashi (left foot/leg). These prefixes are essential for precise communication of footwork in kata sequences.",
+      "definition": "Right foot or right leg; a directional prefix used in stance names and technique descriptions to indicate that the right foot is forward or that the right leg bears a specific role in the movement. When prefixed to a stance name — such as migi-ashi zenkutsu (right-foot forward stance) or migi-ashi mae kōsa-dachi — it specifies which foot leads the stance. It is also used in movement instructions to indicate stepping or pivoting with the right foot. The counterpart is hidari-ashi (left foot/leg). These prefixes are essential for precise communication of footwork in kata sequences.",
       "category": "general",
       "componentBreakdown": "右 (migi) - 'right'; 足 (ashi) - 'foot' or 'leg'. Together they mean 'right foot' or 'right leg', specifying the right side as the leading or active limb in a stance or movement."
     },
@@ -996,7 +996,7 @@
       "japaneseName": "縦手刀受け",
       "hiraganaName": "たてしゅとううけ",
       "shortDescription": "Vertical knife hand block",
-      "definition": "Vertical knife hand block; a blocking technique where the knife hand (shutō) is held vertically — fingers pointing upward — rather than in the more common diagonal or horizontal orientation used in standard shutō-uke. The blocking forearm is positioned with the elbow bent and the knife-hand edge facing the opponent, intercepting an attack at chūdan (middle) level. Unlike the conventional shutō-uke performed in kōkutsu-dachi where the hand rotates to roughly 45 degrees, tate-shutō-uke maintains an upright, vertical hand position throughout. It appears in Empi kata (move 16) as hidari chūdan tate shutō-uke in kiba-dachi, and in Kanku Dai as a transitional movement. The vertical alignment requires precise elbow positioning and hip engagement to generate effective blocking power without the rotational assist of the standard shutō-uke chamber.",
+      "definition": "Vertical knife hand block; a blocking technique where the knife hand (shutō) is held vertically — fingers pointing upward — rather than in the more common diagonal or horizontal orientation used in standard shutō-uke. The blocking forearm is positioned with the elbow bent and the knife-hand edge facing the opponent, intercepting an attack at chūdan (middle) level. Unlike the conventional shutō-uke performed in kōkutsu-dachi where the hand rotates to roughly 45 degrees, tate-shutō-uke maintains an upright, vertical hand position throughout. It appears in Empi kata (move 16) as hidari chūdan tate shutō-uke in kiba-dachi, and in Kankū Dai as a transitional movement. The vertical alignment requires precise elbow positioning and hip engagement to generate effective blocking power without the rotational assist of the standard shutō-uke chamber.",
       "category": "blocks",
       "componentBreakdown": "縦 (tate) - 'vertical' or 'upright', indicating the orientation of the hand; 手刀 (shutō) - 'knife hand', literally 'hand sword', from 手 (te) 'hand' and 刀 (tō) 'sword' or 'blade'; 受け (uke) - 'block' or 'receive'. Together they describe a knife hand block performed with the hand held vertically."
     },
@@ -1016,7 +1016,7 @@
       "japaneseName": "下段受け",
       "hiraganaName": "げだんうけ",
       "shortDescription": "Lower level block",
-      "definition": "Lower level block; a generic term for any blocking technique directed at the lower level (gedan), covering the area from the hips to the knees. While gedan-barai (lower sweeping block) is the most common gedan blocking technique in Shōtōkan, gedan-uke refers more broadly to any lower level block regardless of the specific arm trajectory. In kata, gedan-uke appears as the downward component of manji-uke (卍受け) — for example in Kanku Dai move 18 and 23 as hidari gedan-uke paired with migi jōdan uchi-uke. In this context the blocking arm sweeps downward and outward to cover the lower body while the other arm simultaneously blocks at the upper level, creating a two-level defensive barrier. The distinction from gedan-barai is subtle: gedan-barai emphasises a sweeping (barai) action with a longer arc, while gedan-uke describes the lower blocking action more generically, particularly when it is part of a combined blocking technique.",
+      "definition": "Lower level block; a generic term for any blocking technique directed at the lower level (gedan), covering the area from the hips to the knees. While gedan-barai (lower sweeping block) is the most common gedan blocking technique in Shōtōkan, gedan-uke refers more broadly to any lower level block regardless of the specific arm trajectory. In kata, gedan-uke appears as the downward component of manji-uke (卍受け) — for example in Kankū Dai move 18 and 23 as hidari gedan-uke paired with migi jōdan uchi-uke. In this context the blocking arm sweeps downward and outward to cover the lower body while the other arm simultaneously blocks at the upper level, creating a two-level defensive barrier. The distinction from gedan-barai is subtle: gedan-barai emphasises a sweeping (barai) action with a longer arc, while gedan-uke describes the lower blocking action more generically, particularly when it is part of a combined blocking technique.",
       "category": "blocks",
       "componentBreakdown": "下段 (gedan) - 'lower level', from 下 (ge/shita) 'below' or 'lower' and 段 (dan) 'level' or 'step'; 受け (uke) - 'block' or 'receive'. Together they describe a blocking technique directed at the lower body."
     },
@@ -1036,7 +1036,7 @@
       "japaneseName": "寄り足",
       "hiraganaName": "よりあし",
       "shortDescription": "Gliding step, sliding step without crossing the feet",
-      "definition": "Gliding step; a footwork technique where the body is moved forward, backward, or sideways by sliding both feet in the same direction without crossing them. The leading foot moves first, followed by the trailing foot closing the gap, maintaining the original stance width and foot orientation throughout. Unlike fumikomi (stamping step) or kosa-dachi (cross stance), yori-ashi preserves the current stance while advancing or retreating. It is used to close distance rapidly while keeping good balance and a stable base, generating additional forward momentum for a technique — as seen in Bassai Dai move 24 where a right chūdan punch is powered by a gliding yori-ashi forward, and in Empi move 35 where yori-ashi brings the practitioner to tsukami-uke range.",
+      "definition": "Gliding step; a footwork technique where the body is moved forward, backward, or sideways by sliding both feet in the same direction without crossing them. The leading foot moves first, followed by the trailing foot closing the gap, maintaining the original stance width and foot orientation throughout. Unlike fumikomi (stamping step) or kōsa-dachi (cross stance), yori-ashi preserves the current stance while advancing or retreating. It is used to close distance rapidly while keeping good balance and a stable base, generating additional forward momentum for a technique — as seen in Bassai Dai move 24 where a right chūdan punch is powered by a gliding yori-ashi forward, and in Empi move 35 where yori-ashi brings the practitioner to tsukami-uke range.",
       "category": "general",
       "componentBreakdown": "寄り (yori) - from 寄る (yoru) 'to approach', 'to come near', or 'to slide toward'; 足 (ashi) - 'foot' or 'leg'. Together they describe a stepping action where the feet glide or slide toward a direction."
     },
@@ -1102,13 +1102,23 @@
     },
     {
       "id": 108,
-      "term": "Ryoken",
+      "term": "Ryōken",
       "japaneseName": "両拳",
       "hiraganaName": "りょうけん",
       "shortDescription": "Both fists",
-      "definition": "Both fists; a prefix indicating that the technique or position involves both hands simultaneously held as fists. Ryoken is most commonly encountered in the compound ryoken-koshi-kamae (both fists at hip ready position), which appears in Tekki Shodan as a preparatory position before the kagi-zuki and the final double punch. In ryoken-migi-koshi-kamae, both fists are brought to the right hip with the left fist on top — back of fist facing forward — and the right fist below with back of fist facing downwards. The symmetric position ryoken-hidari-koshi-kamae places both fists at the left hip with reversed roles. The loaded bilateral position coils both arms for the subsequent powerful simultaneous attack.",
+      "definition": "Both fists; a prefix indicating that the technique or position involves both hands simultaneously held as fists. Ryōken is most commonly encountered in the compound ryōken-koshi-kamae (both fists at hip ready position), which appears in Tekki Shodan as a preparatory position before the kagi-zuki and the final double punch. In ryōken-migi-koshi-kamae, both fists are brought to the right hip with the left fist on top — back of fist facing forward — and the right fist below with back of fist facing downwards. The symmetric position ryōken-hidari-koshi-kamae places both fists at the left hip with reversed roles. The loaded bilateral position coils both arms for the subsequent powerful simultaneous attack.",
       "category": "techniques",
       "componentBreakdown": "両 (ryō) - 'both' or 'two'; 拳 (ken) - 'fist'. Together they mean 'both fists'. Compare with ryō-shō (両掌) meaning 'both palms/hands open', and ryō-te (両手) meaning 'both hands' in a general sense."
+    },
+    {
+      "id": 109,
+      "term": "Fudō-dachi",
+      "japaneseName": "不動立",
+      "hiraganaName": "ふどうだち",
+      "shortDescription": "Immovable stance, rooted stance",
+      "definition": "Immovable stance, also known as sōchin-dachi; a strong, low, rooted stance that combines characteristics of zenkutsu-dachi and kiba-dachi. The feet are placed roughly one and a half shoulder-widths apart in length, with both knees bent and pressed outward, and the body weight distributed approximately evenly between the legs. The front foot points slightly inward and the hips are turned partially to the side (hanmi). The tension in both legs, pushing outward, creates an extremely stable base that is difficult to move — hence the name 'immovable'. In Empi kata (move 35), fudō-dachi is entered with a yori-ashi (gliding step) while performing tsukami-uke, with the feet positioned on a north-south line, providing a solid platform for seizing the opponent before the jump that follows. Fudō-dachi is also the characteristic stance of the kata Sōchin.",
+      "category": "stances",
+      "componentBreakdown": "不 (fu) - 'not' or 'un-', a negating prefix; 動 (dō) - 'move' or 'motion'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe an 'unmoving' or 'immovable' stance. The name also evokes Fudō Myōō (不動明王), the immovable guardian deity of Buddhism, symbolising unshakeable determination."
     }
   ]
 }

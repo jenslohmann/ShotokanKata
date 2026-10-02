@@ -53,14 +53,14 @@
     },
     {
       "sequence": 1,
-      "japaneseName": "Hidari-ashi mae-kosa",
+      "japaneseName": "Hidari-ashi mae-kōsa",
       "direction": "W",
       "subMoves": [
         {
           "order": 1,
           "technique": "Kao migi muki",
           "hiragana": "かお みぎむき",
-          "stance": "Hidari-ashi mae kosa-dachi",
+          "stance": "Hidari-ashi mae kōsa-dachi",
           "stanceHiragana": "ひだりあし まえ こさだち",
           "description": "Keeping the upper body unchanged, look to the right, dropping the hip level and cross gent1y the left foot over the right foot, with all toes aligned together.",
           "icon": "figure.martial.arts"
@@ -110,12 +110,12 @@
     },
     {
       "sequence": 4,
-      "japaneseName": "Ryoken migi koshi-kamae",
+      "japaneseName": "Ryōken migi koshi-kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken migi koshi-kamae",
+          "technique": "Ryōken migi koshi-kamae",
           "hiragana": "りょうけん みぎ こしかまえ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -158,14 +158,14 @@
     },
     {
       "sequence": 7,
-      "japaneseName": "Migi-ashi mae kosa-dachi",
+      "japaneseName": "Migi-ashi mae kōsa-dachi",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi-ashi mae kosa-dachi",
+          "technique": "Migi-ashi mae kōsa-dachi",
           "hiragana": "みぎあし まえ こさだち",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Keeping the upper body, the direction of the upper body, and the left foot position unchanged, maintain the hips leveled low, and cross gently the right foot over the left foot, with all toes aligned together.",
           "icon": "hand.raised.fill"
@@ -315,12 +315,12 @@
     },
     {
       "sequence": 14,
-      "japaneseName": "Ryoken migi koshi-kamae",
+      "japaneseName": "Ryōken migi koshi-kamae",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken migi koshi-kamae",
+          "technique": "Ryōken migi koshi-kamae",
           "hiragana": "りょうけん みぎ こしかまえ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -380,12 +380,12 @@
     },
     {
       "sequence": 18,
-      "japaneseName": "Ryoken hidari koshi-kamae",
+      "japaneseName": "Ryōken hidari koshi-kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken hidari koshi-kamae",
+          "technique": "Ryōken hidari koshi-kamae",
           "hiragana": "りょうけん ひだり こしかまえ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -428,14 +428,14 @@
     },
     {
       "sequence": 21,
-      "japaneseName": "Hidari-ashi mae-kosa-dachi",
+      "japaneseName": "Hidari-ashi mae-kōsa-dachi",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari-ashi mae-kosa-dachi",
+          "technique": "Hidari-ashi mae-kōsa-dachi",
           "hiragana": "ひだりあし まえ こさだち",
-          "stance": "Hidari-ashi mae-kosa-dachi",
+          "stance": "Hidari-ashi mae-kōsa-dachi",
           "stanceHiragana": "ひだりあし まえ こさだち",
           "description": "Keeping the upper body, the direction of the upper body, and the right foot position unchanged, maintain the hips leveled low, and cross gently the left foot over the right foot, with all toes aligned together.",
           "icon": "hand.raised.fill"
@@ -585,12 +585,12 @@
     },
     {
       "sequence": 28,
-      "japaneseName": "Ryoken hidari koshi-kamae",
+      "japaneseName": "Ryōken hidari koshi-kamae",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken hidari koshi-kamae",
+          "technique": "Ryōken hidari koshi-kamae",
           "hiragana": "りょうけん ひだり こしかまえ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -628,7 +628,7 @@
           "hiragana": "ようい",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
-          "description": "As the left foot stays in place, the right foot moves back alongside the left foot, returning to YOI position. Place the palm of the left hand on top of the back of the right hand bringing them in front of the lower part of the abdomen, at a slight distance from the body.",
+          "description": "As the left foot stays in place, the right foot moves back alongside the left foot, returning to YŌI position. Place the palm of the left hand on top of the back of the right hand bringing them in front of the lower part of the abdomen, at a slight distance from the body.",
           "icon": "hand.raised.fill"
         }
       ]

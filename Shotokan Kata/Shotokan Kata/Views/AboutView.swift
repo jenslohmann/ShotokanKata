@@ -84,7 +84,7 @@ struct AboutView: View {
                         FeatureRowView(
                             icon: "graduationcap.fill",
                             title: "Rank-Based Organization",
-                            description: "Kata organized by traditional Kyu and Dan rank progression"
+                            description: "Kata organized by traditional Kyū and Dan rank progression"
                         )
 
                         FeatureRowView(

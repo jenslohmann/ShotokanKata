@@ -186,7 +186,7 @@
     },
     {
       "sequence": 9,
-      "japaneseName": "Jōdan kaisho jūji-uke",
+      "japaneseName": "Jōdan kaishō jūji-uke",
       "direction": "N",
       "kiai": false,
       "subMoves": [
@@ -339,7 +339,7 @@
           "order": 1,
           "technique": "Migi chūdan morote-uke",
           "hiragana": "みぎ ちゅうだん もろてうけ",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Look right. Keep right foot in place, slide left foot behind with heel up into cross stance, augmented block from left to right",
           "icon": "shield.fill"
@@ -348,14 +348,14 @@
     },
     {
       "sequence": 18,
-      "japaneseName": "Migi uho-zuki-age",
+      "japaneseName": "Migi uhō-tsuki-age",
       "direction": "S",
       "kiai": false,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi uho-zuki-age",
-          "hiragana": "みぎ うほうづきあげ",
+          "technique": "Migi uhō-tsuki-age",
+          "hiragana": "みぎ うほうつきあげ",
           "stance": "Hidari-ashi mae renoji-dachi",
           "stanceHiragana": "ひだりあし まえ れのじだち",
           "description": "Move left foot back slightly, straighten (slightly bent) right leg into L-stance, turn head and hips left with upward movement of both fists",
@@ -373,7 +373,7 @@
           "order": 1,
           "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Rotate 180° on left foot, make high jump towards the south to land in low cross stance facing east with downward X-block using fists",
           "icon": "xmark"

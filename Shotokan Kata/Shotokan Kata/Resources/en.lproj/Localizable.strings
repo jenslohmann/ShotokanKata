@@ -23,9 +23,9 @@
 "belt.black_dan_10" = "10th Dan Black Belt";
 
 /* Kyu and Dan Rank Terminology */
-"rank.kyu" = "Kyu";
+"rank.kyu" = "Kyū";
 "rank.dan" = "Dan";
-"rank.kyu_suffix" = " Kyu";
+"rank.kyu_suffix" = " Kyū";
 "rank.dan_suffix" = " Dan";
 
 /* Kata Information */
@@ -66,7 +66,7 @@
 "filter.clear_all" = "Clear All";
 "filter.belt_rank.title" = "Filter by Belt Rank";
 "filter.general_level.title" = "Filter by Level";
-"filter.basic_kata.subtitle" = "Kyu rank kata";
+"filter.basic_kata.subtitle" = "Kyū rank kata";
 "filter.advanced_kata.subtitle" = "Dan rank kata";
 
 /* Filter Statistics */

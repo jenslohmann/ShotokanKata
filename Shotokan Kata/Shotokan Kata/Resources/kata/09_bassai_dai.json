@@ -54,16 +54,16 @@
     },
     {
       "sequence": 1,
-      "japaneseName": "Sasho-soete migi chūdan uchi-uke",
+      "japaneseName": "Sashō-soete migi chūdan uchi-uke",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Sasho-soete migi chūdan uchi-uke",
+          "technique": "Sashō-soete migi chūdan uchi-uke",
           "hiragana": "さしょうそえて みぎ ちゅうだん うちうけ",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
-          "description": "Raise the right knee and leap forward, resting the right foot on the ground in the kosa-dachi position. At the same time, perform a double inside-outside right block (morote-uke), the left hand reinforcement of the right forearm",
+          "description": "Raise the right knee and leap forward, resting the right foot on the ground in the kōsa-dachi position. At the same time, perform a double inside-outside right block (morote-uke), the left hand reinforcement of the right forearm",
           "icon": "shield.lefthalf.filled"
         }
       ]
@@ -402,7 +402,7 @@
           "hiragana": "みぎ ちゅうだん しゅとうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
-          "description": "Slide right foot forward (toward ura-shomen) into hidari kōkutsu-dachi. Simultaneously execute migi shutō-uke",
+          "description": "Slide right foot forward (toward ura-shōmen) into hidari kōkutsu-dachi. Simultaneously execute migi shutō-uke",
           "icon": "hand.point.right.fill"
         }
       ]

@@ -257,12 +257,12 @@
     },
     {
       "sequence": 11,
-      "japaneseName": "Ryoken-ryokoshi-kamae",
+      "japaneseName": "Ryōken-ryōkoshi-kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Ryoken-ryokoshi-kamae",
+          "technique": "Ryōken-ryōkoshi-kamae",
           "hiragana": "りょうけん こし かまえ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
@@ -412,12 +412,12 @@
     },
     {
       "sequence": 19,
-      "japaneseName": "Migi jōdan koho-tsukiage / Hidari ushiro-empi-uchi",
+      "japaneseName": "Migi jōdan kōhō-tsukiage / Hidari ushiro-empi-uchi",
       "direction": "E",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi jōdan koho-tsukiage",
+          "technique": "Migi jōdan kōhō-tsukiage",
           "hiragana": "みぎ じょうだん こうほうつきあげ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
@@ -437,13 +437,13 @@
     },
     {
       "sequence": 20,
-      "japaneseName": "Hidari jōdan koho-tsukiage / Migi ushiro-empi-uchi",
+      "japaneseName": "Hidari jōdan kōhō-tsukiage / Migi ushiro-empi-uchi",
       "direction": "W",
       "kiai": true,
       "subMoves": [
         {
           "order": 1,
-          "technique": "Hidari jōdan koho-tsukiage",
+          "technique": "Hidari jōdan kōhō-tsukiage",
           "hiragana": "ひだり じょうだん こうほうつきあげ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",

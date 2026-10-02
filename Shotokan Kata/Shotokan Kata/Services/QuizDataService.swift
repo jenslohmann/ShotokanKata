@@ -211,19 +211,19 @@ class QuizDataService: ObservableObject {
 
         // Intermediate questions for higher kyu ranks
         questions.append(QuizQuestion(
-            question: "Which kata is typically learned at 5th Kyu level?",
-            options: ["Heian Godan", "Tekki Shodan", "Bassai Dai", "Kanku Dai"],
+            question: "Which kata is typically learned at 5th Kyū level?",
+            options: ["Heian Godan", "Tekki Shodan", "Bassai Dai", "Kankū Dai"],
             correctAnswerIndex: 1,
             category: .ranks,
             questionType: .staticQuestion,
             requiredRank: "5_kyu",
-            explanation: "Tekki Shodan is traditionally taught at 5th Kyu (Brown Belt) level.",
+            explanation: "Tekki Shodan is traditionally taught at 5th Kyū (Brown Belt) level.",
             relatedKataNames: ["Tekki Shodan"]
         ))
 
         questions.append(QuizQuestion(
             question: "What stance is predominantly used in Tekki Shodan?",
-            options: ["Zenkutsu-dachi", "Kokutsu-dachi", "Kiba-dachi", "Shiko-dachi"],
+            options: ["Zenkutsu-dachi", "Kōkutsu-dachi", "Kiba-dachi", "Shiko-dachi"],
             correctAnswerIndex: 2,
             category: .techniques,
             questionType: .staticQuestion,

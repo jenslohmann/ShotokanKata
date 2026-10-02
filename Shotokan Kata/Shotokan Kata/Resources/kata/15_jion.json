@@ -5,7 +5,7 @@
   "numberOfMoves": 47,
   "kataNumber": 15,
   "beltRank": "1_dan",
-  "description": "Jion is also the name of a Buddhist temple in China where monks practiced martial arts, and the kata's name possibly originates from there. The two characters that write the name mean 'love' and 'kindness' respectively. Jion has its roots in Tomari-Te and with its basic stances and fundamental techniques is representative of Shōtōkan. It is also found in Wado-Ryu. This kata embodies buddha-like smoothness and calmness, but with intense spirit and momentum, and is suited for practicing direction, changes, turns, and yori-ashi.",
+  "description": "Jion is also the name of a Buddhist temple in China where monks practiced martial arts, and the kata's name possibly originates from there. The two characters that write the name mean 'love' and 'kindness' respectively. Jion has its roots in Tomari-Te and with its basic stances and fundamental techniques is representative of Shōtōkan. It is also found in Wadō-ryū. This kata embodies buddha-like smoothness and calmness, but with intense spirit and momentum, and is suited for practicing direction, changes, turns, and yori-ashi.",
   "keyTechniques": [
     "Uchi-uke",
     "Gedan-uke",
@@ -15,9 +15,9 @@
     "Gyaku-zuki",
     "Age-uke",
     "Kagi-zuki",
-    "Teisho-uke",
+    "Teishō-uke",
     "Morote-uke",
-    "Juji-uke",
+    "Jūji-uke",
     "Uraken-uchi",
     "Otoshi-uke",
     "Fumikomi",
@@ -558,7 +558,7 @@
           "order": 1,
           "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
-          "stance": "Migi-ashi mae kosa-dachi",
+          "stance": "Migi-ashi mae kōsa-dachi",
           "stanceHiragana": "みぎあし まえ こさだち",
           "description": "Forward low level X-block in cross stance. This is the most important sequence in the kata! Run through opponent with barrage of jōdan, chūdan, and gedan techniques",
           "icon": "shield.fill"
@@ -752,7 +752,7 @@
           "hiragana": "みぎ おとしうけ / ふみこみ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Right falling strike simultaneously with fumikomi in horse stance. Fist lifts above head, knee on fumikomi leg lifts high with foot flexed and hips shomen. Hips twist sharply while performing fumikomi. 1--2-3 rhythm for movements 43-45",
+          "description": "Right falling strike simultaneously with fumikomi in horse stance. Fist lifts above head, knee on fumikomi leg lifts high with foot flexed and hips shōmen. Hips twist sharply while performing fumikomi. 1--2-3 rhythm for movements 43-45",
           "icon": "figure.martial.arts"
         }
       ]

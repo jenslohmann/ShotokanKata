@@ -57,7 +57,7 @@
     {
       "fileName": "10_kanku_dai",
       "kataNumber": 10,
-      "name": "Kanku Dai",
+      "name": "Kankū Dai",
       "enabled": true
     },
     {
@@ -93,19 +93,19 @@
     {
       "fileName": "16_bassai_sho",
       "kataNumber": 16,
-      "name": "Bassai Sho",
+      "name": "Bassai Shō",
       "enabled": false
     },
     {
       "fileName": "17_kanku_sho",
       "kataNumber": 17,
-      "name": "Kanku Sho",
+      "name": "Kankū Shō",
       "enabled": false
     },
     {
       "fileName": "18_nijushiho",
       "kataNumber": 18,
-      "name": "Nijushiho",
+      "name": "Nijūshiho",
       "enabled": false
     },
     {
@@ -117,7 +117,7 @@
     {
       "fileName": "20_sochin",
       "kataNumber": 20,
-      "name": "Sochin",
+      "name": "Sōchin",
       "enabled": false
     },
     {
@@ -147,13 +147,13 @@
     {
       "fileName": "25_gojushiho_sho",
       "kataNumber": 25,
-      "name": "Gojushiho Sho",
+      "name": "Gojūshiho Sho",
       "enabled": false
     },
     {
       "fileName": "26_gojushiho_dai",
       "kataNumber": 26,
-      "name": "Gojushiho Dai",
+      "name": "Gojūshiho Dai",
       "enabled": false
     }
   ]
