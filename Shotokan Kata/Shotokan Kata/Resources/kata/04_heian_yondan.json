@@ -36,7 +36,7 @@
           "hiragana": "れい",
           "stance": "Musubi-dachi",
           "stanceHiragana": "むすびだち",
-          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the sides",
           "icon": "hand.raised.fill"
         }
       ]
@@ -53,7 +53,7 @@
           "hiragana": "ようい",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "From the musubi-dachi position, step out to hachiji-dachi position and assume the ready stance (yōi)",
+          "description": "Step out to hachiji-dachi position (left foot first, then the right), and assume the ready stance (yōi) with fists clenched.",
           "icon": "hand.raised.fill"
         }
       ]
@@ -69,7 +69,7 @@
           "hiragana": "かいしゅ はいわんうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "Down into back stance to the left simultaneously with high level back hand block with open hand - right held in front of forehead in kamae - both elbows bent at 90 degrees. Teashi-doji and as slowly as possible. Fingertips of right hand point toward left wrist",
+          "description": "Down into back stance to the left simultaneously with high level back hand block with open hand - right held in front of forehead in kamae - both elbows bent at 90 degrees. Te-ashi-dōji and as slowly as possible. Fingertips of right hand point toward left wrist",
           "icon": "shield.fill"
         }
       ]
@@ -269,7 +269,7 @@
           "technique": "Osae-uke / Uraken-uchi",
           "hiragana": "おさえうけ / うらけんうち",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Forward in cross stance left high level pressing block - right back fist vertical circular strike, while left closed fist is pulled hikite at hip. Hips in cross stance have same height as in zenkutsu-dachi. KIAI",
           "icon": "figure.martial.arts",
           "kiai": true
@@ -351,7 +351,7 @@
           "hiragana": "ちゅうだん かきわけうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
-          "description": "90 degrees to the right side relative to shōmen: middle level wedge block in back stance - right foot forward, left arm outermost",
+          "description": "90 degrees to the right side relative to shōmen: middle level wedge block in back stance - right foot forward, right arm outermost",
           "icon": "shield.fill"
         }
       ]
@@ -415,7 +415,7 @@
           "hiragana": "ひだり ちゅうだん もろてうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "Straight forward 45 degrees left middle level augmented block in back stance",
+          "description": "Turn 45 degrees counter-clockwise into left middle level augmented block in back stance",
           "icon": "shield.fill"
         }
       ]
@@ -522,7 +522,7 @@
           "hiragana": "ようい",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "Move the right foot back to hachiji-dachi position and assume the ready stance (yōi)",
+          "description": "From the kōkutsu-dachi position, move the right foot back to hachiji-dachi position and assume the ready stance (yōi) with fists clenched.",
           "icon": "hand.raised.fill"
         }
       ]
@@ -539,7 +539,7 @@
           "hiragana": "れい",
           "stance": "Musubi-dachi",
           "stanceHiragana": "むすびだち",
-          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "description": "Move into the musubi-dachi position (left foot first, then the right). Bow (rei) with the hands placed on the sides.",
           "icon": "hand.raised.fill"
         }
       ]

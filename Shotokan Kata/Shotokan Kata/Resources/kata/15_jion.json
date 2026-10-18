@@ -37,7 +37,7 @@
           "hiragana": "れい",
           "stance": "Musubi-dachi",
           "stanceHiragana": "むすびだち",
-          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the sides",
           "icon": "hand.raised.fill"
         }
       ]
@@ -559,7 +559,7 @@
           "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Forward low level X-block in cross stance. This is the most important sequence in the kata! Run through opponent with barrage of jōdan, chūdan, and gedan techniques",
           "icon": "shield.fill"
         }
@@ -851,7 +851,7 @@
           "hiragana": "れい",
           "stance": "Musubi-dachi",
           "stanceHiragana": "むすびだち",
-          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "description": "Move into the musubi-dachi position. Bow (rei) with the hands placed on the sides.",
           "icon": "hand.raised.fill"
         }
       ]
