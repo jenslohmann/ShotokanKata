@@ -209,7 +209,7 @@ struct DirectionIndicator: View {
 
     var body: some View {
         HStack(spacing: 2) {
-            Text(direction.uppercased())
+            Text(DirectionMapper.localizedName(for: direction))
                 .font(.caption)
                 .foregroundColor(.secondary)
 
@@ -226,6 +226,19 @@ struct DirectionIndicator: View {
 
 // MARK: - Direction Mapper
 enum DirectionMapper {
+    // Compass letters in the app language, e.g. "NE" -> "NØ" in Danish
+    static func localizedName(for direction: String) -> String {
+        direction.uppercased().map { letter in
+            switch letter {
+            case "N": return NSLocalizedString("compass.N", comment: "North")
+            case "E": return NSLocalizedString("compass.E", comment: "East")
+            case "S": return NSLocalizedString("compass.S", comment: "South")
+            case "W": return NSLocalizedString("compass.W", comment: "West")
+            default: return String(letter)
+            }
+        }.joined()
+    }
+
     static func arrow(for direction: String) -> String {
         switch direction.uppercased() {
         case "N": return "↑"

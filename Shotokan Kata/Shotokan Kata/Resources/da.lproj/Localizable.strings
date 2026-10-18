@@ -154,7 +154,7 @@
 "vocabulary.empty.title" = "Ingen termer fundet";
 "vocabulary.empty.subtitle" = "Prøv at justere din søgning eller filter";
 "vocabulary.detail.definition" = "Definition";
-"vocabulary.detail.breakdown" = "Japansk Komponent Opdeling";
+"vocabulary.detail.breakdown" = "Japansk komponentopdeling";
 "vocabulary.detail.category" = "Kategori";
 "vocabulary.term_count" = "%d termer";
 
@@ -164,8 +164,8 @@
 "vocabulary.category.titles" = "Titler";
 "vocabulary.category.techniques" = "Teknikker";
 "vocabulary.category.stances" = "Stillinger";
-"vocabulary.category.blocks" = "Blokke";
-"vocabulary.category.punches" = "Slag";
+"vocabulary.category.blocks" = "Blokeringer";
+"vocabulary.category.strikes_punches" = "Slag, stød";
 "vocabulary.category.kicks" = "Spark";
 "vocabulary.category.training" = "Træning";
 "vocabulary.category.ranks" = "Graduering";
@@ -199,4 +199,201 @@
 "about.description" = "En app til at lære traditionelle Shōtōkan karate kata";
 "about.developer" = "Udvikler";
 "about.acknowledgments" = "Anerkendelser";
-"vocabulary.speak.button" = "Udtale japansk ord";
+"vocabulary.speak.button" = "Udtal japansk ord";
+
+/* Fælles */
+"common.and" = "og";
+
+/* Kompasretninger (enkelte bogstaver, kombineres f.eks. til "NØ") */
+"compass.N" = "N";
+"compass.E" = "Ø";
+"compass.S" = "S";
+"compass.W" = "V";
+
+/* Genererede quizspørgsmål */
+"quiz.generated.moves_count.question" = "Hvor mange bevægelser er der i %@?";
+"quiz.generated.moves_count.explanation" = "%@ består af %ld bevægelser i alt.";
+"quiz.generated.kiai.question" = "Vælg de bevægelser, hvor karatekaen skal råbe kiai i %@:";
+"quiz.generated.kiai.move" = "bevægelse %ld";
+"quiz.generated.kiai.explanation" = "I %@ udføres kiai på %@.";
+"quiz.generated.technique.question" = "Hvilken teknik bruges i %@ i trin %@?";
+"quiz.generated.technique.explanation" = "Teknikken i %@ trin %@ er %@.";
+"quiz.generated.stance.question" = "Hvilken stilling bruges i %@ i trin %@?";
+"quiz.generated.stance.explanation" = "Stillingen i %@ trin %@ er %@.";
+
+/* ------------------------------------------------------------------
+   Tekster, hvor nøglen er den engelske tekst (SwiftUI Text/Button/Label
+   med strengliteraler og NSLocalizedString med engelsk nøgle).
+   ------------------------------------------------------------------ */
+
+/* Graduering */
+"10th Kyū" = "10. Kyū";
+"9th Kyū" = "9. Kyū";
+"8th Kyū" = "8. Kyū";
+"7th Kyū" = "7. Kyū";
+"6th Kyū" = "6. Kyū";
+"5th Kyū" = "5. Kyū";
+"4th Kyū" = "4. Kyū";
+"3rd Kyū" = "3. Kyū";
+"2nd Kyū" = "2. Kyū";
+"1st Kyū" = "1. Kyū";
+"1st Dan" = "1. Dan";
+"2nd Dan" = "2. Dan";
+"3rd Dan" = "3. Dan";
+"4th Dan" = "4. Dan";
+"5th Dan" = "5. Dan";
+"6th Dan" = "6. Dan";
+"7th Dan" = "7. Dan";
+"8th Dan" = "8. Dan";
+"9th Dan" = "9. Dan";
+"10th Dan" = "10. Dan";
+
+/* Bæltefarver */
+"White Belt" = "Hvidt Bælte";
+"Yellow Belt" = "Gult Bælte";
+"Orange Belt" = "Orange Bælte";
+"Green Belt" = "Grønt Bælte";
+"Purple Belt" = "Lilla Bælte";
+"Brown Belt" = "Brunt Bælte";
+"Black Belt" = "Sort Bælte";
+
+/* Sværhedsgrad */
+"Beginner" = "Begynder";
+"Intermediate" = "Øvet";
+"Advanced" = "Avanceret";
+"Expert" = "Ekspert";
+
+/* Quizkategorier */
+"History" = "Historie";
+"Techniques" = "Teknikker";
+"Sequences" = "Sekvenser";
+"Applications" = "Anvendelser";
+"Ranks" = "Gradueringer";
+"Kata Order" = "Kata-rækkefølge";
+"Terminology" = "Terminologi";
+"Philosophy" = "Filosofi";
+"Questions about the history and origins of Shōtōkan karate and specific kata" = "Spørgsmål om Shōtōkan karates og de enkelte katas historie og oprindelse";
+"Questions about specific techniques, stances, and movements in kata" = "Spørgsmål om bestemte teknikker, stillinger og bevægelser i kata";
+"Questions about the sequence and flow of movements within kata" = "Spørgsmål om rækkefølgen og forløbet af bevægelserne i kata";
+"Questions about practical applications and bunkai of kata movements" = "Spørgsmål om praktisk anvendelse og bunkai af katabevægelser";
+"Questions about belt ranks, grading requirements, and progression" = "Spørgsmål om bæltegrader, gradueringskrav og progression";
+"Questions about the traditional order of learning kata in Shōtōkan" = "Spørgsmål om den traditionelle rækkefølge, kata læres i, i Shōtōkan";
+"Questions about Japanese terminology and names used in karate" = "Spørgsmål om japansk terminologi og navne, der bruges i karate";
+"Questions about the philosophy and principles of Shōtōkan karate" = "Spørgsmål om Shōtōkan karates filosofi og principper";
+
+/* Navigation */
+"Select an item" = "Vælg et element";
+
+/* Kataliste */
+"Japanese / Hiragana" = "Japansk / Hiragana";
+"Search kata..." = "Søg kata...";
+"All Kata" = "Alle Kata";
+"More" = "Mere";
+"Loading kata..." = "Indlæser kata...";
+"No Kata Found" = "Ingen kata fundet";
+"Try adjusting your search or filters" = "Prøv at justere din søgning eller dine filtre";
+"Clear Filters" = "Ryd filtre";
+"No kata data available" = "Ingen kata-data tilgængelige";
+"%lld techniques" = "%lld teknikker";
+"Unknown" = "Ukendt";
+"Filters" = "Filtre";
+"Clear All" = "Ryd alle";
+"Filter by Rank" = "Filtrer efter graduering";
+"Filter by Belt Color" = "Filtrer efter bæltefarve";
+
+/* Katadetaljer */
+"Detail Section" = "Sektion";
+"Moves: %lld" = "Bevægelser: %lld";
+"No kiai in this kata." = "Ingen kiai i denne kata.";
+"Kiai on move %lld." = "Kiai på bevægelse %lld.";
+"Kiai on moves %@." = "Kiai på bevægelserne %@.";
+"Description" = "Beskrivelse";
+"Key Techniques" = "Nøgleteknikker";
+"Reference" = "Reference";
+"Learn More" = "Læs mere";
+"Video Tutorial" = "Videovejledning";
+"Video Tutorials" = "Videovejledninger";
+"Watch on YouTube" = "Se på YouTube";
+"Watch on YouTube (%lld)" = "Se på YouTube (%lld)";
+"Historical Background" = "Historisk baggrund";
+"This section will contain historical information about the kata, including its origins, development, and significance in Shōtōkan karate." = "Denne sektion vil indeholde historisk information om kataen, herunder dens oprindelse, udvikling og betydning i Shōtōkan karate.";
+"Kata Statistics" = "Kata-statistik";
+"Total Moves" = "Bevægelser i alt";
+"Required Rank" = "Krævet graduering";
+"Kata Number" = "Kata-nummer";
+
+/* Quizmenu */
+"Test Your Knowledge" = "Test din viden";
+"Challenge yourself with questions about Shōtōkan kata, techniques, and philosophy based on your current rank." = "Udfordr dig selv med spørgsmål om Shōtōkan kata, teknikker og filosofi baseret på din nuværende graduering.";
+"Select Your Rank" = "Vælg din graduering";
+"Questions will be appropriate for your rank level and below." = "Spørgsmålene passer til din graduering og lavere.";
+"Quick Difficulty Selection" = "Hurtigt valg af sværhedsgrad";
+"Or choose by difficulty level instead of specific rank." = "Eller vælg efter sværhedsgrad i stedet for en bestemt graduering.";
+"Question Category" = "Spørgsmålskategori";
+"Choose a specific category or leave unselected for mixed questions." = "Vælg en bestemt kategori, eller lad være for blandede spørgsmål.";
+"All Categories" = "Alle kategorier";
+"Quiz Settings" = "Quiz-indstillinger";
+"Number of Questions" = "Antal spørgsmål";
+"Timed Quiz" = "Tidsbegrænset quiz";
+"Time Limit" = "Tidsgrænse";
+"%lld minutes" = "%lld minutter";
+"Available questions: %lld" = "Tilgængelige spørgsmål: %lld";
+"Start Quiz" = "Start quiz";
+"No questions available for the selected criteria." = "Ingen spørgsmål tilgængelige for de valgte kriterier.";
+
+/* Quiz */
+"Exit" = "Afslut";
+"Exit Quiz?" = "Afslut quiz?";
+"Continue Quiz" = "Fortsæt quiz";
+"Your progress will be lost if you exit now." = "Dine fremskridt går tabt, hvis du afslutter nu.";
+"Question %lld of %lld" = "Spørgsmål %lld af %lld";
+"Rank" = "Graduering";
+"Category" = "Kategori";
+"Quiz Ready" = "Quizzen er klar";
+"Your quiz is ready to begin. Good luck!" = "Din quiz er klar til at begynde. Held og lykke!";
+"Question" = "Spørgsmål";
+"Explanation" = "Forklaring";
+"Related Kata" = "Relaterede kata";
+"Previous" = "Forrige";
+"Finish Quiz" = "Afslut quiz";
+"Next Question" = "Næste spørgsmål";
+"Submit Answer" = "Indsend svar";
+"Skip Question" = "Spring over";
+"Tap the move numbers to select which moves have kiai" = "Tryk på bevægelsesnumrene for at vælge, hvilke bevægelser der har kiai";
+"Correct!" = "Korrekt!";
+"Incorrect" = "Forkert";
+"Correct answer: %@" = "Korrekt svar: %@";
+"Quiz Paused" = "Quiz sat på pause";
+"Take your time. Resume when ready." = "Tag dig god tid. Fortsæt, når du er klar.";
+"Resume Quiz" = "Fortsæt quiz";
+"Quiz Complete!" = "Quiz gennemført!";
+"%lld%% Score" = "%lld%% score";
+"Correct Answers" = "Korrekte svar";
+"Incorrect Answers" = "Forkerte svar";
+"Skipped Questions" = "Oversprungne spørgsmål";
+"Time Spent" = "Tidsforbrug";
+"Rank Level" = "Gradueringsniveau";
+"Back to Main Menu" = "Tilbage til hovedmenuen";
+
+/* Om */
+"About" = "Om";
+"Traditional Karate Learning" = "Traditionel karatelæring";
+"Shōtōkan Kata is a comprehensive learning platform for traditional Shōtōkan karate practitioners. This app provides detailed information about authentic JKA (Japan Karate Association) kata, including complete move sequences, Japanese terminology, and proper pronunciation guides." = "Shōtōkan Kata er en omfattende læringsplatform for udøvere af traditionel Shōtōkan karate. Appen giver detaljeret information om autentiske JKA-kata (Japan Karate Association), herunder komplette bevægelsessekvenser, japansk terminologi og udtalevejledning.";
+"Whether you're a beginner learning your first kata or an advanced practitioner reviewing complex sequences, this app serves as your digital companion for mastering the art of Shōtōkan karate." = "Uanset om du er begynder og lærer din første kata, eller en erfaren udøver der repeterer komplekse sekvenser, er appen din digitale følgesvend i Shōtōkan karate.";
+"Special thanks to Malene Kirkeby sensei, a multiple WUKF world championship gold medalist, for her exceptional kata work and dedication to the art of Shōtōkan karate. Some of her work is found in this app." = "En særlig tak til Malene Kirkeby sensei, flerdobbelt WUKF-verdensmester, for hendes enestående kata-arbejde og dedikation til Shōtōkan karate. Noget af hendes arbejde findes i denne app.";
+"Features" = "Funktioner";
+"Complete Kata Database" = "Komplet kata-database";
+"Detailed information for all traditional JKA Shōtōkan kata" = "Detaljeret information om alle traditionelle JKA Shōtōkan kata";
+"Authentic Japanese Terminology" = "Autentisk japansk terminologi";
+"Proper technique names with hiragana pronunciation guides" = "Korrekte teknik-navne med hiragana-udtalevejledning";
+"Step-by-Step Sequences" = "Trin-for-trin sekvenser";
+"Complete move breakdowns with stances and directions" = "Komplette bevægelser med stillinger og retninger";
+"Rank-Based Organization" = "Organiseret efter graduering";
+"Kata organized by traditional Kyū and Dan rank progression" = "Kata organiseret efter traditionel Kyū- og Dan-progression";
+"Knowledge Testing" = "Videnstest";
+"Quiz system to test your understanding of kata and techniques" = "Quiz til at teste din forståelse af kata og teknikker";
+"Respect for Tradition" = "Respekt for traditionen";
+"This app seeks to honor the traditional teachings of Shōtōkan karate as refined by the Japan Karate Association (JKA). All kata information follows authentic JKA curriculum standards, ensuring practitioners learn with respect for the art's rich heritage. In case of doubt the please refer to your instructor or official JKA resources - e.g. the books \"Karate-dō kata\" volumes 1-4 by Japan Karate Association." = "Appen søger at ære de traditionelle læresætninger i Shōtōkan karate, som de er forfinet af Japan Karate Association (JKA). Al kata-information følger autentiske JKA-pensumstandarder. Er du i tvivl, så spørg din instruktør eller brug officielle JKA-kilder – f.eks. bøgerne \"Karate-dō kata\" bind 1-4 fra Japan Karate Association.";
+"Open Source" = "Open source";
+"This app is open source and available on GitHub. Feel free to explore the code, contribute improvements, or use it as a learning resource." = "Appen er open source og tilgængelig på GitHub. Du er velkommen til at udforske koden, bidrage med forbedringer eller bruge den som læringsressource.";
+"View on GitHub" = "Se på GitHub";

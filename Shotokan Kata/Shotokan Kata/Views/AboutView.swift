@@ -65,32 +65,32 @@ struct AboutView: View {
                     VStack(alignment: .leading, spacing: 12) {
                         FeatureRowView(
                             icon: "book.fill",
-                            title: "Complete Kata Database",
-                            description: "Detailed information for all traditional JKA Shōtōkan kata"
+                            title: NSLocalizedString("Complete Kata Database", comment: ""),
+                            description: NSLocalizedString("Detailed information for all traditional JKA Shōtōkan kata", comment: "")
                         )
 
                         FeatureRowView(
                             icon: "textformat.alt",
-                            title: "Authentic Japanese Terminology",
-                            description: "Proper technique names with hiragana pronunciation guides"
+                            title: NSLocalizedString("Authentic Japanese Terminology", comment: ""),
+                            description: NSLocalizedString("Proper technique names with hiragana pronunciation guides", comment: "")
                         )
 
                         FeatureRowView(
                             icon: "list.number",
-                            title: "Step-by-Step Sequences",
-                            description: "Complete move breakdowns with stances and directions"
+                            title: NSLocalizedString("Step-by-Step Sequences", comment: ""),
+                            description: NSLocalizedString("Complete move breakdowns with stances and directions", comment: "")
                         )
 
                         FeatureRowView(
                             icon: "graduationcap.fill",
-                            title: "Rank-Based Organization",
-                            description: "Kata organized by traditional Kyū and Dan rank progression"
+                            title: NSLocalizedString("Rank-Based Organization", comment: ""),
+                            description: NSLocalizedString("Kata organized by traditional Kyū and Dan rank progression", comment: "")
                         )
 
                         FeatureRowView(
                             icon: "questionmark.circle.fill",
-                            title: "Knowledge Testing",
-                            description: "Quiz system to test your understanding of kata and techniques"
+                            title: NSLocalizedString("Knowledge Testing", comment: ""),
+                            description: NSLocalizedString("Quiz system to test your understanding of kata and techniques", comment: "")
                         )
                     }
                 }

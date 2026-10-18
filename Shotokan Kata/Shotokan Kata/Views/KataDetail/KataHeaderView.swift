@@ -111,12 +111,13 @@ struct KiaiInfoFormatter {
 
         switch kiaiMoveNumbers.count {
         case 0:
-            return "No kiai in this kata."
+            return NSLocalizedString("No kiai in this kata.", comment: "")
         case 1:
-            return "Kiai on move \(kiaiMoveNumbers[0])."
+            return String(format: NSLocalizedString("Kiai on move %lld.", comment: ""), kiaiMoveNumbers[0])
         default:
             let moveNumberStrings = kiaiMoveNumbers.map { "\($0)" }
-            return "Kiai on moves \(moveNumberStrings.joined(separator: " and "))."
+            let andSeparator = " \(NSLocalizedString("common.and", comment: "and")) "
+            return String(format: NSLocalizedString("Kiai on moves %@.", comment: ""), moveNumberStrings.joined(separator: andSeparator))
         }
     }
 }

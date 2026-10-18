@@ -264,7 +264,7 @@ struct CategorySelectionView: View {
             ], spacing: 12) {
                 // All Categories option
                 CategoryButton(
-                    title: "All Categories",
+                    title: NSLocalizedString("All Categories", comment: ""),
                     icon: "questionmark.circle",
                     isSelected: quizViewModel.selectedCategory == nil
                 ) {

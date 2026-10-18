@@ -33,9 +33,9 @@ extension KataDetailView {
 
         var title: String {
             switch self {
-            case .overview: return "Overview"
-            case .moves: return "Moves"
-            case .history: return "History"
+            case .overview: return NSLocalizedString("kata.tab.overview", comment: "Overview")
+            case .moves: return NSLocalizedString("kata.tab.moves", comment: "Moves")
+            case .history: return NSLocalizedString("kata.tab.history", comment: "History")
             }
         }
 

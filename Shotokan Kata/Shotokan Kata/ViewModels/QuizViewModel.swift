@@ -126,7 +126,7 @@ class QuizViewModel: ObservableObject {
         )
 
         guard !availableQuestions.isEmpty else {
-            errorMessage = "No questions available for the selected criteria."
+            errorMessage = NSLocalizedString("No questions available for the selected criteria.", comment: "")
             return
         }
 

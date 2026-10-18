@@ -121,7 +121,7 @@ private struct VideoSection: View {
     var body: some View {
         if let urlStrings = urlStrings, !urlStrings.isEmpty {
             VStack(alignment: .leading, spacing: 8) {
-                Text(urlStrings.count == 1 ? "Video Tutorial" : "Video Tutorials")
+                Text(urlStrings.count == 1 ? LocalizedStringKey("Video Tutorial") : LocalizedStringKey("Video Tutorials"))
                     .font(.headline)
 
                 ForEach(Array(urlStrings.enumerated()), id: \.offset) { index, urlString in

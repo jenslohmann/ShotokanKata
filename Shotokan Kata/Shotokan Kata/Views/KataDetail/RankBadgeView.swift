@@ -17,7 +17,7 @@ struct RankBadgeView: View {
                 .fill(beltColor)
                 .frame(width: 8, height: 8)
 
-            Text(rank?.displayName ?? "Unknown")
+            Text(rank?.displayName ?? NSLocalizedString("Unknown", comment: ""))
                 .font(.caption)
                 .fontWeight(.medium)
                 .foregroundColor(textColor)

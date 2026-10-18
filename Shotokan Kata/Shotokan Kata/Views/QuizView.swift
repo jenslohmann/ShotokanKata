@@ -111,14 +111,14 @@ struct QuizProgressHeader: View {
             if viewModel.quizState != .notStarted {
                 HStack {
                     QuizInfoChip(
-                        title: "Rank",
+                        title: NSLocalizedString("Rank", comment: ""),
                         value: viewModel.selectedRank.displayName,
                         color: .japaneseRed
                     )
 
                     if let category = viewModel.selectedCategory {
                         QuizInfoChip(
-                            title: "Category",
+                            title: NSLocalizedString("Category", comment: ""),
                             value: category.displayName,
                             color: .green
                         )
@@ -553,7 +553,7 @@ struct KiaiQuizNavigationButtons: View {
                 }) {
                     HStack {
                         if isAnswered {
-                            Text(viewModel.isLastQuestion ? "Finish Quiz" : "Next Question")
+                            Text(viewModel.isLastQuestion ? LocalizedStringKey("Finish Quiz") : LocalizedStringKey("Next Question"))
                             Image(systemName: viewModel.isLastQuestion ? "flag.checkered" : "chevron.right")
                         } else {
                             Text("Submit Answer")
@@ -663,40 +663,40 @@ struct QuizResultsView: View {
                 if let result = viewModel.quizResult {
                     VStack(spacing: 16) {
                         ResultStatRow(
-                            title: "Correct Answers",
+                            title: NSLocalizedString("Correct Answers", comment: ""),
                             value: "\(result.correctAnswers)/\(result.totalQuestions)",
                             color: .green
                         )
 
                         ResultStatRow(
-                            title: "Incorrect Answers",
+                            title: NSLocalizedString("Incorrect Answers", comment: ""),
                             value: "\(result.incorrectAnswers)",
                             color: .red
                         )
 
                         if result.skippedQuestions > 0 {
                             ResultStatRow(
-                                title: "Skipped Questions",
+                                title: NSLocalizedString("Skipped Questions", comment: ""),
                                 value: "\(result.skippedQuestions)",
                                 color: .orange
                             )
                         }
 
                         ResultStatRow(
-                            title: "Time Spent",
+                            title: NSLocalizedString("Time Spent", comment: ""),
                             value: formatTimeSpent(result.timeSpent),
                             color: .japaneseRed
                         )
 
                         ResultStatRow(
-                            title: "Rank Level",
+                            title: NSLocalizedString("Rank Level", comment: ""),
                             value: result.selectedRank.displayName,
                             color: .purple
                         )
 
                         if let category = result.selectedCategory {
                             ResultStatRow(
-                                title: "Category",
+                                title: NSLocalizedString("Category", comment: ""),
                                 value: category.displayName,
                                 color: .indigo
                             )

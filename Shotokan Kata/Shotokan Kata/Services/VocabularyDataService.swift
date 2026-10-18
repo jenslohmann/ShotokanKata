@@ -23,7 +23,7 @@ class VocabularyDataService: ObservableObject {
             return
         }
 
-        vocabularyTerms = vocabularyResponse.vocabularyTerms.sorted { $0.term < $1.term }
+        vocabularyTerms = ContentTranslationService.localize(vocabularyResponse.vocabularyTerms).sorted { $0.term < $1.term }
     }
 
     // MARK: - Helper Methods

@@ -255,7 +255,30 @@ class QuizDataService: ObservableObject {
             relatedKataNames: ["Bassai Dai"]
         ))
 
-        return questions
+        return localizeStaticQuestions(questions)
+    }
+
+    // Static question n (1-based) is translated by the entry "static-n" in quiz.<lang>.json
+    private func localizeStaticQuestions(_ questions: [QuizQuestion]) -> [QuizQuestion] {
+        let translations = ContentTranslationService.staticQuizTranslations()
+        guard !translations.isEmpty else { return questions }
+
+        return questions.enumerated().map { index, question in
+            guard let translation = translations["static-\(index + 1)"],
+                  translation.options.count == question.options.count else {
+                return question
+            }
+            return QuizQuestion(
+                question: translation.question,
+                options: translation.options,
+                correctAnswerIndex: question.correctAnswerIndex,
+                category: question.category,
+                questionType: question.questionType,
+                requiredRank: question.requiredRank,
+                explanation: translation.explanation ?? question.explanation,
+                relatedKataNames: question.relatedKataNames
+            )
+        }
     }
 
     // MARK: - Dynamic Questions Generation
@@ -334,13 +357,13 @@ class QuizDataService: ObservableObject {
             }
 
             let question = QuizQuestion(
-                question: "How many moves are in \(kata.name)?",
+                question: String(format: NSLocalizedString("quiz.generated.moves_count.question", comment: "How many moves are in <kata>?"), kata.name),
                 options: allOptions,
                 correctAnswerIndex: correctIndex,
                 category: .sequences,
                 questionType: .kataMovesCount,
                 requiredRank: kata.beltRank,
-                explanation: "\(kata.name) contains \(correctAnswer) moves in total.",
+                explanation: String(format: NSLocalizedString("quiz.generated.moves_count.explanation", comment: "<kata> contains <n> moves in total."), kata.name, correctAnswer),
                 relatedKataNames: [kata.name]
             )
 
@@ -368,17 +391,19 @@ class QuizDataService: ObservableObject {
             let correctMoveIndices = kiaiMoves.map { $0.sequence }
 
             // Create explanation
-            let kiaiMoveDescriptions = kiaiMoves.map { "move \($0.sequence)" }
-            let explanationText: String
-            if kiaiMoves.count == 1 {
-                explanationText = "In \(kata.name), kiai is performed on \(kiaiMoveDescriptions[0])."
-            } else {
-                explanationText = "In \(kata.name), kiai is performed on \(kiaiMoveDescriptions.joined(separator: " and "))."
+            let kiaiMoveDescriptions = kiaiMoves.map {
+                String(format: NSLocalizedString("quiz.generated.kiai.move", comment: "move <n>"), $0.sequence)
             }
+            let andSeparator = " \(NSLocalizedString("common.and", comment: "and")) "
+            let explanationText = String(
+                format: NSLocalizedString("quiz.generated.kiai.explanation", comment: "In <kata>, kiai is performed on <moves>."),
+                kata.name,
+                kiaiMoveDescriptions.joined(separator: andSeparator)
+            )
 
             // Create the kiai selection question
             let question = QuizQuestion(
-                question: "Select the moves where the karateka should say kiai in \(kata.name):",
+                question: String(format: NSLocalizedString("quiz.generated.kiai.question", comment: "Select the moves where the karateka should say kiai in <kata>:"), kata.name),
                 options: [], // Empty for interactive selection
                 correctAnswerIndex: 0, // Not used for selection questions
                 category: .sequences,
@@ -461,13 +486,13 @@ class QuizDataService: ObservableObject {
 
                 let sequenceText = move.sequenceName ?? String(move.sequence)
                 let question = QuizQuestion(
-                    question: "What technique is used in \(kata.name) in step \(sequenceText)?",
+                    question: String(format: NSLocalizedString("quiz.generated.technique.question", comment: "What technique is used in <kata> in step <step>?"), kata.name, sequenceText),
                     options: allOptions,
                     correctAnswerIndex: correctIndex,
                     category: .techniques,
                     questionType: .kataTechniques,
                     requiredRank: kata.beltRank,
-                    explanation: "The technique used in \(kata.name) step \(sequenceText) is \(correctTechnique).",
+                    explanation: String(format: NSLocalizedString("quiz.generated.technique.explanation", comment: "The technique used in <kata> step <step> is <technique>."), kata.name, sequenceText, correctTechnique),
                     relatedKataNames: [kata.name]
                 )
 
@@ -543,13 +568,13 @@ class QuizDataService: ObservableObject {
 
                 let sequenceText = move.sequenceName ?? String(move.sequence)
                 let question = QuizQuestion(
-                    question: "What stance is used in \(kata.name) in step \(sequenceText)?",
+                    question: String(format: NSLocalizedString("quiz.generated.stance.question", comment: "What stance is used in <kata> in step <step>?"), kata.name, sequenceText),
                     options: allOptions,
                     correctAnswerIndex: correctIndex,
                     category: .techniques,
                     questionType: .kataStances,
                     requiredRank: kata.beltRank,
-                    explanation: "The stance used in \(kata.name) step \(sequenceText) is \(correctStance).",
+                    explanation: String(format: NSLocalizedString("quiz.generated.stance.explanation", comment: "The stance used in <kata> step <step> is <stance>."), kata.name, sequenceText, correctStance),
                     relatedKataNames: [kata.name]
                 )
 

@@ -58,7 +58,7 @@ struct KataKiaiSelectionView: View {
                             Image(systemName: isCorrect ? "checkmark.circle.fill" : "xmark.circle.fill")
                                 .foregroundColor(isCorrect ? .green : .red)
 
-                            Text(isCorrect ? "Correct!" : "Incorrect")
+                            Text(isCorrect ? LocalizedStringKey("Correct!") : LocalizedStringKey("Incorrect"))
                                 .font(.headline)
                                 .foregroundColor(isCorrect ? .green : .red)
                         }

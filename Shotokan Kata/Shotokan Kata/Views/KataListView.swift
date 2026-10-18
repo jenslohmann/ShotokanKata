@@ -89,7 +89,7 @@ struct SearchAndFilterBar: View {
                 HStack(spacing: 12) {
                     // All Kata chip
                     FilterChip(
-                        title: "All Kata",
+                        title: NSLocalizedString("All Kata", comment: ""),
                         isSelected: !viewModel.hasFiltersApplied,
                         action: { viewModel.clearFilters() }
                     )
@@ -319,7 +319,7 @@ struct KataListRowView: View {
                     if shouldShowTechniques {
                         InfoChip(
                             icon: "🎯",
-                            text: "\(kata.keyTechniques.count) techniques",
+                            text: String(format: NSLocalizedString("%lld techniques", comment: ""), kata.keyTechniques.count),
                             backgroundColor: .orange
                         )
                     }
@@ -400,7 +400,7 @@ struct KataRankBadge: View {
                 .fill(beltColor)
                 .frame(width: 6, height: 6)
 
-            Text(rank?.displayName ?? "Unknown")
+            Text(rank?.displayName ?? NSLocalizedString("Unknown", comment: ""))
                 .font(.caption2)
                 .fontWeight(.medium)
                 .foregroundColor(textColor)

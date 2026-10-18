@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B4D1A0022E9F000000ABCDEF /* i18n in Resources */ = {isa = PBXBuildFile; fileRef = B4D1A0012E9F000000ABCDEF /* i18n */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B42EE92D2E50AC4400233852 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,36 @@
 		B42EE91F2E50AC4200233852 /* Shotokan Kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shotokan Kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42EE92C2E50AC4400233852 /* Shotokan KataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shotokan KataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42EE9362E50AC4400233852 /* Shotokan KataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shotokan KataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D1A0012E9F000000ABCDEF /* i18n */ = {isa = PBXFileReference; lastKnownFileType = folder; name = i18n; path = "Shotokan Kata/Resources/i18n"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B4D1A0032E9F000000ABCDEF /* Exceptions for "Shotokan Kata" folder in "Shotokan Kata" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/i18n/da/kata/01_heian_shodan.json,
+				Resources/i18n/da/kata/02_heian_nidan.json,
+				Resources/i18n/da/kata/03_heian_sandan.json,
+				Resources/i18n/da/kata/04_heian_yondan.json,
+				Resources/i18n/da/kata/05_heian_godan.json,
+				Resources/i18n/da/kata/06_tekki_shodan.json,
+				Resources/i18n/da/kata/09_bassai_dai.json,
+				Resources/i18n/da/kata/10_kanku_dai.json,
+				Resources/i18n/da/kata/11_empi.json,
+				Resources/i18n/da/kata/15_jion.json,
+				Resources/i18n/da/quiz.json,
+				Resources/i18n/da/vocabulary.json,
+			);
+			target = B42EE91E2E50AC4200233852 /* Shotokan Kata */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B42EE9212E50AC4200233852 /* Shotokan Kata */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B4D1A0032E9F000000ABCDEF /* Exceptions for "Shotokan Kata" folder in "Shotokan Kata" target */,
+			);
 			path = "Shotokan Kata";
 			sourceTree = "<group>";
 		};
@@ -78,6 +107,7 @@
 				B42EE9212E50AC4200233852 /* Shotokan Kata */,
 				B42EE92F2E50AC4400233852 /* Shotokan KataTests */,
 				B42EE9392E50AC4400233852 /* Shotokan KataUITests */,
+				B4D1A0012E9F000000ABCDEF /* i18n */,
 				B42EE9202E50AC4200233852 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -213,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D1A0022E9F000000ABCDEF /* i18n in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

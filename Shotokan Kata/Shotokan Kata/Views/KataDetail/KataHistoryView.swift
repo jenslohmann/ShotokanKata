@@ -47,10 +47,10 @@ private struct KataStatisticsSection: View {
                 .font(.headline)
 
             VStack(spacing: 12) {
-                StatRowView(title: "Total Moves", value: "\(kata.numberOfMoves)")
-                StatRowView(title: "Required Rank", value: kata.rankDisplayName)
-                StatRowView(title: "Kata Number", value: "#\(kata.kataNumber)")
-                StatRowView(title: "Key Techniques", value: "\(kata.keyTechniques.count)")
+                StatRowView(title: NSLocalizedString("Total Moves", comment: ""), value: "\(kata.numberOfMoves)")
+                StatRowView(title: NSLocalizedString("Required Rank", comment: ""), value: kata.rankDisplayName)
+                StatRowView(title: NSLocalizedString("Kata Number", comment: ""), value: "#\(kata.kataNumber)")
+                StatRowView(title: NSLocalizedString("Key Techniques", comment: ""), value: "\(kata.keyTechniques.count)")
             }
         }
     }

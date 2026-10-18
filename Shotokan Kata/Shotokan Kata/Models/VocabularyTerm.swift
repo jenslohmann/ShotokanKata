@@ -17,13 +17,13 @@ struct VocabularyTerm: Identifiable, Codable, Hashable {
     let term: String
     let japaneseName: String
     let hiraganaName: String
-    let shortDescription: String
-    let definition: String
+    var shortDescription: String
+    var definition: String
     let category: String
-    let componentBreakdown: String?
+    var componentBreakdown: String?
 
     var categoryType: VocabularyCategory {
-        VocabularyCategory(rawValue: category) ?? .general
+        VocabularyCategory(category: category)
     }
 }
 
@@ -34,11 +34,21 @@ enum VocabularyCategory: String, CaseIterable, Codable {
     case techniques = "techniques"
     case stances = "stances"
     case blocks = "blocks"
-    case punches = "punches"
+    case strikesPunches = "strikes_punches" // Strikes (uchi) and punches (zuki/tsuki)
     case kicks = "kicks"
     case training = "training"
     case ranks = "ranks"
     case equipment = "equipment"
+
+    // Category from the vocabulary data; "strikes" and "punches" share one category
+    init(category: String) {
+        switch category {
+        case "strikes", "punches":
+            self = .strikesPunches
+        default:
+            self = VocabularyCategory(rawValue: category) ?? .general
+        }
+    }
 
     var displayName: String {
         switch self {
@@ -54,8 +64,8 @@ enum VocabularyCategory: String, CaseIterable, Codable {
             return NSLocalizedString("vocabulary.category.stances", comment: "Stances")
         case .blocks:
             return NSLocalizedString("vocabulary.category.blocks", comment: "Blocks")
-        case .punches:
-            return NSLocalizedString("vocabulary.category.punches", comment: "Punches")
+        case .strikesPunches:
+            return NSLocalizedString("vocabulary.category.strikes_punches", comment: "Strikes, punches")
         case .kicks:
             return NSLocalizedString("vocabulary.category.kicks", comment: "Kicks")
         case .training:
@@ -81,7 +91,7 @@ enum VocabularyCategory: String, CaseIterable, Codable {
             return "figure.stand"
         case .blocks:
             return "shield.fill"
-        case .punches:
+        case .strikesPunches:
             return "hand.raised.fill"
         case .kicks:
             return "figure.kickboxing"

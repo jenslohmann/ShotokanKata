@@ -16,11 +16,11 @@ struct Kata: Identifiable, Codable, Hashable {
     let numberOfMoves: Int
     let kataNumber: Int
     let beltRank: String // Raw string from JSON (e.g., "9_kyu", "1_dan")
-    let description: String
+    var description: String
     let keyTechniques: [String]
     let referenceURL: String?
     let videoURLs: [String]?
-    let moves: [KataMove]
+    var moves: [KataMove]
 
     // Computed property to convert string to KarateRank enum
     var rank: KarateRank? {
@@ -67,7 +67,7 @@ struct KataMove: Codable, Hashable {
     let japaneseName: String
     let direction: String
     let kiai: Bool?
-    let subMoves: [KataSubMove]
+    var subMoves: [KataSubMove]
     let sequenceName: String? // Optional field for sequence categorization (e.g., "preparation", "main", "conclusion")
 
     private enum CodingKeys: String, CodingKey {
@@ -82,7 +82,7 @@ struct KataSubMove: Codable, Hashable {
     let hiragana: String?
     let stance: String
     let stanceHiragana: String?
-    let description: String
+    var description: String
     let icon: String
     let kiai: Bool?
 

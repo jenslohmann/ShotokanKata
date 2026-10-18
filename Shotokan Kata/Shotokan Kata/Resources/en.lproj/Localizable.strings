@@ -165,7 +165,7 @@
 "vocabulary.category.techniques" = "Techniques";
 "vocabulary.category.stances" = "Stances";
 "vocabulary.category.blocks" = "Blocks";
-"vocabulary.category.punches" = "Punches";
+"vocabulary.category.strikes_punches" = "Strikes, punches";
 "vocabulary.category.kicks" = "Kicks";
 "vocabulary.category.training" = "Training";
 "vocabulary.category.ranks" = "Ranks";
@@ -200,3 +200,23 @@
 "about.developer" = "Developer";
 "about.acknowledgments" = "Acknowledgments";
 "vocabulary.speak.button" = "Speak Japanese word";
+
+/* Common */
+"common.and" = "and";
+
+/* Compass directions (single letters, combined e.g. "NE") */
+"compass.N" = "N";
+"compass.E" = "E";
+"compass.S" = "S";
+"compass.W" = "W";
+
+/* Generated quiz questions */
+"quiz.generated.moves_count.question" = "How many moves are in %@?";
+"quiz.generated.moves_count.explanation" = "%@ contains %ld moves in total.";
+"quiz.generated.kiai.question" = "Select the moves where the karateka should say kiai in %@:";
+"quiz.generated.kiai.move" = "move %ld";
+"quiz.generated.kiai.explanation" = "In %@, kiai is performed on %@.";
+"quiz.generated.technique.question" = "What technique is used in %@ in step %@?";
+"quiz.generated.technique.explanation" = "The technique used in %@ step %@ is %@.";
+"quiz.generated.stance.question" = "What stance is used in %@ in step %@?";
+"quiz.generated.stance.explanation" = "The stance used in %@ step %@ is %@.";

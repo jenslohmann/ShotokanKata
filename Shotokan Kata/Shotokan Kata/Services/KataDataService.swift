@@ -168,7 +168,7 @@ class KataDataService: ObservableObject {
             let decoder = JSONDecoder()
             let kata = try decoder.decode(Kata.self, from: data)
             print("✅ Successfully loaded kata: \(kata.name)")
-            return kata
+            return ContentTranslationService.localize(kata, fileName: fileName)
         } catch let decodingError as DecodingError {
             print("❌ Decoding error for \(fileName): \(decodingError)")
             throw KataDataServiceError.decodingError(fileName: fileName, error: decodingError)

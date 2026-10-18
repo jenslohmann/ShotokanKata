@@ -154,7 +154,7 @@
       "id": 15,
       "term": "Shutō-uke",
       "japaneseName": "手刀受け",
-      "hiraganaName": "しゅとうけ",
+      "hiraganaName": "しゅとううけ",
       "shortDescription": "Knife hand blocking technique",
       "definition": "Knife hand block; a blocking technique using the edge of the hand. The hand is held with fingers extended and pressed together, creating a blade-like weapon. This block can be used to deflect attacks while simultaneously preparing for a counter-attack with the same hand.",
       "category": "blocks",
@@ -1119,6 +1119,106 @@
       "definition": "Immovable stance, also known as sōchin-dachi; a strong, low, rooted stance that combines characteristics of zenkutsu-dachi and kiba-dachi. The feet are placed roughly one and a half shoulder-widths apart in length, with both knees bent and pressed outward, and the body weight distributed approximately evenly between the legs. The front foot points slightly inward and the hips are turned partially to the side (hanmi). The tension in both legs, pushing outward, creates an extremely stable base that is difficult to move — hence the name 'immovable'. In Empi kata (move 35), fudō-dachi is entered with a yori-ashi (gliding step) while performing tsukami-uke, with the feet positioned on a north-south line, providing a solid platform for seizing the opponent before the jump that follows. Fudō-dachi is also the characteristic stance of the kata Sōchin.",
       "category": "stances",
       "componentBreakdown": "不 (fu) - 'not' or 'un-', a negating prefix; 動 (dō) - 'move' or 'motion'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe an 'unmoving' or 'immovable' stance. The name also evokes Fudō Myōō (不動明王), the immovable guardian deity of Buddhism, symbolising unshakeable determination."
+    },
+    {
+      "id": 113,
+      "term": "Te-ashi-dōji",
+      "japaneseName": "手足同時",
+      "hiraganaName": "てあしどうじ",
+      "shortDescription": "Hands and feet at the same time",
+      "definition": "Hands and feet at the same time; the hand technique and the foot movement into the stance start and finish together, so the whole body works as one unit. In Heian Yondan the opening move is performed te-ashi-dōji and as slowly as possible.",
+      "category": "techniques",
+      "componentBreakdown": "手 (te) - 'hand'; 足 (ashi) - 'foot' or 'leg'; 同時 (dōji) - 'at the same time' or 'simultaneous'. Together they mean 'hands and feet at the same time'."
+    },
+    {
+      "id": 114,
+      "term": "Hitai-mae",
+      "japaneseName": "額前",
+      "hiraganaName": "ひたいまえ",
+      "shortDescription": "In front of the forehead",
+      "definition": "In front of the forehead; describes a technique or hand position at forehead height. In Heian Nidan (zenwan hitai-mae) the forearm is held horizontally in front of the forehead to protect it. In Kankū Dai the opening movement (ryōte-hitai-mae-ue) leads both hands up in front of and above the forehead.",
+      "category": "general",
+      "componentBreakdown": "額 (hitai) - 'forehead'; 前 (mae) - 'front' or 'in front of'. Together they mean 'in front of the forehead'."
+    },
+    {
+      "id": 115,
+      "term": "Kaishu",
+      "japaneseName": "開手",
+      "hiraganaName": "かいしゅ",
+      "shortDescription": "Open hand",
+      "definition": "Open hand; a qualifier before a technique name indicating that the technique is performed with the hand open rather than clenched into a fist. In Heian Yondan the first two moves are 'kaishu haiwan-uke', an upper-level back-arm block performed with open hands. Compare kaishō.",
+      "category": "general",
+      "componentBreakdown": "開 (kai) - 'open' or 'to open'; 手 (shu) - 'hand'. Together they mean 'open hand'."
+    },
+    {
+      "id": 116,
+      "term": "Barai",
+      "japaneseName": "払い",
+      "hiraganaName": "ばらい",
+      "shortDescription": "Sweep, sweeping block",
+      "definition": "Sweep; describes a sweeping block that deflects an attack aside, for example gedan-barai (downward sweeping block) and shutō jōdan barai in Heian Yondan. On its own the word is harai (はらい); it becomes barai in compounds.",
+      "category": "blocks",
+      "componentBreakdown": "払い (barai/harai) - 'sweep', 'brush away' or 'clear away'. The h becomes b in compounds, as in 下段払い (gedan-barai)."
+    },
+    {
+      "id": 117,
+      "term": "Mawashi-uchi",
+      "japaneseName": "回し打ち",
+      "hiraganaName": "まわしうち",
+      "shortDescription": "Circular strike",
+      "definition": "Circular (roundhouse) strike; a strike that travels in an arc to the target instead of in a straight line. The striking surface is named before it: shutō mawashi-uchi (knife-hand circular strike, Heian Yondan and Kankū Dai), uraken tate mawashi-uchi (back-fist vertical circular strike, Kankū Dai), tettsui-mawashi-uchi (hammer-fist circular strike, Heian Shodan) and soto-mawashi-uchi (Heian Nidan).",
+      "category": "strikes",
+      "componentBreakdown": "回し (mawashi) - 'turning', 'rotating' or 'circular'; 打ち (uchi) - 'strike' or 'hit'. Together they describe a circular strike."
+    },
+    {
+      "id": 118,
+      "term": "Hiza age-ate",
+      "japaneseName": "膝上げ当て",
+      "hiraganaName": "ひざあげあて",
+      "shortDescription": "Rising knee strike",
+      "definition": "Rising knee strike; the knee is driven upward into the target. In Heian Yondan (move 25) the right knee is raised high while the hands imagine grabbing the opponent's neck, and the technique is performed with kiai. The Heian Yondan description calls it hiza-uchi.",
+      "category": "strikes",
+      "componentBreakdown": "膝 (hiza) - 'knee'; 上げ (age) - 'raising' or 'rising'; 当て (ate) - 'strike' or 'hit' (a blow with a part of the body). Together they describe a rising knee strike."
+    },
+    {
+      "id": 119,
+      "term": "Shihon-nukite",
+      "japaneseName": "四本貫手",
+      "hiraganaName": "しほんぬきて",
+      "shortDescription": "Four-finger spear hand",
+      "definition": "Four-finger spear hand; nukite with all four fingers extended and pressed together, striking with the fingertips. In Heian Nidan and Heian Sandan it is a vertical spear-hand thrust to middle level (chūdan) while stepping forward into zenkutsu-dachi; in Kankū Dai it follows a pressing block (osae-uke).",
+      "category": "techniques",
+      "componentBreakdown": "四 (shi) - 'four'; 本 (hon) - counter for long, thin objects, here the fingers; 貫手 (nukite) - 'spear hand'. Together they mean 'four-finger spear hand'."
+    },
+    {
+      "id": 120,
+      "term": "Kōhō-tsukiage",
+      "japaneseName": "後方突き上げ",
+      "hiraganaName": "こうほうつきあげ",
+      "shortDescription": "Rising punch to the rear",
+      "definition": "Rising punch to the rear; a punch that rises over the shoulder toward an opponent behind. In Heian Sandan (moves 19 and 20) it is performed at upper level (jōdan) in kiba-dachi: in move 19 the right fist swings in a large arc to above the left shoulder, and in move 20 the left fist punches up over the right shoulder at the same time as a rear elbow strike. Compare uhō-tsuki-age (rising punch toward the right side).",
+      "category": "punches",
+      "componentBreakdown": "後方 (kōhō) - 'rear' or 'backward direction'; 突き上げ (tsukiage) - 'rising punch' or 'thrust upward', from 突き (tsuki) 'punch' and 上げ (age) 'raise'. Together they mean 'rising punch to the rear'."
+    },
+    {
+      "id": 121,
+      "term": "Ushiro-empi-uchi",
+      "japaneseName": "後ろ肘打ち",
+      "hiraganaName": "うしろえんぴうち",
+      "shortDescription": "Rear elbow strike",
+      "definition": "Rear elbow strike; the elbow strikes backward at an opponent behind. In Heian Sandan (moves 19 and 20) it is performed in kiba-dachi together with kōhō-tsukiage: one fist punches up over the shoulder while the other arm pulls the fist back to the hip and strikes back with the elbow. Move 20 is performed with kiai.",
+      "category": "techniques",
+      "componentBreakdown": "後ろ (ushiro) - 'behind' or 'back'; 肘 (empi) - 'elbow'; 打ち (uchi) - 'strike'. Together they mean 'rear elbow strike'."
+    },
+    {
+      "id": 122,
+      "term": "Nami-gaeshi",
+      "japaneseName": "波返し",
+      "hiraganaName": "なみがえし",
+      "shortDescription": "Returning wave, sweeping leg lift",
+      "definition": "Returning wave; a sweeping kick in which one foot is snapped up from kiba-dachi and set down again in kiba-dachi. In Tekki Shodan (moves 11, 13, 25 and 27) the knee is the pivot point: the foot is lifted high with a springing motion toward the lower abdomen until the sole faces upward, while the upper body, the hands, the hip level and the other foot stay unchanged.",
+      "category": "kicks",
+      "componentBreakdown": "波 (nami) - 'wave'; 返し (gaeshi/kaeshi) - 'return' or 'turn back'; the k becomes g in compounds. Together they mean 'returning wave'."
     }
   ]
 }
